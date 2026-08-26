@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IronArt — ხელნაკეთი ლითონის ნაკეთობები</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;500;600;700&family=Noto+Serif+Georgian:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#151313;
+    --iron:#2b2826;
+    --iron-mid:#57524a;
+    --ash:#8a8378;
+    --parchment:#ede7da;
+    --ember:#c9531a;
+    --ember-bright:#e8702f;
+    --line: rgba(237,231,218,0.14);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--ink);
+    color:var(--parchment);
+    font-family:'Noto Sans Georgian', sans-serif;
+    line-height:1.6;
+    overflow-x:hidden;
+  }
+  h1,h2,h3{
+    font-family:'Noto Serif Georgian', serif;
+    font-weight:700;
+    letter-spacing:0.01em;
+  }
+  a{color:inherit;text-decoration:none;}
+  img{max-width:100%;display:block;}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 24px;}
+  .eyebrow{
+    font-size:13px;
+    letter-spacing:0.18em;
+    color:var(--ember-bright);
+    font-weight:600;
+    margin-bottom:14px;
+    display:flex;align-items:center;gap:10px;
+  }
+  .eyebrow::before{content:"";width:22px;height:1px;background:var(--ember-bright);display:inline-block;}
+
+  /* NAV */
+  header{
+    position:fixed;top:0;left:0;right:0;z-index:50;
+    background:rgba(21,19,19,0.85);
+    backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line);
+  }
+  nav{
+    max-width:1080px;margin:0 auto;padding:16px 24px;
+    display:flex;justify-content:space-between;align-items:center;
+  }
+  .logo{font-family:'Noto Serif Georgian',serif;font-size:20px;font-weight:700;letter-spacing:0.02em;}
+  .logo span{color:var(--ember-bright);}
+  .navlinks{display:flex;gap:28px;font-size:14px;color:var(--ash);}
+  .navlinks a:hover{color:var(--parchment);}
+  .navphone{
+    font-size:14px;font-weight:600;
+    border:1px solid var(--line);
+    padding:8px 16px;border-radius:2px;
+    white-space:nowrap;
+  }
+  .navphone:hover{border-color:var(--ember-bright);color:var(--ember-bright);}
+  .menu-btn{display:none;background:none;border:none;color:var(--parchment);font-size:22px;cursor:pointer;}
+
+  /* HERO */
+  .hero{
+    position:relative;
+    min-height:100svh;
+    display:flex;flex-direction:column;justify-content:center;
+    padding:140px 0 80px;
+    overflow:hidden;
+  }
+  .hero-pattern{
+    position:absolute;inset:0;
+    opacity:0.55;
+    pointer-events:none;
+  }
+  .hero-inner{position:relative;z-index:2;}
+  .hero h1{
+    font-size:clamp(48px,9vw,104px);
+    line-height:0.95;
+    color:var(--parchment);
+  }
+  .hero h1 em{
+    font-style:normal;color:var(--ember-bright);
+  }
+  .hero-tagline{
+    font-size:clamp(16px,2.4vw,22px);
+    color:var(--ash);
+    max-width:520px;
+    margin:26px 0 40px;
+  }
+  .hero-cta{display:flex;gap:16px;flex-wrap:wrap;align-items:center;}
+  .btn-primary{
+    background:var(--ember);
+    color:var(--parchment);
+    padding:16px 30px;
+    font-weight:600;font-size:15px;
+    border-radius:2px;
+    display:inline-flex;align-items:center;gap:10px;
+    transition:background 0.2s ease;
+  }
+  .btn-primary:hover{background:var(--ember-bright);}
+  .btn-ghost{
+    padding:16px 26px;
+    border:1px solid var(--line);
+    font-size:15px;color:var(--ash);
+    border-radius:2px;
+  }
+  .btn-ghost:hover{color:var(--parchment);border-color:var(--ash);}
+
+  .sparks{position:absolute;inset:0;pointer-events:none;z-index:1;}
+  .spark{
+    position:absolute;bottom:-10px;
+    width:3px;height:3px;border-radius:50%;
+    background:var(--ember-bright);
+    opacity:0;
+    animation:rise linear infinite;
+  }
+  @keyframes rise{
+    0%{transform:translateY(0) translateX(0);opacity:0;}
+    10%{opacity:1;}
+    90%{opacity:0.6;}
+    100%{transform:translateY(-90vh) translateX(var(--drift,20px));opacity:0;}
+  }
+
+  /* SECTION SHARED */
+  section{padding:110px 0;position:relative;}
+  .section-head{max-width:640px;margin-bottom:64px;}
+  .section-head h2{font-size:clamp(30px,4vw,44px);color:var(--parchment);}
+  .section-head p{color:var(--ash);margin-top:18px;font-size:16px;max-width:520px;}
+
+  .divider{
+    height:1px;
+    background:linear-gradient(90deg, transparent, var(--line) 20%, var(--line) 80%, transparent);
+  }
+
+  /* ABOUT */
+  .about{background:var(--iron);}
+  .about-grid{display:grid;grid-template-columns:1.1fr 0.9fr;gap:64px;align-items:start;}
+  .about p{color:var(--ash);font-size:17px;margin-bottom:20px;max-width:480px;}
+  .about-stats{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);}
+  .stat{background:var(--iron);padding:28px 24px;}
+  .stat .num{font-family:'Noto Serif Georgian',serif;font-size:38px;color:var(--ember-bright);font-weight:700;}
+  .stat .lbl{color:var(--ash);font-size:13px;margin-top:6px;letter-spacing:0.02em;}
+
+  /* SERVICES */
+  .services-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);border:1px solid var(--line);}
+  .service-card{
+    background:var(--ink);
+    padding:44px 36px;
+    transition:background 0.25s ease;
+  }
+  .service-card:hover{background:var(--iron);}
+  .service-icon{width:44px;height:44px;margin-bottom:24px;color:var(--ember-bright);}
+  .service-card h3{font-size:22px;color:var(--parchment);margin-bottom:12px;}
+  .service-card p{color:var(--ash);font-size:15px;}
+  .service-num{
+    font-family:'Noto Serif Georgian',serif;
+    font-size:13px;color:var(--iron-mid);
+    margin-bottom:18px;letter-spacing:0.05em;
+  }
+
+  /* GALLERY */
+  .gallery{background:var(--iron);}
+  .gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+  .gallery-item{
+    aspect-ratio:4/5;
+    border-radius:2px;
+    position:relative;
+    overflow:hidden;
+    border:1px solid var(--line);
+  }
+  .gallery-item svg{width:100%;height:100%;}
+  .gallery-item img{width:100%;height:100%;object-fit:cover;display:block;}
+  .gallery-item .cap{
+    position:absolute;bottom:0;left:0;right:0;
+    padding:16px 18px;
+    background:linear-gradient(180deg, transparent, rgba(21,19,19,0.9));
+    font-size:14px;font-weight:600;
+  }
+  .gallery-note{color:var(--iron-mid);font-size:13px;margin-top:24px;font-style:normal;}
+
+  /* PROCESS */
+  .process-list{display:flex;flex-direction:column;}
+  .process-row{
+    display:grid;grid-template-columns:80px 1fr;
+    gap:24px;padding:32px 0;
+    border-top:1px solid var(--line);
+    align-items:baseline;
+  }
+  .process-row:last-child{border-bottom:1px solid var(--line);}
+  .process-row .n{font-family:'Noto Serif Georgian',serif;font-size:15px;color:var(--ember-bright);}
+  .process-row h3{font-size:20px;color:var(--parchment);margin-bottom:8px;}
+  .process-row p{color:var(--ash);font-size:15px;max-width:520px;}
+
+  /* CONTACT */
+  .contact{background:var(--iron);}
+  .contact-box{
+    background:var(--ink);
+    border:1px solid var(--line);
+    padding:64px;
+    display:grid;grid-template-columns:1.2fr 1fr;gap:48px;
+    border-radius:2px;
+  }
+  .contact-box h2{font-size:clamp(28px,3.6vw,38px);margin-bottom:18px;}
+  .contact-box p{color:var(--ash);font-size:16px;max-width:420px;}
+  .contact-info{display:flex;flex-direction:column;gap:22px;justify-content:center;}
+  .contact-line{display:flex;flex-direction:column;gap:4px;}
+  .contact-line .lbl{font-size:12px;letter-spacing:0.12em;color:var(--iron-mid);}
+  .contact-line .val{font-size:22px;font-weight:600;color:var(--parchment);}
+  .contact-line a.val:hover{color:var(--ember-bright);}
+
+  footer{padding:40px 0;border-top:1px solid var(--line);}
+  .footer-row{display:flex;justify-content:space-between;align-items:center;color:var(--iron-mid);font-size:13px;flex-wrap:wrap;gap:12px;}
+
+  .reveal{opacity:0;transform:translateY(24px);transition:opacity 0.7s ease, transform 0.7s ease;}
+  .reveal.in{opacity:1;transform:none;}
+
+  @media (max-width:820px){
+    .navlinks{display:none;}
+    .about-grid{grid-template-columns:1fr;gap:40px;}
+    .services-grid{grid-template-columns:1fr;}
+    .gallery-grid{grid-template-columns:repeat(2,1fr);}
+    .contact-box{grid-template-columns:1fr;padding:36px 28px;}
+    .process-row{grid-template-columns:1fr;gap:8px;}
+  }
+  @media (max-width:480px){
+    .gallery-grid{grid-template-columns:1fr 1fr;}
+    .contact-box{padding:28px 20px;}
+  }
+  @media (prefers-reduced-motion: reduce){
+    .spark{animation:none;display:none;}
+    .reveal{opacity:1;transform:none;transition:none;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <nav class="wrap">
+    <div class="logo">Iron<span>Art</span></div>
+    <div class="navlinks">
+      <a href="#about">ჩვენ შესახებ</a>
+      <a href="#services">მომსახურება</a>
+      <a href="#gallery">ნამუშევრები</a>
+      <a href="#contact">კონტაქტი</a>
+    </div>
+    <a class="navphone" href="tel:+995599012105">599 01 21 05</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="sparks" id="sparks"></div>
+  <svg class="hero-pattern" viewBox="0 0 1080 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" stroke="#57524a" stroke-width="1.4">
+      <path d="M -50 650 C 100 600, 150 500, 100 420 C 50 340, 150 300, 200 350 C 250 400, 320 380, 300 300"/>
+      <circle cx="300" cy="300" r="10"/>
+      <path d="M 900 -50 C 800 50, 950 120, 1000 200 C 1050 280, 950 320, 900 380 C 850 440, 920 500, 1000 520"/>
+      <circle cx="1000" cy="520" r="10"/>
+      <path d="M 550 -50 C 560 80, 480 120, 520 220 C 560 320, 470 340, 500 440"/>
+    </g>
+  </svg>
+  <div class="wrap hero-inner">
+    <div class="eyebrow">სახელოსნო · საქართველო</div>
+    <h1>ხელნაკეთი<br><em>ლითონის</em> ნაკეთობები</h1>
+    <p class="hero-tagline">ჭიშკრებიდან და მოაჯირებიდან — ინდივიდუალურ ავეჯამდე. ვქმნით ლითონის ნაკეთობებს, რომლებიც ათწლეულებს გაძლებს.</p>
+    <div class="hero-cta">
+      <a class="btn-primary" href="tel:+995599012105">დარეკეთ ახლავე — 599 01 21 05</a>
+      <a class="btn-ghost" href="#gallery">ნამუშევრების ნახვა</a>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="wrap about-grid">
+    <div class="reveal">
+      <div class="eyebrow">ვინ ვართ</div>
+      <h2 style="font-size:clamp(28px,3.6vw,40px);margin-bottom:24px;">სიზუსტე, რომელიც ჩანს დეტალებში</h2>
+      <p>ჩვენი სახელოსნო ამზადებს ლითონის ნაკეთობებს ხელით — ესკიზიდან საბოლოო მონტაჟამდე. თითოეული პროექტი განსხვავებულია, ამიტომ ვმუშაობთ თქვენს სივრცესთან და გემოვნებასთან ინდივიდუალურად, არა შაბლონებით.</p>
+      <p>მასალის ხარისხზე და შედუღების სისუფთავეზე ვაკეთებთ აქცენტს — შედეგი უნდა გაძლოს არა წლების, არამედ თაობების განმავლობაში.</p>
+    </div>
+    <div class="about-stats reveal">
+      <div class="stat"><div class="num">10+</div><div class="lbl">წლიანი გამოცდილება</div></div>
+      <div class="stat"><div class="num">300+</div><div class="lbl">დასრულებული პროექტი</div></div>
+      <div class="stat"><div class="num">100%</div><div class="lbl">ინდივიდუალური დამზადება</div></div>
+      <div class="stat"><div class="num">1:1</div><div class="lbl">პირადი კონსულტაცია</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">მომსახურება</div>
+      <h2>რასაც ვამზადებთ</h2>
+      <p>ოთხი ძირითადი მიმართულება — ყველა ერთი და იმავე ხელობით.</p>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="services-grid reveal">
+      <div class="service-card">
+        <div class="service-num">01</div>
+        <svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 42V14l18-8 18 8v28"/><path d="M6 24h36M18 14v28M30 14v28M6 42h36"/><circle cx="24" cy="30" r="2" fill="currentColor" stroke="none"/></svg>
+        <h3>ჭიშკრები და ღობეები</h3>
+        <p>საკუთარი დიზაინის ან თქვენი ესკიზის მიხედვით — შესასვლელი ჭიშკრიდან სრულ პერიმეტრამდე.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-num">02</div>
+        <svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 40h10V20l20-12v10L16 28v12h10"/><path d="M26 40h16"/></svg>
+        <h3>მოაჯირები და კიბეები</h3>
+        <p>შიდა და გარე მოაჯირები, კიბის კონსტრუქციები — უსაფრთხო და ესთეტიური ხაზებით.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-num">03</div>
+        <svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 26h32v4H8zM12 30v10M36 30v10M14 26v-6a4 4 0 014-4h12a4 4 0 014 4v6"/></svg>
+        <h3>ავეჯი და დეკორი</h3>
+        <p>მაგიდები, თარაზები, ინტერიერის აქცენტები — ლითონისა და სხვა მასალის კომბინაციით.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-num">04</div>
+        <svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M24 6l4 8 9 1-6 7 2 9-9-5-9 5 2-9-6-7 9-1z"/></svg>
+        <h3>ინდივიდუალური შეკვეთები</h3>
+        <p>არასტანდარტული იდეა გაქვთ? განვიხილავთ, დავხატავთ და დავამზადებთ ერთეულ ეგზემპლარად.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="gallery" id="gallery">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">ნამუშევრები</div>
+      <h2>ბოლო პროექტები</h2>
+      <p>რამდენიმე ნიმუში ჩვენი სამუშაოდან.</p>
+    </div>
+    <div class="gallery-grid reveal">
+      <div class="gallery-item">
+        <img src="images/gate-1.jpg" alt="შავი ვერტიკალური ლამელებით ჭიშკარი" style="object-position:center 55%;">
+        <div class="cap">ჭიშკარი — ვერტიკალური ლამელები</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/stair-1.jpg" alt="ლითონის კიბე ხის საფეხურებით" style="object-position:center 40%;">
+        <div class="cap">კიბე — ლითონის კონსტრუქცია</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/table-full.jpg" alt="ლითონის მაგიდა მრუდი კუთხეებით" style="object-position:center 68%;">
+        <div class="cap">მაგიდა — მრუდი კონსტრუქცია</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gate-2.jpg" alt="ლამელებიანი ჭიშკარი და ღობე" style="object-position:center 60%;">
+        <div class="cap">ღობე — მოდერნისტული ხაზები</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/table-detail-2.jpg" alt="შედუღების და დამუშავების დეტალი">
+        <div class="cap">დამუშავების ხარისხი — ახლოდან</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/spiral-stair.jpg" alt="მოხვეული ლითონის კიბე" style="object-position:center 35%;">
+        <div class="cap">კიბე — მოხვეული კონსტრუქცია</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/stair-bright.jpg" alt="ლითონის კონსტრუქცია დამონტაჟების პროცესში" style="object-position:center 45%;">
+        <div class="cap">კონსტრუქცია — მონტაჟი</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/table-detail-1.jpg" alt="მაგიდის კუთხის დეტალი">
+        <div class="cap">მაგიდა — კუთხის ხაზი</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/table-detail-3.jpg" alt="მაგიდის ზედაპირის დეტალი">
+        <div class="cap">მაგიდა — ზედაპირი</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="process">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">პროცესი</div>
+      <h2>როგორ ვმუშაობთ</h2>
+    </div>
+    <div class="process-list reveal">
+      <div class="process-row">
+        <div class="n">01</div>
+        <div><h3>კონსულტაცია</h3><p>განვიხილავთ იდეას, ზომებს და ადგილს — ტელეფონით ან ადგილზე ვიზიტით.</p></div>
+      </div>
+      <div class="process-row">
+        <div class="n">02</div>
+        <div><h3>დიზაინი და შეთანხმება</h3><p>ვამზადებთ ესკიზს და ფასს, ვათანხმებთ დეტალებს დამზადებამდე.</p></div>
+      </div>
+      <div class="process-row">
+        <div class="n">03</div>
+        <div><h3>დამზადება სახელოსნოში</h3><p>ხელით შედუღება და დამუშავება — ხარისხის კონტროლით ყოველ ეტაპზე.</p></div>
+      </div>
+      <div class="process-row">
+        <div class="n">04</div>
+        <div><h3>მონტაჟი</h3><p>მზა ნაკეთობის ტრანსპორტირება და დამონტაჟება ადგილზე.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="contact-box reveal">
+      <div>
+        <h2>მზად ხართ დაწყებისთვის?</h2>
+        <p>დაგვირეკეთ და მოკლედ აღწერეთ თქვენი იდეა — დანარჩენს ერთად გავარკვევთ.</p>
+      </div>
+      <div class="contact-info">
+        <div class="contact-line">
+          <span class="lbl">ტელეფონი</span>
+          <a class="val" href="tel:+995599012105">599 01 21 05</a>
+        </div>
+        <div class="contact-line">
+          <span class="lbl">მისამართი</span>
+          <span class="val" style="font-size:17px;font-weight:400;color:var(--ash);">საქართველო</span>
+        </div>
+        <a class="btn-primary" style="justify-content:center;margin-top:8px;" href="tel:+995599012105">დარეკვა ერთი შეხებით</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-row">
+    <div>IronArt — ხელნაკეთი ლითონის ნაკეთობები</div>
+    <div>ironart.ge · 599 01 21 05</div>
+  </div>
+</footer>
+
+<script>
+  const sparkContainer = document.getElementById('sparks');
+  const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(!prefersReduced){
+    for(let i=0;i<18;i++){
+      const s = document.createElement('div');
+      s.className='spark';
+      s.style.left = Math.random()*100+'%';
+      s.style.setProperty('--drift', (Math.random()*60-30)+'px');
+      s.style.animationDuration = (5+Math.random()*6)+'s';
+      s.style.animationDelay = (Math.random()*8)+'s';
+      sparkContainer.appendChild(s);
+    }
+  }
+
+  const revealEls = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }
+    });
+  },{threshold:0.15});
+  revealEls.forEach(el=>io.observe(el));
+</script>
+
+</body>
+</html>
