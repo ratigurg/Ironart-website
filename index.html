@@ -9,14 +9,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;500;600;700&family=Noto+Serif+Georgian:wght@500;700&display=swap" rel="stylesheet">
 <style>
   :root{
-    --ink:#151313;
-    --iron:#2b2826;
-    --iron-mid:#57524a;
-    --ash:#8a8378;
-    --parchment:#ede7da;
+    --ink:#e8e3d8;
+    --iron:#dcd5c6;
+    --iron-mid:#6b6558;
+    --ash:#5c5647;
+    --parchment:#221f1a;
     --ember:#c9531a;
     --ember-bright:#e8702f;
-    --line: rgba(237,231,218,0.14);
+    --line: rgba(34,31,26,0.14);
+    --card:#f2ede1;
   }
   *{margin:0;padding:0;box-sizing:border-box;}
   html{scroll-behavior:smooth;}
@@ -48,7 +49,7 @@
   /* NAV */
   header{
     position:fixed;top:0;left:0;right:0;z-index:50;
-    background:rgba(21,19,19,0.85);
+    background:rgba(232,227,216,0.88);
     backdrop-filter:blur(8px);
     border-bottom:1px solid var(--line);
   }
@@ -76,24 +77,27 @@
     display:flex;flex-direction:column;justify-content:center;
     padding:140px 0 80px;
     overflow:hidden;
+    background-image:linear-gradient(180deg, rgba(18,16,13,0.68), rgba(18,16,13,0.82)), url('Images/IMG_2668.jpeg');
+    background-size:cover;
+    background-position:center 38%;
   }
   .hero-pattern{
     position:absolute;inset:0;
-    opacity:0.55;
+    opacity:0.35;
     pointer-events:none;
   }
   .hero-inner{position:relative;z-index:2;}
   .hero h1{
     font-size:clamp(48px,9vw,104px);
     line-height:0.95;
-    color:var(--parchment);
+    color:#ede7da;
   }
   .hero h1 em{
     font-style:normal;color:var(--ember-bright);
   }
   .hero-tagline{
     font-size:clamp(16px,2.4vw,22px);
-    color:var(--ash);
+    color:#c9c3b4;
     max-width:520px;
     margin:26px 0 40px;
   }
@@ -115,6 +119,8 @@
     border-radius:2px;
   }
   .btn-ghost:hover{color:var(--parchment);border-color:var(--ash);}
+  .hero .btn-ghost{color:#d8d3c5;border-color:rgba(237,231,218,0.3);}
+  .hero .btn-ghost:hover{color:#fff;border-color:rgba(237,231,218,0.6);}
 
   .sparks{position:absolute;inset:0;pointer-events:none;z-index:1;}
   .spark{
@@ -204,7 +210,7 @@
   /* CONTACT */
   .contact{background:var(--iron);}
   .contact-box{
-    background:var(--ink);
+    background:var(--card);
     border:1px solid var(--line);
     padding:64px;
     display:grid;grid-template-columns:1.2fr 1fr;gap:48px;
