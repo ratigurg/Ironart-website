@@ -183,7 +183,10 @@
     position:relative;
     overflow:hidden;
     border:1px solid var(--line);
+    cursor:pointer;
+    transition:transform 0.25s ease;
   }
+  .gallery-item:hover{transform:translateY(-4px);}
   .gallery-item svg{width:100%;height:100%;}
   .gallery-item img{width:100%;height:100%;object-fit:cover;display:block;}
   .gallery-item .cap{
@@ -192,7 +195,41 @@
     background:linear-gradient(180deg, transparent, rgba(21,19,19,0.9));
     font-size:14px;font-weight:600;
   }
-  .gallery-note{color:var(--iron-mid);font-size:13px;margin-top:24px;font-style:normal;}
+  .gallery-item .cap-count{color:var(--ember-bright);font-weight:400;}
+
+  .lightbox{
+    display:none;
+    position:fixed;inset:0;z-index:200;
+    background:rgba(10,9,7,0.94);
+    align-items:center;justify-content:center;
+    padding:24px;
+  }
+  .lightbox.open{display:flex;}
+  .lb-stage{max-width:900px;width:100%;text-align:center;}
+  .lb-stage img{
+    max-height:78vh;max-width:100%;
+    margin:0 auto;
+    border-radius:2px;
+    display:block;
+  }
+  .lb-cap{color:#d8d3c5;font-size:14px;margin-top:16px;letter-spacing:0.02em;}
+  .lb-close{
+    position:absolute;top:20px;right:24px;
+    background:none;border:none;color:#ede7da;
+    font-size:36px;line-height:1;cursor:pointer;
+    padding:8px;
+  }
+  .lb-arrow{
+    background:none;border:none;color:#ede7da;
+    font-size:48px;line-height:1;cursor:pointer;
+    padding:8px 16px;
+    opacity:0.7;
+  }
+  .lb-arrow:hover{opacity:1;}
+  @media (max-width:640px){
+    .lb-arrow{font-size:32px;padding:6px 10px;}
+    .lb-close{font-size:28px;top:14px;right:14px;}
+  }
 
   /* PROCESS */
   .process-list{display:flex;flex-direction:column;}
@@ -302,8 +339,8 @@
       <p>მასალის ხარისხზე და შედუღების სისუფთავეზე ვაკეთებთ აქცენტს — შედეგი უნდა გაძლოს არა წლების, არამედ თაობების განმავლობაში.</p>
     </div>
     <div class="about-stats reveal">
-      <div class="stat"><div class="num">15+</div><div class="lbl">წლიანი გამოცდილება</div></div>
-      <div class="stat"><div class="num">500+</div><div class="lbl">დასრულებული პროექტი</div></div>
+      <div class="stat"><div class="num">10+</div><div class="lbl">წლიანი გამოცდილება</div></div>
+      <div class="stat"><div class="num">300+</div><div class="lbl">დასრულებული პროექტი</div></div>
       <div class="stat"><div class="num">100%</div><div class="lbl">ინდივიდუალური დამზადება</div></div>
       <div class="stat"><div class="num">1:1</div><div class="lbl">პირადი კონსულტაცია</div></div>
     </div>
@@ -314,7 +351,7 @@
   <div class="wrap">
     <div class="section-head reveal">
       <div class="eyebrow">მომსახურება</div>
-      <h2>რას ვამზადებთ</h2>
+      <h2>რასაც ვამზადებთ</h2>
       <p>ოთხი ძირითადი მიმართულება — ყველა ერთი და იმავე ხელობით.</p>
     </div>
   </div>
@@ -336,7 +373,7 @@
         <div class="service-num">03</div>
         <svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 26h32v4H8zM12 30v10M36 30v10M14 26v-6a4 4 0 014-4h12a4 4 0 014 4v6"/></svg>
         <h3>ავეჯი და დეკორი</h3>
-        <p>მაგიდები, თაროები, ინტერიერის აქცენტები — ლითონისა და სხვა მასალის კომბინაციით.</p>
+        <p>მაგიდები, თარაზები, ინტერიერის აქცენტები — ლითონისა და სხვა მასალის კომბინაციით.</p>
       </div>
       <div class="service-card">
         <div class="service-num">04</div>
@@ -353,49 +390,35 @@
     <div class="section-head reveal">
       <div class="eyebrow">ნამუშევრები</div>
       <h2>ბოლო პროექტები</h2>
-      <p>რამდენიმე ნიმუში ჩვენი სამუშაოდან.</p>
+      <p>დააჭირეთ პროექტს დამატებითი ფოტოების სანახავად.</p>
     </div>
     <div class="gallery-grid reveal">
-      <div class="gallery-item">
+      <div class="gallery-item" onclick="openLightbox(0)">
         <img src="Images/IMG_2659.jpeg" alt="შავი ვერტიკალური ლამელებით ჭიშკარი" style="object-position:center 55%;">
-        <div class="cap">ჭიშკარი — ვერტიკალური ლამელები</div>
+        <div class="cap">ჭიშკარი და ღობე <span class="cap-count">· 2 ფოტო</span></div>
       </div>
-      <div class="gallery-item">
-        <img src="Images/IMG_2665.jpeg" alt="ლითონის კიბე ხის საფეხურებით" style="object-position:center 40%;">
-        <div class="cap">კიბე — ლითონის კონსტრუქცია</div>
-      </div>
-      <div class="gallery-item">
-        <img src="Images/IMG_2661.jpeg" alt="ლითონის მაგიდა მრუდი კუთხეებით" style="object-position:center 68%;">
-        <div class="cap">მაგიდა — მრუდი კონსტრუქცია</div>
-      </div>
-      <div class="gallery-item">
-        <img src="Images/IMG_2660.jpeg" alt="ლამელებიანი ჭიშკარი და ღობე" style="object-position:center 60%;">
-        <div class="cap">ღობე — მოდერნისტული ხაზები</div>
-      </div>
-      <div class="gallery-item">
-        <img src="Images/IMG_2663.jpeg" alt="შედუღების და დამუშავების დეტალი">
-        <div class="cap">დამუშავების ხარისხი — ახლოდან</div>
-      </div>
-      <div class="gallery-item">
+      <div class="gallery-item" onclick="openLightbox(1)">
         <img src="Images/IMG_2666.jpeg" alt="მოხვეული ლითონის კიბე" style="object-position:center 35%;">
-        <div class="cap">კიბე — მოხვეული კონსტრუქცია</div>
+        <div class="cap">კიბეები <span class="cap-count">· 3 ფოტო</span></div>
       </div>
-      <div class="gallery-item">
-        <img src="Images/IMG_2668.jpeg" alt="ლითონის კონსტრუქცია დამონტაჟების პროცესში" style="object-position:center 45%;">
-        <div class="cap">კონსტრუქცია — მონტაჟი</div>
-      </div>
-      <div class="gallery-item">
-        <img src="Images/IMG_2662.jpeg" alt="მაგიდის კუთხის დეტალი">
-        <div class="cap">მაგიდა — კუთხის ხაზი</div>
-      </div>
-      <div class="gallery-item">
-        <img src="Images/IMG_2664.jpeg" alt="მაგიდის ზედაპირის დეტალი">
-        <div class="cap">მაგიდა — ზედაპირი</div>
+      <div class="gallery-item" onclick="openLightbox(2)">
+        <img src="Images/IMG_2661.jpeg" alt="ლითონის მაგიდა მრუდი კუთხეებით" style="object-position:center 68%;">
+        <div class="cap">მაგიდა <span class="cap-count">· 4 ფოტო</span></div>
       </div>
     </div>
-
   </div>
 </section>
+
+<div class="lightbox" id="lightbox" onclick="if(event.target===this)closeLightbox()">
+  <button class="lb-close" onclick="closeLightbox()" aria-label="დახურვა">&times;</button>
+  <button class="lb-arrow lb-prev" onclick="lbStep(-1)" aria-label="წინა">&#8249;</button>
+  <div class="lb-stage">
+    <img id="lbImg" src="" alt="">
+    <div class="lb-cap" id="lbCap"></div>
+  </div>
+  <button class="lb-arrow lb-next" onclick="lbStep(1)" aria-label="შემდეგი">&#8250;</button>
+</div>
+
 
 <section id="process">
   <div class="wrap">
@@ -482,6 +505,57 @@
     });
   },{threshold:0.15});
   revealEls.forEach(el=>io.observe(el));
+
+  const projects = [
+    { title:'ჭიშკარი და ღობე', images:[
+      {src:'Images/IMG_2659.jpeg', cap:'ჭიშკარი — ვერტიკალური ლამელები'},
+      {src:'Images/IMG_2660.jpeg', cap:'ღობე — მოდერნისტული ხაზები'}
+    ]},
+    { title:'კიბეები', images:[
+      {src:'Images/IMG_2666.jpeg', cap:'კიბე — მოხვეული კონსტრუქცია'},
+      {src:'Images/IMG_2665.jpeg', cap:'კიბე — ლითონის კონსტრუქცია'},
+      {src:'Images/IMG_2668.jpeg', cap:'კონსტრუქცია — მონტაჟი'}
+    ]},
+    { title:'მაგიდა', images:[
+      {src:'Images/IMG_2661.jpeg', cap:'მაგიდა — მრუდი კონსტრუქცია'},
+      {src:'Images/IMG_2663.jpeg', cap:'დამუშავების ხარისხი — ახლოდან'},
+      {src:'Images/IMG_2662.jpeg', cap:'მაგიდა — კუთხის ხაზი'},
+      {src:'Images/IMG_2664.jpeg', cap:'მაგიდა — ზედაპირი'}
+    ]}
+  ];
+  let lbProject = 0, lbIndex = 0;
+  const lbEl = document.getElementById('lightbox');
+  const lbImg = document.getElementById('lbImg');
+  const lbCap = document.getElementById('lbCap');
+
+  function renderLb(){
+    const p = projects[lbProject];
+    const item = p.images[lbIndex];
+    lbImg.src = item.src;
+    lbImg.alt = item.cap;
+    lbCap.textContent = p.title + ' — ' + item.cap + ' (' + (lbIndex+1) + '/' + p.images.length + ')';
+  }
+  function openLightbox(projectIndex){
+    lbProject = projectIndex; lbIndex = 0;
+    renderLb();
+    lbEl.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox(){
+    lbEl.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  function lbStep(dir){
+    const p = projects[lbProject];
+    lbIndex = (lbIndex + dir + p.images.length) % p.images.length;
+    renderLb();
+  }
+  document.addEventListener('keydown', (e)=>{
+    if(!lbEl.classList.contains('open')) return;
+    if(e.key === 'Escape') closeLightbox();
+    if(e.key === 'ArrowRight') lbStep(1);
+    if(e.key === 'ArrowLeft') lbStep(-1);
+  });
 </script>
 
 </body>
