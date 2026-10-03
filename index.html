@@ -193,7 +193,7 @@
     position:absolute;bottom:0;left:0;right:0;
     padding:16px 18px;
     background:linear-gradient(180deg, transparent, rgba(21,19,19,0.9));
-    font-size:14px;font-weight:600;
+    font-size:14px;font-weight:600;color:#ede7da;
   }
   .gallery-item .cap-count{color:var(--ember-bright);font-weight:400;}
 
@@ -394,16 +394,40 @@
     </div>
     <div class="gallery-grid reveal">
       <div class="gallery-item" onclick="openLightbox(0)">
-        <img src="Images/IMG_2659.jpeg" alt="შავი ვერტიკალური ლამელებით ჭიშკარი" style="object-position:center 55%;">
-        <div class="cap">ჭიშკარი და ღობე <span class="cap-count">· 2 ფოტო</span></div>
+        <img src="Images/selected/IMG_2659.jpg" alt="შავი ლითონის ჭიშკარი და ღობე" loading="lazy">
+        <div class="cap">ჭიშკარი და ღობე <span class="cap-count">· 8 ფოტო</span></div>
       </div>
       <div class="gallery-item" onclick="openLightbox(1)">
-        <img src="Images/IMG_2666.jpeg" alt="მოხვეული ლითონის კიბე" style="object-position:center 35%;">
-        <div class="cap">კიბეები <span class="cap-count">· 3 ფოტო</span></div>
+        <img src="Images/selected/IMG_0397.jpg" alt="მოხვეული ლითონის კიბე" loading="lazy">
+        <div class="cap">სპირალური კიბეები <span class="cap-count">· 3 ფოტო</span></div>
       </div>
       <div class="gallery-item" onclick="openLightbox(2)">
-        <img src="Images/IMG_2661.jpeg" alt="ლითონის მაგიდა მრუდი კუთხეებით" style="object-position:center 68%;">
-        <div class="cap">მაგიდა <span class="cap-count">· 4 ფოტო</span></div>
+        <img src="Images/selected/IMG_8915.jpg" alt="ხელნაკეთი ორნამენტული ჭიშკარი" loading="lazy">
+        <div class="cap">ორნამენტული ფორჯირება <span class="cap-count">· 6 ფოტო</span></div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(3)">
+        <img src="Images/selected/IMG_0874.jpg" alt="ლითონის შიდა კიბე" loading="lazy">
+        <div class="cap">შიდა კიბეები <span class="cap-count">· 8 ფოტო</span></div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(4)">
+        <img src="Images/selected/IMG_0487.jpg" alt="ლითონის გარე კიბე და მოაჯირი" loading="lazy">
+        <div class="cap">გარე კიბეები და მოაჯირები <span class="cap-count">· 8 ფოტო</span></div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(5)">
+        <img src="Images/selected/IMG_7414.jpg" alt="ლითონის კარი" loading="lazy">
+        <div class="cap">კარები <span class="cap-count">· 2 ფოტო</span></div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(6)">
+        <img src="Images/selected/IMG_2598.jpg" alt="ლითონის გრილი" loading="lazy">
+        <div class="cap">გრილი <span class="cap-count">· 2 ფოტო</span></div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(7)">
+        <img src="Images/selected/IMG_2661.jpg" alt="ლითონის მაგიდა" loading="lazy">
+        <div class="cap">მაგიდა <span class="cap-count">· 1 ფოტო</span></div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(8)">
+        <img src="Images/selected/IMG_9296.jpg" alt="ბუხრის ლითონის ჩარჩო" loading="lazy">
+        <div class="cap">ბუხარი და სარკმელი <span class="cap-count">· 2 ფოტო</span></div>
       </div>
     </div>
   </div>
@@ -508,19 +532,62 @@
 
   const projects = [
     { title:'ჭიშკარი და ღობე', images:[
-      {src:'Images/IMG_2659.jpeg', cap:'ჭიშკარი — ვერტიკალური ლამელები'},
-      {src:'Images/IMG_2660.jpeg', cap:'ღობე — მოდერნისტული ხაზები'}
+      {src:'Images/selected/IMG_2659.jpg', cap:'შავი ლითონის ჭიშკარი და ღობე'},
+      {src:'Images/selected/IMG_9146.jpg', cap:'შავი ლითონის ჭიშკარი და ღობე'},
+      {src:'Images/selected/IMG_3279.jpg', cap:'შავი ლითონის ჭიშკარი და ღობე'},
+      {src:'Images/selected/IMG_3859.jpg', cap:'შავი ლითონის ჭიშკარი და ღობე'},
+      {src:'Images/selected/IMG_3862.jpg', cap:'შავი ლითონის ჭიშკარი და ღობე'},
+      {src:'Images/selected/IMG_5466.jpg', cap:'შავი ლითონის ჭიშკარი და ღობე'},
+      {src:'Images/selected/IMG_7914.jpg', cap:'შავი ლითონის ჭიშკარი და ღობე'},
+      {src:'Images/selected/IMG_7909.jpg', cap:'შავი ლითონის ჭიშკარი და ღობე'}
     ]},
-    { title:'კიბეები', images:[
-      {src:'Images/IMG_2666.jpeg', cap:'კიბე — მოხვეული კონსტრუქცია'},
-      {src:'Images/IMG_2665.jpeg', cap:'კიბე — ლითონის კონსტრუქცია'},
-      {src:'Images/IMG_2668.jpeg', cap:'კონსტრუქცია — მონტაჟი'}
+    { title:'სპირალური კიბეები', images:[
+      {src:'Images/selected/IMG_0397.jpg', cap:'მოხვეული ლითონის კიბე'},
+      {src:'Images/selected/IMG_2390.jpg', cap:'მოხვეული ლითონის კიბე'},
+      {src:'Images/selected/IMG_2391.jpg', cap:'მოხვეული ლითონის კიბე'}
+    ]},
+    { title:'ორნამენტული ფორჯირება', images:[
+      {src:'Images/selected/IMG_8915.jpg', cap:'ხელნაკეთი ორნამენტული ჭიშკარი'},
+      {src:'Images/selected/IMG_8918.jpg', cap:'ხელნაკეთი ორნამენტული ჭიშკარი'},
+      {src:'Images/selected/IMG_8921.jpg', cap:'ხელნაკეთი ორნამენტული ჭიშკარი'},
+      {src:'Images/selected/IMG_0604.jpg', cap:'ხელნაკეთი ორნამენტული ჭიშკარი'},
+      {src:'Images/selected/IMG_0605.jpg', cap:'ხელნაკეთი ორნამენტული ჭიშკარი'},
+      {src:'Images/selected/IMG_0607.jpg', cap:'ხელნაკეთი ორნამენტული ჭიშკარი'}
+    ]},
+    { title:'შიდა კიბეები', images:[
+      {src:'Images/selected/IMG_0874.jpg', cap:'ლითონის შიდა კიბე'},
+      {src:'Images/selected/IMG_0875.jpg', cap:'ლითონის შიდა კიბე'},
+      {src:'Images/selected/IMG_7938.jpg', cap:'ლითონის შიდა კიბე'},
+      {src:'Images/selected/IMG_7939.jpg', cap:'ლითონის შიდა კიბე'},
+      {src:'Images/selected/IMG_9494.jpg', cap:'ლითონის შიდა კიბე'},
+      {src:'Images/selected/IMG_9495.jpg', cap:'ლითონის შიდა კიბე'},
+      {src:'Images/selected/IMG_5509.jpg', cap:'ლითონის შიდა კიბე'},
+      {src:'Images/selected/IMG_7357.jpg', cap:'ლითონის შიდა კიბე'}
+    ]},
+    { title:'გარე კიბეები და მოაჯირები', images:[
+      {src:'Images/selected/IMG_0487.jpg', cap:'ლითონის გარე კიბე და მოაჯირი'},
+      {src:'Images/selected/IMG_5678.jpg', cap:'ლითონის გარე კიბე და მოაჯირი'},
+      {src:'Images/selected/IMG_5685.jpg', cap:'ლითონის გარე კიბე და მოაჯირი'},
+      {src:'Images/selected/IMG_5690.jpg', cap:'ლითონის გარე კიბე და მოაჯირი'},
+      {src:'Images/selected/IMG_5846.jpg', cap:'ლითონის გარე კიბე და მოაჯირი'},
+      {src:'Images/selected/IMG_6651.jpg', cap:'ლითონის გარე კიბე და მოაჯირი'},
+      {src:'Images/selected/IMG_2668.jpg', cap:'ლითონის გარე კიბე და მოაჯირი'},
+      {src:'Images/selected/IMG_6730.jpg', cap:'ლითონის გარე კიბე და მოაჯირი'}
+    ]},
+    { title:'კარები', images:[
+      {src:'Images/selected/IMG_7414.jpg', cap:'ლითონის კარი'},
+      {src:'Images/selected/IMG_7418.jpg', cap:'ლითონის კარი'}
+    ]},
+    { title:'გრილი', images:[
+      {src:'Images/selected/IMG_2598.jpg', cap:'ლითონის გრილი'},
+      {src:'Images/selected/IMG_2603.jpg', cap:'ლითონის გრილი'}
     ]},
     { title:'მაგიდა', images:[
-      {src:'Images/IMG_2661.jpeg', cap:'მაგიდა — მრუდი კონსტრუქცია'},
-      {src:'Images/IMG_2663.jpeg', cap:'დამუშავების ხარისხი — ახლოდან'},
-      {src:'Images/IMG_2662.jpeg', cap:'მაგიდა — კუთხის ხაზი'},
-      {src:'Images/IMG_2664.jpeg', cap:'მაგიდა — ზედაპირი'}
+      {src:'Images/selected/IMG_2661.jpg', cap:'ლითონის მაგიდა'}
+    ]},
+    { title:'ბუხარი და სარკმელი', images:[
+      {src:'Images/selected/IMG_9296.jpg', cap:'ბუხრის ლითონის ჩარჩო'},
+      {src:'Images/selected/IMG_0552.jpg', cap:'ბუხრის ლითონის ჩარჩო'}
     ]}
   ];
   let lbProject = 0, lbIndex = 0;
@@ -533,7 +600,7 @@
     const item = p.images[lbIndex];
     lbImg.src = item.src;
     lbImg.alt = item.cap;
-    lbCap.textContent = p.title + ' — ' + item.cap + ' (' + (lbIndex+1) + '/' + p.images.length + ')';
+    lbCap.textContent = p.title + ' (' + (lbIndex+1) + '/' + p.images.length + ')';
   }
   function openLightbox(projectIndex){
     lbProject = projectIndex; lbIndex = 0;
