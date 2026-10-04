@@ -174,6 +174,20 @@
     margin-bottom:18px;letter-spacing:0.05em;
   }
 
+  /* DESIGN / 3D */
+  .design{background:var(--card);}
+  .design-grid{display:grid;grid-template-columns:0.9fr 1.1fr;gap:56px;align-items:center;}
+  .design-grid > *{min-width:0;}
+  .design-text h2{font-size:clamp(30px,4vw,44px);color:var(--parchment);}
+  .design-text > p{color:var(--ash);margin-top:18px;font-size:16px;}
+  .design-points{list-style:none;margin-top:28px;display:grid;gap:14px;}
+  .design-points li{display:flex;gap:14px;align-items:baseline;color:var(--parchment);font-size:15px;}
+  .design-points li::before{content:"";flex:none;width:8px;height:8px;background:var(--ember-bright);transform:translateY(-1px);}
+  .design-shots{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+  .design-shots figure{border:1px solid var(--line);overflow:hidden;background:var(--iron);aspect-ratio:3/2;}
+  .design-shots figure:first-child{grid-column:1 / -1;}
+  .design-shots img{width:100%;height:100%;object-fit:cover;display:block;}
+
   /* GALLERY */
   .gallery{background:var(--iron);}
   .gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
@@ -280,6 +294,7 @@
     .about-grid{grid-template-columns:1fr;gap:40px;}
     .services-grid{grid-template-columns:1fr;}
     .gallery-grid{grid-template-columns:repeat(2,1fr);}
+    .design-grid{grid-template-columns:1fr;gap:36px;}
     .contact-box{grid-template-columns:1fr;padding:36px 28px;}
     .process-row{grid-template-columns:1fr;gap:8px;}
   }
@@ -301,6 +316,7 @@
     <div class="navlinks">
       <a href="#about">ჩვენ შესახებ</a>
       <a href="#services">მომსახურება</a>
+      <a href="#design">პროექტირება</a>
       <a href="#gallery">ნამუშევრები</a>
       <a href="#contact">კონტაქტი</a>
     </div>
@@ -320,8 +336,8 @@
     </g>
   </svg>
   <div class="wrap hero-inner">
-    <div class="eyebrow">სახელოსნო · საქართველო</div>
-    <h1>ხელნაკეთი<br><em>ლითონის</em> ნაკეთობები</h1>
+    <div class="eyebrow">საქართველო · თბილისი</div>
+    <h1><em>ლითონის</em><br>ნაკეთობათა<br>საამქრო</h1>
     <p class="hero-tagline">ჭიშკრებიდან და მოაჯირებიდან — ინდივიდუალურ ავეჯამდე. ვქმნით ლითონის ნაკეთობებს, რომლებიც ათწლეულებს გაძლებს.</p>
     <div class="hero-cta">
       <a class="btn-primary" href="tel:+995599012105">დარეკეთ ახლავე — 599 01 21 05</a>
@@ -339,8 +355,8 @@
       <p>მასალის ხარისხზე და შედუღების სისუფთავეზე ვაკეთებთ აქცენტს — შედეგი უნდა გაძლოს არა წლების, არამედ თაობების განმავლობაში.</p>
     </div>
     <div class="about-stats reveal">
-      <div class="stat"><div class="num">10+</div><div class="lbl">წლიანი გამოცდილება</div></div>
-      <div class="stat"><div class="num">300+</div><div class="lbl">დასრულებული პროექტი</div></div>
+      <div class="stat"><div class="num">25+</div><div class="lbl">წლიანი გამოცდილება</div></div>
+      <div class="stat"><div class="num">700+</div><div class="lbl">დასრულებული პროექტი</div></div>
       <div class="stat"><div class="num">100%</div><div class="lbl">ინდივიდუალური დამზადება</div></div>
       <div class="stat"><div class="num">1:1</div><div class="lbl">პირადი კონსულტაცია</div></div>
     </div>
@@ -381,6 +397,30 @@
         <h3>ინდივიდუალური შეკვეთები</h3>
         <p>არასტანდარტული იდეა გაქვთ? განვიხილავთ, დავხატავთ და დავამზადებთ ერთეულ ეგზემპლარად.</p>
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="design" id="design">
+  <div class="wrap design-grid">
+    <div class="design-text reveal">
+      <div class="eyebrow">პროექტირება</div>
+      <h2>ჯერ ვაპროექტებთ, მერე ვამზადებთ</h2>
+      <p>ყოველ ნაკეთობას ვაპროექტებთ 3D მოდელირებით, სანამ ლითონს დავჭრიდეთ. ვხედავთ ყველა დეტალს, ზომასა და შეერთებას წინასწარ — ამიტომ დამზადება და აწყობა მაღალი სიზუსტით მიდის, ადგილზე გადაკეთების გარეშე.</p>
+      <ul class="design-points">
+        <li>3D ვიზუალიზაცია დამზადებამდე — ხედავთ მზა შედეგს წინასწარ</li>
+        <li>ზუსტი ზომები სივრცის გაზომვის საფუძველზე</li>
+        <li>უპრობლემო მონტაჟი — ყველა ელემენტი ერთმანეთს ზუსტად ერგება</li>
+      </ul>
+    </div>
+    <div class="design-shots reveal">
+      <figure><img src="Images/3d/web/IMG_2424.jpg" alt="კონსოლური კიბის 3D ვიზუალიზაცია ინტერიერში" loading="lazy"></figure>
+      <figure><img src="Images/3d/web/IMG_0001.jpg" alt="სპირალური კიბის 3D მოდელი" loading="lazy"></figure>
+      <figure><img src="Images/3d/web/IMG_2640.jpg" alt="სპირალური კიბის 3D მოდელი მონაცემებით" loading="lazy"></figure>
+      <figure><img src="Images/3d/web/IMG_1632.jpg" alt="ჭიშკრისა და ღობის 3D მოდელი" loading="lazy"></figure>
+      <figure><img src="Images/3d/web/IMG_2278.jpg" alt="კიბის 3D მოდელი ადგილზე დასკანირებულ სივრცეში" loading="lazy"></figure>
+      <figure><img src="Images/3d/web/IMG_0336.jpg" alt="არსებული კიბის 3D სკანირება და მოდელირება" loading="lazy"></figure>
+      <figure><img src="Images/3d/web/IMG_2533.jpg" alt="სპირალური კიბის 3D მოდელი შენობაში" loading="lazy"></figure>
     </div>
   </div>
 </section>
