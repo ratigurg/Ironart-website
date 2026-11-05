@@ -1,0 +1,300 @@
+{
+ "ka": {
+  "nav": [
+   "ჩვენს შესახებ",
+   "მომსახურება",
+   "პროექტირება",
+   "ნამუშევრები",
+   "კონტაქტი"
+  ],
+  "menu": "მენიუ",
+  "close": "დახურვა",
+  "prev": "წინა",
+  "next": "შემდეგი",
+  "callShort": "დარეკვა",
+  "kicker": "საქართველო · თბილისი",
+  "since": "25+ წლიანი გამოცდილება",
+  "h1": [
+   "ლითონის",
+   "ნაკეთობათა",
+   "საამქრო"
+  ],
+  "lead": "ჭიშკრებიდან და მოაჯირებიდან — ინდივიდუალურ ავეჯამდე. ვქმნით ლითონის ნაკეთობებს, რომლებიც ათწლეულებს გაძლებს.",
+  "call": "დარეკეთ ახლავე",
+  "work": "ნამუშევრების ნახვა",
+  "heroAlt": "ლითონის გარე კიბე და მოაჯირი",
+  "workshop": "სახელოსნო",
+  "place": "ადგილი",
+  "city": "თბილისი",
+  "sheet": "ფურცელი",
+  "aboutL": "ვინ ვართ",
+  "aboutH": "სიზუსტე, რომელიც ჩანს დეტალებში",
+  "aboutP1": "ჩვენი სახელოსნო ამზადებს ლითონის ნაკეთობებს ხელით — ესკიზიდან საბოლოო მონტაჟამდე. თითოეული პროექტი განსხვავებულია, ამიტომ ვმუშაობთ თქვენს სივრცესთან და გემოვნებასთან ინდივიდუალურად, არა შაბლონებით.",
+  "aboutP2": "მასალის ხარისხზე და შედუღების სისუფთავეზე ვაკეთებთ აქცენტს — შედეგი უნდა გაძლოს არა წლების, არამედ თაობების განმავლობაში.",
+  "spec": "მონაცემები",
+  "stats": [
+   [
+    "25+",
+    "წლიანი გამოცდილება"
+   ],
+   [
+    "700+",
+    "დასრულებული პროექტი"
+   ],
+   [
+    "100%",
+    "ინდივიდუალური დამზადება"
+   ],
+   [
+    "1:1",
+    "პირადი კონსულტაცია"
+   ]
+  ],
+  "svcL": "მომსახურება",
+  "svcH": "რას ვთავაზობთ მომხმარებელს",
+  "svcP": "ოთხი ძირითადი მიმართულება — ყველა ერთი და იმავე ხელობით.",
+  "colNo": "№",
+  "colName": "დასახელება",
+  "colDesc": "აღწერა",
+  "colView": "ხედი",
+  "svc": [
+   [
+    "ჭიშკრები და ღობეები",
+    "საკუთარი დიზაინის ან თქვენი ესკიზის მიხედვით — შესასვლელი ჭიშკრიდან სრულ პერიმეტრამდე."
+   ],
+   [
+    "მოაჯირები და კიბეები",
+    "შიდა და გარე მოაჯირები, კიბის კონსტრუქციები — უსაფრთხო და ესთეტიური ხაზებით."
+   ],
+   [
+    "ავეჯი და დეკორი",
+    "მაგიდები, თარაზები, ინტერიერის აქცენტები — ლითონისა და სხვა მასალის კომბინაციით."
+   ],
+   [
+    "ინდივიდუალური შეკვეთები",
+    "არასტანდარტული იდეა გაქვთ? განვიხილავთ, დავხატავთ და დავამზადებთ ერთეულ ეგზემპლარად."
+   ]
+  ],
+  "desL": "პროექტირება",
+  "desH": "ჯერ ვაპროექტებთ, მერე ვამზადებთ",
+  "desP": "ყოველ ნაკეთობას ვაპროექტებთ 3D მოდელირებით, სანამ ლითონს დავჭრიდეთ. ვხედავთ ყველა დეტალს, ზომასა და შეერთებას წინასწარ — ამიტომ დამზადება და აწყობა მაღალი სიზუსტით მიდის, ადგილზე გადაკეთების გარეშე.",
+  "pts": [
+   "3D ვიზუალიზაცია დამზადებამდე — ხედავთ მზა შედეგს წინასწარ",
+   "ზუსტი ზომები სივრცის გაზომვის საფუძველზე",
+   "უპრობლემო მონტაჟი — ყველა ელემენტი ერთმანეთს ზუსტად ერგება"
+  ],
+  "view": "ხედი",
+  "view3d": "3D ხედი",
+  "model": "3D მოდელი",
+  "result": "დასრულებული ნაკეთობა",
+  "mvCap": "ინტერაქტიული 3D მოდელი — სპირალური კიბე. დაატრიალეთ მაუსით, გაადიდეთ ბორბლით.",
+  "mvHint": "დაატრიალეთ მაუსით",
+  "d3": [
+   "კონსოლური კიბის 3D ვიზუალიზაცია ინტერიერში",
+   "სპირალური კიბის 3D მოდელი",
+   "სპირალური კიბის 3D მოდელი მონაცემებით",
+   "ჭიშკრისა და ღობის 3D მოდელი",
+   "კიბის 3D მოდელი ადგილზე დასკანირებულ სივრცეში",
+   "არსებული კიბის 3D სკანირება და მოდელირება",
+   "სპირალური კიბის 3D მოდელი შენობაში"
+  ],
+  "galL": "ნამუშევრები",
+  "galH": "რჩეული ნამუშევრები",
+  "galP": "აირჩიეთ ნამუშევარი დეტალური აღწერის და მსგავსი პროექტების სანახავად.",
+  "procL": "პროცესი",
+  "procH": "როგორ ვმუშაობთ",
+  "steps": [
+   [
+    "კონსულტაცია",
+    "განვიხილავთ იდეას, ზომებს და ადგილს — ტელეფონით ან ადგილზე ვიზიტით."
+   ],
+   [
+    "დიზაინი და შეთანხმება",
+    "ვამზადებთ ესკიზს და ფასს, ვათანხმებთ დეტალებს დამზადებამდე."
+   ],
+   [
+    "დამზადება სახელოსნოში",
+    "ხელით შედუღება და დამუშავება — ხარისხის კონტროლით ყოველ ეტაპზე."
+   ],
+   [
+    "მონტაჟი",
+    "მზა ნაკეთობის ტრანსპორტირება და დამონტაჟება ადგილზე."
+   ]
+  ],
+  "contactL": "კონტაქტი",
+  "ctaH": "მზად ხართ დაწყებისთვის?",
+  "ctaP": "დაგვირეკეთ და მოკლედ აღწერეთ თქვენი იდეა — დანარჩენს ერთად გავარკვევთ.",
+  "phoneL": "ტელეფონი",
+  "addrL": "მისამართი",
+  "addr": "თბილისი, საქართველო",
+  "callBtn": "დარეკვა ერთი შეხებით",
+  "waBtn": "მოგვწერეთ WhatsApp-ზე",
+  "foot": "IronArt — ლითონის ნაკეთობათა საამქრო",
+  "navLabel": "მთავარი",
+  "langAria": "ენა",
+  "allWork": "ყველა ნამუშევარი",
+  "all": "ყველა",
+  "crumbHome": "მთავარი",
+  "crumbWork": "ნამუშევრები",
+  "crumbLabel": "გზა",
+  "workH1": "ნამუშევრები",
+  "workIntro": "ლითონის ნაკეთობები თბილისში: ჭიშკრები, კიბეები, მოაჯირები, ფორჯირება, კარები, ავეჯი და 3D ვიზუალიზაციები. აირჩიეთ კატეგორია ან დაათვალიერეთ ყველა ფოტო.",
+  "filterLabel": "კატეგორიები",
+  "similarH": "მსგავსი ნამუშევრები",
+  "catL": "კატეგორია",
+  "photoOne": "ფოტო",
+  "photoMany": "ფოტო",
+  "ctaPhotoH": "მოგწონთ ეს ნამუშევარი?",
+  "ctaPhotoP": "დაგვირეკეთ ან მოგვწერეთ WhatsApp-ზე და მოკლედ აღწერეთ თქვენი იდეა. შეგვიძლია მსგავსი ნაკეთობა თქვენს ზომებზე დავამზადოთ.",
+  "pagerL": "ნამუშევრები კატეგორიაში"
+ },
+ "en": {
+  "nav": [
+   "About",
+   "Services",
+   "Design",
+   "Work",
+   "Contact"
+  ],
+  "menu": "Menu",
+  "close": "Close",
+  "prev": "Previous",
+  "next": "Next",
+  "callShort": "Call",
+  "kicker": "Tbilisi · Georgia",
+  "since": "25+ years of experience",
+  "h1": [
+   "Metal",
+   "fabrication",
+   "workshop"
+  ],
+  "lead": "From gates and railings to one-off furniture. We make metalwork built to last for decades.",
+  "call": "Call now",
+  "work": "See our work",
+  "heroAlt": "Exterior metal stair and railing",
+  "workshop": "Workshop",
+  "place": "Location",
+  "city": "Tbilisi",
+  "sheet": "Sheet",
+  "aboutL": "Who we are",
+  "aboutH": "Precision you can see in the details",
+  "aboutP1": "Our workshop makes every piece by hand — from the first sketch to final installation. Every project is different, so we work with your space and taste individually, not from templates.",
+  "aboutP2": "We focus on material quality and clean welds — the result should last not for years, but for generations.",
+  "spec": "Key figures",
+  "stats": [
+   [
+    "25+",
+    "years of experience"
+   ],
+   [
+    "700+",
+    "completed projects"
+   ],
+   [
+    "100%",
+    "made to order"
+   ],
+   [
+    "1:1",
+    "personal consultation"
+   ]
+  ],
+  "svcL": "Services",
+  "svcH": "What we offer",
+  "svcP": "Four core directions — all with the same craft.",
+  "colNo": "No.",
+  "colName": "Item",
+  "colDesc": "Description",
+  "colView": "View",
+  "svc": [
+   [
+    "Gates & fences",
+    "Our own design or your sketch — from the entrance gate to the full perimeter."
+   ],
+   [
+    "Railings & stairs",
+    "Interior and exterior railings and stair structures — safe, with clean lines."
+   ],
+   [
+    "Furniture & décor",
+    "Tables, shelving and interior accents — metal combined with other materials."
+   ],
+   [
+    "Custom orders",
+    "Have an unusual idea? We discuss it, draw it and make it as a one-off piece."
+   ]
+  ],
+  "desL": "Design",
+  "desH": "We design first, then we build",
+  "desP": "Every piece is modelled in 3D before we cut any metal. We see every detail, dimension and joint in advance — so fabrication and assembly are precise, with no rework on site.",
+  "pts": [
+   "3D visualisation before fabrication — see the result in advance",
+   "Exact dimensions based on measuring your space",
+   "Smooth installation — every element fits precisely"
+  ],
+  "view": "View",
+  "view3d": "3D view",
+  "model": "3D model",
+  "result": "Finished piece",
+  "mvCap": "Interactive 3D model — spiral staircase. Drag to rotate, scroll to zoom.",
+  "mvHint": "Drag to rotate",
+  "d3": [
+   "Cantilever staircase — 3D visualisation in the interior",
+   "Spiral staircase — 3D model",
+   "Spiral staircase — 3D model with dimensions",
+   "Gate and fence — 3D model",
+   "Staircase model inside a scanned space",
+   "3D scan and model of an existing staircase",
+   "Spiral staircase — 3D model in the building"
+  ],
+  "galL": "Work",
+  "galH": "Featured work",
+  "galP": "Choose a project to see its description and similar work.",
+  "procL": "Process",
+  "procH": "How we work",
+  "steps": [
+   [
+    "Consultation",
+    "We discuss the idea, dimensions and site — by phone or with an on-site visit."
+   ],
+   [
+    "Design & approval",
+    "We prepare a sketch and a price, and agree on every detail before fabrication."
+   ],
+   [
+    "Workshop fabrication",
+    "Hand welding and finishing — with quality control at every stage."
+   ],
+   [
+    "Installation",
+    "We deliver the finished piece and install it on site."
+   ]
+  ],
+  "contactL": "Contact",
+  "ctaH": "Ready to start?",
+  "ctaP": "Call us and briefly describe your idea — we will work out the rest together.",
+  "phoneL": "Phone",
+  "addrL": "Address",
+  "addr": "Tbilisi, Georgia",
+  "callBtn": "Call in one tap",
+  "waBtn": "Message us on WhatsApp",
+  "foot": "IronArt — Metal fabrication workshop",
+  "navLabel": "Main",
+  "langAria": "Language",
+  "allWork": "All work",
+  "all": "All",
+  "crumbHome": "Home",
+  "crumbWork": "Work",
+  "crumbLabel": "Breadcrumb",
+  "workH1": "Our work",
+  "workIntro": "Metalwork in Tbilisi: gates, staircases, railings, forging, doors, furniture and 3D visualisations. Pick a category or browse every photo.",
+  "filterLabel": "Categories",
+  "similarH": "Related work",
+  "catL": "Category",
+  "photoOne": "photo",
+  "photoMany": "photos",
+  "ctaPhotoH": "Like this piece?",
+  "ctaPhotoP": "Call us or message us on WhatsApp and briefly describe your idea. We can make something similar to your dimensions.",
+  "pagerL": "Work in this category"
+ }
+}

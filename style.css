@@ -21,6 +21,7 @@ section{scroll-margin-top:64px}
 .btn.sec{border:1px solid rgba(243,242,242,.4)}.btn.sec:hover{background:rgba(243,242,242,.08);color:var(--bg)}
 .btns{display:flex;flex-wrap:wrap;gap:12px}
 .photo{width:100%;height:100%;object-fit:cover;filter:var(--ph)}
+picture{display:contents}
 
 /* header */
 header{position:sticky;top:0;z-index:50;display:flex;align-items:center;gap:clamp(12px,2vw,28px);padding:12px var(--px);background:var(--bg);border-bottom:2px solid var(--line)}
@@ -29,9 +30,9 @@ header{position:sticky;top:0;z-index:50;display:flex;align-items:center;gap:clam
 header nav{display:flex;gap:clamp(16px,2vw,28px);white-space:nowrap}
 header nav a{color:var(--ink);text-decoration:none;font-size:14px}header nav a:hover{color:var(--acc)}
 .lang{display:flex;border:1px solid var(--line)}
-.lang button{padding:7px 10px;border:0;cursor:pointer;font-size:13px;font-weight:700;background:transparent;color:var(--ink)}
-.lang button+button{border-left:1px solid var(--line)}
-.lang button[aria-pressed="true"]{background:var(--acc);color:var(--bg)}
+.lang a{padding:7px 10px;cursor:pointer;font-size:13px;font-weight:700;text-decoration:none;background:transparent;color:var(--ink)}
+.lang a+a{border-left:1px solid var(--line)}
+.lang a[aria-current="true"]{background:var(--acc);color:var(--bg)}
 .hphone{display:flex;align-items:center;gap:8px;padding:8px 14px;border:1px solid var(--line);color:var(--ink);text-decoration:none;font-weight:700;font-size:14px;white-space:nowrap;font-variant-numeric:tabular-nums}
 .hphone:hover{background:rgba(32,30,29,.07);color:var(--ink)}
 .menubtn{display:none;padding:9px 14px;border:0;background:var(--ink);color:var(--bg);cursor:pointer;font-size:14px;font-weight:700}
@@ -119,7 +120,7 @@ model-viewer{position:absolute;inset:0;width:100%;height:100%;background:transpa
 .ghead>div{display:flex;flex-direction:column;gap:24px}
 .ghead p{max-width:280px;font-size:14px;line-height:1.5;color:var(--mute)}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr));gap:clamp(24px,3vw,40px) clamp(12px,1.6vw,20px);padding:0 var(--px)}
-.card{min-width:0;display:flex;flex-direction:column;gap:12px;padding:0;border:0;background:transparent;cursor:pointer;text-align:left;color:var(--ink)}
+.card{min-width:0;display:flex;flex-direction:column;gap:12px;padding:0;border:0;background:transparent;cursor:pointer;text-align:left;text-decoration:none;color:var(--ink)}
 .card:hover{color:var(--acc-d)}
 .card .ph{width:100%;aspect-ratio:3/4;overflow:hidden;background:var(--surf)}
 .card img{width:100%;height:100%;object-fit:cover;filter:var(--ph)}
@@ -155,14 +156,28 @@ model-viewer{position:absolute;inset:0;width:100%;height:100%;background:transpa
 footer{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px 32px;padding:24px var(--px);border-top:2px solid var(--line);font-size:13px;color:var(--mute)}
 footer .logo{margin:0;font-size:16px}
 
-/* lightbox */
-.lb{position:fixed;inset:0;z-index:100;background:rgba(32,30,29,.97);color:var(--bg);display:none;flex-direction:column}
-.lb.open{display:flex}
-.lb-top,.lb-bot{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px clamp(16px,3vw,32px)}
-.lb-top{border-bottom:1px solid rgba(243,242,242,.2)}.lb-bot{border-top:1px solid rgba(243,242,242,.2)}
-.lb-title{display:flex;align-items:baseline;gap:14px;min-width:0}
-.lb-title b{font-size:16px}.lb-title span{font-size:12px;color:var(--l4);font-variant-numeric:tabular-nums}
-.lb-img{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;padding:16px}
-.lb-img img{max-width:100%;max-height:100%;object-fit:contain}
-.ibtn{flex:none;width:52px;height:44px;border:1px solid var(--dline);background:transparent;color:var(--bg);cursor:pointer;display:flex;align-items:center;justify-content:center}
-.ibtn:hover{background:var(--acc);border-color:var(--acc)}
+/* inner pages (listings and photo pages): same tokens and patterns as the home page */
+.crumbs{padding:14px var(--px);border-bottom:2px solid var(--line);font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
+.crumbs ol{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:6px 10px}
+.crumbs li+li::before{content:"\203A";margin-right:10px;color:var(--acc)}
+.crumbs a{color:var(--ink);text-decoration:none}.crumbs a:hover{color:var(--acc)}
+.gallery.inner{padding-top:clamp(32px,4vw,56px)}
+.ghead .intro{max-width:520px;font-size:16px;line-height:1.6}
+.filters{display:flex;flex-wrap:wrap;gap:8px;padding:0 var(--px);margin-bottom:clamp(24px,3vw,40px)}
+.filters a{padding:9px 14px;border:1px solid var(--line);color:var(--ink);text-decoration:none;font-size:13px;font-weight:700}
+.filters a:hover{background:rgba(32,30,29,.07);color:var(--ink)}
+.filters a[aria-current="page"]{background:var(--acc);border-color:var(--acc);color:var(--bg)}
+.gmore{padding:clamp(32px,4vw,48px) var(--px) 0}
+.pp{padding:clamp(32px,4vw,56px) var(--px);display:flex;flex-wrap:wrap;gap:clamp(32px,5vw,80px)}
+.pp figure{flex:1.3 1 380px;min-width:0;margin:0;display:flex;justify-content:center;background:var(--surf)}
+.pp figure img{width:100%;height:auto;max-height:82vh;object-fit:contain}
+.pinfo{flex:1 1 320px;display:flex;flex-direction:column;gap:24px;align-self:flex-start}
+.pinfo h1{font-weight:300;font-size:clamp(28px,3.4vw,52px);line-height:1.1;letter-spacing:-.02em;text-wrap:balance}
+.pinfo p{max-width:520px;font-size:17px;line-height:1.6;text-wrap:pretty}
+.pinfo .label a{color:inherit;text-decoration:none}.pinfo .label a:hover{color:var(--acc)}
+.pager{display:flex;flex-wrap:wrap;margin:0 var(--px);border-top:2px solid var(--ink)}
+.pager a{flex:1 1 280px;display:flex;align-items:center;gap:16px;padding:20px 0;border-bottom:1px solid var(--line);color:var(--ink);text-decoration:none}
+.pager a:hover{color:var(--acc-d)}.pager .nx{justify-content:flex-end;text-align:right}
+.pager svg{flex:none;color:var(--acc)}
+.pager .k{font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
+.pager b{font-weight:700;font-size:17px;line-height:1.3}

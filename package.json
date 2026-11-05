@@ -4,7 +4,9 @@
   "description": "IronArt static site: build script generating pages and optimized images",
   "scripts": {
     "images": "node scripts/images.js",
-    "build": "node scripts/images.js"
+    "pages": "node scripts/build.js",
+    "build": "node scripts/images.js && node scripts/build.js",
+    "check": "node scripts/check.js"
   },
   "devDependencies": {
     "sharp": "^0.33.5"

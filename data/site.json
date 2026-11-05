@@ -1,0 +1,29 @@
+{
+ "url": "https://ironart.ge",
+ "name": "IronArt",
+ "phone": "+995599012105",
+ "phoneDisplay": "599 01 21 05",
+ "whatsapp": "https://wa.me/995599012105",
+ "themeColor": "#201e1d",
+ "favicon": "favicon-512.png",
+ "jsonld_home": {
+  "@context": "https://schema.org",
+  "@type": "HomeAndConstructionBusiness",
+  "name": "IronArt",
+  "description": "ლითონის ნაკეთობათა საამქრო — ჭიშკრები, ღობეები, მოაჯირები, კიბეები, ავეჯი და ინდივიდუალური შეკვეთები.",
+  "url": "https://ironart.ge/",
+  "telephone": "+995599012105",
+  "image": "https://ironart.ge/Images/3d/web/IMG_2424.jpg",
+  "address": {
+   "@type": "PostalAddress",
+   "addressLocality": "Tbilisi",
+   "addressCountry": "GE"
+  },
+  "geo": {
+   "@type": "GeoCoordinates",
+   "latitude": 41.6880654,
+   "longitude": 44.9892021
+  },
+  "areaServed": "Georgia"
+ }
+}
