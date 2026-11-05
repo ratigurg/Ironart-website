@@ -1,701 +1,272 @@
 <!DOCTYPE html>
 <html lang="ka">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>IronArt — ლითონის ნაკეთობათა საამქრო</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IronArt — ლითონის ნაკეთობათა საამქრო თბილისში</title>
+<meta name="description" content="IronArt — ლითონის ნაკეთობათა საამქრო თბილისში. ჭიშკრები და ღობეები, მოაჯირები და კიბეები, ავეჯი და ინდივიდუალური შეკვეთები. 25+ წლიანი გამოცდილება. ☎ 599 01 21 05">
+<meta property="og:type" content="website">
+<meta property="og:title" content="IronArt — ლითონის ნაკეთობათა საამქრო">
+<meta property="og:description" content="ჭიშკრები, ღობეები, მოაჯირები, კიბეები და ინდივიდუალური ლითონის ნაკეთობები თბილისში.">
+<meta property="og:url" content="https://ironart.ge/">
+<meta property="og:image" content="https://ironart.ge/Images/3d/web/IMG_2424.jpg">
+<meta name="theme-color" content="#201e1d">
 <link rel="icon" type="image/png" sizes="512x512" href="/favicon-512.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;500;600;700&family=Noto+Serif+Georgian:wght@500;700&display=swap" rel="stylesheet">
-<style>
-  :root{
-    --ink:#e8e3d8;
-    --iron:#dcd5c6;
-    --iron-mid:#6b6558;
-    --ash:#5c5647;
-    --parchment:#221f1a;
-    --ember:#c9531a;
-    --ember-bright:#e8702f;
-    --line: rgba(34,31,26,0.14);
-    --card:#f2ede1;
-  }
-  *{margin:0;padding:0;box-sizing:border-box;}
-  html{scroll-behavior:smooth;}
-  body{
-    background:var(--ink);
-    color:var(--parchment);
-    font-family:'Noto Sans Georgian', sans-serif;
-    line-height:1.6;
-    overflow-x:hidden;
-  }
-  h1,h2,h3{
-    font-family:'Noto Serif Georgian', serif;
-    font-weight:700;
-    letter-spacing:0.01em;
-  }
-  a{color:inherit;text-decoration:none;}
-  img{max-width:100%;display:block;}
-  .wrap{max-width:1080px;margin:0 auto;padding:0 24px;}
-  .eyebrow{
-    font-size:13px;
-    letter-spacing:0.18em;
-    color:var(--ember-bright);
-    font-weight:600;
-    margin-bottom:14px;
-    display:flex;align-items:center;gap:10px;
-  }
-  .eyebrow::before{content:"";width:22px;height:1px;background:var(--ember-bright);display:inline-block;}
-
-  /* NAV */
-  header{
-    position:fixed;top:0;left:0;right:0;z-index:50;
-    background:rgba(232,227,216,0.88);
-    backdrop-filter:blur(8px);
-    border-bottom:1px solid var(--line);
-  }
-  nav{
-    max-width:1080px;margin:0 auto;padding:16px 24px;
-    display:flex;justify-content:space-between;align-items:center;
-  }
-  .logo{font-family:'Noto Serif Georgian',serif;font-size:20px;font-weight:700;letter-spacing:0.02em;}
-  .logo span{color:var(--ember-bright);}
-  .navlinks{display:flex;gap:28px;font-size:14px;color:var(--ash);}
-  .navlinks a:hover{color:var(--parchment);}
-  .navphone{
-    font-size:14px;font-weight:600;
-    border:1px solid var(--line);
-    padding:8px 16px;border-radius:2px;
-    white-space:nowrap;
-  }
-  .navphone:hover{border-color:var(--ember-bright);color:var(--ember-bright);}
-  .menu-btn{display:none;background:none;border:none;color:var(--parchment);font-size:22px;cursor:pointer;}
-
-  /* HERO */
-  .hero{
-    position:relative;
-    min-height:100svh;
-    display:flex;flex-direction:column;justify-content:center;
-    padding:140px 0 80px;
-    overflow:hidden;
-    background-image:linear-gradient(180deg, rgba(18,16,13,0.68), rgba(18,16,13,0.82)), url('Images/IMG_2668.jpeg');
-    background-size:cover;
-    background-position:center 38%;
-  }
-  .hero-pattern{
-    position:absolute;inset:0;
-    opacity:0.35;
-    pointer-events:none;
-  }
-  .hero-inner{position:relative;z-index:2;}
-  .hero h1{
-    font-size:clamp(48px,9vw,104px);
-    line-height:1.15;
-    color:#ede7da;
-  }
-  .hero h1 em{
-    font-style:normal;color:var(--ember-bright);
-  }
-  .hero-tagline{
-    font-size:clamp(16px,2.4vw,22px);
-    color:#c9c3b4;
-    max-width:520px;
-    margin:26px 0 40px;
-  }
-  .hero-cta{display:flex;gap:16px;flex-wrap:wrap;align-items:center;}
-  .btn-primary{
-    background:var(--ember);
-    color:var(--parchment);
-    padding:16px 30px;
-    font-weight:600;font-size:15px;
-    border-radius:2px;
-    display:inline-flex;align-items:center;gap:10px;
-    transition:background 0.2s ease;
-  }
-  .btn-primary:hover{background:var(--ember-bright);}
-  .btn-ghost{
-    padding:16px 26px;
-    border:1px solid var(--line);
-    font-size:15px;color:var(--ash);
-    border-radius:2px;
-  }
-  .btn-ghost:hover{color:var(--parchment);border-color:var(--ash);}
-  .hero .btn-ghost{color:#d8d3c5;border-color:rgba(237,231,218,0.3);}
-  .hero .btn-ghost:hover{color:#fff;border-color:rgba(237,231,218,0.6);}
-
-  .sparks{position:absolute;inset:0;pointer-events:none;z-index:1;}
-  .spark{
-    position:absolute;bottom:-10px;
-    width:3px;height:3px;border-radius:50%;
-    background:var(--ember-bright);
-    opacity:0;
-    animation:rise linear infinite;
-  }
-  @keyframes rise{
-    0%{transform:translateY(0) translateX(0);opacity:0;}
-    10%{opacity:1;}
-    90%{opacity:0.6;}
-    100%{transform:translateY(-90vh) translateX(var(--drift,20px));opacity:0;}
-  }
-
-  /* SECTION SHARED */
-  section{padding:110px 0;position:relative;}
-  .section-head{max-width:640px;margin-bottom:64px;}
-  .section-head h2{font-size:clamp(30px,4vw,44px);color:var(--parchment);}
-  .section-head p{color:var(--ash);margin-top:18px;font-size:16px;max-width:520px;}
-
-  .divider{
-    height:1px;
-    background:linear-gradient(90deg, transparent, var(--line) 20%, var(--line) 80%, transparent);
-  }
-
-  /* ABOUT */
-  .about{background:var(--iron);}
-  .about-grid{display:grid;grid-template-columns:1.1fr 0.9fr;gap:64px;align-items:start;}
-  .about p{color:var(--ash);font-size:17px;margin-bottom:20px;max-width:480px;}
-  .about-stats{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);}
-  .stat{background:var(--iron);padding:28px 24px;}
-  .stat .num{font-family:'Noto Serif Georgian',serif;font-size:38px;color:var(--ember-bright);font-weight:700;}
-  .stat .lbl{color:var(--ash);font-size:13px;margin-top:6px;letter-spacing:0.02em;}
-
-  /* SERVICES */
-  .services-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);border:1px solid var(--line);}
-  .service-card{
-    background:var(--ink);
-    padding:44px 36px;
-    transition:background 0.25s ease;
-  }
-  .service-card:hover{background:var(--iron);}
-  .service-icon{width:44px;height:44px;margin-bottom:24px;color:var(--ember-bright);}
-  .service-card h3{font-size:22px;color:var(--parchment);margin-bottom:12px;}
-  .service-card p{color:var(--ash);font-size:15px;}
-  .service-num{
-    font-family:'Noto Serif Georgian',serif;
-    font-size:13px;color:var(--iron-mid);
-    margin-bottom:18px;letter-spacing:0.05em;
-  }
-
-  /* DESIGN / 3D */
-  .design{background:var(--card);}
-  .design-grid{display:grid;grid-template-columns:0.9fr 1.1fr;gap:56px;align-items:center;}
-  .design-grid > *{min-width:0;}
-  .design-text h2{font-size:clamp(30px,4vw,44px);color:var(--parchment);}
-  .design-text > p{color:var(--ash);margin-top:18px;font-size:16px;}
-  .design-points{list-style:none;margin-top:28px;display:grid;gap:14px;}
-  .design-points li{display:flex;gap:14px;align-items:baseline;color:var(--parchment);font-size:15px;}
-  .design-points li::before{content:"";flex:none;width:8px;height:8px;background:var(--ember-bright);transform:translateY(-1px);}
-  .design-shots{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
-  .design-shots figure{border:1px solid var(--line);overflow:hidden;background:var(--iron);aspect-ratio:3/2;cursor:zoom-in;transition:border-color .2s ease;}
-  .design-shots figure:hover{border-color:var(--ember-bright);}
-  .design-shots figure:focus-visible{outline:2px solid var(--ember-bright);outline-offset:2px;}
-  .design-shots figure:first-child{grid-column:1 / -1;}
-  .design-shots img{width:100%;height:100%;object-fit:cover;display:block;}
-
-  /* GALLERY */
-  .gallery{background:var(--iron);}
-  .gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
-  .gallery-item{
-    aspect-ratio:4/5;
-    border-radius:2px;
-    position:relative;
-    overflow:hidden;
-    border:1px solid var(--line);
-    cursor:pointer;
-    transition:transform 0.25s ease;
-  }
-  .gallery-item:hover{transform:translateY(-4px);}
-  .gallery-item svg{width:100%;height:100%;}
-  .gallery-item img{width:100%;height:100%;object-fit:cover;display:block;}
-  .gallery-item .cap{
-    position:absolute;bottom:0;left:0;right:0;
-    padding:16px 18px;
-    background:linear-gradient(180deg, transparent, rgba(21,19,19,0.9));
-    font-size:14px;font-weight:600;color:#ede7da;
-  }
-  .gallery-item .cap-count{color:var(--ember-bright);font-weight:400;}
-
-  .lightbox{
-    display:none;
-    position:fixed;inset:0;z-index:200;
-    background:rgba(10,9,7,0.94);
-    align-items:center;justify-content:center;
-    padding:24px;
-  }
-  .lightbox.open{display:flex;}
-  .lb-stage{max-width:900px;width:100%;text-align:center;}
-  .lb-stage img{
-    max-height:78vh;max-width:100%;
-    margin:0 auto;
-    border-radius:2px;
-    display:block;
-  }
-  .lb-cap{color:#d8d3c5;font-size:14px;margin-top:16px;letter-spacing:0.02em;}
-  .lb-close{
-    position:absolute;top:20px;right:24px;
-    background:none;border:none;color:#ede7da;
-    font-size:36px;line-height:1;cursor:pointer;
-    padding:8px;
-  }
-  .lb-arrow{
-    background:none;border:none;color:#ede7da;
-    font-size:48px;line-height:1;cursor:pointer;
-    padding:8px 16px;
-    opacity:0.7;
-  }
-  .lb-arrow:hover{opacity:1;}
-  @media (max-width:640px){
-    .lightbox{padding:12px 0;}
-    .lb-arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:2;width:40px;height:40px;padding:0 0 3px;border-radius:50%;background:rgba(10,9,7,0.55);opacity:1;font-size:28px;display:flex;align-items:center;justify-content:center;}
-    .lb-prev{left:8px;}
-    .lb-next{right:8px;}
-    .lb-close{font-size:28px;top:14px;right:14px;z-index:2;}
-  }
-
-  /* PROCESS */
-  .process-list{display:flex;flex-direction:column;}
-  .process-row{
-    display:grid;grid-template-columns:80px 1fr;
-    gap:24px;padding:32px 0;
-    border-top:1px solid var(--line);
-    align-items:baseline;
-  }
-  .process-row:last-child{border-bottom:1px solid var(--line);}
-  .process-row .n{font-family:'Noto Serif Georgian',serif;font-size:15px;color:var(--ember-bright);}
-  .process-row h3{font-size:20px;color:var(--parchment);margin-bottom:8px;}
-  .process-row p{color:var(--ash);font-size:15px;max-width:520px;}
-
-  /* CONTACT */
-  .contact{background:var(--iron);}
-  .contact-box{
-    background:var(--card);
-    border:1px solid var(--line);
-    padding:64px;
-    display:grid;grid-template-columns:1.2fr 1fr;gap:48px;
-    border-radius:2px;
-  }
-  .contact-box h2{font-size:clamp(28px,3.6vw,38px);margin-bottom:18px;}
-  .contact-box p{color:var(--ash);font-size:16px;max-width:420px;}
-  .map-embed{
-    margin-top:24px;
-    height:340px;
-    border:1px solid var(--line);
-    border-radius:2px;
-    overflow:hidden;
-    filter:grayscale(0.3) contrast(1.05);
-  }
-  .contact-info{display:flex;flex-direction:column;gap:22px;justify-content:center;}
-  .contact-line{display:flex;flex-direction:column;gap:4px;}
-  .contact-line .lbl{font-size:12px;letter-spacing:0.12em;color:var(--iron-mid);}
-  .contact-line .val{font-size:22px;font-weight:600;color:var(--parchment);}
-  .contact-line a.val:hover{color:var(--ember-bright);}
-  .contact-line .val-row{display:flex;align-items:center;gap:14px;}
-  .wa-icon{display:inline-flex;width:34px;height:34px;border-radius:50%;background:#25D366;color:#fff;align-items:center;justify-content:center;transition:transform .2s ease;}
-  .wa-icon:hover{transform:scale(1.1);}
-  .wa-icon svg{width:20px;height:20px;}
-  .btn-wa{display:flex;align-items:center;justify-content:center;gap:10px;background:#25D366;color:#fff;font-weight:600;font-size:15px;padding:15px 24px;border-radius:2px;transition:background .2s ease;}
-  .btn-wa:hover{background:#1ebe5b;}
-  .btn-wa svg{width:22px;height:22px;}
-
-  footer{padding:40px 0;border-top:1px solid var(--line);}
-  .footer-row{display:flex;justify-content:space-between;align-items:center;color:var(--iron-mid);font-size:13px;flex-wrap:wrap;gap:12px;}
-
-  .reveal{opacity:0;transform:translateY(24px);transition:opacity 0.7s ease, transform 0.7s ease;}
-  .reveal.in{opacity:1;transform:none;}
-
-  @media (max-width:820px){
-    .navlinks{display:none;}
-    .about-grid{grid-template-columns:1fr;gap:40px;}
-    .services-grid{grid-template-columns:1fr;}
-    .gallery-grid{grid-template-columns:repeat(2,1fr);}
-    .design-grid{grid-template-columns:1fr;gap:36px;}
-    .contact-box{grid-template-columns:1fr;padding:36px 28px;}
-    .process-row{grid-template-columns:1fr;gap:8px;}
-  }
-  @media (max-width:480px){
-    .gallery-grid{grid-template-columns:1fr 1fr;}
-    .contact-box{padding:28px 20px;}
-  }
-  @media (prefers-reduced-motion: reduce){
-    .spark{animation:none;display:none;}
-    .reveal{opacity:1;transform:none;transition:none;}
-  }
-</style>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;600;700;800&family=Noto+Sans+Georgian:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="Images/3d/web/IMG_2424.jpg">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "HomeAndConstructionBusiness", "name": "IronArt", "description": "ლითონის ნაკეთობათა საამქრო — ჭიშკრები, ღობეები, მოაჯირები, კიბეები, ავეჯი და ინდივიდუალური შეკვეთები.", "url": "https://ironart.ge/", "telephone": "+995599012105", "image": "https://ironart.ge/Images/3d/web/IMG_2424.jpg", "address": {"@type": "PostalAddress", "addressLocality": "Tbilisi", "addressCountry": "GE"}, "geo": {"@type": "GeoCoordinates", "latitude": 41.6880654, "longitude": 44.9892021}, "areaServed": "Georgia"}</script>
+<link rel="stylesheet" href="style.css">
+<script type="module" src="assets/model-viewer.min.js"></script>
 </head>
 <body>
 
 <header>
-  <nav class="wrap">
-    <div class="logo">Iron<span>Art</span></div>
-    <div class="navlinks">
-      <a href="#about">ჩვენს შესახებ</a>
-      <a href="#services">მომსახურება</a>
-      <a href="#design">პროექტირება</a>
-      <a href="#gallery">ნამუშევრები</a>
-      <a href="#contact">კონტაქტი</a>
-    </div>
-    <a class="navphone" href="tel:+995599012105">599 01 21 05</a>
-  </nav>
+  <a href="#top" class="logo">Iron<span>Art</span></a>
+  <nav aria-label="მთავარი"><a href="#about" data-i18n="nav.0">ჩვენს შესახებ</a><a href="#services" data-i18n="nav.1">მომსახურება</a><a href="#design" data-i18n="nav.2">პროექტირება</a><a href="#gallery" data-i18n="nav.3">ნამუშევრები</a><a href="#contact" data-i18n="nav.4">კონტაქტი</a></nav>
+  <div class="lang">
+    <button type="button" data-lang="ka" aria-pressed="true" aria-label="ქართული">ქარ</button>
+    <button type="button" data-lang="en" aria-pressed="false" aria-label="English">EN</button>
+  </div>
+  <a href="tel:+995599012105" class="hphone"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>599 01 21 05</a>
+  <button type="button" class="menubtn" aria-expanded="false" data-i18n="menu">მენიუ</button>
 </header>
+<div class="mmenu" id="mmenu"><a href="#about"><span data-i18n="nav.0">ჩვენს შესახებ</span><span class="num">02</span></a><a href="#services"><span data-i18n="nav.1">მომსახურება</span><span class="num">03</span></a><a href="#design"><span data-i18n="nav.2">პროექტირება</span><span class="num">04</span></a><a href="#gallery"><span data-i18n="nav.3">ნამუშევრები</span><span class="num">05</span></a><a href="#contact"><span data-i18n="nav.4">კონტაქტი</span><span class="num">06</span></a></div>
 
-<section class="hero">
-  <div class="sparks" id="sparks"></div>
-  <svg class="hero-pattern" viewBox="0 0 1080 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
-    <g fill="none" stroke="#57524a" stroke-width="1.4">
-      <path d="M -50 650 C 100 600, 150 500, 100 420 C 50 340, 150 300, 200 350 C 250 400, 320 380, 300 300"/>
-      <circle cx="300" cy="300" r="10"/>
-      <path d="M 900 -50 C 800 50, 950 120, 1000 200 C 1050 280, 950 320, 900 380 C 850 440, 920 500, 1000 520"/>
-      <circle cx="1000" cy="520" r="10"/>
-      <path d="M 550 -50 C 560 80, 480 120, 520 220 C 560 320, 470 340, 500 440"/>
-    </g>
-  </svg>
-  <div class="wrap hero-inner">
-    <div class="eyebrow">საქართველო · თბილისი</div>
-    <h1><em>ლითონის</em><br>ნაკეთობათა<br>საამქრო</h1>
-    <p class="hero-tagline">ჭიშკრებიდან და მოაჯირებიდან — ინდივიდუალურ ავეჯამდე. ვქმნით ლითონის ნაკეთობებს, რომლებიც ათწლეულებს გაძლებს.</p>
-    <div class="hero-cta">
-      <a class="btn-primary" href="tel:+995599012105">დარეკეთ ახლავე — 599 01 21 05</a>
-      <a class="btn-ghost" href="#gallery">ნამუშევრების ნახვა</a>
+<main>
+  <section id="top" class="hero dark">
+    <div class="hero-txt">
+      <div class="label dk"><span class="sq"></span><span data-i18n="kicker">საქართველო · თბილისი</span></div>
+      <h1><span class="a" data-i18n="h1.0">ლითონის</span><br><span data-i18n="h1.1">ნაკეთობათა</span><br><span class="c" data-i18n="h1.2">საამქრო</span></h1>
+      <p class="lead" data-i18n="lead">ჭიშკრებიდან და მოაჯირებიდან — ინდივიდუალურ ავეჯამდე. ვქმნით ლითონის ნაკეთობებს, რომლებიც ათწლეულებს გაძლებს.</p>
+      <div class="btns">
+        <a href="tel:+995599012105" class="btn pri"><span data-i18n="call">დარეკეთ ახლავე</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+        <a href="#gallery" class="btn sec"><span data-i18n="work">ნამუშევრების ნახვა</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+      </div>
     </div>
-  </div>
-</section>
+    <div class="viewer">
+      <div class="vbar">
+        <span class="lbl"><span data-i18n="view3d">3D ხედი</span> · <span id="heroIdx">01 / 07</span></span>
+        <div class="tabs"><button type="button" class="tab on" data-i="0" data-i18n-aria="d3.0" aria-label="კონსოლური კიბის 3D ვიზუალიზაცია ინტერიერში">01</button><button type="button" class="tab" data-i="1" data-i18n-aria="d3.1" aria-label="სპირალური კიბის 3D მოდელი">02</button><button type="button" class="tab" data-i="2" data-i18n-aria="d3.2" aria-label="სპირალური კიბის 3D მოდელი მონაცემებით">03</button><button type="button" class="tab" data-i="3" data-i18n-aria="d3.3" aria-label="ჭიშკრისა და ღობის 3D მოდელი">04</button><button type="button" class="tab" data-i="4" data-i18n-aria="d3.4" aria-label="კიბის 3D მოდელი ადგილზე დასკანირებულ სივრცეში">05</button><button type="button" class="tab" data-i="5" data-i18n-aria="d3.5" aria-label="არსებული კიბის 3D სკანირება და მოდელირება">06</button><button type="button" class="tab" data-i="6" data-i18n-aria="d3.6" aria-label="სპირალური კიბის 3D მოდელი შენობაში">07</button></div>
+      </div>
+      <div class="stage" id="stage">
+        <img class="photo" id="heroImg" src="Images/3d/web/IMG_2424.jpg" alt="კონსოლური კიბის 3D ვიზუალიზაცია ინტერიერში" width="1200" height="900">
+        <div class="cx"></div><div class="cy"></div><div class="cr">X 0000   Y 0000</div>
+      </div>
+      <div class="vcap" id="heroCap">კონსოლური კიბის 3D ვიზუალიზაცია ინტერიერში</div>
+    </div>
+  </section>
 
-<section class="about" id="about">
-  <div class="wrap about-grid">
-    <div class="reveal">
-      <div class="eyebrow">ვინ ვართ</div>
-      <h2 style="font-size:clamp(28px,3.6vw,40px);margin-bottom:24px;">სიზუსტე, რომელიც ჩანს დეტალებში</h2>
-      <p>ჩვენი სახელოსნო ამზადებს ლითონის ნაკეთობებს ხელით — ესკიზიდან საბოლოო მონტაჟამდე. თითოეული პროექტი განსხვავებულია, ამიტომ ვმუშაობთ თქვენს სივრცესთან და გემოვნებასთან ინდივიდუალურად, არა შაბლონებით.</p>
-      <p>მასალის ხარისხზე და შედუღების სისუფთავეზე ვაკეთებთ აქცენტს — შედეგი უნდა გაძლოს არა წლების, არამედ თაობების განმავლობაში.</p>
+  <section id="about" class="about">
+    <div class="about-l">
+      <div class="label"><span class="sq"></span><span data-i18n="aboutL">ვინ ვართ</span></div>
+      <h2 class="h2" data-i18n="aboutH">სიზუსტე, რომელიც ჩანს დეტალებში</h2>
+      <div class="cols"><p data-i18n="aboutP1">ჩვენი სახელოსნო ამზადებს ლითონის ნაკეთობებს ხელით — ესკიზიდან საბოლოო მონტაჟამდე. თითოეული პროექტი განსხვავებულია, ამიტომ ვმუშაობთ თქვენს სივრცესთან და გემოვნებასთან ინდივიდუალურად, არა შაბლონებით.</p><p data-i18n="aboutP2">მასალის ხარისხზე და შედუღების სისუფთავეზე ვაკეთებთ აქცენტს — შედეგი უნდა გაძლოს არა წლების, არამედ თაობების განმავლობაში.</p></div>
     </div>
-    <div class="about-stats reveal">
-      <div class="stat"><div class="num">25+</div><div class="lbl">წლიანი გამოცდილება</div></div>
-      <div class="stat"><div class="num">700+</div><div class="lbl">დასრულებული პროექტი</div></div>
-      <div class="stat"><div class="num">100%</div><div class="lbl">ინდივიდუალური დამზადება</div></div>
-      <div class="stat"><div class="num">1:1</div><div class="lbl">პირადი კონსულტაცია</div></div>
-    </div>
-  </div>
-</section>
+    <div class="specs"><span class="lbl" data-i18n="spec">მონაცემები</span><div class="stat"><span data-i18n="stats.0.1">წლიანი გამოცდილება</span><span class="dots"></span><b>25+</b></div><div class="stat"><span data-i18n="stats.1.1">დასრულებული პროექტი</span><span class="dots"></span><b>700+</b></div><div class="stat"><span data-i18n="stats.2.1">ინდივიდუალური დამზადება</span><span class="dots"></span><b>100%</b></div><div class="stat"><span data-i18n="stats.3.1">პირადი კონსულტაცია</span><span class="dots"></span><b>1:1</b></div></div>
+  </section>
 
-<section id="services">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <div class="eyebrow">მომსახურება</div>
-      <h2>რას ვთავაზობთ მომხმარებელს</h2>
-      <p>ოთხი ძირითადი მიმართულება — ყველა ერთი და იმავე ხელობით.</p>
+  <section id="services" class="services">
+    <div class="shead">
+      <div><div class="label"><span class="sq"></span><span data-i18n="svcL">მომსახურება</span></div><h2 class="h2" data-i18n="svcH">რას ვთავაზობთ მომხმარებელს</h2></div>
+      <p data-i18n="svcP">ოთხი ძირითადი მიმართულება — ყველა ერთი და იმავე ხელობით.</p>
     </div>
-  </div>
-  <div class="wrap">
-    <div class="services-grid reveal">
-      <div class="service-card">
-        <div class="service-num">01</div>
-        <svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 42V14l18-8 18 8v28"/><path d="M6 24h36M18 14v28M30 14v28M6 42h36"/><circle cx="24" cy="30" r="2" fill="currentColor" stroke="none"/></svg>
-        <h3>ჭიშკრები და ღობეები</h3>
-        <p>საკუთარი დიზაინის ან თქვენი ესკიზის მიხედვით — შესასვლელი ჭიშკრიდან სრულ პერიმეტრამდე.</p>
-      </div>
-      <div class="service-card">
-        <div class="service-num">02</div>
-        <svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 40h10V20l20-12v10L16 28v12h10"/><path d="M26 40h16"/></svg>
-        <h3>მოაჯირები და კიბეები</h3>
-        <p>შიდა და გარე მოაჯირები, კიბის კონსტრუქციები — უსაფრთხო და ესთეტიური ხაზებით.</p>
-      </div>
-      <div class="service-card">
-        <div class="service-num">03</div>
-        <svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 26h32v4H8zM12 30v10M36 30v10M14 26v-6a4 4 0 014-4h12a4 4 0 014 4v6"/></svg>
-        <h3>ავეჯი და დეკორი</h3>
-        <p>მაგიდები, თარაზები, ინტერიერის აქცენტები — ლითონისა და სხვა მასალის კომბინაციით.</p>
-      </div>
-      <div class="service-card">
-        <div class="service-num">04</div>
-        <svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M24 6l4 8 9 1-6 7 2 9-9-5-9 5 2-9-6-7 9-1z"/></svg>
-        <h3>ინდივიდუალური შეკვეთები</h3>
-        <p>არასტანდარტული იდეა გაქვთ? განვიხილავთ, დავხატავთ და დავამზადებთ ერთეულ ეგზემპლარად.</p>
+    <div class="sbody">
+      <div class="slist"><button type="button" class="svc on" data-i="0"><span class="n">01</span><span class="t" data-i18n="svc.0.0">ჭიშკრები და ღობეები</span><span class="ar"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span></button><button type="button" class="svc" data-i="1"><span class="n">02</span><span class="t" data-i18n="svc.1.0">მოაჯირები და კიბეები</span><span class="ar"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span></button><button type="button" class="svc" data-i="2"><span class="n">03</span><span class="t" data-i18n="svc.2.0">ავეჯი და დეკორი</span><span class="ar"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span></button><button type="button" class="svc" data-i="3"><span class="n">04</span><span class="t" data-i18n="svc.3.0">ინდივიდუალური შეკვეთები</span><span class="ar"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span></button></div>
+      <div class="sview">
+        <div class="ph"><img class="photo" id="svcImg" src="Images/selected/IMG_2659.jpg" alt="ჭიშკრები და ღობეები" loading="lazy" width="800" height="600"><span class="tagn"><span id="svcN">01</span> / 04</span></div>
+        <p id="svcD">საკუთარი დიზაინის ან თქვენი ესკიზის მიხედვით — შესასვლელი ჭიშკრიდან სრულ პერიმეტრამდე.</p>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="design" id="design">
-  <div class="wrap design-grid">
-    <div class="design-text reveal">
-      <div class="eyebrow">პროექტირება</div>
-      <h2>ჯერ ვაპროექტებთ, მერე ვამზადებთ</h2>
-      <p>ყოველ ნაკეთობას ვაპროექტებთ 3D მოდელირებით, სანამ ლითონს დავჭრიდეთ. ვხედავთ ყველა დეტალს, ზომასა და შეერთებას წინასწარ — ამიტომ დამზადება და აწყობა მაღალი სიზუსტით მიდის, ადგილზე გადაკეთების გარეშე.</p>
-      <ul class="design-points">
-        <li>3D ვიზუალიზაცია დამზადებამდე — ხედავთ მზა შედეგს წინასწარ</li>
-        <li>ზუსტი ზომები სივრცის გაზომვის საფუძველზე</li>
-        <li>უპრობლემო მონტაჟი — ყველა ელემენტი ერთმანეთს ზუსტად ერგება</li>
-      </ul>
+  <section id="design" class="design dark">
+    <div class="design-l">
+      <div class="label dk"><span class="sq"></span><span data-i18n="desL">პროექტირება</span></div>
+      <h2 class="h2" data-i18n="desH">ჯერ ვაპროექტებთ, მერე ვამზადებთ</h2>
+      <p data-i18n="desP">ყოველ ნაკეთობას ვაპროექტებთ 3D მოდელირებით, სანამ ლითონს დავჭრიდეთ. ვხედავთ ყველა დეტალს, ზომასა და შეერთებას წინასწარ — ამიტომ დამზადება და აწყობა მაღალი სიზუსტით მიდის, ადგილზე გადაკეთების გარეშე.</p>
+      <div class="pts"><div class="pt"><span>A</span><span data-i18n="pts.0">3D ვიზუალიზაცია დამზადებამდე — ხედავთ მზა შედეგს წინასწარ</span></div><div class="pt"><span>B</span><span data-i18n="pts.1">ზუსტი ზომები სივრცის გაზომვის საფუძველზე</span></div><div class="pt"><span>C</span><span data-i18n="pts.2">უპრობლემო მონტაჟი — ყველა ელემენტი ერთმანეთს ზუსტად ერგება</span></div></div>
     </div>
-    <div class="design-shots reveal">
-      <figure><img src="Images/3d/web/IMG_2424.jpg" alt="კონსოლური კიბის 3D ვიზუალიზაცია ინტერიერში" loading="lazy"></figure>
-      <figure><img src="Images/3d/web/IMG_0001.jpg" alt="სპირალური კიბის 3D მოდელი" loading="lazy"></figure>
-      <figure><img src="Images/3d/web/IMG_2640.jpg" alt="სპირალური კიბის 3D მოდელი მონაცემებით" loading="lazy"></figure>
-      <figure><img src="Images/3d/web/IMG_1632.jpg" alt="ჭიშკრისა და ღობის 3D მოდელი" loading="lazy"></figure>
-      <figure><img src="Images/3d/web/IMG_2278.jpg" alt="კიბის 3D მოდელი ადგილზე დასკანირებულ სივრცეში" loading="lazy"></figure>
-      <figure><img src="Images/3d/web/IMG_0336.jpg" alt="არსებული კიბის 3D სკანირება და მოდელირება" loading="lazy"></figure>
-      <figure><img src="Images/3d/web/IMG_2533.jpg" alt="სპირალური კიბის 3D მოდელი შენობაში" loading="lazy"></figure>
-    </div>
-  </div>
-</section>
-
-<section class="gallery" id="gallery">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <div class="eyebrow">ნამუშევრები</div>
-      <h2>ბოლო პროექტები</h2>
-      <p>დააჭირეთ პროექტს დამატებითი ფოტოების სანახავად.</p>
-    </div>
-    <div class="gallery-grid reveal">
-      <div class="gallery-item" onclick="openLightbox(0)">
-        <img src="Images/selected/IMG_2659.jpg" alt="შავი ლითონის ჭიშკარი და ღობე" loading="lazy">
-        <div class="cap">ჭიშკარი და ღობე <span class="cap-count">· 8 ფოტო</span></div>
-      </div>
-      <div class="gallery-item" onclick="openLightbox(1)">
-        <img src="Images/selected/IMG_0397.jpg" alt="მოხვეული ლითონის კიბე" loading="lazy">
-        <div class="cap">სპირალური კიბეები <span class="cap-count">· 3 ფოტო</span></div>
-      </div>
-      <div class="gallery-item" onclick="openLightbox(2)">
-        <img src="Images/selected/IMG_8915.jpg" alt="ხელნაკეთი ორნამენტული ჭიშკარი" loading="lazy">
-        <div class="cap">ორნამენტული ფორჯირება <span class="cap-count">· 6 ფოტო</span></div>
-      </div>
-      <div class="gallery-item" onclick="openLightbox(3)">
-        <img src="Images/selected/IMG_0874.jpg" alt="ლითონის შიდა კიბე" loading="lazy">
-        <div class="cap">შიდა კიბეები <span class="cap-count">· 8 ფოტო</span></div>
-      </div>
-      <div class="gallery-item" onclick="openLightbox(4)">
-        <img src="Images/selected/IMG_0487.jpg" alt="ლითონის გარე კიბე და მოაჯირი" loading="lazy">
-        <div class="cap">გარე კიბეები და მოაჯირები <span class="cap-count">· 8 ფოტო</span></div>
-      </div>
-      <div class="gallery-item" onclick="openLightbox(5)">
-        <img src="Images/selected/IMG_7414.jpg" alt="ლითონის კარი" loading="lazy">
-        <div class="cap">კარები <span class="cap-count">· 2 ფოტო</span></div>
-      </div>
-      <div class="gallery-item" onclick="openLightbox(6)">
-        <img src="Images/selected/IMG_2598.jpg" alt="ლითონის გრილი" loading="lazy">
-        <div class="cap">გრილი <span class="cap-count">· 2 ფოტო</span></div>
-      </div>
-      <div class="gallery-item" onclick="openLightbox(7)">
-        <img src="Images/selected/IMG_2661.jpg" alt="ლითონის მაგიდა" loading="lazy">
-        <div class="cap">მაგიდა <span class="cap-count">· 1 ფოტო</span></div>
-      </div>
-      <div class="gallery-item" onclick="openLightbox(8)">
-        <img src="Images/selected/IMG_9296.jpg" alt="ბუხრის ლითონის ჩარჩო" loading="lazy">
-        <div class="cap">ბუხარი და სარკმელი <span class="cap-count">· 2 ფოტო</span></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<div class="lightbox" id="lightbox" onclick="if(event.target===this)closeLightbox()">
-  <button class="lb-close" onclick="closeLightbox()" aria-label="დახურვა">&times;</button>
-  <button class="lb-arrow lb-prev" onclick="lbStep(-1)" aria-label="წინა">&#8249;</button>
-  <div class="lb-stage">
-    <img id="lbImg" src="" alt="">
-    <div class="lb-cap" id="lbCap"></div>
-  </div>
-  <button class="lb-arrow lb-next" onclick="lbStep(1)" aria-label="შემდეგი">&#8250;</button>
-</div>
-
-
-<section id="process">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <div class="eyebrow">პროცესი</div>
-      <h2>როგორ ვმუშაობთ</h2>
-    </div>
-    <div class="process-list reveal">
-      <div class="process-row">
-        <div class="n">01</div>
-        <div><h3>კონსულტაცია</h3><p>განვიხილავთ იდეას, ზომებს და ადგილს — ტელეფონით ან ადგილზე ვიზიტით.</p></div>
-      </div>
-      <div class="process-row">
-        <div class="n">02</div>
-        <div><h3>დიზაინი და შეთანხმება</h3><p>ვამზადებთ ესკიზს და ფასს, ვათანხმებთ დეტალებს დამზადებამდე.</p></div>
-      </div>
-      <div class="process-row">
-        <div class="n">03</div>
-        <div><h3>დამზადება სახელოსნოში</h3><p>ხელით შედუღება და დამუშავება — ხარისხის კონტროლით ყოველ ეტაპზე.</p></div>
-      </div>
-      <div class="process-row">
-        <div class="n">04</div>
-        <div><h3>მონტაჟი</h3><p>მზა ნაკეთობის ტრანსპორტირება და დამონტაჟება ადგილზე.</p></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="contact" id="contact">
-  <div class="wrap">
-    <div class="contact-box reveal">
-      <div>
-        <h2>მზად ხართ დაწყებისთვის?</h2>
-        <p>დაგვირეკეთ და მოკლედ აღწერეთ თქვენი იდეა — დანარჩენს ერთად გავარკვევთ.</p>
-      </div>
-      <div class="contact-info">
-        <div class="contact-line">
-          <span class="lbl">ტელეფონი</span>
-          <div class="val-row">
-            <a class="val" href="tel:+995599012105">599 01 21 05</a>
-            <a class="wa-icon" href="https://wa.me/995599012105" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg></a>
-          </div>
+    <div class="design-r">
+      <figure>
+        <div class="box">
+          <model-viewer src="assets/spiral-stair.glb" alt="IronArt 3D — სპირალური კიბე" camera-controls auto-rotate auto-rotate-delay="2500" rotation-per-second="16deg" interaction-prompt="auto" environment-image="neutral" exposure="1.3" shadow-intensity="0.5" shadow-softness="0.9" camera-orbit="-40deg 66deg auto" touch-action="pan-y" interpolation-decay="120" loading="lazy"></model-viewer>
+          <span class="hint" data-i18n="mvHint">დაატრიალეთ მაუსით</span>
         </div>
-        <div class="contact-line">
-          <span class="lbl">მისამართი</span>
-          <span class="val" style="font-size:17px;font-weight:400;color:var(--ash);">თბილისი, საქართველო</span>
-        </div>
-        <a class="btn-primary" style="justify-content:center;margin-top:8px;" href="tel:+995599012105">დარეკვა ერთი შეხებით</a>
-        <a class="btn-wa" href="https://wa.me/995599012105" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>მოგვწერეთ WhatsApp-ზე</a>
+        <figcaption><span data-i18n="model">3D მოდელი</span><span>01</span></figcaption>
+      </figure>
+      <span class="flow"><span class="right"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span><span class="down"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14"/><path d="m19 12-7 7-7-7"/></svg></span></span>
+      <figure>
+        <div class="box"><img src="Images/selected/spiral-stair-clean.jpg" alt="დასრულებული ნაკეთობა" data-i18n-alt="result" loading="lazy" width="1000" height="1776" style="width:100%;height:100%;object-fit:cover;object-position:50% 58%"></div>
+        <figcaption><span data-i18n="result">დასრულებული ნაკეთობა</span><span>02</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <div class="ghead">
+      <div><div class="label"><span class="sq"></span><span data-i18n="galL">ნამუშევრები</span></div><h2 class="h2" data-i18n="galH">ბოლო პროექტები</h2></div>
+      <p data-i18n="galP">დააჭირეთ პროექტს დამატებითი ფოტოების სანახავად.</p>
+    </div>
+    <div class="grid"><button type="button" class="card" data-p="0">
+  <div class="ph"><img src="Images/selected/IMG_2659.jpg" alt="ჭიშკარი და ღობე" data-i18n-alt="proj.0" loading="lazy" width="600" height="800"></div>
+  <div class="cap"><span class="idx">01</span><span class="t" data-i18n="proj.0">ჭიშკარი და ღობე</span><span class="cnt" data-count="8">8 ფოტო</span></div>
+</button><button type="button" class="card" data-p="1">
+  <div class="ph"><img src="Images/selected/spiral-stair-clean.jpg" alt="სპირალური კიბეები" data-i18n-alt="proj.1" loading="lazy" width="600" height="800"></div>
+  <div class="cap"><span class="idx">02</span><span class="t" data-i18n="proj.1">სპირალური კიბეები</span><span class="cnt" data-count="3">3 ფოტო</span></div>
+</button><button type="button" class="card" data-p="2">
+  <div class="ph"><img src="Images/selected/IMG_8915.jpg" alt="ორნამენტული ფორჯირება" data-i18n-alt="proj.2" loading="lazy" width="600" height="800"></div>
+  <div class="cap"><span class="idx">03</span><span class="t" data-i18n="proj.2">ორნამენტული ფორჯირება</span><span class="cnt" data-count="6">6 ფოტო</span></div>
+</button><button type="button" class="card" data-p="3">
+  <div class="ph"><img src="Images/selected/IMG_0874.jpg" alt="შიდა კიბეები" data-i18n-alt="proj.3" loading="lazy" width="600" height="800"></div>
+  <div class="cap"><span class="idx">04</span><span class="t" data-i18n="proj.3">შიდა კიბეები</span><span class="cnt" data-count="8">8 ფოტო</span></div>
+</button><button type="button" class="card" data-p="4">
+  <div class="ph"><img src="Images/selected/IMG_0487.jpg" alt="გარე კიბეები და მოაჯირები" data-i18n-alt="proj.4" loading="lazy" width="600" height="800"></div>
+  <div class="cap"><span class="idx">05</span><span class="t" data-i18n="proj.4">გარე კიბეები და მოაჯირები</span><span class="cnt" data-count="8">8 ფოტო</span></div>
+</button><button type="button" class="card" data-p="5">
+  <div class="ph"><img src="Images/selected/IMG_7414.jpg" alt="კარები" data-i18n-alt="proj.5" loading="lazy" width="600" height="800"></div>
+  <div class="cap"><span class="idx">06</span><span class="t" data-i18n="proj.5">კარები</span><span class="cnt" data-count="2">2 ფოტო</span></div>
+</button><button type="button" class="card" data-p="6">
+  <div class="ph"><img src="Images/selected/IMG_2598.jpg" alt="გრილი" data-i18n-alt="proj.6" loading="lazy" width="600" height="800"></div>
+  <div class="cap"><span class="idx">07</span><span class="t" data-i18n="proj.6">გრილი</span><span class="cnt" data-count="2">2 ფოტო</span></div>
+</button><button type="button" class="card" data-p="7">
+  <div class="ph"><img src="Images/selected/IMG_2661.jpg" alt="მაგიდა" data-i18n-alt="proj.7" loading="lazy" width="600" height="800"></div>
+  <div class="cap"><span class="idx">08</span><span class="t" data-i18n="proj.7">მაგიდა</span><span class="cnt" data-count="1">1 ფოტო</span></div>
+</button><button type="button" class="card" data-p="8">
+  <div class="ph"><img src="Images/selected/IMG_9296.jpg" alt="ბუხარი და სარკმელი" data-i18n-alt="proj.8" loading="lazy" width="600" height="800"></div>
+  <div class="cap"><span class="idx">09</span><span class="t" data-i18n="proj.8">ბუხარი და სარკმელი</span><span class="cnt" data-count="2">2 ფოტო</span></div>
+</button></div>
+  </section>
+
+  <section id="process" class="process">
+    <div class="process-l"><div class="label"><span class="sq"></span><span data-i18n="procL">პროცესი</span></div><h2 class="h2" data-i18n="procH">როგორ ვმუშაობთ</h2></div>
+    <div class="steps"><div class="step"><span class="n">01</span><div><h3 data-i18n="steps.0.0">კონსულტაცია</h3><p data-i18n="steps.0.1">განვიხილავთ იდეას, ზომებს და ადგილს — ტელეფონით ან ადგილზე ვიზიტით.</p></div></div><div class="step"><span class="n">02</span><div><h3 data-i18n="steps.1.0">დიზაინი და შეთანხმება</h3><p data-i18n="steps.1.1">ვამზადებთ ესკიზს და ფასს, ვათანხმებთ დეტალებს დამზადებამდე.</p></div></div><div class="step"><span class="n">03</span><div><h3 data-i18n="steps.2.0">დამზადება სახელოსნოში</h3><p data-i18n="steps.2.1">ხელით შედუღება და დამუშავება — ხარისხის კონტროლით ყოველ ეტაპზე.</p></div></div><div class="step"><span class="n">04</span><div><h3 data-i18n="steps.3.0">მონტაჟი</h3><p data-i18n="steps.3.1">მზა ნაკეთობის ტრანსპორტირება და დამონტაჟება ადგილზე.</p></div></div></div>
+  </section>
+
+  <section id="contact" class="contact dark">
+    <div class="contact-l">
+      <div class="label dk"><span class="sq"></span><span data-i18n="contactL">კონტაქტი</span></div>
+      <h2 data-i18n="ctaH">მზად ხართ დაწყებისთვის?</h2>
+      <p data-i18n="ctaP">დაგვირეკეთ და მოკლედ აღწერეთ თქვენი იდეა — დანარჩენს ერთად გავარკვევთ.</p>
+      <div class="btns">
+        <a href="tel:+995599012105" class="btn pri"><span data-i18n="callBtn">დარეკვა ერთი შეხებით</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+        <a href="https://wa.me/995599012105" target="_blank" rel="noopener" class="btn sec"><span data-i18n="waBtn">მოგვწერეთ WhatsApp-ზე</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg></a>
       </div>
     </div>
-    <div class="map-embed reveal">
-      <iframe
-        src="https://maps.google.com/maps?q=41.6880654,44.9892021&z=15&output=embed"
-        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade">
-      </iframe>
+    <div class="cbox">
+      <a href="tel:+995599012105" class="cphone"><span class="k" data-i18n="phoneL">ტელეფონი</span><b>599 01 21 05</b></a>
+      <div class="caddr"><span class="k" data-i18n="addrL">მისამართი</span><span data-i18n="addr">თბილისი, საქართველო</span></div>
+      <iframe src="https://maps.google.com/maps?q=41.6880654,44.9892021&amp;z=15&amp;output=embed" title="IronArt — რუკა" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-  </div>
-</section>
+  </section>
+</main>
 
 <footer>
-  <div class="wrap footer-row">
-    <div>IronArt — ლითონის ნაკეთობათა საამქრო</div>
-    <div>ironart.ge · 599 01 21 05</div>
-  </div>
+  <span class="logo">Iron<span>Art</span></span>
+  <span data-i18n="foot">IronArt — ლითონის ნაკეთობათა საამქრო</span>
+  <span style="font-variant-numeric:tabular-nums">ironart.ge · 599 01 21 05</span>
 </footer>
 
+<div class="mbar">
+  <a href="tel:+995599012105"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span data-i18n="callShort">დარეკვა</span></a>
+  <a href="https://wa.me/995599012105" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>WhatsApp</a>
+</div>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-labelledby="lbTitle">
+  <div class="lb-top">
+    <div class="lb-title"><b id="lbTitle"></b><span id="lbCount"></span></div>
+    <button type="button" class="ibtn" id="lbClose" style="width:44px" data-i18n-aria="close" aria-label="დახურვა"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button>
+  </div>
+  <div class="lb-img" id="lbStage"><img id="lbImg" alt=""></div>
+  <div class="lb-bot">
+    <button type="button" class="ibtn" id="lbPrev" data-i18n-aria="prev" aria-label="წინა"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg></button>
+    <button type="button" class="ibtn" id="lbNext" data-i18n-aria="next" aria-label="შემდეგი"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></button>
+  </div>
+</div>
+
 <script>
-  const sparkContainer = document.getElementById('sparks');
-  const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  if(!prefersReduced){
-    for(let i=0;i<18;i++){
-      const s = document.createElement('div');
-      s.className='spark';
-      s.style.left = Math.random()*100+'%';
-      s.style.setProperty('--drift', (Math.random()*60-30)+'px');
-      s.style.animationDuration = (5+Math.random()*6)+'s';
-      s.style.animationDelay = (Math.random()*8)+'s';
-      sparkContainer.appendChild(s);
-    }
-  }
+(function(){
+  var T={"ka": {"nav": ["ჩვენს შესახებ", "მომსახურება", "პროექტირება", "ნამუშევრები", "კონტაქტი"], "menu": "მენიუ", "close": "დახურვა", "prev": "წინა", "next": "შემდეგი", "callShort": "დარეკვა", "kicker": "საქართველო · თბილისი", "since": "25+ წლიანი გამოცდილება", "h1": ["ლითონის", "ნაკეთობათა", "საამქრო"], "lead": "ჭიშკრებიდან და მოაჯირებიდან — ინდივიდუალურ ავეჯამდე. ვქმნით ლითონის ნაკეთობებს, რომლებიც ათწლეულებს გაძლებს.", "call": "დარეკეთ ახლავე", "work": "ნამუშევრების ნახვა", "heroAlt": "ლითონის გარე კიბე და მოაჯირი", "workshop": "სახელოსნო", "place": "ადგილი", "city": "თბილისი", "sheet": "ფურცელი", "aboutL": "ვინ ვართ", "aboutH": "სიზუსტე, რომელიც ჩანს დეტალებში", "aboutP1": "ჩვენი სახელოსნო ამზადებს ლითონის ნაკეთობებს ხელით — ესკიზიდან საბოლოო მონტაჟამდე. თითოეული პროექტი განსხვავებულია, ამიტომ ვმუშაობთ თქვენს სივრცესთან და გემოვნებასთან ინდივიდუალურად, არა შაბლონებით.", "aboutP2": "მასალის ხარისხზე და შედუღების სისუფთავეზე ვაკეთებთ აქცენტს — შედეგი უნდა გაძლოს არა წლების, არამედ თაობების განმავლობაში.", "spec": "მონაცემები", "stats": [["25+", "წლიანი გამოცდილება"], ["700+", "დასრულებული პროექტი"], ["100%", "ინდივიდუალური დამზადება"], ["1:1", "პირადი კონსულტაცია"]], "svcL": "მომსახურება", "svcH": "რას ვთავაზობთ მომხმარებელს", "svcP": "ოთხი ძირითადი მიმართულება — ყველა ერთი და იმავე ხელობით.", "colNo": "№", "colName": "დასახელება", "colDesc": "აღწერა", "colView": "ხედი", "svc": [["ჭიშკრები და ღობეები", "საკუთარი დიზაინის ან თქვენი ესკიზის მიხედვით — შესასვლელი ჭიშკრიდან სრულ პერიმეტრამდე."], ["მოაჯირები და კიბეები", "შიდა და გარე მოაჯირები, კიბის კონსტრუქციები — უსაფრთხო და ესთეტიური ხაზებით."], ["ავეჯი და დეკორი", "მაგიდები, თარაზები, ინტერიერის აქცენტები — ლითონისა და სხვა მასალის კომბინაციით."], ["ინდივიდუალური შეკვეთები", "არასტანდარტული იდეა გაქვთ? განვიხილავთ, დავხატავთ და დავამზადებთ ერთეულ ეგზემპლარად."]], "desL": "პროექტირება", "desH": "ჯერ ვაპროექტებთ, მერე ვამზადებთ", "desP": "ყოველ ნაკეთობას ვაპროექტებთ 3D მოდელირებით, სანამ ლითონს დავჭრიდეთ. ვხედავთ ყველა დეტალს, ზომასა და შეერთებას წინასწარ — ამიტომ დამზადება და აწყობა მაღალი სიზუსტით მიდის, ადგილზე გადაკეთების გარეშე.", "pts": ["3D ვიზუალიზაცია დამზადებამდე — ხედავთ მზა შედეგს წინასწარ", "ზუსტი ზომები სივრცის გაზომვის საფუძველზე", "უპრობლემო მონტაჟი — ყველა ელემენტი ერთმანეთს ზუსტად ერგება"], "view": "ხედი", "view3d": "3D ხედი", "model": "3D მოდელი", "result": "დასრულებული ნაკეთობა", "mvCap": "ინტერაქტიული 3D მოდელი — სპირალური კიბე. დაატრიალეთ მაუსით, გაადიდეთ ბორბლით.", "mvHint": "დაატრიალეთ მაუსით", "d3": ["კონსოლური კიბის 3D ვიზუალიზაცია ინტერიერში", "სპირალური კიბის 3D მოდელი", "სპირალური კიბის 3D მოდელი მონაცემებით", "ჭიშკრისა და ღობის 3D მოდელი", "კიბის 3D მოდელი ადგილზე დასკანირებულ სივრცეში", "არსებული კიბის 3D სკანირება და მოდელირება", "სპირალური კიბის 3D მოდელი შენობაში"], "galL": "ნამუშევრები", "galH": "ბოლო პროექტები", "galP": "დააჭირეთ პროექტს დამატებითი ფოტოების სანახავად.", "proj": ["ჭიშკარი და ღობე", "სპირალური კიბეები", "ორნამენტული ფორჯირება", "შიდა კიბეები", "გარე კიბეები და მოაჯირები", "კარები", "გრილი", "მაგიდა", "ბუხარი და სარკმელი"], "procL": "პროცესი", "procH": "როგორ ვმუშაობთ", "steps": [["კონსულტაცია", "განვიხილავთ იდეას, ზომებს და ადგილს — ტელეფონით ან ადგილზე ვიზიტით."], ["დიზაინი და შეთანხმება", "ვამზადებთ ესკიზს და ფასს, ვათანხმებთ დეტალებს დამზადებამდე."], ["დამზადება სახელოსნოში", "ხელით შედუღება და დამუშავება — ხარისხის კონტროლით ყოველ ეტაპზე."], ["მონტაჟი", "მზა ნაკეთობის ტრანსპორტირება და დამონტაჟება ადგილზე."]], "contactL": "კონტაქტი", "ctaH": "მზად ხართ დაწყებისთვის?", "ctaP": "დაგვირეკეთ და მოკლედ აღწერეთ თქვენი იდეა — დანარჩენს ერთად გავარკვევთ.", "phoneL": "ტელეფონი", "addrL": "მისამართი", "addr": "თბილისი, საქართველო", "callBtn": "დარეკვა ერთი შეხებით", "waBtn": "მოგვწერეთ WhatsApp-ზე", "foot": "IronArt — ლითონის ნაკეთობათა საამქრო"}, "en": {"nav": ["About", "Services", "Design", "Work", "Contact"], "menu": "Menu", "close": "Close", "prev": "Previous", "next": "Next", "callShort": "Call", "kicker": "Tbilisi · Georgia", "since": "25+ years of experience", "h1": ["Metal", "fabrication", "workshop"], "lead": "From gates and railings to one-off furniture. We make metalwork built to last for decades.", "call": "Call now", "work": "See our work", "heroAlt": "Exterior metal stair and railing", "workshop": "Workshop", "place": "Location", "city": "Tbilisi", "sheet": "Sheet", "aboutL": "Who we are", "aboutH": "Precision you can see in the details", "aboutP1": "Our workshop makes every piece by hand — from the first sketch to final installation. Every project is different, so we work with your space and taste individually, not from templates.", "aboutP2": "We focus on material quality and clean welds — the result should last not for years, but for generations.", "spec": "Key figures", "stats": [["25+", "years of experience"], ["700+", "completed projects"], ["100%", "made to order"], ["1:1", "personal consultation"]], "svcL": "Services", "svcH": "What we offer", "svcP": "Four core directions — all with the same craft.", "colNo": "No.", "colName": "Item", "colDesc": "Description", "colView": "View", "svc": [["Gates & fences", "Our own design or your sketch — from the entrance gate to the full perimeter."], ["Railings & stairs", "Interior and exterior railings and stair structures — safe, with clean lines."], ["Furniture & décor", "Tables, shelving and interior accents — metal combined with other materials."], ["Custom orders", "Have an unusual idea? We discuss it, draw it and make it as a one-off piece."]], "desL": "Design", "desH": "We design first, then we build", "desP": "Every piece is modelled in 3D before we cut any metal. We see every detail, dimension and joint in advance — so fabrication and assembly are precise, with no rework on site.", "pts": ["3D visualisation before fabrication — see the result in advance", "Exact dimensions based on measuring your space", "Smooth installation — every element fits precisely"], "view": "View", "view3d": "3D view", "model": "3D model", "result": "Finished piece", "mvCap": "Interactive 3D model — spiral staircase. Drag to rotate, scroll to zoom.", "mvHint": "Drag to rotate", "d3": ["Cantilever staircase — 3D visualisation in the interior", "Spiral staircase — 3D model", "Spiral staircase — 3D model with dimensions", "Gate and fence — 3D model", "Staircase model inside a scanned space", "3D scan and model of an existing staircase", "Spiral staircase — 3D model in the building"], "galL": "Work", "galH": "Recent projects", "galP": "Click a project to see more photos.", "proj": ["Gate & fence", "Spiral stairs", "Ornamental forging", "Interior stairs", "Exterior stairs & railings", "Doors", "Grills", "Table", "Fireplace & window"], "procL": "Process", "procH": "How we work", "steps": [["Consultation", "We discuss the idea, dimensions and site — by phone or with an on-site visit."], ["Design & approval", "We prepare a sketch and a price, and agree on every detail before fabrication."], ["Workshop fabrication", "Hand welding and finishing — with quality control at every stage."], ["Installation", "We deliver the finished piece and install it on site."]], "contactL": "Contact", "ctaH": "Ready to start?", "ctaP": "Call us and briefly describe your idea — we will work out the rest together.", "phoneL": "Phone", "addrL": "Address", "addr": "Tbilisi, Georgia", "callBtn": "Call in one tap", "waBtn": "Message us on WhatsApp", "foot": "IronArt — Metal fabrication workshop"}};
+  var PROJ=[["Images/selected/IMG_2659.jpg", "Images/selected/IMG_9146.jpg", "Images/selected/IMG_3279.jpg", "Images/selected/IMG_3859.jpg", "Images/selected/IMG_3862.jpg", "Images/selected/IMG_5466.jpg", "Images/selected/IMG_7914.jpg", "Images/selected/IMG_7909.jpg"], ["Images/selected/spiral-stair-clean.jpg", "Images/selected/IMG_2390.jpg", "Images/selected/IMG_2391.jpg"], ["Images/selected/IMG_8915.jpg", "Images/selected/IMG_8918.jpg", "Images/selected/IMG_8921.jpg", "Images/selected/IMG_0604.jpg", "Images/selected/IMG_0605.jpg", "Images/selected/IMG_0607.jpg"], ["Images/selected/IMG_0874.jpg", "Images/selected/IMG_0875.jpg", "Images/selected/IMG_7938.jpg", "Images/selected/IMG_7939.jpg", "Images/selected/IMG_9494.jpg", "Images/selected/IMG_9495.jpg", "Images/selected/IMG_5509.jpg", "Images/selected/IMG_7357.jpg"], ["Images/selected/IMG_0487.jpg", "Images/selected/IMG_5678.jpg", "Images/selected/IMG_5685.jpg", "Images/selected/IMG_5690.jpg", "Images/selected/IMG_5846.jpg", "Images/selected/IMG_6651.jpg", "Images/selected/IMG_2668.jpg", "Images/selected/IMG_6730.jpg"], ["Images/selected/IMG_7414.jpg", "Images/selected/IMG_7418.jpg"], ["Images/selected/IMG_2598.jpg", "Images/selected/IMG_2603.jpg"], ["Images/selected/IMG_2661.jpg"], ["Images/selected/IMG_9296.jpg", "Images/selected/IMG_0552.jpg"]], D3=["Images/3d/web/IMG_2424.jpg", "Images/3d/web/IMG_0001.jpg", "Images/3d/web/IMG_2640.jpg", "Images/3d/web/IMG_1632.jpg", "Images/3d/web/IMG_2278.jpg", "Images/3d/web/IMG_0336.jpg", "Images/3d/web/IMG_2533.jpg"], SVC=["Images/selected/IMG_2659.jpg", "Images/selected/IMG_0487.jpg", "Images/selected/IMG_2661.jpg", "Images/selected/IMG_8915.jpg"];
+  var lang='ka', h3=0, svc=0, lb=null;
+  var $=function(s,r){return (r||document).querySelector(s)}, $$=function(s,r){return Array.prototype.slice.call((r||document).querySelectorAll(s))};
+  var pad=function(n){return String(n).padStart(2,'0')};
+  var get=function(key){return key.split('.').reduce(function(o,k){return o==null?o:o[k]},T[lang])};
 
-  const revealEls = document.querySelectorAll('.reveal');
-  const io = new IntersectionObserver((entries)=>{
-    entries.forEach(e=>{
-      if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }
-    });
-  },{threshold:0.15});
-  revealEls.forEach(el=>io.observe(el));
+  function applyLang(l){
+    lang=l; document.documentElement.lang=l;
+    $$('[data-i18n]').forEach(function(el){var v=get(el.dataset.i18n); if(v!=null) el.textContent=v});
+    $$('[data-i18n-alt]').forEach(function(el){el.alt=get(el.dataset.i18nAlt)});
+    $$('[data-i18n-aria]').forEach(function(el){el.setAttribute('aria-label',get(el.dataset.i18nAria))});
+    $$('.cnt').forEach(function(el){var n=+el.dataset.count; el.textContent=l==='ka'?n+' ფოტო':n+(n===1?' photo':' photos')});
+    $$('.lang button').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.lang===l)});
+    setHero(h3); setSvc(svc); updMenuBtn();
+    if(lb) showLb();
+  }
+  $$('.lang button').forEach(function(b){b.addEventListener('click',function(){applyLang(b.dataset.lang); try{localStorage.setItem('ironart-lang',b.dataset.lang)}catch(e){}})});
 
-  const projects = [
-    { title:'ჭიშკარი და ღობე', images:[
-      {src:'Images/selected/IMG_2659.jpg', cap:'შავი ლითონის ჭიშკარი და ღობე'},
-      {src:'Images/selected/IMG_9146.jpg', cap:'შავი ლითონის ჭიშკარი და ღობე'},
-      {src:'Images/selected/IMG_3279.jpg', cap:'შავი ლითონის ჭიშკარი და ღობე'},
-      {src:'Images/selected/IMG_3859.jpg', cap:'შავი ლითონის ჭიშკარი და ღობე'},
-      {src:'Images/selected/IMG_3862.jpg', cap:'შავი ლითონის ჭიშკარი და ღობე'},
-      {src:'Images/selected/IMG_5466.jpg', cap:'შავი ლითონის ჭიშკარი და ღობე'},
-      {src:'Images/selected/IMG_7914.jpg', cap:'შავი ლითონის ჭიშკარი და ღობე'},
-      {src:'Images/selected/IMG_7909.jpg', cap:'შავი ლითონის ჭიშკარი და ღობე'}
-    ]},
-    { title:'სპირალური კიბეები', images:[
-      {src:'Images/selected/IMG_0397.jpg', cap:'მოხვეული ლითონის კიბე'},
-      {src:'Images/selected/IMG_2390.jpg', cap:'მოხვეული ლითონის კიბე'},
-      {src:'Images/selected/IMG_2391.jpg', cap:'მოხვეული ლითონის კიბე'}
-    ]},
-    { title:'ორნამენტული ფორჯირება', images:[
-      {src:'Images/selected/IMG_8915.jpg', cap:'ხელნაკეთი ორნამენტული ჭიშკარი'},
-      {src:'Images/selected/IMG_8918.jpg', cap:'ხელნაკეთი ორნამენტული ჭიშკარი'},
-      {src:'Images/selected/IMG_8921.jpg', cap:'ხელნაკეთი ორნამენტული ჭიშკარი'},
-      {src:'Images/selected/IMG_0604.jpg', cap:'ხელნაკეთი ორნამენტული ჭიშკარი'},
-      {src:'Images/selected/IMG_0605.jpg', cap:'ხელნაკეთი ორნამენტული ჭიშკარი'},
-      {src:'Images/selected/IMG_0607.jpg', cap:'ხელნაკეთი ორნამენტული ჭიშკარი'}
-    ]},
-    { title:'შიდა კიბეები', images:[
-      {src:'Images/selected/IMG_0874.jpg', cap:'ლითონის შიდა კიბე'},
-      {src:'Images/selected/IMG_0875.jpg', cap:'ლითონის შიდა კიბე'},
-      {src:'Images/selected/IMG_7938.jpg', cap:'ლითონის შიდა კიბე'},
-      {src:'Images/selected/IMG_7939.jpg', cap:'ლითონის შიდა კიბე'},
-      {src:'Images/selected/IMG_9494.jpg', cap:'ლითონის შიდა კიბე'},
-      {src:'Images/selected/IMG_9495.jpg', cap:'ლითონის შიდა კიბე'},
-      {src:'Images/selected/IMG_5509.jpg', cap:'ლითონის შიდა კიბე'},
-      {src:'Images/selected/IMG_7357.jpg', cap:'ლითონის შიდა კიბე'}
-    ]},
-    { title:'გარე კიბეები და მოაჯირები', images:[
-      {src:'Images/selected/IMG_0487.jpg', cap:'ლითონის გარე კიბე და მოაჯირი'},
-      {src:'Images/selected/IMG_5678.jpg', cap:'ლითონის გარე კიბე და მოაჯირი'},
-      {src:'Images/selected/IMG_5685.jpg', cap:'ლითონის გარე კიბე და მოაჯირი'},
-      {src:'Images/selected/IMG_5690.jpg', cap:'ლითონის გარე კიბე და მოაჯირი'},
-      {src:'Images/selected/IMG_5846.jpg', cap:'ლითონის გარე კიბე და მოაჯირი'},
-      {src:'Images/selected/IMG_6651.jpg', cap:'ლითონის გარე კიბე და მოაჯირი'},
-      {src:'Images/selected/IMG_2668.jpg', cap:'ლითონის გარე კიბე და მოაჯირი'},
-      {src:'Images/selected/IMG_6730.jpg', cap:'ლითონის გარე კიბე და მოაჯირი'}
-    ]},
-    { title:'კარები', images:[
-      {src:'Images/selected/IMG_7414.jpg', cap:'ლითონის კარი'},
-      {src:'Images/selected/IMG_7418.jpg', cap:'ლითონის კარი'}
-    ]},
-    { title:'გრილი', images:[
-      {src:'Images/selected/IMG_2598.jpg', cap:'ლითონის გრილი'},
-      {src:'Images/selected/IMG_2603.jpg', cap:'ლითონის გრილი'}
-    ]},
-    { title:'მაგიდა', images:[
-      {src:'Images/selected/IMG_2661.jpg', cap:'ლითონის მაგიდა'}
-    ]},
-    { title:'ბუხარი და სარკმელი', images:[
-      {src:'Images/selected/IMG_9296.jpg', cap:'ბუხრის ლითონის ჩარჩო'},
-      {src:'Images/selected/IMG_0552.jpg', cap:'ბუხრის ლითონის ჩარჩო'}
-    ]}
-  ];
-  let lbProject = 0, lbIndex = 0;
-  const lbEl = document.getElementById('lightbox');
-  const lbImg = document.getElementById('lbImg');
-  const lbCap = document.getElementById('lbCap');
+  // mobile menu
+  var menu=$('#mmenu'), mbtn=$('.menubtn');
+  function updMenuBtn(){mbtn.textContent=menu.classList.contains('open')?T[lang].close:T[lang].menu}
+  function setMenu(o){menu.classList.toggle('open',o); mbtn.setAttribute('aria-expanded',o); updMenuBtn()}
+  mbtn.addEventListener('click',function(){setMenu(!menu.classList.contains('open'))});
+  $$('a',menu).forEach(function(a){a.addEventListener('click',function(){setMenu(false)})});
+  window.addEventListener('resize',function(){if(window.innerWidth>=1080&&menu.classList.contains('open'))setMenu(false)});
 
-  function renderLb(){
-    const p = projects[lbProject];
-    const item = p.images[lbIndex];
-    lbImg.src = item.src;
-    lbImg.alt = item.cap;
-    lbCap.textContent = p.title + (item.note ? ' — ' + item.note : '') + ' (' + (lbIndex+1) + '/' + p.images.length + ')';
+  // hero 3D tabs
+  var heroImg=$('#heroImg');
+  function setHero(i){
+    h3=i; heroImg.src=D3[i]; heroImg.alt=T[lang].d3[i];
+    $('#heroCap').textContent=T[lang].d3[i];
+    $('#heroIdx').textContent=pad(i+1)+' / '+pad(D3.length);
+    $$('.tab').forEach(function(b,k){b.classList.toggle('on',k===i)});
   }
-  function openLightbox(projectIndex, imageIndex){
-    lbProject = projectIndex; lbIndex = imageIndex || 0;
-    renderLb();
-    lbEl.classList.add('open');
-    document.body.style.overflow = 'hidden';
-  }
-  function closeLightbox(){
-    lbEl.classList.remove('open');
-    document.body.style.overflow = '';
-  }
-  function lbStep(dir){
-    const p = projects[lbProject];
-    lbIndex = (lbIndex + dir + p.images.length) % p.images.length;
-    renderLb();
-  }
-  document.addEventListener('keydown', (e)=>{
-    if(!lbEl.classList.contains('open')) return;
-    if(e.key === 'Escape') closeLightbox();
-    if(e.key === 'ArrowRight') lbStep(1);
-    if(e.key === 'ArrowLeft') lbStep(-1);
+  $$('.tab').forEach(function(b){b.addEventListener('click',function(){setHero(+b.dataset.i)})});
+  D3.forEach(function(s){var im=new Image(); im.src=s});
+
+  // crosshair
+  var stage=$('#stage'), cx=$('.cx'), cy=$('.cy'), cr=$('.cr');
+  stage.addEventListener('mousemove',function(e){
+    var r=stage.getBoundingClientRect(), x=Math.max(0,Math.round(e.clientX-r.left)), y=Math.max(0,Math.round(e.clientY-r.top));
+    cx.style.left=x+'px'; cy.style.top=y+'px';
+    cr.textContent='X '+String(x).padStart(4,'0')+'   Y '+String(y).padStart(4,'0');
   });
-  // Design / 3D photos open in the same lightbox
-  const designFigs = [...document.querySelectorAll('.design-shots figure')];
-  projects.push({ title:'პროექტირება', images: designFigs.map(f=>{
-    const img = f.querySelector('img');
-    return { src:img.getAttribute('src'), cap:img.alt, note:img.alt };
-  })});
-  const designProject = projects.length - 1;
-  designFigs.forEach((f,k)=>{
-    f.tabIndex = 0;
-    f.setAttribute('role','button');
-    f.addEventListener('click', ()=>openLightbox(designProject, k));
-    f.addEventListener('keydown', (e)=>{
-      if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); openLightbox(designProject, k); }
-    });
+
+  // services
+  function setSvc(i){
+    svc=i; var s=T[lang].svc[i];
+    $('#svcImg').src=SVC[i]; $('#svcImg').alt=s[0];
+    $('#svcD').textContent=s[1]; $('#svcN').textContent=pad(i+1);
+    $$('.svc').forEach(function(b,k){b.classList.toggle('on',k===i)});
+  }
+  $$('.svc').forEach(function(b){
+    b.addEventListener('click',function(){setSvc(+b.dataset.i)});
+    b.addEventListener('mouseenter',function(){setSvc(+b.dataset.i)});
   });
+
+  // lightbox
+  var lbEl=$('#lb'), lbImg=$('#lbImg');
+  function showLb(){
+    var imgs=PROJ[lb.p]; lbImg.src=imgs[lb.i]; lbImg.alt=T[lang].proj[lb.p];
+    $('#lbTitle').textContent=T[lang].proj[lb.p];
+    $('#lbCount').textContent=pad(lb.i+1)+' / '+pad(imgs.length);
+  }
+  function openLb(p){lb={p:p,i:0}; showLb(); lbEl.classList.add('open'); document.body.style.overflow='hidden'; $('#lbClose').focus()}
+  function closeLb(){lb=null; lbEl.classList.remove('open'); document.body.style.overflow=''}
+  function step(d){if(!lb)return; var n=PROJ[lb.p].length; lb.i=(lb.i+d+n)%n; showLb()}
+  $$('.card').forEach(function(c){c.addEventListener('click',function(){openLb(+c.dataset.p)})});
+  $('#lbClose').addEventListener('click',closeLb);
+  $('#lbPrev').addEventListener('click',function(){step(-1)});
+  $('#lbNext').addEventListener('click',function(){step(1)});
+  $('#lbStage').addEventListener('click',function(e){if(e.target!==lbImg)closeLb()});
+  window.addEventListener('keydown',function(e){
+    if(!lb)return;
+    if(e.key==='Escape')closeLb(); if(e.key==='ArrowRight')step(1); if(e.key==='ArrowLeft')step(-1);
+  });
+
+  try{var saved=localStorage.getItem('ironart-lang'); if(saved==='en')applyLang('en')}catch(e){}
+})();
 </script>
-
 </body>
 </html>

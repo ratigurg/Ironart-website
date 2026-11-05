@@ -1,0 +1,83 @@
+[
+  {
+    "id": "gates",
+    "name_ka": "ჭიშკრები და ღობეები",
+    "name_en": "Gates & Fences",
+    "slug_ka": "chishkrebi-da-ghobeebi",
+    "slug_en": "gates-and-fences",
+    "intro_ka": "ვამზადებთ ლითონის ჭიშკრებს და ღობეებს თბილისში: ვერტიკალური და ჰორიზონტალური ლამელებით, პანელებით ან ფორჯირებული ორნამენტით. თითოეულს ვაპროექტებთ თქვენი ეზოს და ფასადის მიხედვით.",
+    "intro_en": "We make metal gates and fences in Tbilisi, with vertical or horizontal slats, solid panels or forged ornament. Each one is designed to suit your yard and façade."
+  },
+  {
+    "id": "stairs",
+    "name_ka": "კიბეები",
+    "name_en": "Staircases",
+    "slug_ka": "kibeebi",
+    "slug_en": "staircases",
+    "intro_ka": "ლითონის კიბეები თბილისში: სპირალური, გარე და შიდა, ცენტრალურ კოჭზე დამაგრებული საფეხურებით. პროექტს წინასწარ 3D მოდელში ვამოწმებთ, რომ ადგილზე გადაკეთება არ დაგჭირდეთ.",
+    "intro_en": "Metal staircases in Tbilisi: spiral, exterior and interior, including steps mounted on a central spine. We check every project in a 3D model first, so nothing needs reworking on site."
+  },
+  {
+    "id": "railings",
+    "name_ka": "მოაჯირები",
+    "name_en": "Railings",
+    "slug_ka": "moajireebi",
+    "slug_en": "railings",
+    "intro_ka": "ვამზადებთ შიდა და გარე მოაჯირებს: მარტივი ვერტიკალური ბალუსტრებით ან ხელით მოხრილი ორნამენტული ხაზებით. მრუდი მოაჯირებიც ჩვენი სახელოსნოს ყოველდღიური საქმეა.",
+    "intro_en": "We make interior and exterior railings, from simple vertical balusters to hand-bent ornamental lines. Curved railings are an everyday job in our workshop."
+  },
+  {
+    "id": "forging",
+    "name_ka": "ფორჯირება",
+    "name_en": "Forging",
+    "slug_ka": "forjireba",
+    "slug_en": "forging",
+    "intro_ka": "ორნამენტული ფორჯირება: ხვეულები, შუბისებური წვეროები და დეკორატიული ჭიშკრები. ნაჭედ ლითონს ხელით ვამუშავებთ და ვაწყობთ ესკიზიდან საბოლოო მონტაჟამდე.",
+    "intro_en": "Ornamental forging: scrolls, spear tips and decorative gates. We work the metal by hand and build each piece from first sketch to final installation."
+  },
+  {
+    "id": "doors",
+    "name_ka": "კარები და სარკმლები",
+    "name_en": "Doors & Windows",
+    "slug_ka": "karebi-da-sarkmlebi",
+    "slug_en": "doors-and-windows",
+    "intro_ka": "ლითონის შესასვლელი კარები, პივოტ კარები და ლითონის ჩარჩოიანი სარკმლები. ზომებს ზუსტად თქვენს ღიობს ვუგებთ და ვამზადებთ ინდივიდუალურად.",
+    "intro_en": "Metal entrance doors, pivot doors and metal-framed windows. We measure your opening exactly and make each one to order."
+  },
+  {
+    "id": "grills",
+    "name_ka": "მანგლები და გრილები",
+    "name_en": "Grills & BBQ",
+    "slug_ka": "manglebi-da-grilebi",
+    "slug_en": "grills-and-bbq",
+    "intro_ka": "ლითონის მანგლები და გრილები გუმბათით, გამოსაწევი უჯრებით და მოსახსნელი გისოსებით. ვამზადებთ ეზოსა და ტერასისთვის, თქვენი ზომის მიხედვით.",
+    "intro_en": "Metal barbecue grills with hoods, pull-out drawers and removable grates. Made to your size for a yard or terrace."
+  },
+  {
+    "id": "furniture",
+    "name_ka": "ავეჯი და დეკორი",
+    "name_en": "Furniture & Décor",
+    "slug_ka": "aveji-da-dekori",
+    "slug_en": "furniture-and-decor",
+    "intro_ka": "ლითონის მაგიდები და ინტერიერის აქცენტები ინდივიდუალური შეკვეთით. ძველ ხელობას თანამედროვე, სუფთა ფორმებს ვუთავსებთ.",
+    "intro_en": "Custom metal tables and interior accents. Traditional craft, clean contemporary forms."
+  },
+  {
+    "id": "fireplaces",
+    "name_ka": "ბუხრები",
+    "name_en": "Fireplaces",
+    "slug_ka": "bukhrebi",
+    "slug_en": "fireplaces",
+    "intro_ka": "ლითონის ჩარჩოები და ბუხრის კონსტრუქციები ქვის ან ფილის მოპირკეთებისთვის. ჩარჩოს ზუსტად ბუხრის ნიშას ვუზომავთ.",
+    "intro_en": "Metal frames and fireplace structures for stone or tile surrounds, measured exactly to your fireplace opening."
+  },
+  {
+    "id": "3d",
+    "name_ka": "3D ვიზუალიზაციები",
+    "name_en": "3D Visualisations",
+    "slug_ka": "3d-vizualizatsiebi",
+    "slug_en": "3d-visualisations",
+    "intro_ka": "ყველა ნაკეთობას დამზადებამდე 3D მოდელში ვაპროექტებთ. ვასკანირებთ არსებულ სივრცეს და ზუსტი ზომებით ვაწყობთ კიბის, ჭიშკრის და მოაჯირის მოდელს.",
+    "intro_en": "Every piece is modelled in 3D before fabrication. We scan the existing space and build staircase, gate and railing models to exact measurements."
+  }
+]
