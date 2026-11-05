@@ -1,17 +1,34 @@
-[
- {
-  "file": "Images/selected/IMG_8915.jpg",
-  "old_slug_ka": "forjirebuli-chishkari-agurit-taghshi",
-  "old_slug_en": "wrought-iron-gate-brick-arch"
- },
- {
-  "file": "Images/selected/IMG_8918.jpg",
-  "old_slug_ka": "forjirebuli-chishkris-frtha-khveuli",
-  "old_slug_en": "wrought-iron-gate-leaf-scrollwork"
- },
- {
-  "file": "Images/selected/IMG_8921.jpg",
-  "old_slug_ka": "forjirebuli-ornamentis-detali",
-  "old_slug_en": "wrought-iron-scroll-detail"
- }
-]
+{
+ "photos": [
+  {
+   "file": "Images/selected/IMG_8915.jpg",
+   "old_slug_ka": "forjirebuli-chishkari-agurit-taghshi",
+   "old_slug_en": "wrought-iron-gate-brick-arch"
+  },
+  {
+   "file": "Images/selected/IMG_8918.jpg",
+   "old_slug_ka": "forjirebuli-chishkris-frtha-khveuli",
+   "old_slug_en": "wrought-iron-gate-leaf-scrollwork"
+  },
+  {
+   "file": "Images/selected/IMG_8921.jpg",
+   "old_slug_ka": "forjirebuli-ornamentis-detali",
+   "old_slug_en": "wrought-iron-scroll-detail"
+  },
+  {
+   "file": "Images/selected/IMG_2598.jpg",
+   "old_slug_ka": "shavi-mangali-gumbatit"
+  },
+  {
+   "file": "Images/selected/IMG_2603.jpg",
+   "old_slug_ka": "mangali-gamosatsevi-ujra"
+  }
+ ],
+ "categories": [
+  {
+   "id": "grills",
+   "old_slug_ka": "manglebi-da-grilebi",
+   "old_slug_en": "grills-and-bbq"
+  }
+ ]
+}

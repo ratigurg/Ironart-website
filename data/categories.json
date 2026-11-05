@@ -46,12 +46,12 @@
   },
   {
     "id": "grills",
-    "name_ka": "მანგლები და გრილები",
-    "name_en": "Grills & BBQ",
-    "slug_ka": "manglebi-da-grilebi",
-    "slug_en": "grills-and-bbq",
-    "intro_ka": "ლითონის მანგლები და გრილები გუმბათით, გამოსაწევი უჯრებით და მოსახსნელი გისოსებით. ვამზადებთ ეზოსა და ტერასისთვის, თქვენი ზომის მიხედვით.",
-    "intro_en": "Metal barbecue grills with hoods, pull-out drawers and removable grates. Made to your size for a yard or terrace."
+    "name_ka": "მაყალი და გრილი",
+    "name_en": "Grill & BBQ",
+    "slug_ka": "maqali-da-grili",
+    "slug_en": "grill-and-bbq",
+    "intro_ka": "ლითონის მაყალი და გრილი გუმბათით, გამოსაწევი უჯრებით და მოსახსნელი გისოსებით. ვამზადებთ ეზოსა და ტერასისთვის, თქვენი ზომის მიხედვით.",
+    "intro_en": "Metal barbecue grill with a hood, pull-out drawers and removable grates. Made to your size for a yard or terrace."
   },
   {
     "id": "furniture",
