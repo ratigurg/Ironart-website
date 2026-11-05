@@ -40,5 +40,68 @@ for (const f of pages) {
 const titles = {};
 for (const f of pages) { const t = fs.readFileSync(f, 'utf8').match(/<title>([^<]*)<\/title>/)[1]; (titles[t] = titles[t] || []).push(path.relative(ROOT, f)); }
 for (const [t, l] of Object.entries(titles)) if (l.length > 1) { bad++; console.log(`  duplicate <title> "${t}": ${l.join(', ')}`); }
-console.log(`checked ${pages.length} pages, ${refs} local references, ${bad} problem(s)`);
+// ---------- SEO checks ----------
+const SITE = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/site.json'), 'utf8')).url.replace(/\/$/, '');
+const dirOf = f => path.relative(ROOT, path.dirname(f)).split(path.sep).join('/');
+const urlOf = d => SITE + '/' + d + (d ? '/' : '');
+const attr = (html, re) => (html.match(re) || [])[1];
+const byUrl = {};
+for (const f of pages) byUrl[urlOf(dirOf(f))] = f;
+const seen = { desc: {} };
+for (const f of pages) {
+  const html = fs.readFileSync(f, 'utf8');
+  const d = dirOf(f);
+  const me = urlOf(d);
+  const lang = d === 'en' || d.startsWith('en/') ? 'en' : 'ka';
+  if (attr(html, /<html lang="(\w+)"/) !== lang) fail(f, 'wrong <html lang>');
+  if (attr(html, /<link rel="canonical" href="([^"]+)"/) !== me) fail(f, `canonical should be ${me}`);
+  const alt = {};
+  for (const m of html.matchAll(/<link rel="alternate" hreflang="([\w-]+)" href="([^"]+)"/g)) alt[m[1]] = m[2];
+  if (!alt.ka || !alt.en || !alt['x-default']) fail(f, 'missing hreflang ka/en/x-default');
+  else {
+    if (alt[lang] !== me) fail(f, 'hreflang does not point to itself');
+    if (alt['x-default'] !== alt.ka) fail(f, 'x-default should be the ka page');
+    for (const l of ['ka', 'en']) {
+      const g = byUrl[alt[l]];
+      if (!g) { fail(f, `hreflang ${l} target is not a page: ${alt[l]}`); continue; }
+      const back = {};
+      for (const m of fs.readFileSync(g, 'utf8').matchAll(/<link rel="alternate" hreflang="([\w-]+)" href="([^"]+)"/g)) back[m[1]] = m[2];
+      if (back[lang] !== me) fail(f, `hreflang not reciprocal with ${alt[l]}`);
+    }
+  }
+  for (const k of ['title', 'description', 'url', 'image', 'image:alt']) if (!new RegExp(`<meta property="og:${k}" content="[^"]+"`).test(html)) fail(f, `missing og:${k}`);
+  if (attr(html, /<meta property="og:url" content="([^"]+)"/) !== me) fail(f, 'og:url differs from canonical');
+  const og = attr(html, /<meta property="og:image" content="([^"]+)"/);
+  if (og && !fs.existsSync(path.join(ROOT, og.replace(SITE + '/', '')))) fail(f, `og:image file missing ${og}`);
+  const desc = attr(html, /<meta name="description" content="([^"]*)"/) || '';
+  const plain = desc.replace(/&amp;/g, '&');
+  if (plain.length > 155) fail(f, `description is ${plain.length} chars (max 155)`);
+  (seen.desc[desc] = seen.desc[desc] || []).push(d || '/');
+  const lds = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)];
+  if (!lds.length) fail(f, 'no JSON-LD');
+  let types = [];
+  for (const m of lds) {
+    try { const j = JSON.parse(m[1]); types.push(...(j['@graph'] || [j]).map(x => x['@type'])); } catch (e) { fail(f, 'invalid JSON-LD: ' + e.message); }
+  }
+  const kind = d === '' || d === 'en' ? 'home' : /(^|\/)photo\//.test(d) ? 'photo' : 'list';
+  const need = { home: ['HomeAndConstructionBusiness'], photo: ['ImageObject', 'BreadcrumbList'], list: ['CollectionPage', 'BreadcrumbList'] }[kind];
+  for (const n of need) if (!types.includes(n)) fail(f, `JSON-LD lacks ${n}`);
+}
+for (const [dsc, l] of Object.entries(seen.desc)) if (l.length > 1) { bad++; console.log(`  duplicate description on: ${l.join(', ')}`); }
+
+// sitemap
+const sm = fs.readFileSync(path.join(ROOT, 'sitemap.xml'), 'utf8');
+const locs = [...sm.matchAll(/<url>\s*<loc>([^<]+)<\/loc>/g)].map(m => m[1]);
+const pageUrls = Object.keys(byUrl);
+for (const u of pageUrls) if (!locs.includes(u)) { bad++; console.log(`  sitemap lacks ${u}`); }
+for (const u of locs) if (!byUrl[u]) { bad++; console.log(`  sitemap has unknown URL ${u}`); }
+if (new Set(locs).size !== locs.length) { bad++; console.log('  sitemap has duplicate <loc>'); }
+let imgs = 0;
+for (const m of sm.matchAll(/<image:loc>([^<]+)<\/image:loc>/g)) { imgs++; if (!fs.existsSync(path.join(ROOT, m[1].replace(SITE + '/', '')))) { bad++; console.log(`  sitemap image missing ${m[1]}`); } }
+const robots = fs.readFileSync(path.join(ROOT, 'robots.txt'), 'utf8');
+if (!robots.includes(`Sitemap: ${SITE}/sitemap.xml`)) { bad++; console.log('  robots.txt lacks the sitemap line'); }
+const nf = fs.readFileSync(path.join(ROOT, '404.html'), 'utf8');
+if (!/<meta name="robots" content="noindex">/.test(nf)) { bad++; console.log('  404.html is not noindex'); }
+if (!/href="\/style\.css"/.test(nf)) { bad++; console.log('  404.html should use root-relative asset URLs'); }
+console.log(`checked ${pages.length} pages, ${refs} local references, ${locs.length} sitemap URLs, ${imgs} sitemap images, ${bad} problem(s)`);
 process.exit(bad ? 1 : 0);

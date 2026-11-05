@@ -1,4 +1,9 @@
 User-agent: *
 Allow: /
+# originals, build inputs and scripts are not pages; optimised images live in /img/
+Disallow: /Images/
+Disallow: /data/
+Disallow: /src/
+Disallow: /scripts/
 
-Sitemap: https://www.ironart.ge/sitemap.xml
+Sitemap: https://ironart.ge/sitemap.xml

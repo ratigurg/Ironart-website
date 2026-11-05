@@ -1,7 +1,2231 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://www.ironart.ge/</loc>
-    <lastmod>2026-10-26</lastmod>
+    <loc>https://ironart.ge/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-gate-vertical-slats.jpg</image:loc>
+      <image:title>შავი ლითონის ჭიშკარი ვერტიკალური ლამელებით</image:title>
+      <image:caption>ორფრთიანი შავი ჭიშკარი, რომლის ფრთები სხვადასხვა სიმაღლის ვერტიკალური ლითონის ლამელებისგანაა აწყობილი. ფონზე მინის ფასადი ჩანს.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-finished-black-spiral-staircase.jpg</image:loc>
+      <image:title>დასრულებული შავი სპირალური კიბე ეზოში</image:title>
+      <image:caption>დასრულებული შავი ლითონის სპირალური კიბე მოხრილი მოაჯირით, ბლოკის კედელსა და ბეტონის იატაკს შორის. კიბის ბოლოს ხის ჩარჩოიანი კარია.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-ornamental-stair-railing-flowing-curves.jpg</image:loc>
+      <image:title>შავი ორნამენტული მოაჯირი რბილი მრუდებით კიბეზე</image:title>
+      <image:caption>კიბის შავი მოაჯირი, რომელიც მცენარისებრი, რბილად მოხრილი ხაზებისგანაა შედგენილი. კიბეზე ჯერ სამშენებლო მასალებია.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-wrought-iron-gate-brick-arch.jpg</image:loc>
+      <image:title>ფორჯირებული ჭიშკარი აგურის თაღში</image:title>
+      <image:caption>ორფრთიანი ფორჯირებული ჭიშკარი წითელი აგურის თაღში. ორნამენტი ხვეულებისგან და შუბისებური წვეროებისგან შედგება.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-pivot-door-glazed-side-panels.jpg</image:loc>
+      <image:title>შავი პივოტ კარი მინის გვერდითი პანელებით</image:title>
+      <image:caption>შავი ლითონის პივოტ კარი ღია მდგომარეობაში. კარს გვერდებზე და ზემოთ მინის პანელები აქვს, შავ ლითონის ჩარჩოში.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-barbecue-grill-hood.jpg</image:loc>
+      <image:title>შავი ლითონის მანგალი გუმბათით და ორი გისოსით</image:title>
+      <image:caption>დიდი შავი ლითონის მანგალი გუმბათით და საკვამურით. შიგნით ორი გისოსია, მათ გვერდით ხის დაფები, ქვემოთ კი ღარებიანი ლითონის განყოფილება.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-large-black-steel-table-arched-cutouts.jpg</image:loc>
+      <image:title>შავი ლითონის დიდი მაგიდა თაღისებური ამონაჭრით</image:title>
+      <image:caption>შავი ლითონის დიდი, გრძელი მაგიდა გლუვი ზედაპირით. გვერდებზე თაღისებური ამონაჭრებია. ფოტო ეზოშია გადაღებული.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-fireplace-black-metal-frame-tiled-surround.jpg</image:loc>
+      <image:title>ბუხარი შავი ლითონის ჩარჩოთი, ფილით მოპირკეთებულ ნიშაში</image:title>
+      <image:caption>ბუხარი შავი ლითონის ჩარჩოთი, ღია ფერის ფილებით მოპირკეთებულ ნიშაში. ზემოთ თაროზე მცირე დეკორატიული ნივთებია.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-gate-vertical-slats.jpg</image:loc>
+      <image:title>Black metal gate with vertical slats</image:title>
+      <image:caption>Two-leaf black gate built from vertical metal slats of varying height, photographed in front of a glazed façade.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-finished-black-spiral-staircase.jpg</image:loc>
+      <image:title>Finished black spiral staircase in a courtyard</image:title>
+      <image:caption>Finished black metal spiral staircase with a curved handrail between a block wall and a concrete floor, with a wooden-framed doorway at the foot.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-ornamental-stair-railing-flowing-curves.jpg</image:loc>
+      <image:title>Black ornamental stair railing with flowing curves</image:title>
+      <image:caption>Black stair railing composed of soft, plant-like curved lines. Building materials are still stacked on the stairs.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-wrought-iron-gate-brick-arch.jpg</image:loc>
+      <image:title>Wrought-iron gate set in a brick arch</image:title>
+      <image:caption>Two-leaf wrought-iron gate set in a red brick arch. The ornament is made of scrolls and spear-shaped tips.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-pivot-door-glazed-side-panels.jpg</image:loc>
+      <image:title>Black pivot door with glazed side panels</image:title>
+      <image:caption>Black metal pivot door shown open, with glass panels at the sides and above, all in a black metal frame.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-barbecue-grill-hood.jpg</image:loc>
+      <image:title>Black metal barbecue grill with hood and two grates</image:title>
+      <image:caption>Large black metal barbecue grill with a hood and chimney. Inside are two grates with wooden shelves beside them, and a ribbed metal compartment below.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-large-black-steel-table-arched-cutouts.jpg</image:loc>
+      <image:title>Large black steel table with arched cut-outs</image:title>
+      <image:caption>Large, long black steel table with a smooth top and arched cut-outs in its sides, photographed outdoors.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-fireplace-black-metal-frame-tiled-surround.jpg</image:loc>
+      <image:title>Fireplace with a black metal frame in a tiled surround</image:title>
+      <image:caption>Fireplace with a black metal frame set in a surround clad with light-coloured tiles, with small decorative objects on the mantel.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/namushevrebi/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/namushevrebi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/work/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/namushevrebi/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-gate-vertical-slats.jpg</image:loc>
+      <image:title>შავი ლითონის ჭიშკარი ვერტიკალური ლამელებით</image:title>
+      <image:caption>ორფრთიანი შავი ჭიშკარი, რომლის ფრთები სხვადასხვა სიმაღლის ვერტიკალური ლითონის ლამელებისგანაა აწყობილი. ფონზე მინის ფასადი ჩანს.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-two-leaf-gate-vertical-profiles.jpg</image:loc>
+      <image:title>ორფრთიანი ჭიშკარი ვერტიკალური პროფილებით</image:title>
+      <image:caption>ჭიშკრის ორივე ფრთა ვერტიკალური შავი პროფილებისგანაა აწყობილი, რომლებიც ზემოთ სხვადასხვა სიმაღლეზე სრულდება. მეორე კადრი იმავე ჭიშკრიდან.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-wide-black-gate-vertical-ribbing.jpg</image:loc>
+      <image:title>ფართო შავი ჭიშკარი ვერტიკალური ღარებით</image:title>
+      <image:caption>ფართო შავი ჭიშკარი ვერტიკალური ღარებიანი ზედაპირით, დამონტაჟებული ორ ბეტონის კედელს შორის.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-gate-horizontal-slats-side-door.jpg</image:loc>
+      <image:title>შავი ჭიშკარი ჰორიზონტალური ლამელებით და გვერდითი კარით</image:title>
+      <image:caption>შავი ლითონის ჭიშკარი ჰორიზონტალური ლამელებით. გვერდით იმავე ლამელებით დამზადებული პატარა კარია, ორივეს შორის ბეტონის ბოძი დგას.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-anthracite-gate-horizontal-louvre-slats.jpg</image:loc>
+      <image:title>ანტრაციტისფერი ჭიშკარი ჰორიზონტალური ლამელებით, ახლო ხედი</image:title>
+      <image:caption>მუქი ნაცრისფერი ჭიშკრის ახლო ხედი. ჰორიზონტალური ლამელები ერთმანეთზეა გადაფარებული, ფრთებს შორის ვერტიკალური პროფილია.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-dark-brown-metal-gate-panels.jpg</image:loc>
+      <image:title>მუქი ყავისფერი ლითონის ჭიშკარი გაყოფილი პანელებით</image:title>
+      <image:caption>მუქი ყავისფერი ლითონის ჭიშკარი, რომლის ზედაპირი ჰორიზონტალური და ვერტიკალური გამყოფებით პანელებადაა დაყოფილი.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-fence-sections-white-wall.jpg</image:loc>
+      <image:title>შავი ლითონის ღობის სექციები თეთრ კედელთან და ახალნარგავ ხეებთან</image:title>
+      <image:caption>შავი ლითონის ღობის სექციები თეთრ კედელთან მიდგმული. წინ ახალდარგული ხეებია, რომლებიც ხის სამაგრებზეა დამაგრებული.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-fence-wall-lights-dusk.jpg</image:loc>
+      <image:title>შავი ლითონის ღობე კედლის განათებით საღამოს</image:title>
+      <image:caption>საღამოს ხედი: შავი ლითონის ღობის სექციები თეთრ კედელთან, ზემოთ და ქვემოთ მიმართული კედლის სანათებით. გვერდით ახალგაზრდა ხეების რიგია.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-spiral-staircase-between-walls.jpg</image:loc>
+      <image:title>შავი სპირალური კიბე ორ კედელს შორის</image:title>
+      <image:caption>შავი ლითონის სპირალური კიბე მოხრილი მოაჯირით ორ კედელს შორის. ზედა მოედანს ვერტიკალური ბალუსტრებიანი მოაჯირი აქვს, გარშემო სამშენებლო სამუშაოები ჯერ მიმდინარეობს.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-exterior-metal-stair-vertical-railing.jpg</image:loc>
+      <image:title>გარე ლითონის კიბე ბეტონის კედელთან და ვერტიკალური მოაჯირი</image:title>
+      <image:caption>პირდაპირი გარე ლითონის კიბე, რომელიც ბეტონის საყრდენ კედელზეა დამაგრებული. მარშს და ზედა ბაქანს შავი ვერტიკალური ბალუსტრებიანი მოაჯირი აქვს.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-curved-white-stair-wooden-treads.jpg</image:loc>
+      <image:title>თეთრი მოხრილი კიბე ხის საფეხურებით, ზემოდან ხედი</image:title>
+      <image:caption>ზემოდან დანახული ვიწრო მოხრილი კიბე ხის საფეხურებით. გვერდებს თეთრი მოხრილი ზედაპირები ამოუყვება, კედლებზე პანელებია და სურათი კიდია.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-curved-white-interior-staircase.jpg</image:loc>
+      <image:title>მოხრილი თეთრი კიბე ინტერიერში ხის იატაკთან</image:title>
+      <image:caption>ფართო მოხრილი თეთრი კიბე ხის საფეხურებით, რომელიც ხის იატაკზე ეშვება. კედელზე დიდი შავ-თეთრი სურათია ჩარჩოში.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-spiral-staircase-ornamental-balusters.jpg</image:loc>
+      <image:title>სპირალური კიბე ორნამენტული ბალუსტრებით</image:title>
+      <image:caption>შავი სპირალური კიბე, რომლის მოაჯირი მორთული ბალუსტრებით და მოხრილი სახელურითაა გაწყობილი. საფეხურების ქვეშ დეკორატიული კრონშტეინებია.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-spiral-staircase-central-column-detail.jpg</image:loc>
+      <image:title>სპირალური კიბის ცენტრალური ბოძი და ბალუსტრები</image:title>
+      <image:caption>სპირალური კიბის ახლო ხედი: ცენტრალური ბოძი, მორთული ბალუსტრები და მოხრილი ხელის სახელური.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-exterior-multi-flight-metal-staircase-night.jpg</image:loc>
+      <image:title>გარე ლითონის კიბე რამდენიმე მარშით, ღამის ხედი</image:title>
+      <image:caption>ღამით გადაღებული გარე ლითონის კიბე რამდენიმე მარშით და ბაქნებით შენობის ფასადთან. ფოტო ქვემოდანაა გადაღებული.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-steel-mezzanine-open-stair.jpg</image:loc>
+      <image:title>ლითონის ანტრესოლი და კიბე ჯერ დაუსრულებელ სივრცეში</image:title>
+      <image:caption>ლითონის ანტრესოლი შავი ჩარჩოთი და გვერდზე მიდგმული კიბე ღია საფეხურებით. სივრცე ჯერ დაუსრულებელია, იატაკზე სამუშაო კაბელებია.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-exterior-stair-checker-plate-treads.jpg</image:loc>
+      <image:title>გარე კიბე ღარებიანი ლითონის საფეხურებით</image:title>
+      <image:caption>გარე ლითონის კიბე ღარებიანი ლითონის საფეხურებით და შავი ვერტიკალური მოაჯირით, რომელიც ბლოკის კედელს მიუყვება.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-metal-stair-projecting-from-wall.jpg</image:loc>
+      <image:title>ბლოკის კედლიდან გამოშვერილი ლითონის კიბე მოაჯირით</image:title>
+      <image:caption>ლითონის კიბე შავი მოაჯირით, რომელიც ბლოკის კედლიდან გამოშვერილ ბაქანზე ადის. ხედი ქვემოდან, ცის ფონზე.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-exterior-stair-building-under-construction.jpg</image:loc>
+      <image:title>შავი გარე კიბე მშენებარე შენობაზე</image:title>
+      <image:caption>შავი ლითონის გარე კიბე მოაჯირით მშენებარე შენობის ფასადზე, შებინდებისას. ზემოთ ჯერ ყალიბი და ხარაჩოა.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-stair-top-view-double-railing.jpg</image:loc>
+      <image:title>კიბე ზემოდან ორმხრივი მოაჯირით</image:title>
+      <image:caption>ზემოდან გადაღებული ლითონის კიბე ღარებიანი საფეხურებით და ორივე მხარეს შავი ვერტიკალური მოაჯირით. ფოტო სამუშაო პროცესში გადაღებული.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-metal-stair-viewed-from-below.jpg</image:loc>
+      <image:title>ლითონის კიბე ქვემოდან ვერტიკალური მოაჯირით</image:title>
+      <image:caption>გარე ლითონის კიბე შავი ვერტიკალური მოაჯირით და გვერდითი გამაგრებით, გადაღებული ქვემოდან ცის ფონზე.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-open-tread-metal-staircase-concrete-walls.jpg</image:loc>
+      <image:title>ლითონის კიბე ღია საფეხურებით ბეტონის კედლებს შორის</image:title>
+      <image:caption>შავი ლითონის კიბე ღია საფეხურებით და მასიური გვერდითი კოჭით, დაუმუშავებელ ბეტონისა და ბლოკის კედლებს შორის.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-central-spine-floating-step-staircase.jpg</image:loc>
+      <image:title>კიბე ცენტრალური კოჭით და მცურავი საფეხურებით</image:title>
+      <image:caption>შავი ლითონის კიბე, რომლის საფეხურები ერთ ცენტრალურ კოჭზეა დამაგრებული, თეთრ კიბის უჯრედში. ქვემოთ ჯერ მოუპირკეთებელი საფეხურებია.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-central-spine-stair-steps-detail.jpg</image:loc>
+      <image:title>ცენტრალური კოჭის კიბის საფეხურები, ახლო ხედი</image:title>
+      <image:caption>შავი ლითონის ბრტყელი საფეხურები, რომლებიც ერთ ცენტრალურ კოჭზეა დამაგრებული. თეთრი კედლის ფონზე ხაზები მკაფიოდ ჩანს.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-staircase-under-steel-beam-framework.jpg</image:loc>
+      <image:title>კიბე ლითონის კოჭებით აწყობილი გადახურვის ქვეშ</image:title>
+      <image:caption>ლითონის კიბე ინტერიერში. ზემოთ შავი ლითონის კოჭების ბადეა.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-metal-staircase-horizontal-bar-railing.jpg</image:loc>
+      <image:title>ლითონის კიბე ჰორიზონტალური მოაჯირით ინტერიერში</image:title>
+      <image:caption>შავი ლითონის კიბე ღია საფეხურებით და ჰორიზონტალური ღეროებისგან აწყობილი მოაჯირით, ჯერ დაუსრულებელ ინტერიერში.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-finished-black-spiral-staircase.jpg</image:loc>
+      <image:title>დასრულებული შავი სპირალური კიბე ეზოში</image:title>
+      <image:caption>დასრულებული შავი ლითონის სპირალური კიბე მოხრილი მოაჯირით, ბლოკის კედელსა და ბეტონის იატაკს შორის. კიბის ბოლოს ხის ჩარჩოიანი კარია.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-ornamental-stair-railing-flowing-curves.jpg</image:loc>
+      <image:title>შავი ორნამენტული მოაჯირი რბილი მრუდებით კიბეზე</image:title>
+      <image:caption>კიბის შავი მოაჯირი, რომელიც მცენარისებრი, რბილად მოხრილი ხაზებისგანაა შედგენილი. კიბეზე ჯერ სამშენებლო მასალებია.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-railing-ornament-flower-element.jpg</image:loc>
+      <image:title>მოაჯირის ორნამენტი ყვავილისებური ელემენტით</image:title>
+      <image:caption>მოაჯირის ახლო ხედი: მოხრილი ხაზები, წრიული ხვეული და მის შიგნით მოთავსებული ოთხფურცლიანი ყვავილისებრი ელემენტი.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-stair-railing-fan-pattern-scrolls.jpg</image:loc>
+      <image:title>მოაჯირი მარაოსებრი ხაზებით და ხვეულებით</image:title>
+      <image:caption>კიბის მოაჯირი, სადაც წვრილი შავი ხაზები მარაოსავით იშლება და ზემოთ ხვეულებში გადადის.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-curved-railing-vertical-balusters.jpg</image:loc>
+      <image:title>მრუდი მოაჯირი ვერტიკალური ბალუსტრებით</image:title>
+      <image:caption>მრუდი ლითონის მოაჯირი ვერტიკალური ბალუსტრებით და ზემოთ დამაგრებული სახელურით. ფონზე სახელოსნოს ინსტრუმენტებია.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-wrought-iron-gate-brick-arch.jpg</image:loc>
+      <image:title>ფორჯირებული ჭიშკარი აგურის თაღში</image:title>
+      <image:caption>ორფრთიანი ფორჯირებული ჭიშკარი წითელი აგურის თაღში. ორნამენტი ხვეულებისგან და შუბისებური წვეროებისგან შედგება.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-wrought-iron-gate-leaf-scrollwork.jpg</image:loc>
+      <image:title>ფორჯირებული ჭიშკრის ფრთა ხვეული ორნამენტით</image:title>
+      <image:caption>ფორჯირებული ჭიშკრის ფრთა გვერდიდან, აგურის კედელთან. ზედა ნაწილში შუბისებური წვერია, ქვემოთ წრიული ხვეულების რიგი.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-wrought-iron-scroll-detail.jpg</image:loc>
+      <image:title>ფორჯირებული ორნამენტის დეტალი, ახლო ხედი</image:title>
+      <image:caption>ფორჯირებული ჭიშკრის ახლო ხედი: მოხრილი ხვეულები, მასიური ვერტიკალური სვეტი და ლითონის სამაგრი.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-pivot-door-glazed-side-panels.jpg</image:loc>
+      <image:title>შავი პივოტ კარი მინის გვერდითი პანელებით</image:title>
+      <image:caption>შავი ლითონის პივოტ კარი ღია მდგომარეობაში. კარს გვერდებზე და ზემოთ მინის პანელები აქვს, შავ ლითონის ჩარჩოში.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-pivot-door-long-handle.jpg</image:loc>
+      <image:title>შავი პივოტ კარი გრძელი ვერტიკალური სახელურით</image:title>
+      <image:caption>შავი პივოტ კარი გლუვი ზედაპირით და გრძელი ვერტიკალური სახელურით, გვერდით ვიწრო მინის ზოლით.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-window-black-frame-wooden-slat-shutters.jpg</image:loc>
+      <image:title>ფანჯარა ხის ლამელებიანი ფარებით შავ ჩარჩოში</image:title>
+      <image:caption>ფანჯარა შავი ლითონის ჩარჩოთი. მას ხის ვერტიკალური ლამელებით აწყობილი ფარები აქვს, რომელთაგან ერთი ღიაა.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-barbecue-grill-hood.jpg</image:loc>
+      <image:title>შავი ლითონის მანგალი გუმბათით და ორი გისოსით</image:title>
+      <image:caption>დიდი შავი ლითონის მანგალი გუმბათით და საკვამურით. შიგნით ორი გისოსია, მათ გვერდით ხის დაფები, ქვემოთ კი ღარებიანი ლითონის განყოფილება.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-grill-pull-out-drawer-chain-grate.jpg</image:loc>
+      <image:title>მანგალის გამოსაწევი უჯრა და ჯაჭვზე დაკიდებული გისოსი</image:title>
+      <image:caption>მანგალის ახლო ხედი: ჯაჭვებზე დაკიდებული გისოსი, ხის დაფა და ქვემოთ გამოწეული ლითონის უჯრა.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-large-black-steel-table-arched-cutouts.jpg</image:loc>
+      <image:title>შავი ლითონის დიდი მაგიდა თაღისებური ამონაჭრით</image:title>
+      <image:caption>შავი ლითონის დიდი, გრძელი მაგიდა გლუვი ზედაპირით. გვერდებზე თაღისებური ამონაჭრებია. ფოტო ეზოშია გადაღებული.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-fireplace-black-metal-frame-tiled-surround.jpg</image:loc>
+      <image:title>ბუხარი შავი ლითონის ჩარჩოთი, ფილით მოპირკეთებულ ნიშაში</image:title>
+      <image:caption>ბუხარი შავი ლითონის ჩარჩოთი, ღია ფერის ფილებით მოპირკეთებულ ნიშაში. ზემოთ თაროზე მცირე დეკორატიული ნივთებია.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-spiral-staircase-3d-model.jpg</image:loc>
+      <image:title>სპირალური კიბის 3D მოდელი მოაჯირით</image:title>
+      <image:caption>სპირალური ლითონის კიბის 3D მოდელი ვერტიკალური ბალუსტრებით, კედლის და ზედა ბაქნის გვერდით.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-staircase-3d-scan-railing-model.jpg</image:loc>
+      <image:title>კიბის 3D სკანი მოაჯირის მოდელით</image:title>
+      <image:caption>არსებული კიბის 3D სკანი, რომელშიც მოაჯირის შავი მოდელია ჩასმული.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-horizontal-slat-gate-3d-visualisation.jpg</image:loc>
+      <image:title>ჰორიზონტალური ლამელების ჭიშკრის 3D ვიზუალიზაცია</image:title>
+      <image:caption>ჰორიზონტალური ლამელებიანი ჭიშკრისა და გისოსებიანი პანელების 3D ვიზუალიზაცია ბოძებს შორის.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-staircase-3d-scan-measurements.jpg</image:loc>
+      <image:title>კიბის 3D სკანი გაზომვებით</image:title>
+      <image:caption>არსებული სივრცის 3D სკანი, რომელზეც კიბის მოდელი და ზომის მითითებებია დატანილი.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-cantilever-staircase-3d-visualisation.jpg</image:loc>
+      <image:title>კონსოლური კიბე ხის საფეხურებით, ინტერიერის 3D ვიზუალიზაცია</image:title>
+      <image:caption>ინტერიერის 3D ვიზუალიზაცია: კედლიდან გამოშვერილი კონსოლური კიბე ხის საფეხურებით. იატაკი ხისაა, წინ სავარძელი და მცენარეა.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-curved-staircase-3d-view-room.jpg</image:loc>
+      <image:title>ხის საფეხურებიანი ხვეული კიბის 3D ჩვენება სივრცეში</image:title>
+      <image:caption>ხის საფეხურებიანი ხვეული კიბის 3D ხედი ოთახში, ზემოთ გადახურვით და კედლებით.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-curved-staircase-3d-model-below.jpg</image:loc>
+      <image:title>ხვეული კიბის 3D მოდელი ქვემოდან</image:title>
+      <image:caption>ხვეული ლითონის კიბის 3D მოდელი ქვემოდან დანახული, ზემოთ მუქი ფილით და ზომის მითითებებით.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/work/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/namushevrebi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/work/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/namushevrebi/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-gate-vertical-slats.jpg</image:loc>
+      <image:title>Black metal gate with vertical slats</image:title>
+      <image:caption>Two-leaf black gate built from vertical metal slats of varying height, photographed in front of a glazed façade.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-two-leaf-gate-vertical-profiles.jpg</image:loc>
+      <image:title>Two-leaf gate with vertical profiles</image:title>
+      <image:caption>Both gate leaves are made of vertical black profiles that end at different heights at the top. A second view of the same gate.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-wide-black-gate-vertical-ribbing.jpg</image:loc>
+      <image:title>Wide black gate with vertical ribbing</image:title>
+      <image:caption>Wide black gate with a vertically ribbed surface, set between two concrete walls.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-gate-horizontal-slats-side-door.jpg</image:loc>
+      <image:title>Black gate with horizontal slats and side door</image:title>
+      <image:caption>Black metal gate with horizontal slats. A smaller side door in the same slat pattern sits next to it, with a concrete post between the two.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-anthracite-gate-horizontal-louvre-slats.jpg</image:loc>
+      <image:title>Anthracite gate with horizontal louvre slats, close-up</image:title>
+      <image:caption>Close view of a dark grey gate. The horizontal louvre slats overlap one another, with a vertical profile between the two leaves.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-dark-brown-metal-gate-panels.jpg</image:loc>
+      <image:title>Dark brown metal gate with panelled surface</image:title>
+      <image:caption>Dark brown metal gate whose surface is divided into panels by horizontal and vertical dividers.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-fence-sections-white-wall.jpg</image:loc>
+      <image:title>Black metal fence sections beside a white wall and new trees</image:title>
+      <image:caption>Black metal fence sections standing against a white wall. Newly planted trees tied to wooden stakes are in the foreground.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-fence-wall-lights-dusk.jpg</image:loc>
+      <image:title>Black metal fence with wall lights at dusk</image:title>
+      <image:caption>Dusk view of black metal fence sections along a white wall with up-and-down wall lights, and a row of young trees beside it.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-spiral-staircase-between-walls.jpg</image:loc>
+      <image:title>Black spiral staircase between two walls</image:title>
+      <image:caption>Black metal spiral staircase with a curved handrail between two walls. The upper landing has a vertical-baluster railing, and construction work is still going on around it.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-exterior-metal-stair-vertical-railing.jpg</image:loc>
+      <image:title>Exterior metal stair beside a concrete wall with vertical-bar railing</image:title>
+      <image:caption>Straight exterior metal staircase attached to a concrete retaining wall. The flight and the upper landing have a black railing with vertical balusters.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-curved-white-stair-wooden-treads.jpg</image:loc>
+      <image:title>Curved white staircase with wooden treads, view from above</image:title>
+      <image:caption>Narrow curved staircase seen from above, with wooden treads. White curved surfaces run along its sides, and the walls have panelling and a framed picture.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-curved-white-interior-staircase.jpg</image:loc>
+      <image:title>Curved white interior staircase with wooden floor</image:title>
+      <image:caption>Sweeping curved white staircase with wooden treads, meeting a wooden floor. A large black-and-white framed picture hangs on the wall.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-spiral-staircase-ornamental-balusters.jpg</image:loc>
+      <image:title>Spiral staircase with ornamental balusters</image:title>
+      <image:caption>Black spiral staircase with a railing of turned ornamental balusters and a curved handrail. Decorative brackets sit beneath the steps.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-spiral-staircase-central-column-detail.jpg</image:loc>
+      <image:title>Spiral staircase central column and balusters, close view</image:title>
+      <image:caption>Close view of a spiral staircase showing the central column, turned balusters and curved handrail.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-exterior-multi-flight-metal-staircase-night.jpg</image:loc>
+      <image:title>Exterior multi-flight metal staircase at night</image:title>
+      <image:caption>Exterior metal staircase with several flights and landings beside a building façade, photographed at night from below.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-steel-mezzanine-open-stair.jpg</image:loc>
+      <image:title>Steel mezzanine and open-riser staircase in an unfinished space</image:title>
+      <image:caption>Steel mezzanine with a black frame and an open-riser staircase beside it. The space is unfinished and work cables lie on the floor.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-exterior-stair-checker-plate-treads.jpg</image:loc>
+      <image:title>Exterior stair with checker-plate metal treads</image:title>
+      <image:caption>Exterior metal staircase with checker-plate treads and a black vertical-bar railing running along a block wall.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-metal-stair-projecting-from-wall.jpg</image:loc>
+      <image:title>Metal stair projecting from a block wall with railing</image:title>
+      <image:caption>Metal staircase with a black railing leading up to a landing that projects from a block wall, seen from below against the sky.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-exterior-stair-building-under-construction.jpg</image:loc>
+      <image:title>Black exterior stair on a building under construction</image:title>
+      <image:caption>Black metal exterior staircase with a railing on the façade of a building under construction at dusk, with formwork and scaffolding above.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-stair-top-view-double-railing.jpg</image:loc>
+      <image:title>Top-down view of a stair with a railing on both sides</image:title>
+      <image:caption>Metal staircase photographed from above, with checker-plate treads and a black vertical-bar railing on both sides. Photographed while work is in progress.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-metal-stair-viewed-from-below.jpg</image:loc>
+      <image:title>Metal stair viewed from below with vertical-bar railing</image:title>
+      <image:caption>Exterior metal staircase with a black vertical-bar railing and side bracing, photographed from below against the sky.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-open-tread-metal-staircase-concrete-walls.jpg</image:loc>
+      <image:title>Open-tread metal staircase between raw concrete walls</image:title>
+      <image:caption>Black metal staircase with open treads and a heavy side stringer between raw concrete and block walls.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-central-spine-floating-step-staircase.jpg</image:loc>
+      <image:title>Staircase with a central spine and floating steps</image:title>
+      <image:caption>Black metal staircase with steps fixed to a single central spine inside a white stairwell. The lower steps are not yet finished.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-central-spine-stair-steps-detail.jpg</image:loc>
+      <image:title>Close view of steel steps on a central spine</image:title>
+      <image:caption>Flat black steel steps fixed to one central spine, with the lines standing out against a white wall.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-staircase-under-steel-beam-framework.jpg</image:loc>
+      <image:title>Staircase beneath a steel beam framework</image:title>
+      <image:caption>Metal staircase in an interior, with a grid of black steel beams overhead.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-metal-staircase-horizontal-bar-railing.jpg</image:loc>
+      <image:title>Metal staircase with horizontal-bar railing in an interior</image:title>
+      <image:caption>Black metal staircase with open treads and a railing of horizontal bars, in an interior that is not yet finished.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-finished-black-spiral-staircase.jpg</image:loc>
+      <image:title>Finished black spiral staircase in a courtyard</image:title>
+      <image:caption>Finished black metal spiral staircase with a curved handrail between a block wall and a concrete floor, with a wooden-framed doorway at the foot.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-ornamental-stair-railing-flowing-curves.jpg</image:loc>
+      <image:title>Black ornamental stair railing with flowing curves</image:title>
+      <image:caption>Black stair railing composed of soft, plant-like curved lines. Building materials are still stacked on the stairs.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-railing-ornament-flower-element.jpg</image:loc>
+      <image:title>Railing ornament with a flower-shaped element</image:title>
+      <image:caption>Close view of a railing with curved lines, a circular scroll and a four-petal flower-shaped element inside it.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-stair-railing-fan-pattern-scrolls.jpg</image:loc>
+      <image:title>Stair railing with fan-shaped lines and scrolls</image:title>
+      <image:caption>Stair railing where thin black lines fan out and turn into scrolls at the top.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-curved-railing-vertical-balusters.jpg</image:loc>
+      <image:title>Curved railing with vertical balusters</image:title>
+      <image:caption>Curved metal railing with vertical balusters and a top handrail. Workshop tools can be seen in the background.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-wrought-iron-gate-brick-arch.jpg</image:loc>
+      <image:title>Wrought-iron gate set in a brick arch</image:title>
+      <image:caption>Two-leaf wrought-iron gate set in a red brick arch. The ornament is made of scrolls and spear-shaped tips.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-wrought-iron-gate-leaf-scrollwork.jpg</image:loc>
+      <image:title>Wrought-iron gate leaf with scrollwork</image:title>
+      <image:caption>Side view of a wrought-iron gate leaf beside a brick wall, with a spear-shaped tip above and a row of circular scrolls below.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-wrought-iron-scroll-detail.jpg</image:loc>
+      <image:title>Close-up of a wrought-iron scroll detail</image:title>
+      <image:caption>Close view of a wrought-iron gate showing bent scrolls, a heavy vertical post and a metal fastening.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-pivot-door-glazed-side-panels.jpg</image:loc>
+      <image:title>Black pivot door with glazed side panels</image:title>
+      <image:caption>Black metal pivot door shown open, with glass panels at the sides and above, all in a black metal frame.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-pivot-door-long-handle.jpg</image:loc>
+      <image:title>Black pivot door with a long vertical handle</image:title>
+      <image:caption>Black pivot door with a smooth surface and a long vertical handle, with a narrow glass strip beside it.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-window-black-frame-wooden-slat-shutters.jpg</image:loc>
+      <image:title>Window with wooden slat shutters in a black frame</image:title>
+      <image:caption>Window in a black metal frame with shutters made of vertical wooden slats, one of which is open.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-barbecue-grill-hood.jpg</image:loc>
+      <image:title>Black metal barbecue grill with hood and two grates</image:title>
+      <image:caption>Large black metal barbecue grill with a hood and chimney. Inside are two grates with wooden shelves beside them, and a ribbed metal compartment below.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-grill-pull-out-drawer-chain-grate.jpg</image:loc>
+      <image:title>Grill with pull-out drawer and chain-hung grate</image:title>
+      <image:caption>Close view of a grill showing a grate hung on chains, a wooden shelf and a metal drawer pulled out below.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-large-black-steel-table-arched-cutouts.jpg</image:loc>
+      <image:title>Large black steel table with arched cut-outs</image:title>
+      <image:caption>Large, long black steel table with a smooth top and arched cut-outs in its sides, photographed outdoors.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-fireplace-black-metal-frame-tiled-surround.jpg</image:loc>
+      <image:title>Fireplace with a black metal frame in a tiled surround</image:title>
+      <image:caption>Fireplace with a black metal frame set in a surround clad with light-coloured tiles, with small decorative objects on the mantel.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-spiral-staircase-3d-model.jpg</image:loc>
+      <image:title>3D model of a spiral staircase with railing</image:title>
+      <image:caption>3D model of a spiral metal staircase with vertical balusters, shown next to a wall and an upper platform.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-staircase-3d-scan-railing-model.jpg</image:loc>
+      <image:title>3D scan of a staircase with a railing model</image:title>
+      <image:caption>3D scan of an existing staircase with a black railing model placed into it.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-horizontal-slat-gate-3d-visualisation.jpg</image:loc>
+      <image:title>3D visualisation of a horizontal-slat gate</image:title>
+      <image:caption>3D visualisation of a gate with horizontal slats and mesh panels between posts.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-staircase-3d-scan-measurements.jpg</image:loc>
+      <image:title>Staircase 3D scan with measurements</image:title>
+      <image:caption>3D scan of an existing space with a staircase model and dimension annotations added.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-cantilever-staircase-3d-visualisation.jpg</image:loc>
+      <image:title>Cantilever staircase with wooden treads, interior 3D visualisation</image:title>
+      <image:caption>Interior 3D visualisation of a cantilever staircase with wooden treads projecting from the wall. The floor is wood, with an armchair and a plant in front.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-curved-staircase-3d-view-room.jpg</image:loc>
+      <image:title>3D view of a curved staircase with wooden treads in a room</image:title>
+      <image:caption>3D view of a curved staircase with wooden treads inside a room, with a floor slab and walls above.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-curved-staircase-3d-model-below.jpg</image:loc>
+      <image:title>3D model of a curved staircase viewed from below</image:title>
+      <image:caption>3D model of a curved metal staircase seen from below, with a dark slab above and dimension annotations.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/namushevrebi/chishkrebi-da-ghobeebi/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/namushevrebi/chishkrebi-da-ghobeebi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/work/gates-and-fences/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/namushevrebi/chishkrebi-da-ghobeebi/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-gate-vertical-slats.jpg</image:loc>
+      <image:title>შავი ლითონის ჭიშკარი ვერტიკალური ლამელებით</image:title>
+      <image:caption>ორფრთიანი შავი ჭიშკარი, რომლის ფრთები სხვადასხვა სიმაღლის ვერტიკალური ლითონის ლამელებისგანაა აწყობილი. ფონზე მინის ფასადი ჩანს.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-two-leaf-gate-vertical-profiles.jpg</image:loc>
+      <image:title>ორფრთიანი ჭიშკარი ვერტიკალური პროფილებით</image:title>
+      <image:caption>ჭიშკრის ორივე ფრთა ვერტიკალური შავი პროფილებისგანაა აწყობილი, რომლებიც ზემოთ სხვადასხვა სიმაღლეზე სრულდება. მეორე კადრი იმავე ჭიშკრიდან.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-wide-black-gate-vertical-ribbing.jpg</image:loc>
+      <image:title>ფართო შავი ჭიშკარი ვერტიკალური ღარებით</image:title>
+      <image:caption>ფართო შავი ჭიშკარი ვერტიკალური ღარებიანი ზედაპირით, დამონტაჟებული ორ ბეტონის კედელს შორის.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-gate-horizontal-slats-side-door.jpg</image:loc>
+      <image:title>შავი ჭიშკარი ჰორიზონტალური ლამელებით და გვერდითი კარით</image:title>
+      <image:caption>შავი ლითონის ჭიშკარი ჰორიზონტალური ლამელებით. გვერდით იმავე ლამელებით დამზადებული პატარა კარია, ორივეს შორის ბეტონის ბოძი დგას.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-anthracite-gate-horizontal-louvre-slats.jpg</image:loc>
+      <image:title>ანტრაციტისფერი ჭიშკარი ჰორიზონტალური ლამელებით, ახლო ხედი</image:title>
+      <image:caption>მუქი ნაცრისფერი ჭიშკრის ახლო ხედი. ჰორიზონტალური ლამელები ერთმანეთზეა გადაფარებული, ფრთებს შორის ვერტიკალური პროფილია.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-dark-brown-metal-gate-panels.jpg</image:loc>
+      <image:title>მუქი ყავისფერი ლითონის ჭიშკარი გაყოფილი პანელებით</image:title>
+      <image:caption>მუქი ყავისფერი ლითონის ჭიშკარი, რომლის ზედაპირი ჰორიზონტალური და ვერტიკალური გამყოფებით პანელებადაა დაყოფილი.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-fence-sections-white-wall.jpg</image:loc>
+      <image:title>შავი ლითონის ღობის სექციები თეთრ კედელთან და ახალნარგავ ხეებთან</image:title>
+      <image:caption>შავი ლითონის ღობის სექციები თეთრ კედელთან მიდგმული. წინ ახალდარგული ხეებია, რომლებიც ხის სამაგრებზეა დამაგრებული.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-fence-wall-lights-dusk.jpg</image:loc>
+      <image:title>შავი ლითონის ღობე კედლის განათებით საღამოს</image:title>
+      <image:caption>საღამოს ხედი: შავი ლითონის ღობის სექციები თეთრ კედელთან, ზემოთ და ქვემოთ მიმართული კედლის სანათებით. გვერდით ახალგაზრდა ხეების რიგია.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/namushevrebi/kibeebi/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/namushevrebi/kibeebi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/work/staircases/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/namushevrebi/kibeebi/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-spiral-staircase-between-walls.jpg</image:loc>
+      <image:title>შავი სპირალური კიბე ორ კედელს შორის</image:title>
+      <image:caption>შავი ლითონის სპირალური კიბე მოხრილი მოაჯირით ორ კედელს შორის. ზედა მოედანს ვერტიკალური ბალუსტრებიანი მოაჯირი აქვს, გარშემო სამშენებლო სამუშაოები ჯერ მიმდინარეობს.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-exterior-metal-stair-vertical-railing.jpg</image:loc>
+      <image:title>გარე ლითონის კიბე ბეტონის კედელთან და ვერტიკალური მოაჯირი</image:title>
+      <image:caption>პირდაპირი გარე ლითონის კიბე, რომელიც ბეტონის საყრდენ კედელზეა დამაგრებული. მარშს და ზედა ბაქანს შავი ვერტიკალური ბალუსტრებიანი მოაჯირი აქვს.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-curved-white-stair-wooden-treads.jpg</image:loc>
+      <image:title>თეთრი მოხრილი კიბე ხის საფეხურებით, ზემოდან ხედი</image:title>
+      <image:caption>ზემოდან დანახული ვიწრო მოხრილი კიბე ხის საფეხურებით. გვერდებს თეთრი მოხრილი ზედაპირები ამოუყვება, კედლებზე პანელებია და სურათი კიდია.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-curved-white-interior-staircase.jpg</image:loc>
+      <image:title>მოხრილი თეთრი კიბე ინტერიერში ხის იატაკთან</image:title>
+      <image:caption>ფართო მოხრილი თეთრი კიბე ხის საფეხურებით, რომელიც ხის იატაკზე ეშვება. კედელზე დიდი შავ-თეთრი სურათია ჩარჩოში.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-spiral-staircase-ornamental-balusters.jpg</image:loc>
+      <image:title>სპირალური კიბე ორნამენტული ბალუსტრებით</image:title>
+      <image:caption>შავი სპირალური კიბე, რომლის მოაჯირი მორთული ბალუსტრებით და მოხრილი სახელურითაა გაწყობილი. საფეხურების ქვეშ დეკორატიული კრონშტეინებია.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-spiral-staircase-central-column-detail.jpg</image:loc>
+      <image:title>სპირალური კიბის ცენტრალური ბოძი და ბალუსტრები</image:title>
+      <image:caption>სპირალური კიბის ახლო ხედი: ცენტრალური ბოძი, მორთული ბალუსტრები და მოხრილი ხელის სახელური.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-exterior-multi-flight-metal-staircase-night.jpg</image:loc>
+      <image:title>გარე ლითონის კიბე რამდენიმე მარშით, ღამის ხედი</image:title>
+      <image:caption>ღამით გადაღებული გარე ლითონის კიბე რამდენიმე მარშით და ბაქნებით შენობის ფასადთან. ფოტო ქვემოდანაა გადაღებული.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-steel-mezzanine-open-stair.jpg</image:loc>
+      <image:title>ლითონის ანტრესოლი და კიბე ჯერ დაუსრულებელ სივრცეში</image:title>
+      <image:caption>ლითონის ანტრესოლი შავი ჩარჩოთი და გვერდზე მიდგმული კიბე ღია საფეხურებით. სივრცე ჯერ დაუსრულებელია, იატაკზე სამუშაო კაბელებია.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-exterior-stair-checker-plate-treads.jpg</image:loc>
+      <image:title>გარე კიბე ღარებიანი ლითონის საფეხურებით</image:title>
+      <image:caption>გარე ლითონის კიბე ღარებიანი ლითონის საფეხურებით და შავი ვერტიკალური მოაჯირით, რომელიც ბლოკის კედელს მიუყვება.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-metal-stair-projecting-from-wall.jpg</image:loc>
+      <image:title>ბლოკის კედლიდან გამოშვერილი ლითონის კიბე მოაჯირით</image:title>
+      <image:caption>ლითონის კიბე შავი მოაჯირით, რომელიც ბლოკის კედლიდან გამოშვერილ ბაქანზე ადის. ხედი ქვემოდან, ცის ფონზე.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-exterior-stair-building-under-construction.jpg</image:loc>
+      <image:title>შავი გარე კიბე მშენებარე შენობაზე</image:title>
+      <image:caption>შავი ლითონის გარე კიბე მოაჯირით მშენებარე შენობის ფასადზე, შებინდებისას. ზემოთ ჯერ ყალიბი და ხარაჩოა.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-stair-top-view-double-railing.jpg</image:loc>
+      <image:title>კიბე ზემოდან ორმხრივი მოაჯირით</image:title>
+      <image:caption>ზემოდან გადაღებული ლითონის კიბე ღარებიანი საფეხურებით და ორივე მხარეს შავი ვერტიკალური მოაჯირით. ფოტო სამუშაო პროცესში გადაღებული.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-metal-stair-viewed-from-below.jpg</image:loc>
+      <image:title>ლითონის კიბე ქვემოდან ვერტიკალური მოაჯირით</image:title>
+      <image:caption>გარე ლითონის კიბე შავი ვერტიკალური მოაჯირით და გვერდითი გამაგრებით, გადაღებული ქვემოდან ცის ფონზე.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-open-tread-metal-staircase-concrete-walls.jpg</image:loc>
+      <image:title>ლითონის კიბე ღია საფეხურებით ბეტონის კედლებს შორის</image:title>
+      <image:caption>შავი ლითონის კიბე ღია საფეხურებით და მასიური გვერდითი კოჭით, დაუმუშავებელ ბეტონისა და ბლოკის კედლებს შორის.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-central-spine-floating-step-staircase.jpg</image:loc>
+      <image:title>კიბე ცენტრალური კოჭით და მცურავი საფეხურებით</image:title>
+      <image:caption>შავი ლითონის კიბე, რომლის საფეხურები ერთ ცენტრალურ კოჭზეა დამაგრებული, თეთრ კიბის უჯრედში. ქვემოთ ჯერ მოუპირკეთებელი საფეხურებია.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-central-spine-stair-steps-detail.jpg</image:loc>
+      <image:title>ცენტრალური კოჭის კიბის საფეხურები, ახლო ხედი</image:title>
+      <image:caption>შავი ლითონის ბრტყელი საფეხურები, რომლებიც ერთ ცენტრალურ კოჭზეა დამაგრებული. თეთრი კედლის ფონზე ხაზები მკაფიოდ ჩანს.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-staircase-under-steel-beam-framework.jpg</image:loc>
+      <image:title>კიბე ლითონის კოჭებით აწყობილი გადახურვის ქვეშ</image:title>
+      <image:caption>ლითონის კიბე ინტერიერში. ზემოთ შავი ლითონის კოჭების ბადეა.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-metal-staircase-horizontal-bar-railing.jpg</image:loc>
+      <image:title>ლითონის კიბე ჰორიზონტალური მოაჯირით ინტერიერში</image:title>
+      <image:caption>შავი ლითონის კიბე ღია საფეხურებით და ჰორიზონტალური ღეროებისგან აწყობილი მოაჯირით, ჯერ დაუსრულებელ ინტერიერში.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-finished-black-spiral-staircase.jpg</image:loc>
+      <image:title>დასრულებული შავი სპირალური კიბე ეზოში</image:title>
+      <image:caption>დასრულებული შავი ლითონის სპირალური კიბე მოხრილი მოაჯირით, ბლოკის კედელსა და ბეტონის იატაკს შორის. კიბის ბოლოს ხის ჩარჩოიანი კარია.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/namushevrebi/moajireebi/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/namushevrebi/moajireebi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/work/railings/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/namushevrebi/moajireebi/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-ornamental-stair-railing-flowing-curves.jpg</image:loc>
+      <image:title>შავი ორნამენტული მოაჯირი რბილი მრუდებით კიბეზე</image:title>
+      <image:caption>კიბის შავი მოაჯირი, რომელიც მცენარისებრი, რბილად მოხრილი ხაზებისგანაა შედგენილი. კიბეზე ჯერ სამშენებლო მასალებია.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-railing-ornament-flower-element.jpg</image:loc>
+      <image:title>მოაჯირის ორნამენტი ყვავილისებური ელემენტით</image:title>
+      <image:caption>მოაჯირის ახლო ხედი: მოხრილი ხაზები, წრიული ხვეული და მის შიგნით მოთავსებული ოთხფურცლიანი ყვავილისებრი ელემენტი.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-stair-railing-fan-pattern-scrolls.jpg</image:loc>
+      <image:title>მოაჯირი მარაოსებრი ხაზებით და ხვეულებით</image:title>
+      <image:caption>კიბის მოაჯირი, სადაც წვრილი შავი ხაზები მარაოსავით იშლება და ზემოთ ხვეულებში გადადის.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-curved-railing-vertical-balusters.jpg</image:loc>
+      <image:title>მრუდი მოაჯირი ვერტიკალური ბალუსტრებით</image:title>
+      <image:caption>მრუდი ლითონის მოაჯირი ვერტიკალური ბალუსტრებით და ზემოთ დამაგრებული სახელურით. ფონზე სახელოსნოს ინსტრუმენტებია.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/namushevrebi/forjireba/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/namushevrebi/forjireba/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/work/forging/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/namushevrebi/forjireba/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-wrought-iron-gate-brick-arch.jpg</image:loc>
+      <image:title>ფორჯირებული ჭიშკარი აგურის თაღში</image:title>
+      <image:caption>ორფრთიანი ფორჯირებული ჭიშკარი წითელი აგურის თაღში. ორნამენტი ხვეულებისგან და შუბისებური წვეროებისგან შედგება.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-wrought-iron-gate-leaf-scrollwork.jpg</image:loc>
+      <image:title>ფორჯირებული ჭიშკრის ფრთა ხვეული ორნამენტით</image:title>
+      <image:caption>ფორჯირებული ჭიშკრის ფრთა გვერდიდან, აგურის კედელთან. ზედა ნაწილში შუბისებური წვერია, ქვემოთ წრიული ხვეულების რიგი.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-wrought-iron-scroll-detail.jpg</image:loc>
+      <image:title>ფორჯირებული ორნამენტის დეტალი, ახლო ხედი</image:title>
+      <image:caption>ფორჯირებული ჭიშკრის ახლო ხედი: მოხრილი ხვეულები, მასიური ვერტიკალური სვეტი და ლითონის სამაგრი.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/namushevrebi/karebi-da-sarkmlebi/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/namushevrebi/karebi-da-sarkmlebi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/work/doors-and-windows/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/namushevrebi/karebi-da-sarkmlebi/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-pivot-door-glazed-side-panels.jpg</image:loc>
+      <image:title>შავი პივოტ კარი მინის გვერდითი პანელებით</image:title>
+      <image:caption>შავი ლითონის პივოტ კარი ღია მდგომარეობაში. კარს გვერდებზე და ზემოთ მინის პანელები აქვს, შავ ლითონის ჩარჩოში.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-pivot-door-long-handle.jpg</image:loc>
+      <image:title>შავი პივოტ კარი გრძელი ვერტიკალური სახელურით</image:title>
+      <image:caption>შავი პივოტ კარი გლუვი ზედაპირით და გრძელი ვერტიკალური სახელურით, გვერდით ვიწრო მინის ზოლით.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-window-black-frame-wooden-slat-shutters.jpg</image:loc>
+      <image:title>ფანჯარა ხის ლამელებიანი ფარებით შავ ჩარჩოში</image:title>
+      <image:caption>ფანჯარა შავი ლითონის ჩარჩოთი. მას ხის ვერტიკალური ლამელებით აწყობილი ფარები აქვს, რომელთაგან ერთი ღიაა.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/namushevrebi/manglebi-da-grilebi/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/namushevrebi/manglebi-da-grilebi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/work/grills-and-bbq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/namushevrebi/manglebi-da-grilebi/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-barbecue-grill-hood.jpg</image:loc>
+      <image:title>შავი ლითონის მანგალი გუმბათით და ორი გისოსით</image:title>
+      <image:caption>დიდი შავი ლითონის მანგალი გუმბათით და საკვამურით. შიგნით ორი გისოსია, მათ გვერდით ხის დაფები, ქვემოთ კი ღარებიანი ლითონის განყოფილება.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-grill-pull-out-drawer-chain-grate.jpg</image:loc>
+      <image:title>მანგალის გამოსაწევი უჯრა და ჯაჭვზე დაკიდებული გისოსი</image:title>
+      <image:caption>მანგალის ახლო ხედი: ჯაჭვებზე დაკიდებული გისოსი, ხის დაფა და ქვემოთ გამოწეული ლითონის უჯრა.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/namushevrebi/aveji-da-dekori/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/namushevrebi/aveji-da-dekori/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/work/furniture-and-decor/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/namushevrebi/aveji-da-dekori/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-large-black-steel-table-arched-cutouts.jpg</image:loc>
+      <image:title>შავი ლითონის დიდი მაგიდა თაღისებური ამონაჭრით</image:title>
+      <image:caption>შავი ლითონის დიდი, გრძელი მაგიდა გლუვი ზედაპირით. გვერდებზე თაღისებური ამონაჭრებია. ფოტო ეზოშია გადაღებული.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/namushevrebi/bukhrebi/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/namushevrebi/bukhrebi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/work/fireplaces/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/namushevrebi/bukhrebi/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-fireplace-black-metal-frame-tiled-surround.jpg</image:loc>
+      <image:title>ბუხარი შავი ლითონის ჩარჩოთი, ფილით მოპირკეთებულ ნიშაში</image:title>
+      <image:caption>ბუხარი შავი ლითონის ჩარჩოთი, ღია ფერის ფილებით მოპირკეთებულ ნიშაში. ზემოთ თაროზე მცირე დეკორატიული ნივთებია.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/namushevrebi/3d-vizualizatsiebi/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/namushevrebi/3d-vizualizatsiebi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/work/3d-visualisations/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/namushevrebi/3d-vizualizatsiebi/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-spiral-staircase-3d-model.jpg</image:loc>
+      <image:title>სპირალური კიბის 3D მოდელი მოაჯირით</image:title>
+      <image:caption>სპირალური ლითონის კიბის 3D მოდელი ვერტიკალური ბალუსტრებით, კედლის და ზედა ბაქნის გვერდით.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-staircase-3d-scan-railing-model.jpg</image:loc>
+      <image:title>კიბის 3D სკანი მოაჯირის მოდელით</image:title>
+      <image:caption>არსებული კიბის 3D სკანი, რომელშიც მოაჯირის შავი მოდელია ჩასმული.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-horizontal-slat-gate-3d-visualisation.jpg</image:loc>
+      <image:title>ჰორიზონტალური ლამელების ჭიშკრის 3D ვიზუალიზაცია</image:title>
+      <image:caption>ჰორიზონტალური ლამელებიანი ჭიშკრისა და გისოსებიანი პანელების 3D ვიზუალიზაცია ბოძებს შორის.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-staircase-3d-scan-measurements.jpg</image:loc>
+      <image:title>კიბის 3D სკანი გაზომვებით</image:title>
+      <image:caption>არსებული სივრცის 3D სკანი, რომელზეც კიბის მოდელი და ზომის მითითებებია დატანილი.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-cantilever-staircase-3d-visualisation.jpg</image:loc>
+      <image:title>კონსოლური კიბე ხის საფეხურებით, ინტერიერის 3D ვიზუალიზაცია</image:title>
+      <image:caption>ინტერიერის 3D ვიზუალიზაცია: კედლიდან გამოშვერილი კონსოლური კიბე ხის საფეხურებით. იატაკი ხისაა, წინ სავარძელი და მცენარეა.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-curved-staircase-3d-view-room.jpg</image:loc>
+      <image:title>ხის საფეხურებიანი ხვეული კიბის 3D ჩვენება სივრცეში</image:title>
+      <image:caption>ხის საფეხურებიანი ხვეული კიბის 3D ხედი ოთახში, ზემოთ გადახურვით და კედლებით.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-curved-staircase-3d-model-below.jpg</image:loc>
+      <image:title>ხვეული კიბის 3D მოდელი ქვემოდან</image:title>
+      <image:caption>ხვეული ლითონის კიბის 3D მოდელი ქვემოდან დანახული, ზემოთ მუქი ფილით და ზომის მითითებებით.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/work/gates-and-fences/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/namushevrebi/chishkrebi-da-ghobeebi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/work/gates-and-fences/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/namushevrebi/chishkrebi-da-ghobeebi/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-gate-vertical-slats.jpg</image:loc>
+      <image:title>Black metal gate with vertical slats</image:title>
+      <image:caption>Two-leaf black gate built from vertical metal slats of varying height, photographed in front of a glazed façade.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-two-leaf-gate-vertical-profiles.jpg</image:loc>
+      <image:title>Two-leaf gate with vertical profiles</image:title>
+      <image:caption>Both gate leaves are made of vertical black profiles that end at different heights at the top. A second view of the same gate.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-wide-black-gate-vertical-ribbing.jpg</image:loc>
+      <image:title>Wide black gate with vertical ribbing</image:title>
+      <image:caption>Wide black gate with a vertically ribbed surface, set between two concrete walls.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-gate-horizontal-slats-side-door.jpg</image:loc>
+      <image:title>Black gate with horizontal slats and side door</image:title>
+      <image:caption>Black metal gate with horizontal slats. A smaller side door in the same slat pattern sits next to it, with a concrete post between the two.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-anthracite-gate-horizontal-louvre-slats.jpg</image:loc>
+      <image:title>Anthracite gate with horizontal louvre slats, close-up</image:title>
+      <image:caption>Close view of a dark grey gate. The horizontal louvre slats overlap one another, with a vertical profile between the two leaves.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-dark-brown-metal-gate-panels.jpg</image:loc>
+      <image:title>Dark brown metal gate with panelled surface</image:title>
+      <image:caption>Dark brown metal gate whose surface is divided into panels by horizontal and vertical dividers.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-fence-sections-white-wall.jpg</image:loc>
+      <image:title>Black metal fence sections beside a white wall and new trees</image:title>
+      <image:caption>Black metal fence sections standing against a white wall. Newly planted trees tied to wooden stakes are in the foreground.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-fence-wall-lights-dusk.jpg</image:loc>
+      <image:title>Black metal fence with wall lights at dusk</image:title>
+      <image:caption>Dusk view of black metal fence sections along a white wall with up-and-down wall lights, and a row of young trees beside it.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/work/staircases/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/namushevrebi/kibeebi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/work/staircases/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/namushevrebi/kibeebi/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-spiral-staircase-between-walls.jpg</image:loc>
+      <image:title>Black spiral staircase between two walls</image:title>
+      <image:caption>Black metal spiral staircase with a curved handrail between two walls. The upper landing has a vertical-baluster railing, and construction work is still going on around it.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-exterior-metal-stair-vertical-railing.jpg</image:loc>
+      <image:title>Exterior metal stair beside a concrete wall with vertical-bar railing</image:title>
+      <image:caption>Straight exterior metal staircase attached to a concrete retaining wall. The flight and the upper landing have a black railing with vertical balusters.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-curved-white-stair-wooden-treads.jpg</image:loc>
+      <image:title>Curved white staircase with wooden treads, view from above</image:title>
+      <image:caption>Narrow curved staircase seen from above, with wooden treads. White curved surfaces run along its sides, and the walls have panelling and a framed picture.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-curved-white-interior-staircase.jpg</image:loc>
+      <image:title>Curved white interior staircase with wooden floor</image:title>
+      <image:caption>Sweeping curved white staircase with wooden treads, meeting a wooden floor. A large black-and-white framed picture hangs on the wall.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-spiral-staircase-ornamental-balusters.jpg</image:loc>
+      <image:title>Spiral staircase with ornamental balusters</image:title>
+      <image:caption>Black spiral staircase with a railing of turned ornamental balusters and a curved handrail. Decorative brackets sit beneath the steps.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-spiral-staircase-central-column-detail.jpg</image:loc>
+      <image:title>Spiral staircase central column and balusters, close view</image:title>
+      <image:caption>Close view of a spiral staircase showing the central column, turned balusters and curved handrail.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-exterior-multi-flight-metal-staircase-night.jpg</image:loc>
+      <image:title>Exterior multi-flight metal staircase at night</image:title>
+      <image:caption>Exterior metal staircase with several flights and landings beside a building façade, photographed at night from below.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-steel-mezzanine-open-stair.jpg</image:loc>
+      <image:title>Steel mezzanine and open-riser staircase in an unfinished space</image:title>
+      <image:caption>Steel mezzanine with a black frame and an open-riser staircase beside it. The space is unfinished and work cables lie on the floor.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-exterior-stair-checker-plate-treads.jpg</image:loc>
+      <image:title>Exterior stair with checker-plate metal treads</image:title>
+      <image:caption>Exterior metal staircase with checker-plate treads and a black vertical-bar railing running along a block wall.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-metal-stair-projecting-from-wall.jpg</image:loc>
+      <image:title>Metal stair projecting from a block wall with railing</image:title>
+      <image:caption>Metal staircase with a black railing leading up to a landing that projects from a block wall, seen from below against the sky.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-exterior-stair-building-under-construction.jpg</image:loc>
+      <image:title>Black exterior stair on a building under construction</image:title>
+      <image:caption>Black metal exterior staircase with a railing on the façade of a building under construction at dusk, with formwork and scaffolding above.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-stair-top-view-double-railing.jpg</image:loc>
+      <image:title>Top-down view of a stair with a railing on both sides</image:title>
+      <image:caption>Metal staircase photographed from above, with checker-plate treads and a black vertical-bar railing on both sides. Photographed while work is in progress.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-metal-stair-viewed-from-below.jpg</image:loc>
+      <image:title>Metal stair viewed from below with vertical-bar railing</image:title>
+      <image:caption>Exterior metal staircase with a black vertical-bar railing and side bracing, photographed from below against the sky.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-open-tread-metal-staircase-concrete-walls.jpg</image:loc>
+      <image:title>Open-tread metal staircase between raw concrete walls</image:title>
+      <image:caption>Black metal staircase with open treads and a heavy side stringer between raw concrete and block walls.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-central-spine-floating-step-staircase.jpg</image:loc>
+      <image:title>Staircase with a central spine and floating steps</image:title>
+      <image:caption>Black metal staircase with steps fixed to a single central spine inside a white stairwell. The lower steps are not yet finished.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-central-spine-stair-steps-detail.jpg</image:loc>
+      <image:title>Close view of steel steps on a central spine</image:title>
+      <image:caption>Flat black steel steps fixed to one central spine, with the lines standing out against a white wall.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-staircase-under-steel-beam-framework.jpg</image:loc>
+      <image:title>Staircase beneath a steel beam framework</image:title>
+      <image:caption>Metal staircase in an interior, with a grid of black steel beams overhead.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-metal-staircase-horizontal-bar-railing.jpg</image:loc>
+      <image:title>Metal staircase with horizontal-bar railing in an interior</image:title>
+      <image:caption>Black metal staircase with open treads and a railing of horizontal bars, in an interior that is not yet finished.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-finished-black-spiral-staircase.jpg</image:loc>
+      <image:title>Finished black spiral staircase in a courtyard</image:title>
+      <image:caption>Finished black metal spiral staircase with a curved handrail between a block wall and a concrete floor, with a wooden-framed doorway at the foot.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/work/railings/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/namushevrebi/moajireebi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/work/railings/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/namushevrebi/moajireebi/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-ornamental-stair-railing-flowing-curves.jpg</image:loc>
+      <image:title>Black ornamental stair railing with flowing curves</image:title>
+      <image:caption>Black stair railing composed of soft, plant-like curved lines. Building materials are still stacked on the stairs.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-railing-ornament-flower-element.jpg</image:loc>
+      <image:title>Railing ornament with a flower-shaped element</image:title>
+      <image:caption>Close view of a railing with curved lines, a circular scroll and a four-petal flower-shaped element inside it.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-stair-railing-fan-pattern-scrolls.jpg</image:loc>
+      <image:title>Stair railing with fan-shaped lines and scrolls</image:title>
+      <image:caption>Stair railing where thin black lines fan out and turn into scrolls at the top.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-curved-railing-vertical-balusters.jpg</image:loc>
+      <image:title>Curved railing with vertical balusters</image:title>
+      <image:caption>Curved metal railing with vertical balusters and a top handrail. Workshop tools can be seen in the background.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/work/forging/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/namushevrebi/forjireba/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/work/forging/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/namushevrebi/forjireba/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-wrought-iron-gate-brick-arch.jpg</image:loc>
+      <image:title>Wrought-iron gate set in a brick arch</image:title>
+      <image:caption>Two-leaf wrought-iron gate set in a red brick arch. The ornament is made of scrolls and spear-shaped tips.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-wrought-iron-gate-leaf-scrollwork.jpg</image:loc>
+      <image:title>Wrought-iron gate leaf with scrollwork</image:title>
+      <image:caption>Side view of a wrought-iron gate leaf beside a brick wall, with a spear-shaped tip above and a row of circular scrolls below.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-wrought-iron-scroll-detail.jpg</image:loc>
+      <image:title>Close-up of a wrought-iron scroll detail</image:title>
+      <image:caption>Close view of a wrought-iron gate showing bent scrolls, a heavy vertical post and a metal fastening.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/work/doors-and-windows/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/namushevrebi/karebi-da-sarkmlebi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/work/doors-and-windows/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/namushevrebi/karebi-da-sarkmlebi/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-pivot-door-glazed-side-panels.jpg</image:loc>
+      <image:title>Black pivot door with glazed side panels</image:title>
+      <image:caption>Black metal pivot door shown open, with glass panels at the sides and above, all in a black metal frame.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-pivot-door-long-handle.jpg</image:loc>
+      <image:title>Black pivot door with a long vertical handle</image:title>
+      <image:caption>Black pivot door with a smooth surface and a long vertical handle, with a narrow glass strip beside it.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-window-black-frame-wooden-slat-shutters.jpg</image:loc>
+      <image:title>Window with wooden slat shutters in a black frame</image:title>
+      <image:caption>Window in a black metal frame with shutters made of vertical wooden slats, one of which is open.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/work/grills-and-bbq/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/namushevrebi/manglebi-da-grilebi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/work/grills-and-bbq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/namushevrebi/manglebi-da-grilebi/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-barbecue-grill-hood.jpg</image:loc>
+      <image:title>Black metal barbecue grill with hood and two grates</image:title>
+      <image:caption>Large black metal barbecue grill with a hood and chimney. Inside are two grates with wooden shelves beside them, and a ribbed metal compartment below.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-grill-pull-out-drawer-chain-grate.jpg</image:loc>
+      <image:title>Grill with pull-out drawer and chain-hung grate</image:title>
+      <image:caption>Close view of a grill showing a grate hung on chains, a wooden shelf and a metal drawer pulled out below.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/work/furniture-and-decor/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/namushevrebi/aveji-da-dekori/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/work/furniture-and-decor/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/namushevrebi/aveji-da-dekori/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-large-black-steel-table-arched-cutouts.jpg</image:loc>
+      <image:title>Large black steel table with arched cut-outs</image:title>
+      <image:caption>Large, long black steel table with a smooth top and arched cut-outs in its sides, photographed outdoors.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/work/fireplaces/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/namushevrebi/bukhrebi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/work/fireplaces/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/namushevrebi/bukhrebi/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-fireplace-black-metal-frame-tiled-surround.jpg</image:loc>
+      <image:title>Fireplace with a black metal frame in a tiled surround</image:title>
+      <image:caption>Fireplace with a black metal frame set in a surround clad with light-coloured tiles, with small decorative objects on the mantel.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/work/3d-visualisations/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/namushevrebi/3d-vizualizatsiebi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/work/3d-visualisations/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/namushevrebi/3d-vizualizatsiebi/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-spiral-staircase-3d-model.jpg</image:loc>
+      <image:title>3D model of a spiral staircase with railing</image:title>
+      <image:caption>3D model of a spiral metal staircase with vertical balusters, shown next to a wall and an upper platform.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-staircase-3d-scan-railing-model.jpg</image:loc>
+      <image:title>3D scan of a staircase with a railing model</image:title>
+      <image:caption>3D scan of an existing staircase with a black railing model placed into it.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-horizontal-slat-gate-3d-visualisation.jpg</image:loc>
+      <image:title>3D visualisation of a horizontal-slat gate</image:title>
+      <image:caption>3D visualisation of a gate with horizontal slats and mesh panels between posts.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-staircase-3d-scan-measurements.jpg</image:loc>
+      <image:title>Staircase 3D scan with measurements</image:title>
+      <image:caption>3D scan of an existing space with a staircase model and dimension annotations added.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-cantilever-staircase-3d-visualisation.jpg</image:loc>
+      <image:title>Cantilever staircase with wooden treads, interior 3D visualisation</image:title>
+      <image:caption>Interior 3D visualisation of a cantilever staircase with wooden treads projecting from the wall. The floor is wood, with an armchair and a plant in front.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-curved-staircase-3d-view-room.jpg</image:loc>
+      <image:title>3D view of a curved staircase with wooden treads in a room</image:title>
+      <image:caption>3D view of a curved staircase with wooden treads inside a room, with a floor slab and walls above.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-curved-staircase-3d-model-below.jpg</image:loc>
+      <image:title>3D model of a curved staircase viewed from below</image:title>
+      <image:caption>3D model of a curved metal staircase seen from below, with a dark slab above and dimension annotations.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/shavi-chishkari-vertikaluri-lamelebit/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-chishkari-vertikaluri-lamelebit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/black-metal-gate-vertical-slats/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/shavi-chishkari-vertikaluri-lamelebit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-gate-vertical-slats.jpg</image:loc>
+      <image:title>შავი ლითონის ჭიშკარი ვერტიკალური ლამელებით</image:title>
+      <image:caption>ორფრთიანი შავი ჭიშკარი, რომლის ფრთები სხვადასხვა სიმაღლის ვერტიკალური ლითონის ლამელებისგანაა აწყობილი. ფონზე მინის ფასადი ჩანს.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/orpriani-chishkari-vertikaluri-profilebit/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/orpriani-chishkari-vertikaluri-profilebit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/two-leaf-gate-vertical-profiles/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/orpriani-chishkari-vertikaluri-profilebit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-two-leaf-gate-vertical-profiles.jpg</image:loc>
+      <image:title>ორფრთიანი ჭიშკარი ვერტიკალური პროფილებით</image:title>
+      <image:caption>ჭიშკრის ორივე ფრთა ვერტიკალური შავი პროფილებისგანაა აწყობილი, რომლებიც ზემოთ სხვადასხვა სიმაღლეზე სრულდება. მეორე კადრი იმავე ჭიშკრიდან.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/farto-shavi-chishkari-vertikaluri-gharebit/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/farto-shavi-chishkari-vertikaluri-gharebit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/wide-black-gate-vertical-ribbing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/farto-shavi-chishkari-vertikaluri-gharebit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-wide-black-gate-vertical-ribbing.jpg</image:loc>
+      <image:title>ფართო შავი ჭიშკარი ვერტიკალური ღარებით</image:title>
+      <image:caption>ფართო შავი ჭიშკარი ვერტიკალური ღარებიანი ზედაპირით, დამონტაჟებული ორ ბეტონის კედელს შორის.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/shavi-chishkari-horizontaluri-lamelebit/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-chishkari-horizontaluri-lamelebit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/black-gate-horizontal-slats-side-door/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/shavi-chishkari-horizontaluri-lamelebit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-gate-horizontal-slats-side-door.jpg</image:loc>
+      <image:title>შავი ჭიშკარი ჰორიზონტალური ლამელებით და გვერდითი კარით</image:title>
+      <image:caption>შავი ლითონის ჭიშკარი ჰორიზონტალური ლამელებით. გვერდით იმავე ლამელებით დამზადებული პატარა კარია, ორივეს შორის ბეტონის ბოძი დგას.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/antratsitisferi-chishkari-horizontaluri-lamelebit/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/antratsitisferi-chishkari-horizontaluri-lamelebit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/anthracite-gate-horizontal-louvre-slats/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/antratsitisferi-chishkari-horizontaluri-lamelebit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-anthracite-gate-horizontal-louvre-slats.jpg</image:loc>
+      <image:title>ანტრაციტისფერი ჭიშკარი ჰორიზონტალური ლამელებით, ახლო ხედი</image:title>
+      <image:caption>მუქი ნაცრისფერი ჭიშკრის ახლო ხედი. ჰორიზონტალური ლამელები ერთმანეთზეა გადაფარებული, ფრთებს შორის ვერტიკალური პროფილია.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/muqi-yavisferi-chishkari-panelebit/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/muqi-yavisferi-chishkari-panelebit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/dark-brown-metal-gate-panels/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/muqi-yavisferi-chishkari-panelebit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-dark-brown-metal-gate-panels.jpg</image:loc>
+      <image:title>მუქი ყავისფერი ლითონის ჭიშკარი გაყოფილი პანელებით</image:title>
+      <image:caption>მუქი ყავისფერი ლითონის ჭიშკარი, რომლის ზედაპირი ჰორიზონტალური და ვერტიკალური გამყოფებით პანელებადაა დაყოფილი.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/shavi-lithonis-ghobe-tetri-kedeli/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-lithonis-ghobe-tetri-kedeli/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/black-metal-fence-sections-white-wall/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/shavi-lithonis-ghobe-tetri-kedeli/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-fence-sections-white-wall.jpg</image:loc>
+      <image:title>შავი ლითონის ღობის სექციები თეთრ კედელთან და ახალნარგავ ხეებთან</image:title>
+      <image:caption>შავი ლითონის ღობის სექციები თეთრ კედელთან მიდგმული. წინ ახალდარგული ხეებია, რომლებიც ხის სამაგრებზეა დამაგრებული.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/shavi-ghobe-kedlis-ganatebit-saghamo/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-ghobe-kedlis-ganatebit-saghamo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/black-fence-wall-lights-dusk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/shavi-ghobe-kedlis-ganatebit-saghamo/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-fence-wall-lights-dusk.jpg</image:loc>
+      <image:title>შავი ლითონის ღობე კედლის განათებით საღამოს</image:title>
+      <image:caption>საღამოს ხედი: შავი ლითონის ღობის სექციები თეთრ კედელთან, ზემოთ და ქვემოთ მიმართული კედლის სანათებით. გვერდით ახალგაზრდა ხეების რიგია.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/shavi-spiraluri-kibe-ori-kedlis-shoris/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-spiraluri-kibe-ori-kedlis-shoris/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/black-spiral-staircase-between-walls/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/shavi-spiraluri-kibe-ori-kedlis-shoris/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-spiral-staircase-between-walls.jpg</image:loc>
+      <image:title>შავი სპირალური კიბე ორ კედელს შორის</image:title>
+      <image:caption>შავი ლითონის სპირალური კიბე მოხრილი მოაჯირით ორ კედელს შორის. ზედა მოედანს ვერტიკალური ბალუსტრებიანი მოაჯირი აქვს, გარშემო სამშენებლო სამუშაოები ჯერ მიმდინარეობს.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/gare-lithonis-kibe-vertikaluri-moajiri/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/gare-lithonis-kibe-vertikaluri-moajiri/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/exterior-metal-stair-vertical-railing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/gare-lithonis-kibe-vertikaluri-moajiri/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-exterior-metal-stair-vertical-railing.jpg</image:loc>
+      <image:title>გარე ლითონის კიბე ბეტონის კედელთან და ვერტიკალური მოაჯირი</image:title>
+      <image:caption>პირდაპირი გარე ლითონის კიბე, რომელიც ბეტონის საყრდენ კედელზეა დამაგრებული. მარშს და ზედა ბაქანს შავი ვერტიკალური ბალუსტრებიანი მოაჯირი აქვს.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/tetri-mokhrili-kibe-khis-safekhurebit/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/tetri-mokhrili-kibe-khis-safekhurebit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/curved-white-stair-wooden-treads/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/tetri-mokhrili-kibe-khis-safekhurebit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-curved-white-stair-wooden-treads.jpg</image:loc>
+      <image:title>თეთრი მოხრილი კიბე ხის საფეხურებით, ზემოდან ხედი</image:title>
+      <image:caption>ზემოდან დანახული ვიწრო მოხრილი კიბე ხის საფეხურებით. გვერდებს თეთრი მოხრილი ზედაპირები ამოუყვება, კედლებზე პანელებია და სურათი კიდია.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/mokhrili-tetri-kibe-interieri/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/mokhrili-tetri-kibe-interieri/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/curved-white-interior-staircase/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/mokhrili-tetri-kibe-interieri/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-curved-white-interior-staircase.jpg</image:loc>
+      <image:title>მოხრილი თეთრი კიბე ინტერიერში ხის იატაკთან</image:title>
+      <image:caption>ფართო მოხრილი თეთრი კიბე ხის საფეხურებით, რომელიც ხის იატაკზე ეშვება. კედელზე დიდი შავ-თეთრი სურათია ჩარჩოში.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/spiraluri-kibe-ornamenturi-balustrebit/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/spiraluri-kibe-ornamenturi-balustrebit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/spiral-staircase-ornamental-balusters/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/spiraluri-kibe-ornamenturi-balustrebit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-spiral-staircase-ornamental-balusters.jpg</image:loc>
+      <image:title>სპირალური კიბე ორნამენტული ბალუსტრებით</image:title>
+      <image:caption>შავი სპირალური კიბე, რომლის მოაჯირი მორთული ბალუსტრებით და მოხრილი სახელურითაა გაწყობილი. საფეხურების ქვეშ დეკორატიული კრონშტეინებია.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/spiraluri-kibis-centraluri-bodzi/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/spiraluri-kibis-centraluri-bodzi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/spiral-staircase-central-column-detail/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/spiraluri-kibis-centraluri-bodzi/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-spiral-staircase-central-column-detail.jpg</image:loc>
+      <image:title>სპირალური კიბის ცენტრალური ბოძი და ბალუსტრები</image:title>
+      <image:caption>სპირალური კიბის ახლო ხედი: ცენტრალური ბოძი, მორთული ბალუსტრები და მოხრილი ხელის სახელური.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/gare-lithonis-kibe-ramdenime-marshit/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/gare-lithonis-kibe-ramdenime-marshit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/exterior-multi-flight-metal-staircase-night/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/gare-lithonis-kibe-ramdenime-marshit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-exterior-multi-flight-metal-staircase-night.jpg</image:loc>
+      <image:title>გარე ლითონის კიბე რამდენიმე მარშით, ღამის ხედი</image:title>
+      <image:caption>ღამით გადაღებული გარე ლითონის კიბე რამდენიმე მარშით და ბაქნებით შენობის ფასადთან. ფოტო ქვემოდანაა გადაღებული.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/lithonis-antresoli-da-kibe/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/lithonis-antresoli-da-kibe/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/steel-mezzanine-open-stair/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/lithonis-antresoli-da-kibe/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-steel-mezzanine-open-stair.jpg</image:loc>
+      <image:title>ლითონის ანტრესოლი და კიბე ჯერ დაუსრულებელ სივრცეში</image:title>
+      <image:caption>ლითონის ანტრესოლი შავი ჩარჩოთი და გვერდზე მიდგმული კიბე ღია საფეხურებით. სივრცე ჯერ დაუსრულებელია, იატაკზე სამუშაო კაბელებია.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/gare-kibe-gharebiani-safekhurebit/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/gare-kibe-gharebiani-safekhurebit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/exterior-stair-checker-plate-treads/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/gare-kibe-gharebiani-safekhurebit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-exterior-stair-checker-plate-treads.jpg</image:loc>
+      <image:title>გარე კიბე ღარებიანი ლითონის საფეხურებით</image:title>
+      <image:caption>გარე ლითონის კიბე ღარებიანი ლითონის საფეხურებით და შავი ვერტიკალური მოაჯირით, რომელიც ბლოკის კედელს მიუყვება.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/kibe-kedlidan-gamoshveruli/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/kibe-kedlidan-gamoshveruli/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/metal-stair-projecting-from-wall/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/kibe-kedlidan-gamoshveruli/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-metal-stair-projecting-from-wall.jpg</image:loc>
+      <image:title>ბლოკის კედლიდან გამოშვერილი ლითონის კიბე მოაჯირით</image:title>
+      <image:caption>ლითონის კიბე შავი მოაჯირით, რომელიც ბლოკის კედლიდან გამოშვერილ ბაქანზე ადის. ხედი ქვემოდან, ცის ფონზე.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/gare-kibe-mshenebare-shenobaze/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/gare-kibe-mshenebare-shenobaze/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/exterior-stair-building-under-construction/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/gare-kibe-mshenebare-shenobaze/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-exterior-stair-building-under-construction.jpg</image:loc>
+      <image:title>შავი გარე კიბე მშენებარე შენობაზე</image:title>
+      <image:caption>შავი ლითონის გარე კიბე მოაჯირით მშენებარე შენობის ფასადზე, შებინდებისას. ზემოთ ჯერ ყალიბი და ხარაჩოა.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/kibe-zemodan-ormkhrivi-moajiri/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/kibe-zemodan-ormkhrivi-moajiri/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/stair-top-view-double-railing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/kibe-zemodan-ormkhrivi-moajiri/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-stair-top-view-double-railing.jpg</image:loc>
+      <image:title>კიბე ზემოდან ორმხრივი მოაჯირით</image:title>
+      <image:caption>ზემოდან გადაღებული ლითონის კიბე ღარებიანი საფეხურებით და ორივე მხარეს შავი ვერტიკალური მოაჯირით. ფოტო სამუშაო პროცესში გადაღებული.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/kibe-qvemodan-vertikaluri-moajiri/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/kibe-qvemodan-vertikaluri-moajiri/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/metal-stair-viewed-from-below/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/kibe-qvemodan-vertikaluri-moajiri/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-metal-stair-viewed-from-below.jpg</image:loc>
+      <image:title>ლითონის კიბე ქვემოდან ვერტიკალური მოაჯირით</image:title>
+      <image:caption>გარე ლითონის კიბე შავი ვერტიკალური მოაჯირით და გვერდითი გამაგრებით, გადაღებული ქვემოდან ცის ფონზე.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/lithonis-kibe-ghia-safekhurebit/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/lithonis-kibe-ghia-safekhurebit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/open-tread-metal-staircase-concrete-walls/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/lithonis-kibe-ghia-safekhurebit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-open-tread-metal-staircase-concrete-walls.jpg</image:loc>
+      <image:title>ლითონის კიბე ღია საფეხურებით ბეტონის კედლებს შორის</image:title>
+      <image:caption>შავი ლითონის კიბე ღია საფეხურებით და მასიური გვერდითი კოჭით, დაუმუშავებელ ბეტონისა და ბლოკის კედლებს შორის.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/kibe-centraluri-kojit/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/kibe-centraluri-kojit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/central-spine-floating-step-staircase/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/kibe-centraluri-kojit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-central-spine-floating-step-staircase.jpg</image:loc>
+      <image:title>კიბე ცენტრალური კოჭით და მცურავი საფეხურებით</image:title>
+      <image:caption>შავი ლითონის კიბე, რომლის საფეხურები ერთ ცენტრალურ კოჭზეა დამაგრებული, თეთრ კიბის უჯრედში. ქვემოთ ჯერ მოუპირკეთებელი საფეხურებია.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/kibis-safekhurebi-akhlo-khedi/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/kibis-safekhurebi-akhlo-khedi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/central-spine-stair-steps-detail/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/kibis-safekhurebi-akhlo-khedi/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-central-spine-stair-steps-detail.jpg</image:loc>
+      <image:title>ცენტრალური კოჭის კიბის საფეხურები, ახლო ხედი</image:title>
+      <image:caption>შავი ლითონის ბრტყელი საფეხურები, რომლებიც ერთ ცენტრალურ კოჭზეა დამაგრებული. თეთრი კედლის ფონზე ხაზები მკაფიოდ ჩანს.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/kibe-lithonis-kojebis-chertan/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/kibe-lithonis-kojebis-chertan/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/staircase-under-steel-beam-framework/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/kibe-lithonis-kojebis-chertan/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-staircase-under-steel-beam-framework.jpg</image:loc>
+      <image:title>კიბე ლითონის კოჭებით აწყობილი გადახურვის ქვეშ</image:title>
+      <image:caption>ლითონის კიბე ინტერიერში. ზემოთ შავი ლითონის კოჭების ბადეა.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/lithonis-kibe-horizontaluri-moajiri/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/lithonis-kibe-horizontaluri-moajiri/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/metal-staircase-horizontal-bar-railing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/lithonis-kibe-horizontaluri-moajiri/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-metal-staircase-horizontal-bar-railing.jpg</image:loc>
+      <image:title>ლითონის კიბე ჰორიზონტალური მოაჯირით ინტერიერში</image:title>
+      <image:caption>შავი ლითონის კიბე ღია საფეხურებით და ჰორიზონტალური ღეროებისგან აწყობილი მოაჯირით, ჯერ დაუსრულებელ ინტერიერში.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/dasrulebuli-spiraluri-kibe/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/dasrulebuli-spiraluri-kibe/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/finished-black-spiral-staircase/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/dasrulebuli-spiraluri-kibe/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-finished-black-spiral-staircase.jpg</image:loc>
+      <image:title>დასრულებული შავი სპირალური კიბე ეზოში</image:title>
+      <image:caption>დასრულებული შავი ლითონის სპირალური კიბე მოხრილი მოაჯირით, ბლოკის კედელსა და ბეტონის იატაკს შორის. კიბის ბოლოს ხის ჩარჩოიანი კარია.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/shavi-ornamenturi-moajiri-mrudebit/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-ornamenturi-moajiri-mrudebit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/black-ornamental-stair-railing-flowing-curves/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/shavi-ornamenturi-moajiri-mrudebit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-ornamental-stair-railing-flowing-curves.jpg</image:loc>
+      <image:title>შავი ორნამენტული მოაჯირი რბილი მრუდებით კიბეზე</image:title>
+      <image:caption>კიბის შავი მოაჯირი, რომელიც მცენარისებრი, რბილად მოხრილი ხაზებისგანაა შედგენილი. კიბეზე ჯერ სამშენებლო მასალებია.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/moajiris-ornamenti-yvavilis-elementit/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/moajiris-ornamenti-yvavilis-elementit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/railing-ornament-flower-element/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/moajiris-ornamenti-yvavilis-elementit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-railing-ornament-flower-element.jpg</image:loc>
+      <image:title>მოაჯირის ორნამენტი ყვავილისებური ელემენტით</image:title>
+      <image:caption>მოაჯირის ახლო ხედი: მოხრილი ხაზები, წრიული ხვეული და მის შიგნით მოთავსებული ოთხფურცლიანი ყვავილისებრი ელემენტი.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/moajiri-maraosebri-khazebit/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/moajiri-maraosebri-khazebit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/stair-railing-fan-pattern-scrolls/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/moajiri-maraosebri-khazebit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-stair-railing-fan-pattern-scrolls.jpg</image:loc>
+      <image:title>მოაჯირი მარაოსებრი ხაზებით და ხვეულებით</image:title>
+      <image:caption>კიბის მოაჯირი, სადაც წვრილი შავი ხაზები მარაოსავით იშლება და ზემოთ ხვეულებში გადადის.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/mrudi-moajiri-vertikaluri-balustrebit/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/mrudi-moajiri-vertikaluri-balustrebit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/curved-railing-vertical-balusters/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/mrudi-moajiri-vertikaluri-balustrebit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-curved-railing-vertical-balusters.jpg</image:loc>
+      <image:title>მრუდი მოაჯირი ვერტიკალური ბალუსტრებით</image:title>
+      <image:caption>მრუდი ლითონის მოაჯირი ვერტიკალური ბალუსტრებით და ზემოთ დამაგრებული სახელურით. ფონზე სახელოსნოს ინსტრუმენტებია.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/forjirebuli-chishkari-agurit-taghshi/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/forjirebuli-chishkari-agurit-taghshi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/wrought-iron-gate-brick-arch/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/forjirebuli-chishkari-agurit-taghshi/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-wrought-iron-gate-brick-arch.jpg</image:loc>
+      <image:title>ფორჯირებული ჭიშკარი აგურის თაღში</image:title>
+      <image:caption>ორფრთიანი ფორჯირებული ჭიშკარი წითელი აგურის თაღში. ორნამენტი ხვეულებისგან და შუბისებური წვეროებისგან შედგება.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/forjirebuli-chishkris-frtha-khveuli/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/forjirebuli-chishkris-frtha-khveuli/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/wrought-iron-gate-leaf-scrollwork/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/forjirebuli-chishkris-frtha-khveuli/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-wrought-iron-gate-leaf-scrollwork.jpg</image:loc>
+      <image:title>ფორჯირებული ჭიშკრის ფრთა ხვეული ორნამენტით</image:title>
+      <image:caption>ფორჯირებული ჭიშკრის ფრთა გვერდიდან, აგურის კედელთან. ზედა ნაწილში შუბისებური წვერია, ქვემოთ წრიული ხვეულების რიგი.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/forjirebuli-ornamentis-detali/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/forjirebuli-ornamentis-detali/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/wrought-iron-scroll-detail/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/forjirebuli-ornamentis-detali/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-wrought-iron-scroll-detail.jpg</image:loc>
+      <image:title>ფორჯირებული ორნამენტის დეტალი, ახლო ხედი</image:title>
+      <image:caption>ფორჯირებული ჭიშკრის ახლო ხედი: მოხრილი ხვეულები, მასიური ვერტიკალური სვეტი და ლითონის სამაგრი.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/shavi-pivot-kari-minis-panelebit/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-pivot-kari-minis-panelebit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/black-pivot-door-glazed-side-panels/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/shavi-pivot-kari-minis-panelebit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-pivot-door-glazed-side-panels.jpg</image:loc>
+      <image:title>შავი პივოტ კარი მინის გვერდითი პანელებით</image:title>
+      <image:caption>შავი ლითონის პივოტ კარი ღია მდგომარეობაში. კარს გვერდებზე და ზემოთ მინის პანელები აქვს, შავ ლითონის ჩარჩოში.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/shavi-pivot-kari-grdzeli-sakhuri/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-pivot-kari-grdzeli-sakhuri/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/black-pivot-door-long-handle/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/shavi-pivot-kari-grdzeli-sakhuri/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-pivot-door-long-handle.jpg</image:loc>
+      <image:title>შავი პივოტ კარი გრძელი ვერტიკალური სახელურით</image:title>
+      <image:caption>შავი პივოტ კარი გლუვი ზედაპირით და გრძელი ვერტიკალური სახელურით, გვერდით ვიწრო მინის ზოლით.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/fanjara-khis-lamelebit/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/fanjara-khis-lamelebit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/window-black-frame-wooden-slat-shutters/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/fanjara-khis-lamelebit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-window-black-frame-wooden-slat-shutters.jpg</image:loc>
+      <image:title>ფანჯარა ხის ლამელებიანი ფარებით შავ ჩარჩოში</image:title>
+      <image:caption>ფანჯარა შავი ლითონის ჩარჩოთი. მას ხის ვერტიკალური ლამელებით აწყობილი ფარები აქვს, რომელთაგან ერთი ღიაა.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/shavi-mangali-gumbatit/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-mangali-gumbatit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/black-metal-barbecue-grill-hood/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/shavi-mangali-gumbatit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-barbecue-grill-hood.jpg</image:loc>
+      <image:title>შავი ლითონის მანგალი გუმბათით და ორი გისოსით</image:title>
+      <image:caption>დიდი შავი ლითონის მანგალი გუმბათით და საკვამურით. შიგნით ორი გისოსია, მათ გვერდით ხის დაფები, ქვემოთ კი ღარებიანი ლითონის განყოფილება.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/mangali-gamosatsevi-ujra/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/mangali-gamosatsevi-ujra/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/grill-pull-out-drawer-chain-grate/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/mangali-gamosatsevi-ujra/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-grill-pull-out-drawer-chain-grate.jpg</image:loc>
+      <image:title>მანგალის გამოსაწევი უჯრა და ჯაჭვზე დაკიდებული გისოსი</image:title>
+      <image:caption>მანგალის ახლო ხედი: ჯაჭვებზე დაკიდებული გისოსი, ხის დაფა და ქვემოთ გამოწეული ლითონის უჯრა.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/shavi-lithonis-magida-taghisebri/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-lithonis-magida-taghisebri/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/large-black-steel-table-arched-cutouts/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/shavi-lithonis-magida-taghisebri/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-large-black-steel-table-arched-cutouts.jpg</image:loc>
+      <image:title>შავი ლითონის დიდი მაგიდა თაღისებური ამონაჭრით</image:title>
+      <image:caption>შავი ლითონის დიდი, გრძელი მაგიდა გლუვი ზედაპირით. გვერდებზე თაღისებური ამონაჭრებია. ფოტო ეზოშია გადაღებული.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/bukhari-shavi-lithonis-charchoti/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/bukhari-shavi-lithonis-charchoti/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/fireplace-black-metal-frame-tiled-surround/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/bukhari-shavi-lithonis-charchoti/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-fireplace-black-metal-frame-tiled-surround.jpg</image:loc>
+      <image:title>ბუხარი შავი ლითონის ჩარჩოთი, ფილით მოპირკეთებულ ნიშაში</image:title>
+      <image:caption>ბუხარი შავი ლითონის ჩარჩოთი, ღია ფერის ფილებით მოპირკეთებულ ნიშაში. ზემოთ თაროზე მცირე დეკორატიული ნივთებია.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/spiraluri-kibis-3d-modeli/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/spiraluri-kibis-3d-modeli/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/spiral-staircase-3d-model/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/spiraluri-kibis-3d-modeli/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-spiral-staircase-3d-model.jpg</image:loc>
+      <image:title>სპირალური კიბის 3D მოდელი მოაჯირით</image:title>
+      <image:caption>სპირალური ლითონის კიბის 3D მოდელი ვერტიკალური ბალუსტრებით, კედლის და ზედა ბაქნის გვერდით.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/kibis-3d-skani-moajiris-modelit/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/kibis-3d-skani-moajiris-modelit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/staircase-3d-scan-railing-model/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/kibis-3d-skani-moajiris-modelit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-staircase-3d-scan-railing-model.jpg</image:loc>
+      <image:title>კიბის 3D სკანი მოაჯირის მოდელით</image:title>
+      <image:caption>არსებული კიბის 3D სკანი, რომელშიც მოაჯირის შავი მოდელია ჩასმული.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/chishkris-3d-vizualizatsia/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/chishkris-3d-vizualizatsia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/horizontal-slat-gate-3d-visualisation/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/chishkris-3d-vizualizatsia/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-horizontal-slat-gate-3d-visualisation.jpg</image:loc>
+      <image:title>ჰორიზონტალური ლამელების ჭიშკრის 3D ვიზუალიზაცია</image:title>
+      <image:caption>ჰორიზონტალური ლამელებიანი ჭიშკრისა და გისოსებიანი პანელების 3D ვიზუალიზაცია ბოძებს შორის.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/kibis-3d-skani-gazomvebit/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/kibis-3d-skani-gazomvebit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/staircase-3d-scan-measurements/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/kibis-3d-skani-gazomvebit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-staircase-3d-scan-measurements.jpg</image:loc>
+      <image:title>კიბის 3D სკანი გაზომვებით</image:title>
+      <image:caption>არსებული სივრცის 3D სკანი, რომელზეც კიბის მოდელი და ზომის მითითებებია დატანილი.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/konsoluri-kibis-3d-vizualizatsia/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/konsoluri-kibis-3d-vizualizatsia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/cantilever-staircase-3d-visualisation/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/konsoluri-kibis-3d-vizualizatsia/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-cantilever-staircase-3d-visualisation.jpg</image:loc>
+      <image:title>კონსოლური კიბე ხის საფეხურებით, ინტერიერის 3D ვიზუალიზაცია</image:title>
+      <image:caption>ინტერიერის 3D ვიზუალიზაცია: კედლიდან გამოშვერილი კონსოლური კიბე ხის საფეხურებით. იატაკი ხისაა, წინ სავარძელი და მცენარეა.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/kibis-3d-chveneba-sivrtseshi/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/kibis-3d-chveneba-sivrtseshi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/curved-staircase-3d-view-room/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/kibis-3d-chveneba-sivrtseshi/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-curved-staircase-3d-view-room.jpg</image:loc>
+      <image:title>ხის საფეხურებიანი ხვეული კიბის 3D ჩვენება სივრცეში</image:title>
+      <image:caption>ხის საფეხურებიანი ხვეული კიბის 3D ხედი ოთახში, ზემოთ გადახურვით და კედლებით.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/khveuli-kibis-3d-modeli-qvemodan/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/khveuli-kibis-3d-modeli-qvemodan/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/curved-staircase-3d-model-below/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/khveuli-kibis-3d-modeli-qvemodan/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-curved-staircase-3d-model-below.jpg</image:loc>
+      <image:title>ხვეული კიბის 3D მოდელი ქვემოდან</image:title>
+      <image:caption>ხვეული ლითონის კიბის 3D მოდელი ქვემოდან დანახული, ზემოთ მუქი ფილით და ზომის მითითებებით.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/black-metal-gate-vertical-slats/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-chishkari-vertikaluri-lamelebit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/black-metal-gate-vertical-slats/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/shavi-chishkari-vertikaluri-lamelebit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-gate-vertical-slats.jpg</image:loc>
+      <image:title>Black metal gate with vertical slats</image:title>
+      <image:caption>Two-leaf black gate built from vertical metal slats of varying height, photographed in front of a glazed façade.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/two-leaf-gate-vertical-profiles/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/orpriani-chishkari-vertikaluri-profilebit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/two-leaf-gate-vertical-profiles/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/orpriani-chishkari-vertikaluri-profilebit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-two-leaf-gate-vertical-profiles.jpg</image:loc>
+      <image:title>Two-leaf gate with vertical profiles</image:title>
+      <image:caption>Both gate leaves are made of vertical black profiles that end at different heights at the top. A second view of the same gate.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/wide-black-gate-vertical-ribbing/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/farto-shavi-chishkari-vertikaluri-gharebit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/wide-black-gate-vertical-ribbing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/farto-shavi-chishkari-vertikaluri-gharebit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-wide-black-gate-vertical-ribbing.jpg</image:loc>
+      <image:title>Wide black gate with vertical ribbing</image:title>
+      <image:caption>Wide black gate with a vertically ribbed surface, set between two concrete walls.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/black-gate-horizontal-slats-side-door/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-chishkari-horizontaluri-lamelebit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/black-gate-horizontal-slats-side-door/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/shavi-chishkari-horizontaluri-lamelebit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-gate-horizontal-slats-side-door.jpg</image:loc>
+      <image:title>Black gate with horizontal slats and side door</image:title>
+      <image:caption>Black metal gate with horizontal slats. A smaller side door in the same slat pattern sits next to it, with a concrete post between the two.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/anthracite-gate-horizontal-louvre-slats/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/antratsitisferi-chishkari-horizontaluri-lamelebit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/anthracite-gate-horizontal-louvre-slats/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/antratsitisferi-chishkari-horizontaluri-lamelebit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-anthracite-gate-horizontal-louvre-slats.jpg</image:loc>
+      <image:title>Anthracite gate with horizontal louvre slats, close-up</image:title>
+      <image:caption>Close view of a dark grey gate. The horizontal louvre slats overlap one another, with a vertical profile between the two leaves.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/dark-brown-metal-gate-panels/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/muqi-yavisferi-chishkari-panelebit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/dark-brown-metal-gate-panels/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/muqi-yavisferi-chishkari-panelebit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-dark-brown-metal-gate-panels.jpg</image:loc>
+      <image:title>Dark brown metal gate with panelled surface</image:title>
+      <image:caption>Dark brown metal gate whose surface is divided into panels by horizontal and vertical dividers.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/black-metal-fence-sections-white-wall/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-lithonis-ghobe-tetri-kedeli/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/black-metal-fence-sections-white-wall/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/shavi-lithonis-ghobe-tetri-kedeli/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-fence-sections-white-wall.jpg</image:loc>
+      <image:title>Black metal fence sections beside a white wall and new trees</image:title>
+      <image:caption>Black metal fence sections standing against a white wall. Newly planted trees tied to wooden stakes are in the foreground.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/black-fence-wall-lights-dusk/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-ghobe-kedlis-ganatebit-saghamo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/black-fence-wall-lights-dusk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/shavi-ghobe-kedlis-ganatebit-saghamo/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-fence-wall-lights-dusk.jpg</image:loc>
+      <image:title>Black metal fence with wall lights at dusk</image:title>
+      <image:caption>Dusk view of black metal fence sections along a white wall with up-and-down wall lights, and a row of young trees beside it.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/black-spiral-staircase-between-walls/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-spiraluri-kibe-ori-kedlis-shoris/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/black-spiral-staircase-between-walls/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/shavi-spiraluri-kibe-ori-kedlis-shoris/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-spiral-staircase-between-walls.jpg</image:loc>
+      <image:title>Black spiral staircase between two walls</image:title>
+      <image:caption>Black metal spiral staircase with a curved handrail between two walls. The upper landing has a vertical-baluster railing, and construction work is still going on around it.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/exterior-metal-stair-vertical-railing/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/gare-lithonis-kibe-vertikaluri-moajiri/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/exterior-metal-stair-vertical-railing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/gare-lithonis-kibe-vertikaluri-moajiri/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-exterior-metal-stair-vertical-railing.jpg</image:loc>
+      <image:title>Exterior metal stair beside a concrete wall with vertical-bar railing</image:title>
+      <image:caption>Straight exterior metal staircase attached to a concrete retaining wall. The flight and the upper landing have a black railing with vertical balusters.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/curved-white-stair-wooden-treads/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/tetri-mokhrili-kibe-khis-safekhurebit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/curved-white-stair-wooden-treads/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/tetri-mokhrili-kibe-khis-safekhurebit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-curved-white-stair-wooden-treads.jpg</image:loc>
+      <image:title>Curved white staircase with wooden treads, view from above</image:title>
+      <image:caption>Narrow curved staircase seen from above, with wooden treads. White curved surfaces run along its sides, and the walls have panelling and a framed picture.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/curved-white-interior-staircase/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/mokhrili-tetri-kibe-interieri/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/curved-white-interior-staircase/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/mokhrili-tetri-kibe-interieri/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-curved-white-interior-staircase.jpg</image:loc>
+      <image:title>Curved white interior staircase with wooden floor</image:title>
+      <image:caption>Sweeping curved white staircase with wooden treads, meeting a wooden floor. A large black-and-white framed picture hangs on the wall.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/spiral-staircase-ornamental-balusters/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/spiraluri-kibe-ornamenturi-balustrebit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/spiral-staircase-ornamental-balusters/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/spiraluri-kibe-ornamenturi-balustrebit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-spiral-staircase-ornamental-balusters.jpg</image:loc>
+      <image:title>Spiral staircase with ornamental balusters</image:title>
+      <image:caption>Black spiral staircase with a railing of turned ornamental balusters and a curved handrail. Decorative brackets sit beneath the steps.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/spiral-staircase-central-column-detail/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/spiraluri-kibis-centraluri-bodzi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/spiral-staircase-central-column-detail/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/spiraluri-kibis-centraluri-bodzi/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-spiral-staircase-central-column-detail.jpg</image:loc>
+      <image:title>Spiral staircase central column and balusters, close view</image:title>
+      <image:caption>Close view of a spiral staircase showing the central column, turned balusters and curved handrail.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/exterior-multi-flight-metal-staircase-night/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/gare-lithonis-kibe-ramdenime-marshit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/exterior-multi-flight-metal-staircase-night/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/gare-lithonis-kibe-ramdenime-marshit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-exterior-multi-flight-metal-staircase-night.jpg</image:loc>
+      <image:title>Exterior multi-flight metal staircase at night</image:title>
+      <image:caption>Exterior metal staircase with several flights and landings beside a building façade, photographed at night from below.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/steel-mezzanine-open-stair/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/lithonis-antresoli-da-kibe/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/steel-mezzanine-open-stair/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/lithonis-antresoli-da-kibe/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-steel-mezzanine-open-stair.jpg</image:loc>
+      <image:title>Steel mezzanine and open-riser staircase in an unfinished space</image:title>
+      <image:caption>Steel mezzanine with a black frame and an open-riser staircase beside it. The space is unfinished and work cables lie on the floor.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/exterior-stair-checker-plate-treads/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/gare-kibe-gharebiani-safekhurebit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/exterior-stair-checker-plate-treads/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/gare-kibe-gharebiani-safekhurebit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-exterior-stair-checker-plate-treads.jpg</image:loc>
+      <image:title>Exterior stair with checker-plate metal treads</image:title>
+      <image:caption>Exterior metal staircase with checker-plate treads and a black vertical-bar railing running along a block wall.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/metal-stair-projecting-from-wall/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/kibe-kedlidan-gamoshveruli/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/metal-stair-projecting-from-wall/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/kibe-kedlidan-gamoshveruli/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-metal-stair-projecting-from-wall.jpg</image:loc>
+      <image:title>Metal stair projecting from a block wall with railing</image:title>
+      <image:caption>Metal staircase with a black railing leading up to a landing that projects from a block wall, seen from below against the sky.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/exterior-stair-building-under-construction/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/gare-kibe-mshenebare-shenobaze/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/exterior-stair-building-under-construction/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/gare-kibe-mshenebare-shenobaze/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-exterior-stair-building-under-construction.jpg</image:loc>
+      <image:title>Black exterior stair on a building under construction</image:title>
+      <image:caption>Black metal exterior staircase with a railing on the façade of a building under construction at dusk, with formwork and scaffolding above.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/stair-top-view-double-railing/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/kibe-zemodan-ormkhrivi-moajiri/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/stair-top-view-double-railing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/kibe-zemodan-ormkhrivi-moajiri/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-stair-top-view-double-railing.jpg</image:loc>
+      <image:title>Top-down view of a stair with a railing on both sides</image:title>
+      <image:caption>Metal staircase photographed from above, with checker-plate treads and a black vertical-bar railing on both sides. Photographed while work is in progress.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/metal-stair-viewed-from-below/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/kibe-qvemodan-vertikaluri-moajiri/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/metal-stair-viewed-from-below/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/kibe-qvemodan-vertikaluri-moajiri/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-metal-stair-viewed-from-below.jpg</image:loc>
+      <image:title>Metal stair viewed from below with vertical-bar railing</image:title>
+      <image:caption>Exterior metal staircase with a black vertical-bar railing and side bracing, photographed from below against the sky.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/open-tread-metal-staircase-concrete-walls/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/lithonis-kibe-ghia-safekhurebit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/open-tread-metal-staircase-concrete-walls/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/lithonis-kibe-ghia-safekhurebit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-open-tread-metal-staircase-concrete-walls.jpg</image:loc>
+      <image:title>Open-tread metal staircase between raw concrete walls</image:title>
+      <image:caption>Black metal staircase with open treads and a heavy side stringer between raw concrete and block walls.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/central-spine-floating-step-staircase/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/kibe-centraluri-kojit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/central-spine-floating-step-staircase/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/kibe-centraluri-kojit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-central-spine-floating-step-staircase.jpg</image:loc>
+      <image:title>Staircase with a central spine and floating steps</image:title>
+      <image:caption>Black metal staircase with steps fixed to a single central spine inside a white stairwell. The lower steps are not yet finished.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/central-spine-stair-steps-detail/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/kibis-safekhurebi-akhlo-khedi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/central-spine-stair-steps-detail/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/kibis-safekhurebi-akhlo-khedi/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-central-spine-stair-steps-detail.jpg</image:loc>
+      <image:title>Close view of steel steps on a central spine</image:title>
+      <image:caption>Flat black steel steps fixed to one central spine, with the lines standing out against a white wall.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/staircase-under-steel-beam-framework/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/kibe-lithonis-kojebis-chertan/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/staircase-under-steel-beam-framework/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/kibe-lithonis-kojebis-chertan/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-staircase-under-steel-beam-framework.jpg</image:loc>
+      <image:title>Staircase beneath a steel beam framework</image:title>
+      <image:caption>Metal staircase in an interior, with a grid of black steel beams overhead.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/metal-staircase-horizontal-bar-railing/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/lithonis-kibe-horizontaluri-moajiri/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/metal-staircase-horizontal-bar-railing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/lithonis-kibe-horizontaluri-moajiri/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-metal-staircase-horizontal-bar-railing.jpg</image:loc>
+      <image:title>Metal staircase with horizontal-bar railing in an interior</image:title>
+      <image:caption>Black metal staircase with open treads and a railing of horizontal bars, in an interior that is not yet finished.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/finished-black-spiral-staircase/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/dasrulebuli-spiraluri-kibe/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/finished-black-spiral-staircase/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/dasrulebuli-spiraluri-kibe/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-finished-black-spiral-staircase.jpg</image:loc>
+      <image:title>Finished black spiral staircase in a courtyard</image:title>
+      <image:caption>Finished black metal spiral staircase with a curved handrail between a block wall and a concrete floor, with a wooden-framed doorway at the foot.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/black-ornamental-stair-railing-flowing-curves/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-ornamenturi-moajiri-mrudebit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/black-ornamental-stair-railing-flowing-curves/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/shavi-ornamenturi-moajiri-mrudebit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-ornamental-stair-railing-flowing-curves.jpg</image:loc>
+      <image:title>Black ornamental stair railing with flowing curves</image:title>
+      <image:caption>Black stair railing composed of soft, plant-like curved lines. Building materials are still stacked on the stairs.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/railing-ornament-flower-element/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/moajiris-ornamenti-yvavilis-elementit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/railing-ornament-flower-element/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/moajiris-ornamenti-yvavilis-elementit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-railing-ornament-flower-element.jpg</image:loc>
+      <image:title>Railing ornament with a flower-shaped element</image:title>
+      <image:caption>Close view of a railing with curved lines, a circular scroll and a four-petal flower-shaped element inside it.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/stair-railing-fan-pattern-scrolls/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/moajiri-maraosebri-khazebit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/stair-railing-fan-pattern-scrolls/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/moajiri-maraosebri-khazebit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-stair-railing-fan-pattern-scrolls.jpg</image:loc>
+      <image:title>Stair railing with fan-shaped lines and scrolls</image:title>
+      <image:caption>Stair railing where thin black lines fan out and turn into scrolls at the top.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/curved-railing-vertical-balusters/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/mrudi-moajiri-vertikaluri-balustrebit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/curved-railing-vertical-balusters/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/mrudi-moajiri-vertikaluri-balustrebit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-curved-railing-vertical-balusters.jpg</image:loc>
+      <image:title>Curved railing with vertical balusters</image:title>
+      <image:caption>Curved metal railing with vertical balusters and a top handrail. Workshop tools can be seen in the background.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/wrought-iron-gate-brick-arch/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/forjirebuli-chishkari-agurit-taghshi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/wrought-iron-gate-brick-arch/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/forjirebuli-chishkari-agurit-taghshi/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-wrought-iron-gate-brick-arch.jpg</image:loc>
+      <image:title>Wrought-iron gate set in a brick arch</image:title>
+      <image:caption>Two-leaf wrought-iron gate set in a red brick arch. The ornament is made of scrolls and spear-shaped tips.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/wrought-iron-gate-leaf-scrollwork/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/forjirebuli-chishkris-frtha-khveuli/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/wrought-iron-gate-leaf-scrollwork/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/forjirebuli-chishkris-frtha-khveuli/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-wrought-iron-gate-leaf-scrollwork.jpg</image:loc>
+      <image:title>Wrought-iron gate leaf with scrollwork</image:title>
+      <image:caption>Side view of a wrought-iron gate leaf beside a brick wall, with a spear-shaped tip above and a row of circular scrolls below.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/wrought-iron-scroll-detail/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/forjirebuli-ornamentis-detali/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/wrought-iron-scroll-detail/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/forjirebuli-ornamentis-detali/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-wrought-iron-scroll-detail.jpg</image:loc>
+      <image:title>Close-up of a wrought-iron scroll detail</image:title>
+      <image:caption>Close view of a wrought-iron gate showing bent scrolls, a heavy vertical post and a metal fastening.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/black-pivot-door-glazed-side-panels/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-pivot-kari-minis-panelebit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/black-pivot-door-glazed-side-panels/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/shavi-pivot-kari-minis-panelebit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-pivot-door-glazed-side-panels.jpg</image:loc>
+      <image:title>Black pivot door with glazed side panels</image:title>
+      <image:caption>Black metal pivot door shown open, with glass panels at the sides and above, all in a black metal frame.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/black-pivot-door-long-handle/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-pivot-kari-grdzeli-sakhuri/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/black-pivot-door-long-handle/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/shavi-pivot-kari-grdzeli-sakhuri/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-pivot-door-long-handle.jpg</image:loc>
+      <image:title>Black pivot door with a long vertical handle</image:title>
+      <image:caption>Black pivot door with a smooth surface and a long vertical handle, with a narrow glass strip beside it.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/window-black-frame-wooden-slat-shutters/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/fanjara-khis-lamelebit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/window-black-frame-wooden-slat-shutters/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/fanjara-khis-lamelebit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-window-black-frame-wooden-slat-shutters.jpg</image:loc>
+      <image:title>Window with wooden slat shutters in a black frame</image:title>
+      <image:caption>Window in a black metal frame with shutters made of vertical wooden slats, one of which is open.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/black-metal-barbecue-grill-hood/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-mangali-gumbatit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/black-metal-barbecue-grill-hood/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/shavi-mangali-gumbatit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-barbecue-grill-hood.jpg</image:loc>
+      <image:title>Black metal barbecue grill with hood and two grates</image:title>
+      <image:caption>Large black metal barbecue grill with a hood and chimney. Inside are two grates with wooden shelves beside them, and a ribbed metal compartment below.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/grill-pull-out-drawer-chain-grate/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/mangali-gamosatsevi-ujra/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/grill-pull-out-drawer-chain-grate/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/mangali-gamosatsevi-ujra/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-grill-pull-out-drawer-chain-grate.jpg</image:loc>
+      <image:title>Grill with pull-out drawer and chain-hung grate</image:title>
+      <image:caption>Close view of a grill showing a grate hung on chains, a wooden shelf and a metal drawer pulled out below.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/large-black-steel-table-arched-cutouts/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-lithonis-magida-taghisebri/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/large-black-steel-table-arched-cutouts/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/shavi-lithonis-magida-taghisebri/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-large-black-steel-table-arched-cutouts.jpg</image:loc>
+      <image:title>Large black steel table with arched cut-outs</image:title>
+      <image:caption>Large, long black steel table with a smooth top and arched cut-outs in its sides, photographed outdoors.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/fireplace-black-metal-frame-tiled-surround/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/bukhari-shavi-lithonis-charchoti/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/fireplace-black-metal-frame-tiled-surround/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/bukhari-shavi-lithonis-charchoti/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-fireplace-black-metal-frame-tiled-surround.jpg</image:loc>
+      <image:title>Fireplace with a black metal frame in a tiled surround</image:title>
+      <image:caption>Fireplace with a black metal frame set in a surround clad with light-coloured tiles, with small decorative objects on the mantel.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/spiral-staircase-3d-model/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/spiraluri-kibis-3d-modeli/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/spiral-staircase-3d-model/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/spiraluri-kibis-3d-modeli/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-spiral-staircase-3d-model.jpg</image:loc>
+      <image:title>3D model of a spiral staircase with railing</image:title>
+      <image:caption>3D model of a spiral metal staircase with vertical balusters, shown next to a wall and an upper platform.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/staircase-3d-scan-railing-model/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/kibis-3d-skani-moajiris-modelit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/staircase-3d-scan-railing-model/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/kibis-3d-skani-moajiris-modelit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-staircase-3d-scan-railing-model.jpg</image:loc>
+      <image:title>3D scan of a staircase with a railing model</image:title>
+      <image:caption>3D scan of an existing staircase with a black railing model placed into it.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/horizontal-slat-gate-3d-visualisation/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/chishkris-3d-vizualizatsia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/horizontal-slat-gate-3d-visualisation/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/chishkris-3d-vizualizatsia/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-horizontal-slat-gate-3d-visualisation.jpg</image:loc>
+      <image:title>3D visualisation of a horizontal-slat gate</image:title>
+      <image:caption>3D visualisation of a gate with horizontal slats and mesh panels between posts.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/staircase-3d-scan-measurements/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/kibis-3d-skani-gazomvebit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/staircase-3d-scan-measurements/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/kibis-3d-skani-gazomvebit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-staircase-3d-scan-measurements.jpg</image:loc>
+      <image:title>Staircase 3D scan with measurements</image:title>
+      <image:caption>3D scan of an existing space with a staircase model and dimension annotations added.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/cantilever-staircase-3d-visualisation/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/konsoluri-kibis-3d-vizualizatsia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/cantilever-staircase-3d-visualisation/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/konsoluri-kibis-3d-vizualizatsia/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-cantilever-staircase-3d-visualisation.jpg</image:loc>
+      <image:title>Cantilever staircase with wooden treads, interior 3D visualisation</image:title>
+      <image:caption>Interior 3D visualisation of a cantilever staircase with wooden treads projecting from the wall. The floor is wood, with an armchair and a plant in front.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/curved-staircase-3d-view-room/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/kibis-3d-chveneba-sivrtseshi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/curved-staircase-3d-view-room/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/kibis-3d-chveneba-sivrtseshi/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-curved-staircase-3d-view-room.jpg</image:loc>
+      <image:title>3D view of a curved staircase with wooden treads in a room</image:title>
+      <image:caption>3D view of a curved staircase with wooden treads inside a room, with a floor slab and walls above.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/curved-staircase-3d-model-below/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/khveuli-kibis-3d-modeli-qvemodan/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/curved-staircase-3d-model-below/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/khveuli-kibis-3d-modeli-qvemodan/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-curved-staircase-3d-model-below.jpg</image:loc>
+      <image:title>3D model of a curved staircase viewed from below</image:title>
+      <image:caption>3D model of a curved metal staircase seen from below, with a dark slab above and dimension annotations.</image:caption>
+    </image:image>
   </url>
 </urlset>

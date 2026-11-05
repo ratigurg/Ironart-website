@@ -20,6 +20,9 @@ const meta = readJSON('data/image-meta.json');
 const site = readJSON('data/site.json');
 
 const LANGS = ['ka', 'en'];
+const SITE = site.url.replace(/\/$/, '');
+const absUrl = dir => SITE + '/' + dir + (dir ? '/' : '');
+const ORG = { '@type': 'Organization', name: site.name, url: SITE + '/', telephone: site.phone };
 const GENERATED = ['en', 'namushevrebi', 'photo'];
 
 // ---------- helpers ----------
@@ -93,8 +96,8 @@ function fill(html, vars, lang) {
 }
 
 // ---------- fragments ----------
-function langSwitch(lang, dir, altDirs) {
-  const a = l => `<a href="${l === lang ? '#' : href(dir, altDirs[l])}" hreflang="${l}" lang="${l}" aria-label="${l === 'ka' ? 'ქართული' : 'English'}"${l === lang ? ' aria-current="true"' : ''}>${l === 'ka' ? 'ქარ' : 'EN'}</a>`;
+function langSwitch(lang, dir, altDirs, hrefFn = href) {
+  const a = l => `<a href="${l === lang ? '#' : hrefFn(dir, altDirs[l])}" hreflang="${l}" lang="${l}" aria-label="${l === 'ka' ? 'ქართული' : 'English'}"${l === lang ? ' aria-current="true"' : ''}>${l === 'ka' ? 'ქარ' : 'EN'}</a>`;
   return `<div class="lang" role="group" aria-label="${esc(STR[lang].langAria)}">\n    ${a('ka')}\n    ${a('en')}\n  </div>`;
 }
 
@@ -132,15 +135,53 @@ function filters(lang, dir, activeId) {
   return `<nav class="filters" aria-label="${esc(s.filterLabel)}">${link(s.all, dirs.work(lang), activeId === 'all')}${cats.map(c => link(catName(lang, c), dirs.cat(lang, c), activeId === c.id)).join('')}</nav>`;
 }
 
+// ---------- SEO ----------
+const crumbLd = items => ({
+  '@type': 'BreadcrumbList',
+  itemListElement: items.map(([name, d], i) => ({ '@type': 'ListItem', position: i + 1, name, item: absUrl(d) })),
+});
+function seoHead({ lang, dir, altDirs, title, description, og, ld, noindex }) {
+  const out = [];
+  if (noindex) {
+    out.push('<meta name="robots" content="noindex">');
+  } else {
+    out.push(`<link rel="canonical" href="${absUrl(dir)}">`);
+    out.push(`<link rel="alternate" hreflang="ka" href="${absUrl(altDirs.ka)}">`);
+    out.push(`<link rel="alternate" hreflang="en" href="${absUrl(altDirs.en)}">`);
+    out.push(`<link rel="alternate" hreflang="x-default" href="${absUrl(altDirs.ka)}">`);
+    out.push('<meta property="og:type" content="website">');
+    out.push(`<meta property="og:site_name" content="${esc(site.name)}">`);
+    out.push(`<meta property="og:locale" content="${lang === 'ka' ? 'ka_GE' : 'en_US'}">`);
+    out.push(`<meta property="og:locale:alternate" content="${lang === 'ka' ? 'en_US' : 'ka_GE'}">`);
+    out.push(`<meta property="og:title" content="${esc(title)}">`);
+    out.push(`<meta property="og:description" content="${esc(description)}">`);
+    out.push(`<meta property="og:url" content="${absUrl(dir)}">`);
+    if (og) {
+      out.push(`<meta property="og:image" content="${SITE}/${og.path}">`);
+      out.push(`<meta property="og:image:width" content="${og.w}">`);
+      out.push(`<meta property="og:image:height" content="${og.h}">`);
+      out.push(`<meta property="og:image:alt" content="${esc(og.alt)}">`);
+      out.push('<meta name="twitter:card" content="summary_large_image">');
+    }
+  }
+  if (ld && ld.length) {
+    const doc = ld.length === 1 ? { '@context': 'https://schema.org', ...ld[0] } : { '@context': 'https://schema.org', '@graph': ld };
+    out.push(`<script type="application/ld+json">${jsonForScript(doc)}</script>`);
+  }
+  return out.join('\n') + '\n';
+}
+const ogOf = (p, lang) => ({ path: imgBase(p) + '.jpg', w: meta[p.slug_en].w, h: meta[p.slug_en].h, alt: pTitle(lang, p) });
+
 // ---------- page shell ----------
-function page({ lang, dir, altDirs, title, description, main, headExtra = '', scriptData = '' }) {
-  const root = rootOf(dir);
-  const homeHref = href(dir, dirs.home(lang));
+// abs: root-relative URLs ("/style.css") for pages served from unknown depths (404.html)
+function page({ lang, dir, altDirs, title, description, main, headExtra = '', scriptData = '', og, ld, noindex = false, abs = false }) {
+  const hrefFn = abs ? (f, to) => '/' + (to ? to + '/' : '') : href;
+  const root = abs ? '/' : rootOf(dir);
   const vars = {
     ROOT: root,
-    H: dir === dirs.home(lang) ? '' : homeHref,
-    WORK: href(dir, dirs.work(lang)),
-    LANG: langSwitch(lang, dir, altDirs),
+    H: !abs && dir === dirs.home(lang) ? '' : hrefFn(dir, dirs.home(lang)),
+    WORK: hrefFn(dir, dirs.work(lang)),
+    LANG: langSwitch(lang, dir, altDirs, hrefFn),
   };
   const part = html => fill(translate(html, lang), vars, lang);
   const head = `<head>
@@ -148,7 +189,7 @@ function page({ lang, dir, altDirs, title, description, main, headExtra = '', sc
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(description)}">
-<meta name="theme-color" content="${site.themeColor}">
+${seoHead({ lang, dir, altDirs, title, description, og, ld, noindex })}<meta name="theme-color" content="${site.themeColor}">
 <link rel="icon" type="image/png" sizes="512x512" href="${root}${site.favicon}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -187,11 +228,11 @@ function write(dir, html) {
 const homeStrings = {
   ka: {
     title: 'IronArt — ლითონის ნაკეთობათა საამქრო თბილისში',
-    description: 'IronArt — ლითონის ნაკეთობათა საამქრო თბილისში. ჭიშკრები და ღობეები, მოაჯირები და კიბეები, ავეჯი და ინდივიდუალური შეკვეთები. 25+ წლიანი გამოცდილება. ☎ 599 01 21 05',
+    description: 'IronArt — ლითონის ნაკეთობათა საამქრო თბილისში: ჭიშკრები, ღობეები, მოაჯირები, კიბეები, ავეჯი და ინდივიდუალური შეკვეთები. 25+ წელი. ☎ 599 01 21 05',
   },
   en: {
     title: 'IronArt — Metal fabrication workshop in Tbilisi',
-    description: 'IronArt — metal fabrication workshop in Tbilisi. Gates and fences, railings and staircases, furniture and custom orders. 25+ years of experience. Tel. 599 01 21 05',
+    description: 'IronArt — metal fabrication workshop in Tbilisi: gates, fences, railings, staircases, furniture and custom orders. 25+ years. Tel. 599 01 21 05',
   },
 };
 const D3_FILES = ['IMG_2424', 'IMG_0001', 'IMG_2640', 'IMG_1632', 'IMG_2278', 'IMG_0336', 'IMG_2533'].map(n => byFile[`Images/3d/web/${n}.jpg`]);
@@ -225,11 +266,12 @@ function buildHome(lang) {
     FINISHED_PICTURE: finishedPicture,
     GALLERY_GRID: galleryGrid,
   }, lang).replace(/^<main>\n?/, '').replace(/\n?<\/main>\s*$/, '');
-  const ld = { ...site.jsonld_home };
+  const ld = { ...site.jsonld_home, '@type': site.jsonld_home['@type'], url: absUrl(dir), inLanguage: lang, image: `${SITE}/${imgBase(D3_FILES[0])}.jpg` };
+  delete ld['@context'];
   if (lang === 'en') ld.description = 'Metal fabrication workshop — gates, fences, railings, staircases, furniture and custom orders.';
-  const headExtra = `<link rel="preload" as="image" href="${d3[0].src}" type="image/webp">\n<script type="application/ld+json">${jsonForScript(ld)}</script>\n<script type="module" src="${root}assets/model-viewer.min.js"></script>\n`;
+  const headExtra = `<link rel="preload" as="image" href="${d3[0].src}" type="image/webp">\n<script type="module" src="${root}assets/model-viewer.min.js"></script>\n`;
   const scriptData = `<script>window.IA=${jsonForScript({ d3, svc })};</script>\n`;
-  write(dir, page({ lang, dir, altDirs, title: homeStrings[lang].title, description: homeStrings[lang].description, main, headExtra, scriptData }));
+  write(dir, page({ lang, dir, altDirs, title: homeStrings[lang].title, description: homeStrings[lang].description, main, headExtra, scriptData, og: { ...ogOf(D3_FILES[0], lang), alt: s.d3[0] }, ld: [ld] }));
 }
 
 function listingMain(lang, dir, { h1, intro, activeId, list, trail }) {
@@ -246,16 +288,26 @@ function listingMain(lang, dir, { h1, intro, activeId, list, trail }) {
 ${ctaSection(lang)}`;
 }
 
+const itemList = (lang, list) => ({
+  '@type': 'ItemList',
+  numberOfItems: list.length,
+  itemListElement: list.map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: absUrl(dirs.photo(lang, p)), name: pTitle(lang, p) })),
+});
+const collectionLd = (lang, dir, name, description, list) => ({
+  '@type': 'CollectionPage', name, description, url: absUrl(dir), inLanguage: lang,
+  isPartOf: { '@type': 'WebSite', name: site.name, url: SITE + '/' },
+  mainEntity: itemList(lang, list),
+});
+
 function buildWork(lang) {
   const dir = dirs.work(lang);
   const s = STR[lang];
   const altDirs = { ka: dirs.work('ka'), en: dirs.work('en') };
-  const main = listingMain(lang, dir, {
-    h1: s.workH1, intro: s.workIntro, activeId: 'all', list: photosInCatOrder,
-    trail: [[s.crumbHome, dirs.home(lang)], [s.crumbWork, dir]],
-  });
+  const trail = [[s.crumbHome, dirs.home(lang)], [s.crumbWork, dir]];
+  const main = listingMain(lang, dir, { h1: s.workH1, intro: s.workIntro, activeId: 'all', list: photosInCatOrder, trail });
   const brand = lang === 'ka' ? 'IronArt — თბილისი' : 'IronArt — Tbilisi';
-  write(dir, page({ lang, dir, altDirs, title: `${s.workH1} | ${brand}`, description: trunc(s.workIntro), main }));
+  write(dir, page({ lang, dir, altDirs, title: `${s.workH1} | ${brand}`, description: trunc(s.workIntro), main,
+    og: ogOf(featured[0], lang), ld: [collectionLd(lang, dir, s.workH1, trunc(s.workIntro), photosInCatOrder), crumbLd(trail)] }));
 }
 
 function buildCategory(lang, c) {
@@ -263,12 +315,11 @@ function buildCategory(lang, c) {
   const s = STR[lang];
   const altDirs = { ka: dirs.cat('ka', c), en: dirs.cat('en', c) };
   const intro = lang === 'ka' ? c.intro_ka : c.intro_en;
-  const main = listingMain(lang, dir, {
-    h1: catName(lang, c), intro, activeId: c.id, list: byCat[c.id],
-    trail: [[s.crumbHome, dirs.home(lang)], [s.crumbWork, dirs.work(lang)], [catName(lang, c), dir]],
-  });
+  const trail = [[s.crumbHome, dirs.home(lang)], [s.crumbWork, dirs.work(lang)], [catName(lang, c), dir]];
+  const main = listingMain(lang, dir, { h1: catName(lang, c), intro, activeId: c.id, list: byCat[c.id], trail });
   const brand = lang === 'ka' ? 'IronArt — თბილისი' : 'IronArt — Tbilisi';
-  write(dir, page({ lang, dir, altDirs, title: `${catName(lang, c)} | ${brand}`, description: trunc(intro), main }));
+  write(dir, page({ lang, dir, altDirs, title: `${catName(lang, c)} | ${brand}`, description: trunc(intro), main,
+    og: ogOf(byCat[c.id][0], lang), ld: [collectionLd(lang, dir, catName(lang, c), trunc(intro), byCat[c.id]), crumbLd(trail)] }));
 }
 
 function buildPhoto(lang, p) {
@@ -301,7 +352,14 @@ function buildPhoto(lang, p) {
     ${grid(lang, dir, related)}
   </section>` : '';
 
-  const main = `${crumbs(lang, dir, [[s.crumbHome, dirs.home(lang)], [s.crumbWork, dirs.work(lang)], [catName(lang, c), dirs.cat(lang, c)], [t, dir]])}
+  const trail = [[s.crumbHome, dirs.home(lang)], [s.crumbWork, dirs.work(lang)], [catName(lang, c), dirs.cat(lang, c)], [t, dir]];
+  const imageLd = {
+    '@type': 'ImageObject', '@id': absUrl(dir) + '#image',
+    contentUrl: `${SITE}/${imgBase(p)}.jpg`, thumbnailUrl: `${SITE}/${imgBase(p)}-thumb.jpg`,
+    name: t, description: pDesc(lang, p), width: m.w, height: m.h, encodingFormat: 'image/jpeg',
+    inLanguage: lang, mainEntityOfPage: absUrl(dir), publisher: ORG,
+  };
+  const main = `${crumbs(lang, dir, trail)}
   <section class="pp">
     <figure><picture><source type="image/webp" srcset="${base}.webp"><img src="${base}.jpg" alt="${esc(t)}" width="${m.w}" height="${m.h}" fetchpriority="high" decoding="async"></picture></figure>
     <div class="pinfo">
@@ -312,7 +370,76 @@ function buildPhoto(lang, p) {
   </section>${pager}${rel}
 ${ctaSection(lang, { photo: true })}`;
   const brand = lang === 'ka' ? 'IronArt — თბილისი' : 'IronArt — Tbilisi';
-  write(dir, page({ lang, dir, altDirs, title: `${t} | ${brand}`, description: trunc(pDesc(lang, p)), main }));
+  write(dir, page({ lang, dir, altDirs, title: `${t} | ${brand}`, description: trunc(pDesc(lang, p)), main,
+    og: ogOf(p, lang), ld: [imageLd, crumbLd(trail)] }));
+}
+
+// ---------- 404, sitemap, robots ----------
+function build404() {
+  const lang = 'ka';
+  const s = STR.ka;
+  const links = [['/' + dirs.work('ka') + '/', s.allWork], ...cats.map(c => ['/' + dirs.cat('ka', c) + '/', c.name_ka])];
+  const main = `
+  <section class="gallery inner">
+    <div class="ghead">
+      <div><div class="label"><span class="sq"></span><span>404</span></div><h1 class="h2">გვერდი ვერ მოიძებნა</h1></div>
+      <p class="intro">ეს მისამართი არ არსებობს ან გვერდი გადატანილია. დაბრუნდით მთავარ გვერდზე ან აირჩიეთ ნამუშევრების კატეგორია.<br><span lang="en">Page not found. Go back to the <a href="/en/">English home page</a> or browse our work.</span></p>
+    </div>
+    <nav class="filters" aria-label="${esc(s.filterLabel)}">${links.map(([h, l]) => `<a href="${h}">${esc(l)}</a>`).join('')}</nav>
+    <div class="gmore"><a href="/" class="btn pri"><span>${esc(s.crumbHome)}</span>${ARROW}</a></div>
+  </section>
+${ctaSection(lang)}`;
+  const html = page({
+    lang, dir: '', altDirs: { ka: '', en: 'en' }, abs: true, noindex: true,
+    title: 'გვერდი ვერ მოიძებნა | IronArt — თბილისი',
+    description: 'გვერდი ვერ მოიძებნა. დაბრუნდით IronArt-ის მთავარ გვერდზე ან დაათვალიერეთ ლითონის ნაკეთობების ნამუშევრები თბილისში.',
+    main,
+  });
+  fs.writeFileSync(path.join(ROOT, '404.html'), html);
+}
+
+const xml = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+function buildSitemap() {
+  const entries = [];
+  const imgsOf = (lang, list) => list.map(p => ({ loc: `${SITE}/${imgBase(p)}.jpg`, title: pTitle(lang, p), caption: pDesc(lang, p) }));
+  for (const lang of LANGS) {
+    entries.push({ lang, key: 'home', dir: dirs.home(lang), alts: { ka: dirs.home('ka'), en: dirs.home('en') }, images: imgsOf(lang, featured) });
+    entries.push({ lang, key: 'work', dir: dirs.work(lang), alts: { ka: dirs.work('ka'), en: dirs.work('en') }, images: imgsOf(lang, photosInCatOrder) });
+    for (const c of cats) entries.push({ lang, key: 'cat', dir: dirs.cat(lang, c), alts: { ka: dirs.cat('ka', c), en: dirs.cat('en', c) }, images: imgsOf(lang, byCat[c.id]) });
+    for (const p of photos) entries.push({ lang, key: 'photo', dir: dirs.photo(lang, p), alts: { ka: dirs.photo('ka', p), en: dirs.photo('en', p) }, images: imgsOf(lang, [p]) });
+  }
+  const order = { home: 0, work: 1, cat: 2, photo: 3 };
+  entries.sort((a, b) => order[a.key] - order[b.key] || LANGS.indexOf(a.lang) - LANGS.indexOf(b.lang));
+  const body = entries.map(e => `  <url>
+    <loc>${absUrl(e.dir)}</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="${absUrl(e.alts.ka)}"/>
+    <xhtml:link rel="alternate" hreflang="en" href="${absUrl(e.alts.en)}"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="${absUrl(e.alts.ka)}"/>
+${e.images.map(i => `    <image:image>
+      <image:loc>${xml(i.loc)}</image:loc>
+      <image:title>${xml(i.title)}</image:title>
+      <image:caption>${xml(i.caption)}</image:caption>
+    </image:image>`).join('\n')}
+  </url>`).join('\n');
+  fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+${body}
+</urlset>
+`);
+  return entries.length;
+}
+
+function buildRobots() {
+  fs.writeFileSync(path.join(ROOT, 'robots.txt'), `User-agent: *
+Allow: /
+# originals, build inputs and scripts are not pages; optimised images live in /img/
+Disallow: /Images/
+Disallow: /data/
+Disallow: /src/
+Disallow: /scripts/
+
+Sitemap: ${SITE}/sitemap.xml
+`);
 }
 
 // ---------- run ----------
@@ -323,6 +450,10 @@ for (const lang of LANGS) {
   for (const c of cats) { buildCategory(lang, c); count++; }
   for (const p of photos) { buildPhoto(lang, p); count++; }
 }
+build404();
+const sitemapUrls = buildSitemap();
+buildRobots();
+console.log(`sitemap.xml: ${sitemapUrls} URLs, robots.txt, 404.html`);
 console.log(`pages: ${count} written (${LANGS.length} languages, ${photos.length} photos, ${cats.length} categories)`);
 
 // Pages from an earlier build that no longer exist (e.g. a renamed slug). Not deleted automatically.
