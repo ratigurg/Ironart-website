@@ -1,5 +1,5 @@
 [
-  {"file":"Images/selected/IMG_2659.jpg","category":"gates","featured":false,
+  {"file":"Images/selected/IMG_2659.jpg","category":"gates","featured":true,
    "title_ka":"შავი ლითონის ჭიშკარი ვერტიკალური ლამელებით","title_en":"Black metal gate with vertical slats",
    "desc_ka":"ორფრთიანი შავი ჭიშკარი, რომლის ფრთები სხვადასხვა სიმაღლის ვერტიკალური ლითონის ლამელებისგანაა აწყობილი. ფონზე მინის ფასადი ჩანს.",
    "desc_en":"Two-leaf black gate built from vertical metal slats of varying height, photographed in front of a glazed façade.",
@@ -130,13 +130,13 @@
    "desc_ka":"შავი ლითონის კიბე ღია საფეხურებით და ჰორიზონტალური ღეროებისგან აწყობილი მოაჯირით, ჯერ დაუსრულებელ ინტერიერში.",
    "desc_en":"Black metal staircase with open treads and a railing of horizontal bars, in an interior that is not yet finished.",
    "slug_ka":"lithonis-kibe-horizontaluri-moajiri","slug_en":"metal-staircase-horizontal-bar-railing"},
-  {"file":"Images/selected/spiral-stair-clean.jpg","category":"stairs","featured":false,
+  {"file":"Images/selected/spiral-stair-clean.jpg","category":"stairs","featured":true,
    "title_ka":"დასრულებული შავი სპირალური კიბე ეზოში","title_en":"Finished black spiral staircase in a courtyard",
    "desc_ka":"დასრულებული შავი ლითონის სპირალური კიბე მოხრილი მოაჯირით, ბლოკის კედელსა და ბეტონის იატაკს შორის. კიბის ბოლოს ხის ჩარჩოიანი კარია.",
    "desc_en":"Finished black metal spiral staircase with a curved handrail between a block wall and a concrete floor, with a wooden-framed doorway at the foot.",
    "slug_ka":"dasrulebuli-spiraluri-kibe","slug_en":"finished-black-spiral-staircase"},
 
-  {"file":"Images/selected/IMG_0604.jpg","category":"railings","featured":false,
+  {"file":"Images/selected/IMG_0604.jpg","category":"railings","featured":true,
    "title_ka":"შავი ორნამენტული მოაჯირი რბილი მრუდებით კიბეზე","title_en":"Black ornamental stair railing with flowing curves",
    "desc_ka":"კიბის შავი მოაჯირი, რომელიც მცენარისებრი, რბილად მოხრილი ხაზებისგანაა შედგენილი. კიბეზე ჯერ სამშენებლო მასალებია.",
    "desc_en":"Black stair railing composed of soft, plant-like curved lines. Building materials are still stacked on the stairs.",
@@ -157,7 +157,7 @@
    "desc_en":"Curved metal railing with vertical balusters and a top handrail. Workshop tools can be seen in the background.",
    "slug_ka":"mrudi-moajiri-vertikaluri-balustrebit","slug_en":"curved-railing-vertical-balusters"},
 
-  {"file":"Images/selected/IMG_8915.jpg","category":"forging","featured":false,
+  {"file":"Images/selected/IMG_8915.jpg","category":"forging","featured":true,
    "title_ka":"ფორჯირებული ჭიშკარი აგურის თაღში","title_en":"Wrought-iron gate set in a brick arch",
    "desc_ka":"ორფრთიანი ფორჯირებული ჭიშკარი წითელი აგურის თაღში. ორნამენტი ხვეულებისგან და შუბისებური წვეროებისგან შედგება.",
    "desc_en":"Two-leaf wrought-iron gate set in a red brick arch. The ornament is made of scrolls and spear-shaped tips.",
@@ -173,7 +173,7 @@
    "desc_en":"Close view of a wrought-iron gate showing bent scrolls, a heavy vertical post and a metal fastening.",
    "slug_ka":"forjirebuli-ornamentis-detali","slug_en":"wrought-iron-scroll-detail"},
 
-  {"file":"Images/selected/IMG_7414.jpg","category":"doors","featured":false,
+  {"file":"Images/selected/IMG_7414.jpg","category":"doors","featured":true,
    "title_ka":"შავი პივოტ კარი მინის გვერდითი პანელებით","title_en":"Black pivot door with glazed side panels",
    "desc_ka":"შავი ლითონის პივოტ კარი ღია მდგომარეობაში. კარს გვერდებზე და ზემოთ მინის პანელები აქვს, შავ ლითონის ჩარჩოში.",
    "desc_en":"Black metal pivot door shown open, with glass panels at the sides and above, all in a black metal frame.",
@@ -189,7 +189,7 @@
    "desc_en":"Window in a black metal frame with shutters made of vertical wooden slats, one of which is open.",
    "slug_ka":"fanjara-khis-lamelebit","slug_en":"window-black-frame-wooden-slat-shutters"},
 
-  {"file":"Images/selected/IMG_2598.jpg","category":"grills","featured":false,
+  {"file":"Images/selected/IMG_2598.jpg","category":"grills","featured":true,
    "title_ka":"შავი ლითონის მანგალი გუმბათით და ორი გისოსით","title_en":"Black metal barbecue grill with hood and two grates",
    "desc_ka":"დიდი შავი ლითონის მანგალი გუმბათით და საკვამურით. შიგნით ორი გისოსია, მათ გვერდით ხის დაფები, ქვემოთ კი ღარებიანი ლითონის განყოფილება.",
    "desc_en":"Large black metal barbecue grill with a hood and chimney. Inside are two grates with wooden shelves beside them, and a ribbed metal compartment below.",
@@ -200,13 +200,13 @@
    "desc_en":"Close view of a grill showing a grate hung on chains, a wooden shelf and a metal drawer pulled out below.",
    "slug_ka":"mangali-gamosatsevi-ujra","slug_en":"grill-pull-out-drawer-chain-grate"},
 
-  {"file":"Images/selected/IMG_2661.jpg","category":"furniture","featured":false,
+  {"file":"Images/selected/IMG_2661.jpg","category":"furniture","featured":true,
    "title_ka":"შავი ლითონის დიდი მაგიდა თაღისებური ამონაჭრით","title_en":"Large black steel table with arched cut-outs",
    "desc_ka":"შავი ლითონის დიდი, გრძელი მაგიდა გლუვი ზედაპირით. გვერდებზე თაღისებური ამონაჭრებია. ფოტო ეზოშია გადაღებული.",
    "desc_en":"Large, long black steel table with a smooth top and arched cut-outs in its sides, photographed outdoors.",
    "slug_ka":"shavi-lithonis-magida-taghisebri","slug_en":"large-black-steel-table-arched-cutouts"},
 
-  {"file":"Images/selected/IMG_9296.jpg","category":"fireplaces","featured":false,
+  {"file":"Images/selected/IMG_9296.jpg","category":"fireplaces","featured":true,
    "title_ka":"ბუხარი შავი ლითონის ჩარჩოთი, ფილით მოპირკეთებულ ნიშაში","title_en":"Fireplace with a black metal frame in a tiled surround",
    "desc_ka":"ბუხარი შავი ლითონის ჩარჩოთი, ღია ფერის ფილებით მოპირკეთებულ ნიშაში. ზემოთ თაროზე მცირე დეკორატიული ნივთებია.",
    "desc_en":"Fireplace with a black metal frame set in a surround clad with light-coloured tiles, with small decorative objects on the mantel.",

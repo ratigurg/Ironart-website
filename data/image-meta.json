@@ -1,0 +1,290 @@
+{
+ "black-metal-gate-vertical-slats": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "two-leaf-gate-vertical-profiles": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "wide-black-gate-vertical-ribbing": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "black-gate-horizontal-slats-side-door": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "anthracite-gate-horizontal-louvre-slats": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "dark-brown-metal-gate-panels": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "black-metal-fence-sections-white-wall": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "black-fence-wall-lights-dusk": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "black-spiral-staircase-between-walls": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "exterior-metal-stair-vertical-railing": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "curved-white-stair-wooden-treads": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "curved-white-interior-staircase": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "spiral-staircase-ornamental-balusters": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "spiral-staircase-central-column-detail": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "exterior-multi-flight-metal-staircase-night": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "steel-mezzanine-open-stair": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "exterior-stair-checker-plate-treads": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "metal-stair-projecting-from-wall": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "exterior-stair-building-under-construction": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "stair-top-view-double-railing": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "metal-stair-viewed-from-below": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "open-tread-metal-staircase-concrete-walls": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "central-spine-floating-step-staircase": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "central-spine-stair-steps-detail": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "staircase-under-steel-beam-framework": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "metal-staircase-horizontal-bar-railing": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "finished-black-spiral-staircase": {
+  "w": 901,
+  "h": 1600,
+  "tw": 600,
+  "th": 1066
+ },
+ "black-ornamental-stair-railing-flowing-curves": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "railing-ornament-flower-element": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "stair-railing-fan-pattern-scrolls": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "curved-railing-vertical-balusters": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "wrought-iron-gate-brick-arch": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "wrought-iron-gate-leaf-scrollwork": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "wrought-iron-scroll-detail": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "black-pivot-door-glazed-side-panels": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "black-pivot-door-long-handle": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "window-black-frame-wooden-slat-shutters": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "black-metal-barbecue-grill-hood": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "grill-pull-out-drawer-chain-grate": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "large-black-steel-table-arched-cutouts": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "fireplace-black-metal-frame-tiled-surround": {
+  "w": 1200,
+  "h": 1500,
+  "tw": 600,
+  "th": 750
+ },
+ "spiral-staircase-3d-model": {
+  "w": 1400,
+  "h": 933,
+  "tw": 600,
+  "th": 400
+ },
+ "staircase-3d-scan-railing-model": {
+  "w": 1400,
+  "h": 933,
+  "tw": 600,
+  "th": 400
+ },
+ "horizontal-slat-gate-3d-visualisation": {
+  "w": 1400,
+  "h": 933,
+  "tw": 600,
+  "th": 400
+ },
+ "staircase-3d-scan-measurements": {
+  "w": 1400,
+  "h": 933,
+  "tw": 600,
+  "th": 400
+ },
+ "cantilever-staircase-3d-visualisation": {
+  "w": 1400,
+  "h": 933,
+  "tw": 600,
+  "th": 400
+ },
+ "curved-staircase-3d-view-room": {
+  "w": 1400,
+  "h": 933,
+  "tw": 600,
+  "th": 400
+ },
+ "curved-staircase-3d-model-below": {
+  "w": 1400,
+  "h": 933,
+  "tw": 600,
+  "th": 400
+ }
+}

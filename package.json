@@ -1,0 +1,12 @@
+{
+  "name": "ironart-website",
+  "private": true,
+  "description": "IronArt static site: build script generating pages and optimized images",
+  "scripts": {
+    "images": "node scripts/images.js",
+    "build": "node scripts/images.js"
+  },
+  "devDependencies": {
+    "sharp": "^0.33.5"
+  }
+}
