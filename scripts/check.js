@@ -103,5 +103,23 @@ if (!robots.includes(`Sitemap: ${SITE}/sitemap.xml`)) { bad++; console.log('  ro
 const nf = fs.readFileSync(path.join(ROOT, '404.html'), 'utf8');
 if (!/<meta name="robots" content="noindex">/.test(nf)) { bad++; console.log('  404.html is not noindex'); }
 if (!/href="\/style\.css"/.test(nf)) { bad++; console.log('  404.html should use root-relative asset URLs'); }
+// redirects: every target exists, no source is still a real page/file
+const rd = fs.existsSync(path.join(ROOT, '_redirects')) ? fs.readFileSync(path.join(ROOT, '_redirects'), 'utf8').split('\n').filter(l => l && !l.startsWith('#')) : [];
+for (const l of rd) {
+  const [from, to, code] = l.split(/\s+/);
+  const fp = x => path.join(ROOT, x.replace(/^\//, ''), x.endsWith('/') ? 'index.html' : '');
+  if (!fs.existsSync(fp(to))) { bad++; console.log(`  redirect target missing: ${to}`); }
+  if (fs.existsSync(fp(from)) && fs.statSync(fp(from)).isFile()) { bad++; console.log(`  redirect source still exists as a page: ${from}`); }
+  if (code !== '301') { bad++; console.log(`  redirect is not 301: ${l}`); }
+}
+// photo pager: following rel="next" on the ka pages visits every photo once and returns to the start
+const photoPages = Object.keys(byUrl).filter(u => /^https?:\/\/[^/]+\/photo\/[^/]+\/$/.test(u));
+const nextOf = u => { const h = fs.readFileSync(byUrl[u], 'utf8'); const m = h.match(/<a class="nx" href="([^"]+)" rel="next"/); return m && new URL(m[1], u).href; };
+const prevOf = u => { const h = fs.readFileSync(byUrl[u], 'utf8'); const m = h.match(/<a href="([^"]+)" rel="prev"/); return m && new URL(m[1], u).href; };
+{
+  const start = photoPages[0]; const visited = new Set(); let u = start;
+  while (u && !visited.has(u)) { visited.add(u); const n = nextOf(u); if (!n || prevOf(n) !== u) { bad++; console.log(`  pager not reciprocal at ${u}`); break; } u = n; }
+  if (visited.size !== photoPages.length || u !== start) { bad++; console.log(`  pager chain visits ${visited.size}/${photoPages.length} photos`); }
+}
 console.log(`checked ${pages.length} pages, ${refs} local references, ${locs.length} sitemap URLs, ${imgs} sitemap images, ${bad} problem(s)`);
 process.exit(bad ? 1 : 0);

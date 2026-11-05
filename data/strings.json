@@ -146,7 +146,7 @@
   "photoMany": "ფოტო",
   "ctaPhotoH": "მოგწონთ ეს ნამუშევარი?",
   "ctaPhotoP": "დაგვირეკეთ ან მოგვწერეთ WhatsApp-ზე და მოკლედ აღწერეთ თქვენი იდეა. შეგვიძლია მსგავსი ნაკეთობა თქვენს ზომებზე დავამზადოთ.",
-  "pagerL": "ნამუშევრები კატეგორიაში"
+  "pagerL": "ფოტოების გადაფურცვლა"
  },
  "en": {
   "nav": [
@@ -295,6 +295,6 @@
   "photoMany": "photos",
   "ctaPhotoH": "Like this piece?",
   "ctaPhotoP": "Call us or message us on WhatsApp and briefly describe your idea. We can make something similar to your dimensions.",
-  "pagerL": "Work in this category"
+  "pagerL": "Browse photos"
  }
 }
