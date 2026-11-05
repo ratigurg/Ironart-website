@@ -128,11 +128,6 @@
       <image:caption>მუქი ყავისფერი ლითონის ჭიშკარი, რომლის ზედაპირი ჰორიზონტალური და ვერტიკალური გამყოფებით პანელებადაა დაყოფილი.</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://ironart.ge/img/ironart-black-metal-fence-sections.jpg</image:loc>
-      <image:title>შავი ლითონის ღობის სექციები</image:title>
-      <image:caption>გლუვი შავი ლითონის ღობის სექციები, ერთმანეთის გვერდით დაყენებული სხვადასხვა სიმაღლით.</image:caption>
-    </image:image>
-    <image:image>
       <image:loc>https://ironart.ge/img/ironart-black-fence-wall-lights-dusk.jpg</image:loc>
       <image:title>შავი ლითონის ღობე კედლის განათებით საღამოს</image:title>
       <image:caption>საღამოს ხედი: შავი ლითონის ღობის სექციები თეთრ კედელთან, ზემოთ და ქვემოთ მიმართული კედლის სანათებით. გვერდით ახალგაზრდა ხეების რიგია.</image:caption>
@@ -374,11 +369,6 @@
       <image:caption>Dark brown metal gate whose surface is divided into panels by horizontal and vertical dividers.</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://ironart.ge/img/ironart-black-metal-fence-sections.jpg</image:loc>
-      <image:title>Black metal fence sections</image:title>
-      <image:caption>Smooth black metal fence sections set side by side at different heights.</image:caption>
-    </image:image>
-    <image:image>
       <image:loc>https://ironart.ge/img/ironart-black-fence-wall-lights-dusk.jpg</image:loc>
       <image:title>Black metal fence with wall lights at dusk</image:title>
       <image:caption>Dusk view of black metal fence sections along a white wall with up-and-down wall lights, and a row of young trees beside it.</image:caption>
@@ -618,11 +608,6 @@
       <image:loc>https://ironart.ge/img/ironart-dark-brown-metal-gate-panels.jpg</image:loc>
       <image:title>მუქი ყავისფერი ლითონის ჭიშკარი გაყოფილი პანელებით</image:title>
       <image:caption>მუქი ყავისფერი ლითონის ჭიშკარი, რომლის ზედაპირი ჰორიზონტალური და ვერტიკალური გამყოფებით პანელებადაა დაყოფილი.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://ironart.ge/img/ironart-black-metal-fence-sections.jpg</image:loc>
-      <image:title>შავი ლითონის ღობის სექციები</image:title>
-      <image:caption>გლუვი შავი ლითონის ღობის სექციები, ერთმანეთის გვერდით დაყენებული სხვადასხვა სიმაღლით.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://ironart.ge/img/ironart-black-fence-wall-lights-dusk.jpg</image:loc>
@@ -912,11 +897,6 @@
       <image:loc>https://ironart.ge/img/ironart-dark-brown-metal-gate-panels.jpg</image:loc>
       <image:title>Dark brown metal gate with panelled surface</image:title>
       <image:caption>Dark brown metal gate whose surface is divided into panels by horizontal and vertical dividers.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://ironart.ge/img/ironart-black-metal-fence-sections.jpg</image:loc>
-      <image:title>Black metal fence sections</image:title>
-      <image:caption>Smooth black metal fence sections set side by side at different heights.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://ironart.ge/img/ironart-black-fence-wall-lights-dusk.jpg</image:loc>
@@ -1236,17 +1216,6 @@
       <image:loc>https://ironart.ge/img/ironart-dark-brown-metal-gate-panels.jpg</image:loc>
       <image:title>მუქი ყავისფერი ლითონის ჭიშკარი გაყოფილი პანელებით</image:title>
       <image:caption>მუქი ყავისფერი ლითონის ჭიშკარი, რომლის ზედაპირი ჰორიზონტალური და ვერტიკალური გამყოფებით პანელებადაა დაყოფილი.</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://ironart.ge/photo/shavi-lithonis-ghobis-sekciebi/</loc>
-    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-lithonis-ghobis-sekciebi/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/black-metal-fence-sections/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/shavi-lithonis-ghobis-sekciebi/"/>
-    <image:image>
-      <image:loc>https://ironart.ge/img/ironart-black-metal-fence-sections.jpg</image:loc>
-      <image:title>შავი ლითონის ღობის სექციები</image:title>
-      <image:caption>გლუვი შავი ლითონის ღობის სექციები, ერთმანეთის გვერდით დაყენებული სხვადასხვა სიმაღლით.</image:caption>
     </image:image>
   </url>
   <url>
@@ -1764,17 +1733,6 @@
       <image:loc>https://ironart.ge/img/ironart-dark-brown-metal-gate-panels.jpg</image:loc>
       <image:title>Dark brown metal gate with panelled surface</image:title>
       <image:caption>Dark brown metal gate whose surface is divided into panels by horizontal and vertical dividers.</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://ironart.ge/en/photo/black-metal-fence-sections/</loc>
-    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-lithonis-ghobis-sekciebi/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/black-metal-fence-sections/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/shavi-lithonis-ghobis-sekciebi/"/>
-    <image:image>
-      <image:loc>https://ironart.ge/img/ironart-black-metal-fence-sections.jpg</image:loc>
-      <image:title>Black metal fence sections</image:title>
-      <image:caption>Smooth black metal fence sections set side by side at different heights.</image:caption>
     </image:image>
   </url>
   <url>

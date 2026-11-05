@@ -22,11 +22,6 @@
   {
    "file": "Images/selected/IMG_2603.jpg",
    "old_slug_ka": "mangali-gamosatsevi-ujra"
-  },
-  {
-   "file": "Images/selected/IMG_7909.jpg",
-   "old_slug_ka": "shavi-lithonis-ghobe-tetri-kedeli",
-   "old_slug_en": "black-metal-fence-sections-white-wall"
   }
  ],
  "categories": [
@@ -34,6 +29,18 @@
    "id": "grills",
    "old_slug_ka": "manglebi-da-grilebi",
    "old_slug_en": "grills-and-bbq"
+  }
+ ],
+ "removed": [
+  {
+   "category": "gates",
+   "slug_ka": "shavi-lithonis-ghobe-tetri-kedeli",
+   "slug_en": "black-metal-fence-sections-white-wall"
+  },
+  {
+   "category": "gates",
+   "slug_ka": "shavi-lithonis-ghobis-sekciebi",
+   "slug_en": "black-metal-fence-sections"
   }
  ]
 }

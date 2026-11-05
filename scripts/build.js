@@ -456,8 +456,15 @@ function buildRedirects() {
     if (r.old_slug_ka) pair(dirs.cat('ka', { slug_ka: r.old_slug_ka }), dirs.cat('ka', c));
     if (r.old_slug_en) pair(dirs.cat('en', { slug_en: r.old_slug_en }), dirs.cat('en', c));
   }
+  // photos taken off the site: old page URLs lead to their category (the original file stays in Images/)
+  for (const r of (Array.isArray(raw) ? [] : raw.removed || [])) {
+    const c = catById[r.category];
+    if (!c) throw new Error('renamed.json: unknown category ' + r.category);
+    pair(dirs.photo('ka', { slug_ka: r.slug_ka }), dirs.cat('ka', c));
+    pair(dirs.photo('en', { slug_en: r.slug_en }), dirs.cat('en', c));
+  }
   fs.writeFileSync(path.join(ROOT, '_redirects'), lines.join('\n') + '\n');
-  return renamedPhotos.length + renamedCats.length;
+  return renamedPhotos.length + renamedCats.length + (Array.isArray(raw) ? 0 : (raw.removed || []).length);
 }
 
 function buildRobots() {
