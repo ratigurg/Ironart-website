@@ -174,7 +174,7 @@ const ogOf = (p, lang) => ({ path: imgBase(p) + '.jpg', w: meta[p.slug_en].w, h:
 
 // ---------- page shell ----------
 // abs: root-relative URLs ("/style.css") for pages served from unknown depths (404.html)
-function page({ lang, dir, altDirs, title, description, main, headExtra = '', scriptData = '', og, ld, noindex = false, abs = false }) {
+function page({ lang, dir, altDirs, title, description, main, headExtra = '', scriptData = '', og, ld, noindex = false, abs = false, bodyClass = '' }) {
   const hrefFn = abs ? (f, to) => '/' + (to ? to + '/' : '') : href;
   const root = abs ? '/' : rootOf(dir);
   const vars = {
@@ -199,7 +199,7 @@ ${headExtra}<link rel="stylesheet" href="${root}style.css">
   return `<!DOCTYPE html>
 <html lang="${lang}">
 ${head}
-<body>
+<body${bodyClass ? ` class="${bodyClass}"` : ''}>
 
 ${part(tpl.header)}
 ${part(tpl.mmenu)}
@@ -271,7 +271,7 @@ function buildHome(lang) {
   if (lang === 'en') ld.description = 'Metal fabrication workshop — gates, fences, railings, staircases, furniture and custom orders.';
   const headExtra = `<link rel="preload" as="image" href="${d3[0].src}" type="image/webp">\n<script type="module" src="${root}assets/model-viewer.min.js"></script>\n`;
   const scriptData = `<script>window.IA=${jsonForScript({ d3, svc })};</script>\n`;
-  write(dir, page({ lang, dir, altDirs, title: homeStrings[lang].title, description: homeStrings[lang].description, main, headExtra, scriptData, og: { ...ogOf(D3_FILES[0], lang), alt: s.d3[0] }, ld: [ld] }));
+  write(dir, page({ lang, dir, altDirs, title: homeStrings[lang].title, description: homeStrings[lang].description, main, headExtra, scriptData, og: { ...ogOf(D3_FILES[0], lang), alt: s.d3[0] }, ld: [ld], bodyClass: 'home' }));
 }
 
 function listingMain(lang, dir, { h1, intro, activeId, list, trail }) {
