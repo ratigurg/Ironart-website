@@ -27,6 +27,11 @@
    "file": "Images/selected/IMG_2661.jpg",
    "old_slug_ka": "shavi-lithonis-magida-taghisebri",
    "old_slug_en": "large-black-steel-table-arched-cutouts"
+  },
+  {
+   "file": "Images/selected/IMG_7909.jpg",
+   "old_slug_ka": "shavi-lithonis-ghobe-tetri-kedeli",
+   "old_slug_en": "black-metal-fence-sections-white-wall"
   }
  ],
  "categories": [
@@ -34,18 +39,6 @@
    "id": "grills",
    "old_slug_ka": "manglebi-da-grilebi",
    "old_slug_en": "grills-and-bbq"
-  }
- ],
- "removed": [
-  {
-   "category": "gates",
-   "slug_ka": "shavi-lithonis-ghobe-tetri-kedeli",
-   "slug_en": "black-metal-fence-sections-white-wall"
-  },
-  {
-   "category": "gates",
-   "slug_ka": "shavi-lithonis-ghobis-sekciebi",
-   "slug_en": "black-metal-fence-sections"
   }
  ]
 }
