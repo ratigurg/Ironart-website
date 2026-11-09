@@ -146,7 +146,18 @@
   "photoMany": "ფოტო",
   "ctaPhotoH": "მოგწონთ ეს ნამუშევარი?",
   "ctaPhotoP": "დაგვირეკეთ ან მოგვწერეთ WhatsApp-ზე და მოკლედ აღწერეთ თქვენი იდეა. შეგვიძლია მსგავსი ნაკეთობა თქვენს ზომებზე დავამზადოთ.",
-  "pagerL": "ფოტოების გადაფურცვლა"
+  "pagerL": "ფოტოების გადაფურცვლა",
+  "homeTitle": "IronArt — ლითონის ნაკეთობათა საამქრო თბილისში",
+  "homeDesc": "IronArt — ლითონის ნაკეთობათა საამქრო თბილისში: ჭიშკრები, ღობეები, მოაჯირები, კიბეები, ავეჯი და ინდივიდუალური შეკვეთები. 25+ წელი. ☎ 599 01 21 05",
+  "ldDesc": "ლითონის ნაკეთობათა საამქრო — ჭიშკრები, ღობეები, მოაჯირები, კიბეები, ავეჯი და ინდივიდუალური შეკვეთები.",
+  "brand": "IronArt — თბილისი",
+  "mvAlt": "IronArt 3D — სპირალური კიბე",
+  "mapTitle": "IronArt — რუკა",
+  "langBtnKa": "ქარ",
+  "langAriaKa": "ქართული",
+  "nfH1": "გვერდი ვერ მოიძებნა",
+  "nfIntro": "ეს მისამართი არ არსებობს ან გვერდი გადატანილია. დაბრუნდით მთავარ გვერდზე ან აირჩიეთ ნამუშევრების კატეგორია.",
+  "nfDesc": "გვერდი ვერ მოიძებნა. დაბრუნდით IronArt-ის მთავარ გვერდზე ან დაათვალიერეთ ლითონის ნაკეთობების ნამუშევრები თბილისში."
  },
  "en": {
   "nav": [
@@ -295,6 +306,17 @@
   "photoMany": "photos",
   "ctaPhotoH": "Like this piece?",
   "ctaPhotoP": "Call us or message us on WhatsApp and briefly describe your idea. We can make something similar to your dimensions.",
-  "pagerL": "Browse photos"
+  "pagerL": "Browse photos",
+  "homeTitle": "IronArt — Metal fabrication workshop in Tbilisi",
+  "homeDesc": "IronArt — metal fabrication workshop in Tbilisi: gates, fences, railings, staircases, furniture and custom orders. 25+ years. Tel. 599 01 21 05",
+  "ldDesc": "Metal fabrication workshop — gates, fences, railings, staircases, furniture and custom orders.",
+  "brand": "IronArt — Tbilisi",
+  "mvAlt": "IronArt 3D — spiral staircase",
+  "mapTitle": "IronArt — map",
+  "langBtnKa": "ქარ",
+  "langAriaKa": "ქართული",
+  "nfH1": "Page not found",
+  "nfIntro": "This address does not exist or the page has moved. Go back to the home page or pick a work category.",
+  "nfDesc": "Page not found. Go back to the IronArt home page or browse our metal fabrication work in Tbilisi."
  }
 }

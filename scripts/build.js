@@ -97,7 +97,7 @@ function fill(html, vars, lang) {
 
 // ---------- fragments ----------
 function langSwitch(lang, dir, altDirs, hrefFn = href) {
-  const a = l => `<a href="${l === lang ? '#' : hrefFn(dir, altDirs[l])}" hreflang="${l}" lang="${l}" aria-label="${l === 'ka' ? 'ქართული' : 'English'}"${l === lang ? ' aria-current="true"' : ''}>${l === 'ka' ? 'ქარ' : 'EN'}</a>`;
+  const a = l => `<a href="${l === lang ? '#' : hrefFn(dir, altDirs[l])}" hreflang="${l}" lang="${l}" aria-label="${l === 'ka' ? STR.ka.langAriaKa : 'English'}"${l === lang ? ' aria-current="true"' : ''}>${l === 'ka' ? STR.ka.langBtnKa : 'EN'}</a>`;
   return `<div class="lang" role="group" aria-label="${esc(STR[lang].langAria)}">\n    ${a('ka')}\n    ${a('en')}\n  </div>`;
 }
 
@@ -225,16 +225,6 @@ function write(dir, html) {
 }
 
 // ---------- pages ----------
-const homeStrings = {
-  ka: {
-    title: 'IronArt — ლითონის ნაკეთობათა საამქრო თბილისში',
-    description: 'IronArt — ლითონის ნაკეთობათა საამქრო თბილისში: ჭიშკრები, ღობეები, მოაჯირები, კიბეები, ავეჯი და ინდივიდუალური შეკვეთები. 25+ წელი. ☎ 599 01 21 05',
-  },
-  en: {
-    title: 'IronArt — Metal fabrication workshop in Tbilisi',
-    description: 'IronArt — metal fabrication workshop in Tbilisi: gates, fences, railings, staircases, furniture and custom orders. 25+ years. Tel. 599 01 21 05',
-  },
-};
 const D3_FILES = ['IMG_2424', 'IMG_0001', 'IMG_2640', 'IMG_1632', 'IMG_2278', 'IMG_0336', 'IMG_2533'].map(n => byFile[`Images/3d/web/${n}.jpg`]);
 const SVC_FILES = ['IMG_2659', 'IMG_0487', 'IMG_2661', 'IMG_8915'].map(n => byFile[`Images/selected/${n}.jpg`]);
 const FINISHED = byFile['Images/selected/spiral-stair-clean.jpg'];
@@ -268,10 +258,10 @@ function buildHome(lang) {
   }, lang).replace(/^<main>\n?/, '').replace(/\n?<\/main>\s*$/, '');
   const ld = { ...site.jsonld_home, '@type': site.jsonld_home['@type'], url: absUrl(dir), inLanguage: lang, image: `${SITE}/${imgBase(D3_FILES[0])}.jpg` };
   delete ld['@context'];
-  if (lang === 'en') ld.description = 'Metal fabrication workshop — gates, fences, railings, staircases, furniture and custom orders.';
+  ld.description = s.ldDesc;
   const headExtra = `<link rel="preload" as="image" href="${d3[0].src}" type="image/webp">\n<script type="module" src="${root}assets/model-viewer.min.js"></script>\n`;
   const scriptData = `<script>window.IA=${jsonForScript({ d3, svc })};</script>\n`;
-  write(dir, page({ lang, dir, altDirs, title: homeStrings[lang].title, description: homeStrings[lang].description, main, headExtra, scriptData, og: { ...ogOf(D3_FILES[0], lang), alt: s.d3[0] }, ld: [ld], bodyClass: 'home' }));
+  write(dir, page({ lang, dir, altDirs, title: s.homeTitle, description: s.homeDesc, main, headExtra, scriptData, og: { ...ogOf(D3_FILES[0], lang), alt: s.d3[0] }, ld: [ld], bodyClass: 'home' }));
 }
 
 function listingMain(lang, dir, { h1, intro, activeId, list, trail }) {
@@ -305,7 +295,7 @@ function buildWork(lang) {
   const altDirs = { ka: dirs.work('ka'), en: dirs.work('en') };
   const trail = [[s.crumbHome, dirs.home(lang)], [s.crumbWork, dir]];
   const main = listingMain(lang, dir, { h1: s.workH1, intro: s.workIntro, activeId: 'all', list: photosInCatOrder, trail });
-  const brand = lang === 'ka' ? 'IronArt — თბილისი' : 'IronArt — Tbilisi';
+  const brand = s.brand;
   write(dir, page({ lang, dir, altDirs, title: `${s.workH1} | ${brand}`, description: trunc(s.workIntro), main,
     og: ogOf(featured[0], lang), ld: [collectionLd(lang, dir, s.workH1, trunc(s.workIntro), photosInCatOrder), crumbLd(trail)] }));
 }
@@ -317,7 +307,7 @@ function buildCategory(lang, c) {
   const intro = lang === 'ka' ? c.intro_ka : c.intro_en;
   const trail = [[s.crumbHome, dirs.home(lang)], [s.crumbWork, dirs.work(lang)], [catName(lang, c), dir]];
   const main = listingMain(lang, dir, { h1: catName(lang, c), intro, activeId: c.id, list: byCat[c.id], trail });
-  const brand = lang === 'ka' ? 'IronArt — თბილისი' : 'IronArt — Tbilisi';
+  const brand = s.brand;
   write(dir, page({ lang, dir, altDirs, title: `${catName(lang, c)} | ${brand}`, description: trunc(intro), main,
     og: ogOf(byCat[c.id][0], lang), ld: [collectionLd(lang, dir, catName(lang, c), trunc(intro), byCat[c.id]), crumbLd(trail)] }));
 }
@@ -373,7 +363,7 @@ function buildPhoto(lang, p) {
     </div>
   </section>${pager}${rel}
 ${ctaSection(lang, { photo: true })}`;
-  const brand = lang === 'ka' ? 'IronArt — თბილისი' : 'IronArt — Tbilisi';
+  const brand = s.brand;
   write(dir, page({ lang, dir, altDirs, title: `${t} | ${brand}`, description: trunc(pDesc(lang, p)), main,
     og: ogOf(p, lang), ld: [imageLd, crumbLd(trail)] }));
 }
@@ -386,8 +376,8 @@ function build404() {
   const main = `
   <section class="gallery inner">
     <div class="ghead">
-      <div><div class="label"><span class="sq"></span><span>404</span></div><h1 class="h2">გვერდი ვერ მოიძებნა</h1></div>
-      <p class="intro">ეს მისამართი არ არსებობს ან გვერდი გადატანილია. დაბრუნდით მთავარ გვერდზე ან აირჩიეთ ნამუშევრების კატეგორია.<br><span lang="en">Page not found. Go back to the <a href="/en/">English home page</a> or browse our work.</span></p>
+      <div><div class="label"><span class="sq"></span><span>404</span></div><h1 class="h2">${esc(s.nfH1)}</h1></div>
+      <p class="intro">${esc(s.nfIntro)}<br><span lang="en">Page not found. Go back to the <a href="/en/">English home page</a> or browse our work.</span></p>
     </div>
     <nav class="filters" aria-label="${esc(s.filterLabel)}">${links.map(([h, l]) => `<a href="${h}">${esc(l)}</a>`).join('')}</nav>
     <div class="gmore"><a href="/" class="btn pri"><span>${esc(s.crumbHome)}</span>${ARROW}</a></div>
@@ -395,8 +385,8 @@ function build404() {
 ${ctaSection(lang)}`;
   const html = page({
     lang, dir: '', altDirs: { ka: '', en: 'en' }, abs: true, noindex: true,
-    title: 'გვერდი ვერ მოიძებნა | IronArt — თბილისი',
-    description: 'გვერდი ვერ მოიძებნა. დაბრუნდით IronArt-ის მთავარ გვერდზე ან დაათვალიერეთ ლითონის ნაკეთობების ნამუშევრები თბილისში.',
+    title: `${s.nfH1} | ${s.brand}`,
+    description: s.nfDesc,
     main,
   });
   fs.writeFileSync(path.join(ROOT, '404.html'), html);
