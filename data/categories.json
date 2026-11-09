@@ -23,16 +23,16 @@
     "name_en": "Railings",
     "slug_ka": "moajireebi",
     "slug_en": "railings",
-    "intro_ka": "ვამზადებთ შიდა და გარე მოაჯირებს: მარტივი ვერტიკალური ბალუსტრებით ან ხელით მოხრილი ორნამენტული ხაზებით. მრუდი მოაჯირებიც ჩვენი სახელოსნოს ყოველდღიური საქმეა.",
+    "intro_ka": "ვამზადებთ შიდა და გარე მოაჯირებს: მარტივი ვერტიკალური ბალუსტრებით ან ხელით მოხრილი ორნამენტული ხაზებით.",
     "intro_en": "We make interior and exterior railings, from simple vertical balusters to hand-bent ornamental lines. Curved railings are an everyday job in our workshop."
   },
   {
     "id": "forging",
-    "name_ka": "ფორჯირება",
+    "name_ka": "მჭედლობა",
     "name_en": "Forging",
     "slug_ka": "forjireba",
     "slug_en": "forging",
-    "intro_ka": "ორნამენტული ფორჯირება: ხვეულები, შუბისებური წვეროები და დეკორატიული ჭიშკრები. ნაჭედ ლითონს ხელით ვამუშავებთ და ვაწყობთ ესკიზიდან საბოლოო მონტაჟამდე.",
+    "intro_ka": "ორნამენტული მჭედლობა: ხვეულები, შუბისებური წვეროები და დეკორატიული ჭიშკრები. ნაჭედ ლითონს ხელით ვამუშავებთ და ვაწყობთ ესკიზიდან საბოლოო მონტაჟამდე.",
     "intro_en": "Ornamental forging: scrolls, spear tips and decorative gates. We work the metal by hand and build each piece from first sketch to final installation."
   },
   {
@@ -68,7 +68,7 @@
     "name_en": "Fireplaces",
     "slug_ka": "bukhrebi",
     "slug_en": "fireplaces",
-    "intro_ka": "ლითონის ჩარჩოები და ბუხრის კონსტრუქციები ქვის ან ფილის მოპირკეთებისთვის. ჩარჩოს ზუსტად ბუხრის ნიშას ვუზომავთ.",
+    "intro_ka": "ლითონის ჩარჩოები და ბუხრის კონსტრუქციები ქვის ან ფილის მოპირკეთებისთვის.",
     "intro_en": "Metal frames and fireplace structures for stone or tile surrounds, measured exactly to your fireplace opening."
   },
   {
