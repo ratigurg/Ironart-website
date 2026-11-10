@@ -37,9 +37,17 @@ for (const f of pages) {
   const imgs = [...html.matchAll(/<img\b[^>]*>/g)].map(m => m[0]);
   for (const i of imgs) if (!/ alt="[^"]*"/.test(i) || !/ width="\d+"/.test(i) || !/ height="\d+"/.test(i)) fail(f, 'img without alt/width/height: ' + i.slice(0, 80));
 }
+// photos of the same work (data/photos.json "group") may share title and description
+const photoList = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/photos.json'), 'utf8'));
+const groupOfDir = {};
+for (const ph of photoList) if (ph.group) { groupOfDir[`photo/${ph.slug_ka}`] = ph.group; groupOfDir[`en/photo/${ph.slug_en}`] = ph.group; }
+const sameGroup = list => { const g = list.map(x => groupOfDir[x.replace(/\/index\.html$/, '')]); return !!g[0] && g.every(v => v === g[0]); };
 const titles = {};
 for (const f of pages) { const t = fs.readFileSync(f, 'utf8').match(/<title>([^<]*)<\/title>/)[1]; (titles[t] = titles[t] || []).push(path.relative(ROOT, f)); }
-for (const [t, l] of Object.entries(titles)) if (l.length > 1) { bad++; console.log(`  duplicate <title> "${t}": ${l.join(', ')}`); }
+for (const [t, l] of Object.entries(titles)) if (l.length > 1 && !sameGroup(l)) {
+  if (l.every(x => /(^|\/)photo\//.test(x))) console.log(`  note: photo pages share a <title> "${t}": ${l.join(', ')}`);
+  else { bad++; console.log(`  duplicate <title> "${t}": ${l.join(', ')}`); }
+}
 // ---------- SEO checks ----------
 const SITE = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/site.json'), 'utf8')).url.replace(/\/$/, '');
 const dirOf = f => path.relative(ROOT, path.dirname(f)).split(path.sep).join('/');
@@ -87,7 +95,10 @@ for (const f of pages) {
   const need = { home: ['HomeAndConstructionBusiness'], photo: ['ImageObject', 'BreadcrumbList'], list: ['CollectionPage', 'BreadcrumbList'] }[kind];
   for (const n of need) if (!types.includes(n)) fail(f, `JSON-LD lacks ${n}`);
 }
-for (const [dsc, l] of Object.entries(seen.desc)) if (l.length > 1) { bad++; console.log(`  duplicate description on: ${l.join(', ')}`); }
+for (const [dsc, l] of Object.entries(seen.desc)) if (l.length > 1 && !sameGroup(l)) {
+  if (l.every(x => /(^|\/)photo\//.test(x))) console.log(`  note: photo pages share a description: ${l.join(', ')}`);
+  else { bad++; console.log(`  duplicate description on: ${l.join(', ')}`); }
+}
 
 // sitemap
 const sm = fs.readFileSync(path.join(ROOT, 'sitemap.xml'), 'utf8');
