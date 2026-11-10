@@ -27,6 +27,22 @@
       if (e.key === 'ArrowLeft') { window.location.href = prevLink.href; }
       else if (e.key === 'ArrowRight') { window.location.href = nextLink.href; }
     });
+
+    // swipe on the photo: left -> next, right -> previous (only clear horizontal swipes; vertical scrolling is untouched)
+    var pimg = $('.pimg'), sx = 0, sy = 0, st = 0, tracking = false;
+    if (pimg) {
+      pimg.addEventListener('touchstart', function (e) {
+        tracking = e.touches.length === 1 && !e.target.closest('.pnav');
+        if (tracking) { sx = e.touches[0].clientX; sy = e.touches[0].clientY; st = Date.now(); }
+      }, { passive: true });
+      pimg.addEventListener('touchcancel', function () { tracking = false; }, { passive: true });
+      pimg.addEventListener('touchend', function (e) {
+        if (!tracking) return; tracking = false;
+        var t = e.changedTouches[0], dx = t.clientX - sx, dy = t.clientY - sy;
+        if (Math.abs(dx) < 50 || Math.abs(dx) < Math.abs(dy) * 1.5 || Date.now() - st > 800) return;
+        window.location.href = (dx < 0 ? nextLink : prevLink).href;
+      }, { passive: true });
+    }
   }
 
   var IA = window.IA;

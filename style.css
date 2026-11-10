@@ -171,7 +171,7 @@ footer .logo{margin:0;font-size:16px}
 .gmore{padding:clamp(32px,4vw,48px) var(--px) 0}
 .pp{padding:clamp(32px,4vw,56px) var(--px);display:flex;flex-wrap:wrap;gap:clamp(32px,5vw,80px)}
 .pp figure{flex:1.3 1 380px;min-width:0;margin:0;display:flex;justify-content:center;background:var(--surf)}
-.pimg{position:relative;max-width:100%;line-height:0}
+.pimg{position:relative;max-width:100%;line-height:0;touch-action:pan-y}
 .pp figure img{width:auto;max-width:100%;height:auto;max-height:82vh;object-fit:contain}
 .pnav{position:absolute;top:50%;transform:translateY(-50%);width:52px;height:60px;display:flex;align-items:center;justify-content:center;background:rgba(32,30,29,.72);border:1px solid rgba(243,242,242,.3);color:#f3f2f2;text-decoration:none;line-height:1}
 .pnav.prev{left:0}.pnav.next{right:0}
