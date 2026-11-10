@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IronArt — ლითონის ნაკეთობათა საამქრო თბილისში</title>
+<meta name="theme-color" content="#14110f">
+<link rel="icon" type="image/png" href="favicon-512.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/ironart-exterior-multi-flight-metal-staircase-night.webp" fetchpriority="high">
+<style>
+:root{--bg:#14110f;--bg2:#1c1815;--ink:#f1ebe4;--mute:#a79d93;--ember:#ff6a1a;--ember2:#ff9a3c;--brass:#b8935a;--px:clamp(18px,5vw,56px)}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font:400 16px/1.6 'Noto Sans Georgian',system-ui,sans-serif;padding-bottom:68px}
+img{display:block;width:100%;height:100%;object-fit:cover}
+a{color:inherit;text-decoration:none}
+.wrap{padding:0 var(--px);max-width:1280px;margin:auto}
+h1,h2{font-weight:800;line-height:1.1;text-transform:uppercase}
+h2{font-size:clamp(26px,5.6vw,48px)}
+.eyebrow{color:var(--brass);font-weight:600;font-size:13px;letter-spacing:.12em;text-transform:uppercase;display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.eyebrow:before{content:"";width:32px;height:2px;background:var(--ember)}
+.rivets{height:14px;background:radial-gradient(circle,var(--brass) 2px,transparent 2.5px) 0 50%/22px 14px repeat-x;opacity:.5}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:15px 26px;font-weight:800;font-size:17px;border:2px solid var(--ember);transition:.2s}
+.btn.main{background:var(--ember);color:#160c05;box-shadow:0 0 32px rgba(255,106,26,.35)}
+.btn.main:hover{background:var(--ember2);border-color:var(--ember2)}
+.btn.ghost:hover{background:rgba(255,106,26,.12)}
+
+header{position:absolute;inset:0 0 auto;z-index:5}
+header .wrap{display:flex;justify-content:space-between;align-items:center;height:72px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:22px;letter-spacing:.02em}
+.logo svg{width:34px;height:34px;fill:var(--ember)}
+.logo span span{color:var(--ember)}
+header .tel{font-weight:800;color:var(--ember2);display:none}
+
+.hero{position:relative;min-height:92svh;display:flex;align-items:flex-end;padding:120px 0 90px;clip-path:polygon(0 0,100% 0,100% calc(100% - 44px),0 100%);isolation:isolate}
+.hero>img{position:absolute;inset:0;z-index:-2}
+.hero:before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(20,17,15,.55),rgba(20,17,15,.35) 35%,rgba(20,17,15,.92)),radial-gradient(70% 50% at 15% 100%,rgba(255,106,26,.35),transparent 70%)}
+.hero h1{font-size:clamp(34px,8.5vw,84px);max-width:13ch}
+.hero h1 em{font-style:normal;color:var(--ember)}
+.hero p{max-width:46ch;color:#d8cfc5;margin:20px 0 30px;font-size:clamp(16px,2.4vw,20px)}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+.stats{display:flex;gap:28px;margin-top:34px;color:var(--mute);font-size:14px}
+.stats b{display:block;color:var(--ink);font-size:26px;font-weight:800;line-height:1.1}
+
+section{padding:clamp(64px,10vw,120px) 0}
+.svc{display:grid;gap:14px;margin-top:36px}
+.card{position:relative;aspect-ratio:4/3;overflow:hidden;background:var(--bg2);border-left:3px solid var(--ember)}
+.card img{transition:transform .6s}
+.card:hover img{transform:scale(1.06)}
+.card:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(20,17,15,.9),transparent 60%)}
+.card div{position:absolute;left:20px;right:20px;bottom:16px;z-index:1;display:flex;justify-content:space-between;align-items:end;gap:10px}
+.card b{font-size:clamp(20px,3.4vw,24px);font-weight:800;line-height:1.25}
+.card small{color:var(--ember2);font-size:24px}
+.num{position:absolute;top:12px;left:18px;z-index:1;color:var(--brass);font-weight:800;font-size:14px;letter-spacing:.1em}
+
+.works{background:var(--bg2);clip-path:polygon(0 36px,100% 0,100% 100%,0 100%);padding-top:clamp(84px,12vw,140px)}
+.works .head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:20px;margin-bottom:32px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;grid-auto-flow:dense}
+.grid a{position:relative;overflow:hidden;aspect-ratio:1;background:#000}
+.grid a.t{aspect-ratio:auto;grid-row:span 2}
+.grid a.w{grid-column:span 2;aspect-ratio:2/1}
+.grid img{transition:transform .6s}
+.grid a:hover img{transform:scale(1.07)}
+.grid a:after{content:"";position:absolute;inset:auto 0 0;height:3px;background:var(--ember);transform:scaleX(0);transform-origin:left;transition:.35s}
+.grid a:hover:after{transform:scaleX(1)}
+.more{margin-top:36px;text-align:center}
+
+.trust .in{display:grid;gap:40px}
+.big{font-weight:800;font-size:clamp(110px,28vw,240px);line-height:.85;color:transparent;-webkit-text-stroke:2px var(--ember)}
+.big small{display:block;-webkit-text-stroke:0;color:var(--ink);font-size:clamp(18px,3.4vw,26px);letter-spacing:.04em;margin-top:14px;font-weight:600}
+.steps{list-style:none;padding:0;counter-reset:s}
+.steps li{counter-increment:s;display:grid;grid-template-columns:52px 1fr;gap:2px 14px;padding:16px 0;border-top:1px solid rgba(184,147,90,.3)}
+.steps li:before{content:"0" counter(s);grid-row:span 2;color:var(--ember);font-weight:800;font-size:26px}
+.steps b{font-size:19px}
+.steps span{color:var(--mute);font-size:15px}
+.lead{color:#d8cfc5;margin:18px 0 24px;max-width:52ch}
+
+.map{padding-top:0}
+.mapbox{position:relative;border:1px solid rgba(184,147,90,.35);height:min(56vh,420px);margin-top:28px}
+.mapbox iframe{width:100%;height:100%;border:0;filter:grayscale(1) invert(.92) contrast(.9)}
+.mapbox a{position:absolute;right:12px;bottom:12px}
+.mapbox .btn{padding:10px 18px;font-size:15px;background:var(--bg)}
+
+footer{background:#0d0b09;padding:64px 0 30px;text-align:center;clip-path:polygon(0 24px,100% 0,100% 100%,0 100%)}
+footer .big-tel{display:block;font-weight:800;font-size:clamp(34px,9vw,72px);color:var(--ember);margin:18px 0 26px}
+footer .logo{justify-content:center}
+footer p{color:var(--mute);font-size:13px;margin-top:34px}
+
+.bar{position:fixed;inset:auto 0 0;z-index:20;display:flex;gap:8px;padding:10px;background:rgba(13,11,9,.94);backdrop-filter:blur(8px);border-top:1px solid rgba(184,147,90,.35)}
+.bar a{flex:1;text-align:center;padding:13px;font-weight:800}
+.bar .call{background:var(--ember);color:#160c05;flex:2}
+.bar .wk{border:2px solid var(--ember)}
+
+@media(min-width:720px){
+ body{padding-bottom:0}.bar{display:none}
+ header .tel{display:block}
+ .svc{grid-template-columns:repeat(4,1fr)}.card{aspect-ratio:3/4}
+ .grid{grid-template-columns:repeat(4,1fr);gap:10px}
+ .trust .in{grid-template-columns:1fr 1fr;align-items:center;gap:72px}
+}
+</style>
+</head>
+<body>
+
+<header><div class="wrap">
+  <a href="#top" class="logo" aria-label="IronArt">
+    <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M6 14h40c8 0 12 5 12 10 0 3-2 5-5 6-6 1-12 2-15 6l-2 6h6v8H18v-8h6l-2-6c-1-4-6-5-10-5H6z"/></svg>
+    <span>Iron<span>Art</span></span>
+  </a>
+  <a class="tel" href="tel:+995599012105">599 01 21 05</a>
+</div></header>
+
+<main id="top">
+<div class="hero">
+  <img src="img/ironart-exterior-multi-flight-metal-staircase-night.webp" alt="ლითონის კიბე ღამის განათებაში" fetchpriority="high">
+  <div class="wrap">
+    <div class="eyebrow">ლითონის სახელოსნო · თბილისი</div>
+    <h1>ლითონი, რომელიც <em>წლებს</em> უძლებს</h1>
+    <p>ჭიშკრები, მოაჯირები, კიბეები და ავეჯი — გაზომვიდან მონტაჟამდე ერთი ოსტატის ხელით.</p>
+    <div class="cta">
+      <a class="btn main" href="tel:+995599012105">☎ 599 01 21 05</a>
+      <a class="btn ghost" href="namushevrebi/">ნამუშევრების ნახვა</a>
+    </div>
+    <div class="stats"><div><b>25+</b>წლის გამოცდილება</div><div><b>1</b>ოსტატი, ყველა ეტაპი</div></div>
+  </div>
+</div>
+
+<section id="services"><div class="wrap">
+  <div class="eyebrow">მიმართულებები</div>
+  <h2>რას ვამზადებ</h2>
+  <div class="svc">
+    <a class="card" href="namushevrebi/chishkrebi-da-ghobeebi/"><span class="num">01</span><img loading="lazy" src="img/ironart-black-gate-horizontal-slats-side-door-thumb.webp" alt="ჭიშკარი"><div><b>ჭიშკრები და ღობეები</b><small>→</small></div></a>
+    <a class="card" href="namushevrebi/"><span class="num">02</span><img loading="lazy" src="img/ironart-black-ornamental-stair-railing-flowing-curves-thumb.webp" alt="მოაჯირი"><div><b>მოაჯირები და კიბეები</b><small>→</small></div></a>
+    <a class="card" href="namushevrebi/aveji-da-dekori/"><span class="num">03</span><img loading="lazy" src="img/ironart-large-black-steel-table-arched-cutouts-thumb.webp" alt="ავეჯი"><div><b>ავეჯი და დეკორი</b><small>→</small></div></a>
+    <a class="card" href="namushevrebi/"><span class="num">04</span><img loading="lazy" src="img/ironart-fireplace-black-metal-frame-tiled-surround-thumb.webp" alt="ინდივიდუალური შეკვეთა"><div><b>ინდივიდუალური შეკვეთები</b><small>→</small></div></a>
+  </div>
+</div></section>
+
+<section class="works" id="works"><div class="wrap">
+  <div class="head">
+    <div><div class="eyebrow">ნამუშევრები</div><h2>რაც ხელით გავაკეთე</h2></div>
+    <a class="btn ghost" href="namushevrebi/">ყველა ნამუშევარი →</a>
+  </div>
+  <div class="grid">
+    <a class="w" href="namushevrebi/"><img loading="lazy" src="img/ironart-black-fence-wall-lights-dusk-thumb.webp" alt="ღობე"></a>
+    <a class="t" href="namushevrebi/"><img loading="lazy" src="img/ironart-black-spiral-staircase-between-walls-thumb.webp" alt="სპირალური კიბე"></a>
+    <a href="namushevrebi/"><img loading="lazy" src="img/ironart-anthracite-gate-horizontal-louvre-slats-thumb.webp" alt="ჭიშკარი"></a>
+    <a href="namushevrebi/"><img loading="lazy" src="img/ironart-black-metal-barbecue-grill-hood-thumb.webp" alt="მანგალი"></a>
+    <a href="namushevrebi/"><img loading="lazy" src="img/ironart-stair-railing-fan-pattern-scrolls-thumb.webp" alt="მოაჯირი"></a>
+    <a class="t" href="namushevrebi/"><img loading="lazy" src="img/ironart-black-pivot-door-long-handle-thumb.webp" alt="კარი"></a>
+    <a href="namushevrebi/"><img loading="lazy" src="img/ironart-railing-ornament-flower-element-thumb.webp" alt="ორნამენტი"></a>
+    <a href="namushevrebi/"><img loading="lazy" src="img/ironart-central-spine-floating-step-staircase-thumb.webp" alt="კიბე"></a>
+  </div>
+  <div class="more"><a class="btn main" href="namushevrebi/">მთელი კატალოგი</a></div>
+</div></section>
+
+<section class="trust"><div class="wrap in">
+  <div class="big">25<small>წელი ლითონთან</small></div>
+  <div>
+    <div class="eyebrow">ერთი ოსტატი</div>
+    <h2>ყველა ეტაპი ერთი ხელიდან</h2>
+    <p class="lead">შუამავლების გარეშე: ვინც გზომავს, ისევე ამზადებს და ამონტაჟებს. შედეგზე პასუხისმგებლობა სრულად ჩემია.</p>
+    <ol class="steps">
+      <li><b>გაზომვა ადგილზე</b><span>ზუსტი ზომები ობიექტზე</span></li>
+      <li><b>დიზაინი</b><span>ესკიზი და 3D ვიზუალი დამტკიცებამდე</span></li>
+      <li><b>დამზადება</b><span>საკუთარ სახელოსნოში</span></li>
+      <li><b>მონტაჟი</b><span>დაყენება და საბოლოო მიწოდება</span></li>
+    </ol>
+  </div>
+</div></section>
+
+<section class="map"><div class="wrap">
+  <div class="rivets" style="margin-bottom:40px"></div>
+  <div class="eyebrow">სახელოსნო</div>
+  <h2>მოდით, ცოცხლად ვისაუბროთ</h2>
+  <div class="mapbox">
+    <iframe src="https://maps.google.com/maps?q=41.6880654,44.9892021&z=15&output=embed" title="IronArt — რუკა" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <a href="https://maps.google.com/?q=41.6880654,44.9892021" class="btn ghost" rel="noopener">რუკაზე გახსნა ↗</a>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <a href="#top" class="logo"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M6 14h40c8 0 12 5 12 10 0 3-2 5-5 6-6 1-12 2-15 6l-2 6h6v8H18v-8h6l-2-6c-1-4-6-5-10-5H6z"/></svg><span>Iron<span>Art</span></span></a>
+  <a class="big-tel" href="tel:+995599012105">599 01 21 05</a>
+  <a class="btn ghost" href="namushevrebi/">ნამუშევრები</a>
+  <p>© IronArt · ლითონის ნაკეთობები თბილისში</p>
+</div></footer>
+
+<nav class="bar" aria-label="სწრაფი კავშირი">
+  <a class="call" href="tel:+995599012105">☎ დარეკვა</a>
+  <a class="wk" href="namushevrebi/">ნამუშევრები</a>
+</nav>
+</body>
+</html>
