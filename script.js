@@ -17,6 +17,18 @@
     window.addEventListener('resize', function () { if (window.innerWidth >= 1080 && menu.classList.contains('open')) setMenu(false); });
   }
 
+  // photo pages: left/right arrow keys follow the previous/next photo
+  var prevLink = $('.pnav.prev'), nextLink = $('.pnav.next');
+  if (prevLink && nextLink) {
+    document.addEventListener('keydown', function (e) {
+      if (e.defaultPrevented || e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) return;
+      var t = e.target && e.target.tagName;
+      if (t === 'INPUT' || t === 'TEXTAREA' || t === 'SELECT') return;
+      if (e.key === 'ArrowLeft') { window.location.href = prevLink.href; }
+      else if (e.key === 'ArrowRight') { window.location.href = nextLink.href; }
+    });
+  }
+
   var IA = window.IA;
   if (!IA) return;
 

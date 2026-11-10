@@ -112,6 +112,14 @@ for (const l of rd) {
   if (fs.existsSync(fp(from)) && fs.statSync(fp(from)).isFile()) { bad++; console.log(`  redirect source still exists as a page: ${from}`); }
   if (code !== '301') { bad++; console.log(`  redirect is not 301: ${l}`); }
 }
+// photo pages: arrows on the photo point to the same pages as the pager below it
+for (const u of Object.keys(byUrl).filter(u => /\/photo\/[^/]+\/$/.test(u))) {
+  const h = fs.readFileSync(byUrl[u], 'utf8');
+  const ov = (re) => (h.match(re) || [])[1];
+  const pn = ov(/<a class="pnav prev" href="([^"]+)"/), nn = ov(/<a class="pnav next" href="([^"]+)"/);
+  const pp = ov(/<a href="([^"]+)" rel="prev"/), np = ov(/<a class="nx" href="([^"]+)" rel="next"/);
+  if (!pn || !nn || pn !== pp || nn !== np) { bad++; console.log(`  photo arrows differ from pager on ${u}`); }
+}
 // photo pager: following rel="next" on the ka pages visits every photo once and returns to the start
 const photoPages = Object.keys(byUrl).filter(u => /^https?:\/\/[^/]+\/photo\/[^/]+\/$/.test(u));
 const nextOf = u => { const h = fs.readFileSync(byUrl[u], 'utf8'); const m = h.match(/<a class="nx" href="([^"]+)" rel="next"/); return m && new URL(m[1], u).href; };

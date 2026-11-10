@@ -355,7 +355,9 @@ function buildPhoto(lang, p) {
   };
   const main = `${crumbs(lang, dir, trail)}
   <section class="pp">
-    <figure><picture><source type="image/webp" srcset="${base}.webp"><img src="${base}.jpg" alt="${esc(t)}" width="${m.w}" height="${m.h}" fetchpriority="high" decoding="async"></picture></figure>
+    <figure><div class="pimg"><picture><source type="image/webp" srcset="${base}.webp"><img src="${base}.jpg" alt="${esc(t)}" width="${m.w}" height="${m.h}" fetchpriority="high" decoding="async"></picture>
+      <a class="pnav prev" href="${href(dir, dirs.photo(lang, prev))}" rel="prev" aria-label="${esc(s.prev)}: ${esc(pTitle(lang, prev))}">${ARROW_L}</a>
+      <a class="pnav next" href="${href(dir, dirs.photo(lang, next))}" rel="next" aria-label="${esc(s.next)}: ${esc(pTitle(lang, next))}">${ARROW}</a></div></figure>
     <div class="pinfo">
       <div class="label"><span class="sq"></span><a href="${href(dir, dirs.cat(lang, c))}">${esc(catName(lang, c))}</a></div>
       <h1>${esc(t)}</h1>
