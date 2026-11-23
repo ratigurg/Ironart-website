@@ -231,7 +231,7 @@ const HERO_FILES = ['curved-white-interior-staircase', 'finished-black-spiral-st
 // 3D strip under the model / finished pair
 const D3_FILES = ['spiral-staircase-3d-model', 'staircase-3d-scan-railing-model', 'staircase-3d-scan-measurements', 'horizontal-slat-gate-3d-visualisation', 'curved-staircase-3d-view-room', 'curved-staircase-3d-model-below', 'cantilever-staircase-3d-visualisation'].map(s => bySlug[s]);
 const SVC_FILES = ['gate-vertical-slats-enhanced', 'IMG_0487', 'IMG_2661', 'IMG_8915'].map(n => byFile[`Images/selected/${n}.jpg`]);
-const FINISHED = byFile['Images/selected/spiral-stair-enhanced.jpg'];
+const FINISHED = byFile['Images/selected/spiral-stair-clean.jpg'];
 const featured = photos.filter(p => p.featured);
 if (featured.length !== 8) throw new Error(`Expected 8 featured photos, found ${featured.length}`);
 [...HERO_FILES, ...D3_FILES, ...SVC_FILES, FINISHED].forEach(p => { if (!p) throw new Error('Home page photo missing from photos.json'); });
