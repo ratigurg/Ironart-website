@@ -6,7 +6,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/"/>
     <image:image>
-      <image:loc>https://ironart.ge/img/ironart-black-metal-gate-vertical-slats.jpg</image:loc>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-gate-vertical-slats-closed.jpg</image:loc>
       <image:title>შავი ლითონის ჭიშკარი ვერტიკალური ზოლებით</image:title>
       <image:caption>მეტალის ორფრთიანი შავი ჭიშკარი. წავკისი.</image:caption>
     </image:image>
@@ -52,7 +52,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/"/>
     <image:image>
-      <image:loc>https://ironart.ge/img/ironart-black-metal-gate-vertical-slats.jpg</image:loc>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-gate-vertical-slats-closed.jpg</image:loc>
       <image:title>Black metal gate with vertical slats</image:title>
       <image:caption>Two-leaf black entrance built from vertical metal slats.</image:caption>
     </image:image>
@@ -97,6 +97,11 @@
     <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/namushevrebi/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/work/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/namushevrebi/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-gate-vertical-slats-closed.jpg</image:loc>
+      <image:title>შავი ლითონის ჭიშკარი ვერტიკალური ზოლებით</image:title>
+      <image:caption>მეტალის ორფრთიანი შავი ჭიშკარი. წავკისი.</image:caption>
+    </image:image>
     <image:image>
       <image:loc>https://ironart.ge/img/ironart-black-metal-gate-vertical-slats.jpg</image:loc>
       <image:title>შავი ლითონის ჭიშკარი ვერტიკალური ზოლებით</image:title>
@@ -233,6 +238,16 @@
       <image:caption>შავი ლითონის სპირალური კიბე მოხრილი მოაჯირით.</image:caption>
     </image:image>
     <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-steel-stair-landing-concrete-courtyard.jpg</image:loc>
+      <image:title>შავი ლითონის კიბე ბაქნით ბეტონის ეზოში</image:title>
+      <image:caption>ორმარშიანი შავი ლითონის კიბე ბადისებრი საფეხურებით, ბაქნით და ვერტიკალური მოაჯირით.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-winding-steel-stair-brick-interior.jpg</image:loc>
+      <image:title>ხვეული ლითონის კიბე აგურის ინტერიერში</image:title>
+      <image:caption>შავი ლითონის ხვეული კიბე ღარებიანი საფეხურებით, ცენტრალური დგარის გარშემო.</image:caption>
+    </image:image>
+    <image:image>
       <image:loc>https://ironart.ge/img/ironart-black-ornamental-stair-railing-flowing-curves.jpg</image:loc>
       <image:title>შავი ორნამენტული მოაჯირი რბილი მრუდებით კიბეზე</image:title>
       <image:caption>კიბის შავი მოაჯირი, რომელიც მცენარისებრი, რბილად მოხრილი ხაზებისგანაა შედგენილი.</image:caption>
@@ -343,6 +358,11 @@
     <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/namushevrebi/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/work/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/namushevrebi/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-gate-vertical-slats-closed.jpg</image:loc>
+      <image:title>Black metal gate with vertical slats</image:title>
+      <image:caption>Two-leaf black entrance built from vertical metal slats.</image:caption>
+    </image:image>
     <image:image>
       <image:loc>https://ironart.ge/img/ironart-black-metal-gate-vertical-slats.jpg</image:loc>
       <image:title>Black metal gate with vertical slats</image:title>
@@ -479,6 +499,16 @@
       <image:caption>Black metal spiral staircase with a curved handrail between two walls.</image:caption>
     </image:image>
     <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-steel-stair-landing-concrete-courtyard.jpg</image:loc>
+      <image:title>Black steel staircase with a landing in a concrete courtyard</image:title>
+      <image:caption>Two-flight black steel staircase with mesh treads, a landing and vertical-bar railings.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-winding-steel-stair-brick-interior.jpg</image:loc>
+      <image:title>Winding steel staircase in a brick interior</image:title>
+      <image:caption>Black steel winding staircase with checker-plate treads around a central post.</image:caption>
+    </image:image>
+    <image:image>
       <image:loc>https://ironart.ge/img/ironart-black-ornamental-stair-railing-flowing-curves.jpg</image:loc>
       <image:title>Black ornamental stair railing with flowing curves</image:title>
       <image:caption>Black stair railing composed of soft, plant-like curved lines.</image:caption>
@@ -589,6 +619,11 @@
     <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/namushevrebi/chishkrebi-da-ghobeebi/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/work/gates-and-fences/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/namushevrebi/chishkrebi-da-ghobeebi/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-gate-vertical-slats-closed.jpg</image:loc>
+      <image:title>შავი ლითონის ჭიშკარი ვერტიკალური ზოლებით</image:title>
+      <image:caption>მეტალის ორფრთიანი შავი ჭიშკარი. წავკისი.</image:caption>
+    </image:image>
     <image:image>
       <image:loc>https://ironart.ge/img/ironart-black-metal-gate-vertical-slats.jpg</image:loc>
       <image:title>შავი ლითონის ჭიშკარი ვერტიკალური ზოლებით</image:title>
@@ -729,6 +764,16 @@
       <image:loc>https://ironart.ge/img/ironart-finished-black-spiral-staircase.jpg</image:loc>
       <image:title>შავი სპირალური კიბე</image:title>
       <image:caption>შავი ლითონის სპირალური კიბე მოხრილი მოაჯირით.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-steel-stair-landing-concrete-courtyard.jpg</image:loc>
+      <image:title>შავი ლითონის კიბე ბაქნით ბეტონის ეზოში</image:title>
+      <image:caption>ორმარშიანი შავი ლითონის კიბე ბადისებრი საფეხურებით, ბაქნით და ვერტიკალური მოაჯირით.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-winding-steel-stair-brick-interior.jpg</image:loc>
+      <image:title>ხვეული ლითონის კიბე აგურის ინტერიერში</image:title>
+      <image:caption>შავი ლითონის ხვეული კიბე ღარებიანი საფეხურებით, ცენტრალური დგარის გარშემო.</image:caption>
     </image:image>
   </url>
   <url>
@@ -884,6 +929,11 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/work/gates-and-fences/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/namushevrebi/chishkrebi-da-ghobeebi/"/>
     <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-gate-vertical-slats-closed.jpg</image:loc>
+      <image:title>Black metal gate with vertical slats</image:title>
+      <image:caption>Two-leaf black entrance built from vertical metal slats.</image:caption>
+    </image:image>
+    <image:image>
       <image:loc>https://ironart.ge/img/ironart-black-metal-gate-vertical-slats.jpg</image:loc>
       <image:title>Black metal gate with vertical slats</image:title>
       <image:caption>Two-leaf black entrance built from vertical metal slats.</image:caption>
@@ -1023,6 +1073,16 @@
       <image:loc>https://ironart.ge/img/ironart-finished-black-spiral-staircase.jpg</image:loc>
       <image:title>Black spiral staircase</image:title>
       <image:caption>Black metal spiral staircase with a curved handrail between two walls.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-steel-stair-landing-concrete-courtyard.jpg</image:loc>
+      <image:title>Black steel staircase with a landing in a concrete courtyard</image:title>
+      <image:caption>Two-flight black steel staircase with mesh treads, a landing and vertical-bar railings.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-winding-steel-stair-brick-interior.jpg</image:loc>
+      <image:title>Winding steel staircase in a brick interior</image:title>
+      <image:caption>Black steel winding staircase with checker-plate treads around a central post.</image:caption>
     </image:image>
   </url>
   <url>
@@ -1170,6 +1230,17 @@
       <image:loc>https://ironart.ge/img/ironart-curved-staircase-3d-model-below.jpg</image:loc>
       <image:title>3D model of a curved staircase viewed from below</image:title>
       <image:caption>3D model of a curved metal staircase seen from below, with a dark slab above and dimension annotations.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/shavi-chishkari-vertikaluri-lamelebit-dakhuruli/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-chishkari-vertikaluri-lamelebit-dakhuruli/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/black-metal-gate-vertical-slats-closed/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/shavi-chishkari-vertikaluri-lamelebit-dakhuruli/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-gate-vertical-slats-closed.jpg</image:loc>
+      <image:title>შავი ლითონის ჭიშკარი ვერტიკალური ზოლებით</image:title>
+      <image:caption>მეტალის ორფრთიანი შავი ჭიშკარი. წავკისი.</image:caption>
     </image:image>
   </url>
   <url>
@@ -1470,6 +1541,28 @@
     </image:image>
   </url>
   <url>
+    <loc>https://ironart.ge/photo/shavi-kibe-baqnit-betonis-ezoshi/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-kibe-baqnit-betonis-ezoshi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/black-steel-stair-landing-concrete-courtyard/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/shavi-kibe-baqnit-betonis-ezoshi/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-steel-stair-landing-concrete-courtyard.jpg</image:loc>
+      <image:title>შავი ლითონის კიბე ბაქნით ბეტონის ეზოში</image:title>
+      <image:caption>ორმარშიანი შავი ლითონის კიბე ბადისებრი საფეხურებით, ბაქნით და ვერტიკალური მოაჯირით.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/khveuli-kibe-aguris-interiershi/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/khveuli-kibe-aguris-interiershi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/winding-steel-stair-brick-interior/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/khveuli-kibe-aguris-interiershi/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-winding-steel-stair-brick-interior.jpg</image:loc>
+      <image:title>ხვეული ლითონის კიბე აგურის ინტერიერში</image:title>
+      <image:caption>შავი ლითონის ხვეული კიბე ღარებიანი საფეხურებით, ცენტრალური დგარის გარშემო.</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://ironart.ge/photo/shavi-ornamenturi-moajiri-mrudebit/</loc>
     <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-ornamenturi-moajiri-mrudebit/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/black-ornamental-stair-railing-flowing-curves/"/>
@@ -1698,6 +1791,17 @@
       <image:loc>https://ironart.ge/img/ironart-curved-staircase-3d-model-below.jpg</image:loc>
       <image:title>ხვეული კიბის 3D მოდელი ქვემოდან</image:title>
       <image:caption>ხვეული ლითონის კიბის 3D მოდელი ქვემოდან დანახული, ზემოთ მუქი ფილით და ზომის მითითებებით.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/black-metal-gate-vertical-slats-closed/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-chishkari-vertikaluri-lamelebit-dakhuruli/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/black-metal-gate-vertical-slats-closed/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/shavi-chishkari-vertikaluri-lamelebit-dakhuruli/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-gate-vertical-slats-closed.jpg</image:loc>
+      <image:title>Black metal gate with vertical slats</image:title>
+      <image:caption>Two-leaf black entrance built from vertical metal slats.</image:caption>
     </image:image>
   </url>
   <url>
@@ -1995,6 +2099,28 @@
       <image:loc>https://ironart.ge/img/ironart-finished-black-spiral-staircase.jpg</image:loc>
       <image:title>Black spiral staircase</image:title>
       <image:caption>Black metal spiral staircase with a curved handrail between two walls.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/black-steel-stair-landing-concrete-courtyard/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-kibe-baqnit-betonis-ezoshi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/black-steel-stair-landing-concrete-courtyard/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/shavi-kibe-baqnit-betonis-ezoshi/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-steel-stair-landing-concrete-courtyard.jpg</image:loc>
+      <image:title>Black steel staircase with a landing in a concrete courtyard</image:title>
+      <image:caption>Two-flight black steel staircase with mesh treads, a landing and vertical-bar railings.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/winding-steel-stair-brick-interior/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/khveuli-kibe-aguris-interiershi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/winding-steel-stair-brick-interior/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/khveuli-kibe-aguris-interiershi/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-winding-steel-stair-brick-interior.jpg</image:loc>
+      <image:title>Winding steel staircase in a brick interior</image:title>
+      <image:caption>Black steel winding staircase with checker-plate treads around a central post.</image:caption>
     </image:image>
   </url>
   <url>

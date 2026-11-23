@@ -1,4 +1,4 @@
-// IronArt: mobile menu on every page; hero 3D tabs, crosshair and services only on the home page
+// IronArt: mobile menu on every page; hero slider, 3D strip lightbox and services only on the home page
 (function () {
   var $ = function (s, r) { return (r || document).querySelector(s); };
   var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
@@ -48,29 +48,59 @@
   var IA = window.IA;
   if (!IA) return;
 
-  // hero 3D tabs
+  // hero slider (finished work)
   var heroImg = $('#heroImg');
-  if (heroImg && IA.d3) {
+  if (heroImg && IA.hero) {
     var setHero = function (i) {
-      heroImg.src = IA.d3[i].src; heroImg.alt = IA.d3[i].alt;
-      $('#heroCap').textContent = IA.d3[i].alt;
-      $('#heroIdx').textContent = pad(i + 1) + ' / ' + pad(IA.d3.length);
+      heroImg.src = IA.hero[i].src; heroImg.alt = IA.hero[i].alt;
+      $('#heroCap').textContent = IA.hero[i].alt;
+      $('#heroIdx').textContent = pad(i + 1) + ' / ' + pad(IA.hero.length);
       $$('.tab').forEach(function (b, k) { b.classList.toggle('on', k === i); });
     };
     $$('.tab').forEach(function (b) { b.addEventListener('click', function () { setHero(+b.dataset.i); }); });
     (window.requestIdleCallback || function (f) { setTimeout(f, 1500); })(function () {
-      IA.d3.forEach(function (d) { var im = new Image(); im.src = d.src; });
+      IA.hero.forEach(function (d) { var im = new Image(); im.src = d.src; });
     });
   }
 
-  // crosshair
-  var stage = $('#stage'), cx = $('.cx'), cy = $('.cy'), cr = $('.cr');
-  if (stage && cx && cy && cr) {
-    stage.addEventListener('mousemove', function (e) {
-      var r = stage.getBoundingClientRect(), x = Math.max(0, Math.round(e.clientX - r.left)), y = Math.max(0, Math.round(e.clientY - r.top));
-      cx.style.left = x + 'px'; cy.style.top = y + 'px';
-      cr.textContent = 'X ' + String(x).padStart(4, '0') + '   Y ' + String(y).padStart(4, '0');
-    });
+  // 3D strip: open full-size images in a lightbox
+  var strip = $('.d3strip');
+  if (strip && IA.d3) {
+    var lb = null, cur = 0, opener = null;
+    var show = function (i) {
+      cur = (i + IA.d3.length) % IA.d3.length;
+      var im = $('img', lb); im.src = IA.d3[cur].src; im.alt = IA.d3[cur].alt;
+      $('figcaption', lb).textContent = IA.d3[cur].alt;
+    };
+    var close = function () {
+      if (!lb) return;
+      document.removeEventListener('keydown', onKey);
+      lb.remove(); lb = null; document.body.style.overflow = '';
+      if (opener) opener.focus();
+    };
+    var onKey = function (e) {
+      if (e.key === 'Escape') close();
+      else if (e.key === 'ArrowRight') show(cur + 1);
+      else if (e.key === 'ArrowLeft') show(cur - 1);
+    };
+    var open = function (i, btn) {
+      opener = btn;
+      lb = document.createElement('div');
+      lb.className = 'lb'; lb.setAttribute('role', 'dialog'); lb.setAttribute('aria-modal', 'true');
+      lb.innerHTML = '<button type="button" class="lb-x"></button><button type="button" class="lb-nav prev">&#8249;</button><figure><img alt=""><figcaption></figcaption></figure><button type="button" class="lb-nav next">&#8250;</button>';
+      $('.lb-x', lb).setAttribute('aria-label', strip.dataset.lbClose); $('.lb-x', lb).textContent = '\u00d7';
+      $('.prev', lb).setAttribute('aria-label', strip.dataset.lbPrev);
+      $('.next', lb).setAttribute('aria-label', strip.dataset.lbNext);
+      lb.addEventListener('click', function (e) {
+        if (e.target.closest('.prev')) show(cur - 1);
+        else if (e.target.closest('.next')) show(cur + 1);
+        else if (e.target === lb || e.target.closest('.lb-x')) close();
+      });
+      document.body.appendChild(lb); document.body.style.overflow = 'hidden';
+      document.addEventListener('keydown', onKey);
+      show(i); $('.lb-x', lb).focus();
+    };
+    $$('.d3item', strip).forEach(function (b) { b.addEventListener('click', function () { open(+b.dataset.i, b); }); });
   }
 
   // services
@@ -78,7 +108,7 @@
   if (svcImg && IA.svc) {
     var setSvc = function (i) {
       svcImg.src = IA.svc[i].src; svcImg.alt = IA.svc[i].alt;
-      $('#svcD').textContent = IA.svc[i].desc; $('#svcN').textContent = pad(i + 1);
+      $('#svcD').textContent = IA.svc[i].desc;
       $$('.svc').forEach(function (b, k) { b.classList.toggle('on', k === i); });
     };
     $$('.svc').forEach(function (b) {

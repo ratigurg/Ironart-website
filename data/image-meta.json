@@ -1,4 +1,10 @@
 {
+ "black-metal-gate-vertical-slats-closed": {
+  "w": 1086,
+  "h": 1448,
+  "tw": 600,
+  "th": 800
+ },
  "black-metal-gate-vertical-slats": {
   "w": 1200,
   "h": 1500,
@@ -160,6 +166,18 @@
   "h": 1600,
   "tw": 600,
   "th": 1066
+ },
+ "black-steel-stair-landing-concrete-courtyard": {
+  "w": 1448,
+  "h": 1086,
+  "tw": 600,
+  "th": 450
+ },
+ "winding-steel-stair-brick-interior": {
+  "w": 1086,
+  "h": 1448,
+  "tw": 600,
+  "th": 800
  },
  "black-ornamental-stair-railing-flowing-curves": {
   "w": 1200,

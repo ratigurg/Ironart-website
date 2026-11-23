@@ -107,7 +107,7 @@ function card(lang, dir, p, idx) {
   const t = esc(pTitle(lang, p));
   return `<a class="card" href="${href(dir, dirs.photo(lang, p))}">
   <div class="ph"><picture><source type="image/webp" srcset="${base}-thumb.webp"><img src="${base}-thumb.jpg" alt="${t}" width="${m.tw}" height="${m.th}" loading="lazy" decoding="async"></picture></div>
-  <div class="cap"><span class="idx">${pad(idx)}</span><span class="t">${t}</span><span class="cnt">${esc(catName(lang, catById[p.category]))}</span></div>
+  <div class="cap"><span class="t">${t}</span><span class="cnt">${esc(catName(lang, catById[p.category]))}</span></div>
 </a>`;
 }
 const grid = (lang, dir, list) =>
@@ -225,19 +225,31 @@ function write(dir, html) {
 }
 
 // ---------- pages ----------
-const D3_FILES = ['IMG_2424', 'IMG_0001', 'IMG_2640', 'IMG_1632', 'IMG_2278', 'IMG_0336', 'IMG_2533'].map(n => byFile[`Images/3d/web/${n}.jpg`]);
-const SVC_FILES = ['IMG_2659', 'IMG_0487', 'IMG_2661', 'IMG_8915'].map(n => byFile[`Images/selected/${n}.jpg`]);
+const bySlug = Object.fromEntries(photos.map(p => [p.slug_en, p]));
+// Home hero slider: real finished work, in this order
+const HERO_FILES = ['curved-white-interior-staircase', 'finished-black-spiral-staircase', 'black-pivot-door-glazed-side-panels', 'black-metal-gate-vertical-slats-closed', 'church-wrought-iron-gate-brick-arch'].map(s => bySlug[s]);
+// 3D strip under the model / finished pair
+const D3_FILES = ['spiral-staircase-3d-model', 'staircase-3d-scan-railing-model', 'staircase-3d-scan-measurements', 'horizontal-slat-gate-3d-visualisation', 'curved-staircase-3d-view-room', 'curved-staircase-3d-model-below', 'cantilever-staircase-3d-visualisation'].map(s => bySlug[s]);
+const SVC_FILES = ['gate-vertical-slats-enhanced', 'IMG_0487', 'IMG_2661', 'IMG_8915'].map(n => byFile[`Images/selected/${n}.jpg`]);
 const FINISHED = byFile['Images/selected/spiral-stair-clean.jpg'];
 const featured = photos.filter(p => p.featured);
 if (featured.length !== 8) throw new Error(`Expected 8 featured photos, found ${featured.length}`);
-[...D3_FILES, ...SVC_FILES, FINISHED].forEach(p => { if (!p) throw new Error('Home page photo missing from photos.json'); });
+[...HERO_FILES, ...D3_FILES, ...SVC_FILES, FINISHED].forEach(p => { if (!p) throw new Error('Home page photo missing from photos.json'); });
 
 function buildHome(lang) {
   const dir = dirs.home(lang);
   const root = rootOf(dir);
   const altDirs = { ka: dirs.home('ka'), en: dirs.home('en') };
   const s = STR[lang];
-  const d3 = D3_FILES.map((p, i) => ({ src: `${root}${imgBase(p)}.webp`, alt: s.d3[i] }));
+  const hero = HERO_FILES.map((p, i) => ({ src: `${root}${imgBase(p)}.webp`, alt: s.hero[i] }));
+  const hm = meta[HERO_FILES[0].slug_en];
+  const heroPicture = `<img class="photo" id="heroImg" src="${hero[0].src}" alt="${esc(hero[0].alt)}" width="${hm.w}" height="${hm.h}" fetchpriority="high">`;
+  const heroTabs = hero.map((h, i) => `<button type="button" class="tab${i ? '' : ' on'}" data-i="${i}" aria-label="${esc(h.alt)}">${pad(i + 1)}</button>`).join('');
+  const d3 = D3_FILES.map((p, i) => ({ thumb: `${root}${imgBase(p)}-thumb`, full: `${root}${imgBase(p)}`, short: s.d3strip[i][0], alt: s.d3strip[i][1] }));
+  const d3Strip = `<div class="d3strip" data-lb-close="${esc(s.lbClose)}" data-lb-prev="${esc(s.lbPrev)}" data-lb-next="${esc(s.lbNext)}">${d3.map((d, i) => {
+    const m = meta[D3_FILES[i].slug_en];
+    return `<button type="button" class="d3item" data-i="${i}" aria-label="${esc(d.alt)} — ${esc(s.lbOpen)}"><picture><source type="image/webp" srcset="${d.thumb}.webp"><img src="${d.thumb}.jpg" alt="${esc(d.alt)}" width="${m.tw}" height="${m.th}" loading="lazy" decoding="async"></picture><span>${esc(d.short)}</span></button>`;
+  }).join('')}</div>`;
   const svc = SVC_FILES.map((p, i) => ({ src: `${root}${imgBase(p)}.webp`, alt: s.svc[i][0], desc: s.svc[i][1] }));
   const fb = root + imgBase(FINISHED);
   const fm = meta[FINISHED.slug_en];
@@ -248,20 +260,23 @@ function buildHome(lang) {
     ROOT: root,
     H: '',
     WORK: href(dir, dirs.work(lang)),
-    HERO_SRC: d3[0].src,
-    HERO_ALT: esc(d3[0].alt),
+    HERO_PICTURE: heroPicture,
+    HERO_ALT: esc(hero[0].alt),
+    HERO_TABS: heroTabs,
+    HERO_COUNT: `01 / ${pad(hero.length)}`,
+    D3_STRIP: d3Strip,
     SVC_SRC: svc[0].src,
     SVC_ALT: esc(svc[0].alt),
     SVC_D: esc(svc[0].desc),
     FINISHED_PICTURE: finishedPicture,
     GALLERY_GRID: galleryGrid,
   }, lang).replace(/^<main>\n?/, '').replace(/\n?<\/main>\s*$/, '');
-  const ld = { ...site.jsonld_home, '@type': site.jsonld_home['@type'], url: absUrl(dir), inLanguage: lang, image: `${SITE}/${imgBase(D3_FILES[0])}.jpg` };
+  const ld = { ...site.jsonld_home, '@type': site.jsonld_home['@type'], url: absUrl(dir), inLanguage: lang, image: `${SITE}/${imgBase(HERO_FILES[0])}.jpg` };
   delete ld['@context'];
   ld.description = s.ldDesc;
-  const headExtra = `<link rel="preload" as="image" href="${d3[0].src}" type="image/webp">\n<script type="module" src="${root}assets/model-viewer.min.js"></script>\n`;
-  const scriptData = `<script>window.IA=${jsonForScript({ d3, svc })};</script>\n`;
-  write(dir, page({ lang, dir, altDirs, title: s.homeTitle, description: s.homeDesc, main, headExtra, scriptData, og: { ...ogOf(D3_FILES[0], lang), alt: s.d3[0] }, ld: [ld], bodyClass: 'home' }));
+  const headExtra = `<link rel="preload" as="image" href="${hero[0].src}" type="image/webp">\n<script type="module" src="${root}assets/model-viewer.min.js"></script>\n`;
+  const scriptData = `<script>window.IA=${jsonForScript({ hero, d3: d3.map(d => ({ src: d.full + '.webp', alt: d.alt })), svc })};</script>\n`;
+  write(dir, page({ lang, dir, altDirs, title: s.homeTitle, description: s.homeDesc, main, headExtra, scriptData, og: { ...ogOf(HERO_FILES[0], lang), alt: s.hero[0] }, ld: [ld], bodyClass: 'home' }));
 }
 
 function listingMain(lang, dir, { h1, intro, activeId, list, trail }) {
@@ -269,7 +284,7 @@ function listingMain(lang, dir, { h1, intro, activeId, list, trail }) {
   return `${crumbs(lang, dir, trail)}
   <section class="gallery inner">
     <div class="ghead">
-      <div><div class="label"><span class="sq"></span><span>${esc(s.galL)}</span></div><h1 class="h2">${esc(h1)}</h1></div>
+      <div><h1 class="h2">${esc(h1)}</h1></div>
       <p class="intro">${esc(intro)}</p>
     </div>
     ${filters(lang, dir, activeId)}
@@ -341,7 +356,7 @@ function buildPhoto(lang, p) {
   const rel = related.length ? `
   <section class="gallery inner">
     <div class="ghead">
-      <div><div class="label"><span class="sq"></span><span>${esc(catName(lang, c))}</span></div><h2 class="h2">${esc(s.similarH)}</h2></div>
+      <div><h2 class="h2">${esc(s.similarH)}</h2></div>
     </div>
     ${grid(lang, dir, related)}
   </section>` : '';
@@ -378,7 +393,7 @@ function build404() {
   const main = `
   <section class="gallery inner">
     <div class="ghead">
-      <div><div class="label"><span class="sq"></span><span>404</span></div><h1 class="h2">${esc(s.nfH1)}</h1></div>
+      <div><h1 class="h2">${esc(s.nfH1)}</h1></div>
       <p class="intro">${esc(s.nfIntro)}<br><span lang="en">Page not found. Go back to the <a href="/en/">English home page</a> or browse our work.</span></p>
     </div>
     <nav class="filters" aria-label="${esc(s.filterLabel)}">${links.map(([h, l]) => `<a href="${h}">${esc(l)}</a>`).join('')}</nav>
