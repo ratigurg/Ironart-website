@@ -84,7 +84,7 @@
    "სწრაფი მონტაჟი — ყველა ელემენტი გათვლილი და დაპროექტებულია წინასწარ"
   ],
   "view": "ხედი",
-  "view3d": "3D ხედი",
+  "view3d": "ნამუშევრები",
   "model": "3D მოდელი",
   "result": "დასრულებული ნაკეთობა",
   "mvCap": "ინტერაქტიული 3D მოდელი — სპირალური კიბე. დაატრიალეთ მაუსით, გაადიდეთ ბორბლით.",
@@ -153,11 +153,52 @@
   "brand": "IronArt — თბილისი",
   "mvAlt": "IronArt 3D — სპირალური კიბე",
   "mapTitle": "IronArt — რუკა",
-  "langBtnKa": "ქარ",
+  "langBtnKa": "ქა",
   "langAriaKa": "ქართული",
   "nfH1": "გვერდი ვერ მოიძებნა",
   "nfIntro": "ეს მისამართი არ არსებობს ან გვერდი გადატანილია. დაბრუნდით მთავარ გვერდზე ან აირჩიეთ ნამუშევრების კატეგორია.",
-  "nfDesc": "გვერდი ვერ მოიძებნა. დაბრუნდით IronArt-ის მთავარ გვერდზე ან დაათვალიერეთ ლითონის ნაკეთობების ნამუშევრები საქართველოში."
+  "nfDesc": "გვერდი ვერ მოიძებნა. დაბრუნდით IronArt-ის მთავარ გვერდზე ან დაათვალიერეთ ლითონის ნაკეთობების ნამუშევრები საქართველოში.",
+  "hero": [
+   "თეთრი მასიური მოაჯირი, ხვეული კიბე",
+   "შავი სპირალური კიბე",
+   "შავი პივოტ კარი მინის გვერდითი პანელებით",
+   "შავი ლითონის ჭიშკარი ვერტიკალური ზოლებით",
+   "ეკლესიის ჭედური ჭიშკარი აგურის თაღში"
+  ],
+  "d3strip": [
+   [
+    "სპირალური კიბე",
+    "სპირალური კიბის 3D მოდელი"
+   ],
+   [
+    "კიბის სკანი",
+    "კიბის 3D სკანი მოაჯირის მოდელით"
+   ],
+   [
+    "სკანი გაზომვებით",
+    "კიბის 3D სკანი გაზომვებით"
+   ],
+   [
+    "ლამელებიანი ჭიშკარი",
+    "ჭიშკრის 3D ვიზუალიზაცია"
+   ],
+   [
+    "ხვეული კიბე",
+    "ხვეული კიბე სივრცეში"
+   ],
+   [
+    "ხვეული კიბე ქვემოდან",
+    "ხვეული კიბის 3D მოდელი ქვემოდან"
+   ],
+   [
+    "კონსოლური კიბე",
+    "კონსოლური კიბე ინტერიერში"
+   ]
+  ],
+  "lbOpen": "გადიდება",
+  "lbClose": "დახურვა",
+  "lbPrev": "წინა",
+  "lbNext": "შემდეგი"
  },
  "en": {
   "nav": [
@@ -244,7 +285,7 @@
    "Smooth installation — every element fits precisely"
   ],
   "view": "View",
-  "view3d": "3D view",
+  "view3d": "Our work",
   "model": "3D model",
   "result": "Finished piece",
   "mvCap": "Interactive 3D model — spiral staircase. Drag to rotate, scroll to zoom.",
@@ -313,10 +354,51 @@
   "brand": "IronArt — Tbilisi",
   "mvAlt": "IronArt 3D — spiral staircase",
   "mapTitle": "IronArt — map",
-  "langBtnKa": "ქარ",
+  "langBtnKa": "ქა",
   "langAriaKa": "ქართული",
   "nfH1": "Page not found",
   "nfIntro": "This address does not exist or the page has moved. Go back to the home page or pick a work category.",
-  "nfDesc": "Page not found. Go back to the IronArt home page or browse our metal fabrication work in Tbilisi."
+  "nfDesc": "Page not found. Go back to the IronArt home page or browse our metal fabrication work in Tbilisi.",
+  "hero": [
+   "White solid curved railing",
+   "Black spiral staircase",
+   "Black pivot door with glass side panels",
+   "Black metal gate with vertical slats",
+   "Wrought-iron church gate in a brick arch"
+  ],
+  "d3strip": [
+   [
+    "Spiral staircase",
+    "3D model of a spiral staircase"
+   ],
+   [
+    "Staircase scan",
+    "3D scan of a staircase with a railing model"
+   ],
+   [
+    "Scan with measurements",
+    "Staircase 3D scan with measurements"
+   ],
+   [
+    "Slatted gate",
+    "3D visualisation of a slatted gate"
+   ],
+   [
+    "Curved staircase",
+    "Curved staircase in a room"
+   ],
+   [
+    "Curved stair from below",
+    "3D model of a curved staircase from below"
+   ],
+   [
+    "Cantilever staircase",
+    "Cantilever staircase in an interior"
+   ]
+  ],
+  "lbOpen": "enlarge",
+  "lbClose": "Close",
+  "lbPrev": "Previous",
+  "lbNext": "Next"
  }
 }
