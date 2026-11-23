@@ -227,11 +227,11 @@ function write(dir, html) {
 // ---------- pages ----------
 const bySlug = Object.fromEntries(photos.map(p => [p.slug_en, p]));
 // Home hero slider: real finished work, in this order
-const HERO_FILES = ['curved-white-interior-staircase', 'finished-black-spiral-staircase', 'black-pivot-door-glazed-side-panels', 'black-metal-gate-vertical-slats', 'church-wrought-iron-gate-brick-arch'].map(s => bySlug[s]);
+const HERO_FILES = ['curved-white-interior-staircase', 'finished-black-spiral-staircase', 'black-pivot-door-glazed-side-panels', 'black-metal-gate-vertical-slats-closed', 'church-wrought-iron-gate-brick-arch'].map(s => bySlug[s]);
 // 3D strip under the model / finished pair
 const D3_FILES = ['spiral-staircase-3d-model', 'staircase-3d-scan-railing-model', 'staircase-3d-scan-measurements', 'horizontal-slat-gate-3d-visualisation', 'curved-staircase-3d-view-room', 'curved-staircase-3d-model-below', 'cantilever-staircase-3d-visualisation'].map(s => bySlug[s]);
-const SVC_FILES = ['IMG_2659', 'IMG_0487', 'IMG_2661', 'IMG_8915'].map(n => byFile[`Images/selected/${n}.jpg`]);
-const FINISHED = byFile['Images/selected/spiral-stair-clean.jpg'];
+const SVC_FILES = ['gate-vertical-slats-enhanced', 'IMG_0487', 'IMG_2661', 'IMG_8915'].map(n => byFile[`Images/selected/${n}.jpg`]);
+const FINISHED = byFile['Images/selected/spiral-stair-enhanced.jpg'];
 const featured = photos.filter(p => p.featured);
 if (featured.length !== 8) throw new Error(`Expected 8 featured photos, found ${featured.length}`);
 [...HERO_FILES, ...D3_FILES, ...SVC_FILES, FINISHED].forEach(p => { if (!p) throw new Error('Home page photo missing from photos.json'); });

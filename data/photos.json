@@ -1,5 +1,11 @@
 [
-  {"file":"Images/selected/IMG_2659.jpg","category":"gates","featured":true,"group":"gate-vertical-slats",
+  {"file":"Images/selected/gate-vertical-slats-enhanced.jpg","category":"gates","featured":true,"group":"gate-vertical-slats",
+   "title_ka":"შავი ლითონის ჭიშკარი ვერტიკალური ზოლებით","title_en":"Black metal gate with vertical slats",
+   "desc_ka":"მეტალის ორფრთიანი შავი ჭიშკარი. წავკისი.",
+   "desc_en":"Two-leaf black entrance built from vertical metal slats.",
+   "slug_ka":"shavi-chishkari-vertikaluri-lamelebit-dakhuruli","slug_en":"black-metal-gate-vertical-slats-closed"},
+
+  {"file":"Images/selected/IMG_2659.jpg","category":"gates","featured":false,"group":"gate-vertical-slats",
    "title_ka":"შავი ლითონის ჭიშკარი ვერტიკალური ზოლებით","title_en":"Black metal gate with vertical slats",
    "desc_ka":"მეტალის ორფრთიანი შავი ჭიშკარი. წავკისი.",
    "desc_en":"Two-leaf black entrance built from vertical metal slats.",
@@ -155,11 +161,23 @@
    "desc_en":"Black metal staircase with open treads and a railing of horizontal bars.",
    "slug_ka":"lithonis-kibe-horizontaluri-moajiri","slug_en":"metal-staircase-horizontal-bar-railing"},
 
-  {"file":"Images/selected/spiral-stair-clean.jpg","category":"stairs","featured":true,"group":"spiral-stair-courtyard",
+  {"file":"Images/selected/spiral-stair-enhanced.jpg","category":"stairs","featured":true,"group":"spiral-stair-courtyard",
    "title_ka":"შავი სპირალური კიბე","title_en":"Black spiral staircase",
    "desc_ka":"შავი ლითონის სპირალური კიბე მოხრილი მოაჯირით.",
    "desc_en":"Black metal spiral staircase with a curved handrail between two walls.",
    "slug_ka":"dasrulebuli-spiraluri-kibe","slug_en":"finished-black-spiral-staircase"},
+
+  {"file":"Images/selected/stair-concrete-courtyard-landing.jpg","category":"stairs","featured":false,"group":"stair-concrete-courtyard",
+   "title_ka":"შავი ლითონის კიბე ბაქნით ბეტონის ეზოში","title_en":"Black steel staircase with a landing in a concrete courtyard",
+   "desc_ka":"ორმარშიანი შავი ლითონის კიბე ბადისებრი საფეხურებით, ბაქნით და ვერტიკალური მოაჯირით.",
+   "desc_en":"Two-flight black steel staircase with mesh treads, a landing and vertical-bar railings.",
+   "slug_ka":"shavi-kibe-baqnit-betonis-ezoshi","slug_en":"black-steel-stair-landing-concrete-courtyard"},
+
+  {"file":"Images/selected/stair-brick-interior-winding.jpg","category":"stairs","featured":false,"group":"stair-brick-interior",
+   "title_ka":"ხვეული ლითონის კიბე აგურის ინტერიერში","title_en":"Winding steel staircase in a brick interior",
+   "desc_ka":"შავი ლითონის ხვეული კიბე ღარებიანი საფეხურებით, ცენტრალური დგარის გარშემო.",
+   "desc_en":"Black steel winding staircase with checker-plate treads around a central post.",
+   "slug_ka":"khveuli-kibe-aguris-interiershi","slug_en":"winding-steel-stair-brick-interior"},
 
   {"file":"Images/selected/IMG_0604.jpg","category":"railings","featured":true,"group":"ornamental-railing",
    "title_ka":"შავი ორნამენტული მოაჯირი რბილი მრუდებით კიბეზე","title_en":"Black ornamental stair railing with flowing curves",
