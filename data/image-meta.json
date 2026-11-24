@@ -233,6 +233,18 @@
   "tw": 600,
   "th": 750
  },
+ "grey-metal-entrance-door": {
+  "w": 896,
+  "h": 1195,
+  "tw": 600,
+  "th": 800
+ },
+ "grey-metal-entrance-door-detail": {
+  "w": 896,
+  "h": 1195,
+  "tw": 600,
+  "th": 800
+ },
  "window-black-frame-wooden-slat-shutters": {
   "w": 1200,
   "h": 1500,

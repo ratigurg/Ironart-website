@@ -293,6 +293,16 @@
       <image:caption>შავი ლითონის პივოტ კარი გრძელი ვერტიკალური სახელურით და მინის გვერდითი პანელებით, შავ ლითონის ჩარჩოში.</image:caption>
     </image:image>
     <image:image>
+      <image:loc>https://ironart.ge/img/ironart-grey-metal-entrance-door.jpg</image:loc>
+      <image:title>ნაცრისფერი ლითონის შესასვლელი კარი</image:title>
+      <image:caption>ნაცრისფერი ლითონის შესასვლელი კარი გლუვი ზედაპირით, ჰორიზონტალური ხაზებით და ლითონის ჩარჩოთი.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-grey-metal-entrance-door-detail.jpg</image:loc>
+      <image:title>ნაცრისფერი ლითონის შესასვლელი კარი</image:title>
+      <image:caption>ნაცრისფერი ლითონის შესასვლელი კარი გლუვი ზედაპირით, ჰორიზონტალური ხაზებით და ლითონის ჩარჩოთი.</image:caption>
+    </image:image>
+    <image:image>
       <image:loc>https://ironart.ge/img/ironart-window-black-frame-wooden-slat-shutters.jpg</image:loc>
       <image:title>ფანჯარა ხის ლამელებიანი ფარებით შავ ჩარჩოში</image:title>
       <image:caption>ფანჯარა შავი ლითონის ჩარჩოთი. მას ხის ვერტიკალური ლამელებით აწყობილი ფარები აქვს, რომელთაგან ერთი ღიაა.</image:caption>
@@ -552,6 +562,16 @@
       <image:loc>https://ironart.ge/img/ironart-black-pivot-door-long-handle.jpg</image:loc>
       <image:title>Black pivot door with glazed side panels</image:title>
       <image:caption>Black metal pivot door with a long vertical handle and glazed side panels in a black metal frame.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-grey-metal-entrance-door.jpg</image:loc>
+      <image:title>Grey metal entrance door</image:title>
+      <image:caption>Grey metal entrance door with a flush surface, horizontal panel lines and a metal frame.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-grey-metal-entrance-door-detail.jpg</image:loc>
+      <image:title>Grey metal entrance door</image:title>
+      <image:caption>Grey metal entrance door with a flush surface, horizontal panel lines and a metal frame.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://ironart.ge/img/ironart-window-black-frame-wooden-slat-shutters.jpg</image:loc>
@@ -837,6 +857,16 @@
       <image:loc>https://ironart.ge/img/ironart-black-pivot-door-long-handle.jpg</image:loc>
       <image:title>შავი პივოტ კარი მინის გვერდითი პანელებით</image:title>
       <image:caption>შავი ლითონის პივოტ კარი გრძელი ვერტიკალური სახელურით და მინის გვერდითი პანელებით, შავ ლითონის ჩარჩოში.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-grey-metal-entrance-door.jpg</image:loc>
+      <image:title>ნაცრისფერი ლითონის შესასვლელი კარი</image:title>
+      <image:caption>ნაცრისფერი ლითონის შესასვლელი კარი გლუვი ზედაპირით, ჰორიზონტალური ხაზებით და ლითონის ჩარჩოთი.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-grey-metal-entrance-door-detail.jpg</image:loc>
+      <image:title>ნაცრისფერი ლითონის შესასვლელი კარი</image:title>
+      <image:caption>ნაცრისფერი ლითონის შესასვლელი კარი გლუვი ზედაპირით, ჰორიზონტალური ხაზებით და ლითონის ჩარჩოთი.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://ironart.ge/img/ironart-window-black-frame-wooden-slat-shutters.jpg</image:loc>
@@ -1146,6 +1176,16 @@
       <image:loc>https://ironart.ge/img/ironart-black-pivot-door-long-handle.jpg</image:loc>
       <image:title>Black pivot door with glazed side panels</image:title>
       <image:caption>Black metal pivot door with a long vertical handle and glazed side panels in a black metal frame.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-grey-metal-entrance-door.jpg</image:loc>
+      <image:title>Grey metal entrance door</image:title>
+      <image:caption>Grey metal entrance door with a flush surface, horizontal panel lines and a metal frame.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-grey-metal-entrance-door-detail.jpg</image:loc>
+      <image:title>Grey metal entrance door</image:title>
+      <image:caption>Grey metal entrance door with a flush surface, horizontal panel lines and a metal frame.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://ironart.ge/img/ironart-window-black-frame-wooden-slat-shutters.jpg</image:loc>
@@ -1659,6 +1699,28 @@
       <image:loc>https://ironart.ge/img/ironart-black-pivot-door-long-handle.jpg</image:loc>
       <image:title>შავი პივოტ კარი მინის გვერდითი პანელებით</image:title>
       <image:caption>შავი ლითონის პივოტ კარი გრძელი ვერტიკალური სახელურით და მინის გვერდითი პანელებით, შავ ლითონის ჩარჩოში.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/natsrisferi-shesasvleli-kari/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/natsrisferi-shesasvleli-kari/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/grey-metal-entrance-door/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/natsrisferi-shesasvleli-kari/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-grey-metal-entrance-door.jpg</image:loc>
+      <image:title>ნაცრისფერი ლითონის შესასვლელი კარი</image:title>
+      <image:caption>ნაცრისფერი ლითონის შესასვლელი კარი გლუვი ზედაპირით, ჰორიზონტალური ხაზებით და ლითონის ჩარჩოთი.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/natsrisferi-shesasvleli-kari-detali/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/natsrisferi-shesasvleli-kari-detali/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/grey-metal-entrance-door-detail/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/natsrisferi-shesasvleli-kari-detali/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-grey-metal-entrance-door-detail.jpg</image:loc>
+      <image:title>ნაცრისფერი ლითონის შესასვლელი კარი</image:title>
+      <image:caption>ნაცრისფერი ლითონის შესასვლელი კარი გლუვი ზედაპირით, ჰორიზონტალური ხაზებით და ლითონის ჩარჩოთი.</image:caption>
     </image:image>
   </url>
   <url>
@@ -2220,6 +2282,28 @@
       <image:loc>https://ironart.ge/img/ironart-black-pivot-door-long-handle.jpg</image:loc>
       <image:title>Black pivot door with glazed side panels</image:title>
       <image:caption>Black metal pivot door with a long vertical handle and glazed side panels in a black metal frame.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/grey-metal-entrance-door/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/natsrisferi-shesasvleli-kari/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/grey-metal-entrance-door/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/natsrisferi-shesasvleli-kari/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-grey-metal-entrance-door.jpg</image:loc>
+      <image:title>Grey metal entrance door</image:title>
+      <image:caption>Grey metal entrance door with a flush surface, horizontal panel lines and a metal frame.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/grey-metal-entrance-door-detail/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/natsrisferi-shesasvleli-kari-detali/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/grey-metal-entrance-door-detail/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/natsrisferi-shesasvleli-kari-detali/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-grey-metal-entrance-door-detail.jpg</image:loc>
+      <image:title>Grey metal entrance door</image:title>
+      <image:caption>Grey metal entrance door with a flush surface, horizontal panel lines and a metal frame.</image:caption>
     </image:image>
   </url>
   <url>
