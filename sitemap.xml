@@ -248,6 +248,16 @@
       <image:caption>შავი ლითონის ხვეული კიბე ღარებიანი საფეხურებით, ცენტრალური დგარის გარშემო.</image:caption>
     </image:image>
     <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-two-flight-outdoor-staircase.jpg</image:loc>
+      <image:title>შავი ლითონის გარე კიბე ორი მარშით</image:title>
+      <image:caption>შავი ლითონის გარე კიბე ორი მარშით, ბადისებრი საფეხურებით და ვერტიკალური მოაჯირით, საყრდენ კედელთან.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-outdoor-staircase-courtyard.jpg</image:loc>
+      <image:title>შავი ლითონის გარე კიბე ეზოში</image:title>
+      <image:caption>იგივე ორმარშიანი გარე კიბე ეზოდან, ზედა ტერასების მოაჯირებთან ერთად.</image:caption>
+    </image:image>
+    <image:image>
       <image:loc>https://ironart.ge/img/ironart-black-ornamental-stair-railing-flowing-curves.jpg</image:loc>
       <image:title>შავი ორნამენტული მოაჯირი რბილი მრუდებით კიბეზე</image:title>
       <image:caption>კიბის შავი მოაჯირი, რომელიც მცენარისებრი, რბილად მოხრილი ხაზებისგანაა შედგენილი.</image:caption>
@@ -266,6 +276,11 @@
       <image:loc>https://ironart.ge/img/ironart-curved-railing-vertical-balusters.jpg</image:loc>
       <image:title>მრუდი მოაჯირი ვერტიკალური ბალუსტრებით</image:title>
       <image:caption>მრუდი ლითონის მოაჯირი ვერტიკალური ბალუსტრებით და ზემოთ დამაგრებული სახელურით.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-balcony-railing.jpg</image:loc>
+      <image:title>შავი ლითონის აივნის მოაჯირი</image:title>
+      <image:caption>შავი ლითონის აივნის მოაჯირი ვერტიკალური ძელებით და ორმაგი ჰორიზონტალური სარტყლებით, სახურავიან აივანზე.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://ironart.ge/img/ironart-church-wrought-iron-gate-brick-arch.jpg</image:loc>
@@ -519,6 +534,16 @@
       <image:caption>Black steel winding staircase with checker-plate treads around a central post.</image:caption>
     </image:image>
     <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-two-flight-outdoor-staircase.jpg</image:loc>
+      <image:title>Black metal two-flight outdoor staircase</image:title>
+      <image:caption>Black metal outdoor staircase in two flights, with mesh treads and a vertical-bar railing, along a retaining wall.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-outdoor-staircase-courtyard.jpg</image:loc>
+      <image:title>Black metal outdoor staircase in a courtyard</image:title>
+      <image:caption>The same two-flight outdoor staircase seen from the courtyard, with the upper terrace railings.</image:caption>
+    </image:image>
+    <image:image>
       <image:loc>https://ironart.ge/img/ironart-black-ornamental-stair-railing-flowing-curves.jpg</image:loc>
       <image:title>Black ornamental stair railing with flowing curves</image:title>
       <image:caption>Black stair railing composed of soft, plant-like curved lines.</image:caption>
@@ -537,6 +562,11 @@
       <image:loc>https://ironart.ge/img/ironart-curved-railing-vertical-balusters.jpg</image:loc>
       <image:title>Curved railing with vertical balusters</image:title>
       <image:caption>Curved metal railing with vertical balusters and a top handrail.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-balcony-railing.jpg</image:loc>
+      <image:title>Black metal balcony railing</image:title>
+      <image:caption>Black metal balcony railing with vertical bars and double horizontal rails, on a covered balcony.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://ironart.ge/img/ironart-church-wrought-iron-gate-brick-arch.jpg</image:loc>
@@ -795,6 +825,16 @@
       <image:title>ხვეული ლითონის კიბე აგურის ინტერიერში</image:title>
       <image:caption>შავი ლითონის ხვეული კიბე ღარებიანი საფეხურებით, ცენტრალური დგარის გარშემო.</image:caption>
     </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-two-flight-outdoor-staircase.jpg</image:loc>
+      <image:title>შავი ლითონის გარე კიბე ორი მარშით</image:title>
+      <image:caption>შავი ლითონის გარე კიბე ორი მარშით, ბადისებრი საფეხურებით და ვერტიკალური მოაჯირით, საყრდენ კედელთან.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-outdoor-staircase-courtyard.jpg</image:loc>
+      <image:title>შავი ლითონის გარე კიბე ეზოში</image:title>
+      <image:caption>იგივე ორმარშიანი გარე კიბე ეზოდან, ზედა ტერასების მოაჯირებთან ერთად.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://ironart.ge/namushevrebi/moajireebi/</loc>
@@ -820,6 +860,11 @@
       <image:loc>https://ironart.ge/img/ironart-curved-railing-vertical-balusters.jpg</image:loc>
       <image:title>მრუდი მოაჯირი ვერტიკალური ბალუსტრებით</image:title>
       <image:caption>მრუდი ლითონის მოაჯირი ვერტიკალური ბალუსტრებით და ზემოთ დამაგრებული სახელურით.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-balcony-railing.jpg</image:loc>
+      <image:title>შავი ლითონის აივნის მოაჯირი</image:title>
+      <image:caption>შავი ლითონის აივნის მოაჯირი ვერტიკალური ძელებით და ორმაგი ჰორიზონტალური სარტყლებით, სახურავიან აივანზე.</image:caption>
     </image:image>
   </url>
   <url>
@@ -1114,6 +1159,16 @@
       <image:title>Winding steel staircase in a brick interior</image:title>
       <image:caption>Black steel winding staircase with checker-plate treads around a central post.</image:caption>
     </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-two-flight-outdoor-staircase.jpg</image:loc>
+      <image:title>Black metal two-flight outdoor staircase</image:title>
+      <image:caption>Black metal outdoor staircase in two flights, with mesh treads and a vertical-bar railing, along a retaining wall.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-outdoor-staircase-courtyard.jpg</image:loc>
+      <image:title>Black metal outdoor staircase in a courtyard</image:title>
+      <image:caption>The same two-flight outdoor staircase seen from the courtyard, with the upper terrace railings.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://ironart.ge/en/work/railings/</loc>
@@ -1139,6 +1194,11 @@
       <image:loc>https://ironart.ge/img/ironart-curved-railing-vertical-balusters.jpg</image:loc>
       <image:title>Curved railing with vertical balusters</image:title>
       <image:caption>Curved metal railing with vertical balusters and a top handrail.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-balcony-railing.jpg</image:loc>
+      <image:title>Black metal balcony railing</image:title>
+      <image:caption>Black metal balcony railing with vertical bars and double horizontal rails, on a covered balcony.</image:caption>
     </image:image>
   </url>
   <url>
@@ -1603,6 +1663,28 @@
     </image:image>
   </url>
   <url>
+    <loc>https://ironart.ge/photo/shavi-gare-kibe-ori-marshit/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-gare-kibe-ori-marshit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/black-two-flight-outdoor-staircase/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/shavi-gare-kibe-ori-marshit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-two-flight-outdoor-staircase.jpg</image:loc>
+      <image:title>შავი ლითონის გარე კიბე ორი მარშით</image:title>
+      <image:caption>შავი ლითონის გარე კიბე ორი მარშით, ბადისებრი საფეხურებით და ვერტიკალური მოაჯირით, საყრდენ კედელთან.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/shavi-gare-kibe-ezoshi/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-gare-kibe-ezoshi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/black-outdoor-staircase-courtyard/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/shavi-gare-kibe-ezoshi/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-outdoor-staircase-courtyard.jpg</image:loc>
+      <image:title>შავი ლითონის გარე კიბე ეზოში</image:title>
+      <image:caption>იგივე ორმარშიანი გარე კიბე ეზოდან, ზედა ტერასების მოაჯირებთან ერთად.</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://ironart.ge/photo/shavi-ornamenturi-moajiri-mrudebit/</loc>
     <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-ornamenturi-moajiri-mrudebit/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/black-ornamental-stair-railing-flowing-curves/"/>
@@ -1644,6 +1726,17 @@
       <image:loc>https://ironart.ge/img/ironart-curved-railing-vertical-balusters.jpg</image:loc>
       <image:title>მრუდი მოაჯირი ვერტიკალური ბალუსტრებით</image:title>
       <image:caption>მრუდი ლითონის მოაჯირი ვერტიკალური ბალუსტრებით და ზემოთ დამაგრებული სახელურით.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/photo/shavi-lithonis-aivnis-moajiri/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-lithonis-aivnis-moajiri/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/black-metal-balcony-railing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/shavi-lithonis-aivnis-moajiri/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-balcony-railing.jpg</image:loc>
+      <image:title>შავი ლითონის აივნის მოაჯირი</image:title>
+      <image:caption>შავი ლითონის აივნის მოაჯირი ვერტიკალური ძელებით და ორმაგი ჰორიზონტალური სარტყლებით, სახურავიან აივანზე.</image:caption>
     </image:image>
   </url>
   <url>
@@ -2186,6 +2279,28 @@
     </image:image>
   </url>
   <url>
+    <loc>https://ironart.ge/en/photo/black-two-flight-outdoor-staircase/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-gare-kibe-ori-marshit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/black-two-flight-outdoor-staircase/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/shavi-gare-kibe-ori-marshit/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-two-flight-outdoor-staircase.jpg</image:loc>
+      <image:title>Black metal two-flight outdoor staircase</image:title>
+      <image:caption>Black metal outdoor staircase in two flights, with mesh treads and a vertical-bar railing, along a retaining wall.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/black-outdoor-staircase-courtyard/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-gare-kibe-ezoshi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/black-outdoor-staircase-courtyard/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/shavi-gare-kibe-ezoshi/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-outdoor-staircase-courtyard.jpg</image:loc>
+      <image:title>Black metal outdoor staircase in a courtyard</image:title>
+      <image:caption>The same two-flight outdoor staircase seen from the courtyard, with the upper terrace railings.</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://ironart.ge/en/photo/black-ornamental-stair-railing-flowing-curves/</loc>
     <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-ornamenturi-moajiri-mrudebit/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/black-ornamental-stair-railing-flowing-curves/"/>
@@ -2227,6 +2342,17 @@
       <image:loc>https://ironart.ge/img/ironart-curved-railing-vertical-balusters.jpg</image:loc>
       <image:title>Curved railing with vertical balusters</image:title>
       <image:caption>Curved metal railing with vertical balusters and a top handrail.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ironart.ge/en/photo/black-metal-balcony-railing/</loc>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://ironart.ge/photo/shavi-lithonis-aivnis-moajiri/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ironart.ge/en/photo/black-metal-balcony-railing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ironart.ge/photo/shavi-lithonis-aivnis-moajiri/"/>
+    <image:image>
+      <image:loc>https://ironart.ge/img/ironart-black-metal-balcony-railing.jpg</image:loc>
+      <image:title>Black metal balcony railing</image:title>
+      <image:caption>Black metal balcony railing with vertical bars and double horizontal rails, on a covered balcony.</image:caption>
     </image:image>
   </url>
   <url>

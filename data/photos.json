@@ -179,6 +179,18 @@
    "desc_en":"Black steel winding staircase with checker-plate treads around a central post.",
    "slug_ka":"khveuli-kibe-aguris-interiershi","slug_en":"winding-steel-stair-brick-interior"},
 
+  {"file":"Images/selected/IMG_9982.jpg","category":"stairs","featured":false,"group":"outdoor-two-flight-stair",
+   "title_ka":"შავი ლითონის გარე კიბე ორი მარშით","title_en":"Black metal two-flight outdoor staircase",
+   "desc_ka":"შავი ლითონის გარე კიბე ორი მარშით, ბადისებრი საფეხურებით და ვერტიკალური მოაჯირით, საყრდენ კედელთან.",
+   "desc_en":"Black metal outdoor staircase in two flights, with mesh treads and a vertical-bar railing, along a retaining wall.",
+   "slug_ka":"shavi-gare-kibe-ori-marshit","slug_en":"black-two-flight-outdoor-staircase"},
+
+  {"file":"Images/selected/IMG_9979.jpg","category":"stairs","featured":false,"group":"outdoor-two-flight-stair",
+   "title_ka":"შავი ლითონის გარე კიბე ეზოში","title_en":"Black metal outdoor staircase in a courtyard",
+   "desc_ka":"იგივე ორმარშიანი გარე კიბე ეზოდან, ზედა ტერასების მოაჯირებთან ერთად.",
+   "desc_en":"The same two-flight outdoor staircase seen from the courtyard, with the upper terrace railings.",
+   "slug_ka":"shavi-gare-kibe-ezoshi","slug_en":"black-outdoor-staircase-courtyard"},
+
   {"file":"Images/selected/IMG_0604.jpg","category":"railings","featured":true,"group":"ornamental-railing",
    "title_ka":"შავი ორნამენტული მოაჯირი რბილი მრუდებით კიბეზე","title_en":"Black ornamental stair railing with flowing curves",
    "desc_ka":"კიბის შავი მოაჯირი, რომელიც მცენარისებრი, რბილად მოხრილი ხაზებისგანაა შედგენილი.",
@@ -202,6 +214,12 @@
    "desc_ka":"მრუდი ლითონის მოაჯირი ვერტიკალური ბალუსტრებით და ზემოთ დამაგრებული სახელურით.",
    "desc_en":"Curved metal railing with vertical balusters and a top handrail.",
    "slug_ka":"mrudi-moajiri-vertikaluri-balustrebit","slug_en":"curved-railing-vertical-balusters"},
+
+  {"file":"Images/selected/IMG_9984.jpg","category":"railings","featured":false,"group":null,
+   "title_ka":"შავი ლითონის აივნის მოაჯირი","title_en":"Black metal balcony railing",
+   "desc_ka":"შავი ლითონის აივნის მოაჯირი ვერტიკალური ძელებით და ორმაგი ჰორიზონტალური სარტყლებით, სახურავიან აივანზე.",
+   "desc_en":"Black metal balcony railing with vertical bars and double horizontal rails, on a covered balcony.",
+   "slug_ka":"shavi-lithonis-aivnis-moajiri","slug_en":"black-metal-balcony-railing"},
 
   {"file":"Images/selected/IMG_8915.jpg","category":"forging","featured":true,"group":"church-gate",
    "title_ka":"ეკლესიის ჭედური ჭიშკარი აგურის თაღში","title_en":"Wrought-iron church gate set in a brick arch",

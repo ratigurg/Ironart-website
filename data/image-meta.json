@@ -179,6 +179,18 @@
   "tw": 600,
   "th": 800
  },
+ "black-two-flight-outdoor-staircase": {
+  "w": 1200,
+  "h": 1600,
+  "tw": 600,
+  "th": 800
+ },
+ "black-outdoor-staircase-courtyard": {
+  "w": 1200,
+  "h": 1600,
+  "tw": 600,
+  "th": 800
+ },
  "black-ornamental-stair-railing-flowing-curves": {
   "w": 1200,
   "h": 1500,
@@ -202,6 +214,12 @@
   "h": 1500,
   "tw": 600,
   "th": 750
+ },
+ "black-metal-balcony-railing": {
+  "w": 1200,
+  "h": 1600,
+  "tw": 600,
+  "th": 800
  },
  "church-wrought-iron-gate-brick-arch": {
   "w": 1200,
