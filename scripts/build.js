@@ -19,6 +19,13 @@ const STR = readJSON('data/strings.json');
 const meta = readJSON('data/image-meta.json');
 const site = readJSON('data/site.json');
 
+// Google Analytics 4: page views + clicks on the phone and WhatsApp links (click_call / click_whatsapp)
+const gaHead = () => site.gaId ? `<script async src="https://www.googletagmanager.com/gtag/js?id=${site.gaId}"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${site.gaId}');
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href]');if(!a)return;var h=a.getAttribute('href');
+var n=h.indexOf('tel:')===0?'click_call':h.indexOf('wa.me/')>-1?'click_whatsapp':null;if(n)gtag('event',n,{link_url:h,page_path:location.pathname});},true);</script>
+` : '';
+
 const LANGS = ['ka', 'en'];
 const SITE = site.url.replace(/\/$/, '');
 const absUrl = dir => SITE + '/' + dir + (dir ? '/' : '');
@@ -195,7 +202,7 @@ ${seoHead({ lang, dir, altDirs, title, description, og, ld, noindex })}<meta nam
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;600;700;800&family=Noto+Sans+Georgian:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 ${headExtra}<link rel="stylesheet" href="${root}style.css">
-</head>`;
+${gaHead()}</head>`;
   return `<!DOCTYPE html>
 <html lang="${lang}">
 ${head}

@@ -6,6 +6,7 @@
  "whatsapp": "https://wa.me/995599012105",
  "themeColor": "#201e1d",
  "favicon": "favicon-512.png",
+ "gaId": "G-TSFTQVN2SW",
  "jsonld_home": {
   "@context": "https://schema.org",
   "@type": "HomeAndConstructionBusiness",
